@@ -1,0 +1,24 @@
+{
+  "name": "gta6-shorts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "5 videos cortos virales sobre GTA VI hechos con Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:all": "node scripts/render-all.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.545",
+    "@remotion/fonts": "^4.0.545",
+    "@remotion/media": "^4.0.545",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.545"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "hyperframes": "^0.9.70",
+    "typescript": "^7.0.2"
+  }
+}
