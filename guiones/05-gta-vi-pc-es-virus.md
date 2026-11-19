@@ -1,6 +1,6 @@
 # Video 5 — "Si ves 'GTA VI para PC' hoy, es un VIRUS"
 
-**Archivo:** `out/05-V5-GTA-VI-PC-Es-Virus.mp4` · **Duración:** 36 s
+**Archivo:** `out/05-V5-GTA-VI-PC-Es-Virus.mp4` · **Duración:** 36 s (≈40–45 s con voz en off)
 **Problema:** la semana de lanzamiento es temporada alta de estafas: descargas falsas para PC/móvil, "dinero infinito" y sorteos que roban cuentas.
 **Gatillo principal:** miedo + protección + **compartir** (etiquetar a un amigo).
 
@@ -10,6 +10,8 @@
 - **Variante B:** "Tu amigo va a perder su cuenta de PlayStation esta semana. Mándale esto."
 
 ## Guion segundo a segundo
+
+> La tabla muestra los tiempos base. En el MP4 final con voz en off (Piper, `src/videos/voiceover.json`) algunas escenas se alargan 0,5–2 s para que la frase quepa completa. La columna "Voz en off" es el texto pensado para grabar con tu propia voz; la versión sintética usa una variante escrita fonéticamente.
 
 | Tiempo | Plano / ángulo | Visual y b-roll | Texto en pantalla | Voz en off (opcional) | SFX |
 |---|---|---|---|---|---|

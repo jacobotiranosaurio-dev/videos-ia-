@@ -1,6 +1,6 @@
 # Video 1 — "Tu consola NO tiene sitio para GTA VI"
 
-**Archivo:** `out/01-V1-Consola-Sin-Espacio.mp4` · **Duración:** 40 s · **Formato:** 1080×1920, 30 fps
+**Archivo:** `out/01-V1-Consola-Sin-Espacio.mp4` · **Duración:** 40 s (≈40–45 s con voz en off) · **Formato:** 1080×1920, 30 fps
 **Problema:** la pre-carga pide hasta 212 GB y la mayoría borra juegos a ciegas la noche del lanzamiento (y luego el parche no baja).
 **Gatillo principal:** aversión a la pérdida + números concretos.
 
@@ -10,6 +10,8 @@
 - **Variante B del hook (para A/B):** "Si tienes Series S, GTA VI se come más de la mitad de tu consola."
 
 ## Guion segundo a segundo
+
+> La tabla muestra los tiempos base. En el MP4 final con voz en off (Piper, `src/videos/voiceover.json`) algunas escenas se alargan 0,5–2 s para que la frase quepa completa. La columna "Voz en off" es el texto pensado para grabar con tu propia voz; la versión sintética usa una variante escrita fonéticamente.
 
 | Tiempo | Plano / ángulo | Visual y b-roll | Texto en pantalla | Voz en off (opcional) | SFX |
 |---|---|---|---|---|---|

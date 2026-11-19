@@ -1,6 +1,6 @@
 # GTA VI Shorts — 5 videos virales hechos con Remotion
 
-5 videos verticales (1080×1920, 30 fps, 36–40 s) para **TikTok, Instagram Reels y YouTube Shorts**, sobre GTA VI en su semana de lanzamiento (19 nov 2026). Todo el audio (beat y efectos) es sintético y libre de copyright.
+5 videos verticales (1080×1920, 30 fps, 41–45 s) para **TikTok, Instagram Reels y YouTube Shorts**, sobre GTA VI en su semana de lanzamiento (19 nov 2026). Llevan **voz en off en español (México)** generada gratis y offline con [Piper](https://github.com/rhasspy/piper), más beat y efectos sintéticos libres de copyright.
 
 ## 📦 Videos listos para subir (`out/`)
 
@@ -22,7 +22,23 @@ npm install
 npm run studio                    # Remotion Studio: previsualiza y edita
 npm run render:all                # renderiza los 5 a out/ (con beat)
 npm run render:all -- --sin-musica  # sin beat, para usar un audio en tendencia de la app
+npm run render:all -- --sin-voz     # solo texto, sin narración
 ```
+
+### Voz en off (gratis, Piper)
+Las frases están en `src/videos/voiceover.json` (una por escena, escritas "como suenan": *Ge Te A seis*, *onlain*…).
+Para cambiarlas o usar otra voz:
+
+```bash
+pip install piper-tts
+# descarga es_MX-claude-high.onnx y .onnx.json de
+# https://huggingface.co/rhasspy/piper-voices/tree/main/es/es_MX/claude/high
+python3 scripts/make-voice.py --voice ruta/es_MX-claude-high.onnx --speed 0.82
+npm run render:all
+```
+
+El script deja los audios en `public/vo/` y sus duraciones en `src/videos/vo-durations.json`; cada escena se alarga sola lo necesario para que su frase quepa, y el beat baja de volumen mientras habla la voz.
+¿Quieres usar **tu propia voz**? Graba cada frase y guárdala como `public/vo/<video>/<n>.wav` (n = número de escena empezando en 0), actualiza las duraciones en `vo-durations.json` y vuelve a renderizar.
 
 Renderizar uno solo: `npx remotion render V2-Cero-Spoilers out/v2.mp4`
 
@@ -42,6 +58,7 @@ Tipos de escena: `punch` (hook/impacto), `words` (captions cinéticos), `stat` (
 src/engine/        motor: fondo animado, escenas, iconos, fuentes, SFX
 src/videos/        los 5 guiones como datos
 public/sfx/        efectos y beat generados con scripts/make-sfx.sh (ffmpeg)
+public/vo/         voz en off por escena (scripts/make-voice.py)
 public/fonts/      Anton + Montserrat (render sin internet)
 guiones/           estrategia + guiones segundo a segundo
 out/               MP4 finales

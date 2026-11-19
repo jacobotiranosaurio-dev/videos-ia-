@@ -1,6 +1,6 @@
 # Video 3 — "GTA VI a $80 es MÁS BARATO que GTA V"
 
-**Archivo:** `out/03-V3-Mas-Barato-Que-GTA-V.mp4` · **Duración:** 36 s
+**Archivo:** `out/03-V3-Mas-Barato-Que-GTA-V.mp4` · **Duración:** 36 s (≈40–45 s con voz en off)
 **Problema:** todo el mundo se queja del precio de $79.99… y luego paga $20 más por la edición cara sin leer qué incluye.
 **Gatillo principal:** opinión impopular respaldada con números (genera debate en comentarios sin ser falsa).
 
@@ -10,6 +10,8 @@
 - **Variante B:** "Te están mintiendo con el precio de GTA VI. Y no es Rockstar."
 
 ## Guion segundo a segundo
+
+> La tabla muestra los tiempos base. En el MP4 final con voz en off (Piper, `src/videos/voiceover.json`) algunas escenas se alargan 0,5–2 s para que la frase quepa completa. La columna "Voz en off" es el texto pensado para grabar con tu propia voz; la versión sintética usa una variante escrita fonéticamente.
 
 | Tiempo | Plano / ángulo | Visual y b-roll | Texto en pantalla | Voz en off (opcional) | SFX |
 |---|---|---|---|---|---|

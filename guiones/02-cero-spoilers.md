@@ -1,6 +1,6 @@
 # Video 2 — "Este es el último video de GTA VI que deberías ver"
 
-**Archivo:** `out/02-V2-Cero-Spoilers.mp4` · **Duración:** 38 s
+**Archivo:** `out/02-V2-Cero-Spoilers.mp4` · **Duración:** 38 s (≈40–45 s con voz en off)
 **Problema:** desde hoy TikTok, X y YouTube se llenan de finales, muertes y giros. El algoritmo no sabe que tú todavía no has terminado.
 **Gatillo principal:** paradoja (un video que te dice que dejes de ver videos) + aversión a la pérdida.
 
@@ -10,6 +10,8 @@
 - **Variante B:** "En 48 horas TikTok te va a contar el final de GTA VI. Evítalo en 30 segundos."
 
 ## Guion segundo a segundo
+
+> La tabla muestra los tiempos base. En el MP4 final con voz en off (Piper, `src/videos/voiceover.json`) algunas escenas se alargan 0,5–2 s para que la frase quepa completa. La columna "Voz en off" es el texto pensado para grabar con tu propia voz; la versión sintética usa una variante escrita fonéticamente.
 
 | Tiempo | Plano / ángulo | Visual y b-roll | Texto en pantalla | Voz en off (opcional) | SFX |
 |---|---|---|---|---|---|

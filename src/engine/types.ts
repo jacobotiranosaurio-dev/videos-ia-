@@ -52,6 +52,8 @@ export type ShortScript = {
 };
 
 export type ShortProps = {
+  /** Voz en off generada con Piper (public/vo). */
+  voice: boolean;
   /** Beat sintético de fondo. Desactívalo si vas a usar un audio en tendencia de la app. */
   music: boolean;
   /** Ruta en /public a un clip de gameplay propio para usar como fondo (opcional). */
