@@ -74,6 +74,9 @@ export const Captions: React.FC<{
 	if (!chunk) return null;
 	const cf = Math.round(chunk.start * fps);
 	const enter = pop(frame, cf - 2, fps, 12);
+	// palabras largas: reducir tamaño para que nunca se salgan de la zona segura
+	const maxLen = Math.max(...chunk.toks.map((x) => x.text.length));
+	const fontSize = Math.min(88, Math.floor(820 / (maxLen * 0.8)));
 	return (
 		// Zona segura: lejos de la barra inferior (título/canal) y de los botones de la derecha
 		<AbsoluteFill style={{top: 1190, height: 290, left: 60, width: 860, alignItems: 'center', justifyContent: 'center'}}>
@@ -86,7 +89,7 @@ export const Captions: React.FC<{
 					transform: `scale(${0.75 + 0.25 * enter}) translateY(${(1 - enter) * 30}px)`,
 					fontFamily: montserrat,
 					fontWeight: 900,
-					fontSize: 88,
+					fontSize,
 					lineHeight: 1.12,
 					textTransform: 'uppercase',
 					textAlign: 'center',
