@@ -1,0 +1,61 @@
+{
+  "_nota": "Una línea por escena (mismo orden que src/videos/vX-*.ts). Texto natural para ElevenLabs. La versión fonética para Piper está en voiceover-piper.json.",
+  "V1-Consola-Sin-Espacio": [
+    "Tu consola no tiene sitio para GTA seis.",
+    "Rockstar pide hasta doscientos doce gigas, solo para la precarga.",
+    "En una Series S, con tus juegos de siempre... no cabe.",
+    "Y el error de todos: borrar a lo loco a medianoche, y que el parche no baje.",
+    "Regla doscientos doce más cincuenta: libera doscientos sesenta. El parche necesita margen.",
+    "Mueve, no borres: pasa tus juegos a un disco USB. Volver a copiarlos es más rápido que descargarlos.",
+    "¿Tienes Call of Duty? No lo borres entero: quita solo los modos que no juegas.",
+    "Y revisa tus clips: los videos en 4K que nunca viste suman decenas de gigas.",
+    "Revisa la tuya hoy.",
+    "Comenta tu consola y cuántos gigas te quedan, y te digo qué borrar."
+  ],
+  "V2-Cero-Spoilers": [
+    "Este es el último video de GTA seis que deberías ver.",
+    "Salió hoy. En cuarenta y ocho horas, el algoritmo te va a enseñar el final.",
+    "A menos que hagas esto.",
+    "En TikTok: ajustes y privacidad, preferencias de contenido, filtrar palabras clave. Y mete estas.",
+    "En X: privacidad y seguridad, silenciar y bloquear, palabras silenciadas.",
+    "YouTube no filtra palabras: tres puntos, no recomendar el canal.",
+    "Y el peligro real: ese amigo que se lo pasa en un día. Silencia el grupo una semana.",
+    "Y ni se te ocurra leer los comentarios de otros videos de GTA.",
+    "Esta cuenta es zona cero spoilers. Comenta escudo si ya lo activaste."
+  ],
+  "V3-Mas-Barato-Que-GTA-V": [
+    "GTA seis a ochenta dólares es más barato que GTA cinco.",
+    "Y te lo demuestro con matemáticas.",
+    "En dos mil trece, GTA cinco costaba sesenta dólares.",
+    "Con la inflación, eso hoy son unos ochenta y cinco.",
+    "O sea: más barato.",
+    "Pero el número que importa es el precio por hora.",
+    "Si lo juegas cincuenta horas, te sale a uno sesenta la hora. El cine, a cinco cincuenta.",
+    "Donde sí te pueden sacar dinero es en la edición de cien.",
+    "Antes de pagar veinte más: lee qué incluye. Si es para el online, eso no llega hasta dos mil veintisiete. Si dudas, estándar.",
+    "¿Caro o barato? Comenta cuánto pagarías tú."
+  ],
+  "V4-Sin-Online-Es-Mejor": [
+    "GTA seis sin online es lo mejor que te pudo pasar.",
+    "Hoy salió solo el modo historia. El online se espera para dos mil veintisiete.",
+    "Recuerda lo que pasó con GTA cinco.",
+    "El online llegó dos semanas después, Rockstar se volcó en él, y la expansión de historia nunca llegó.",
+    "Esta vez tienes algo que en dos mil trece no existió: una ventana.",
+    "Termina la historia antes de dos mil veintisiete. Cuando llegue el online, nadie hablará de otra cosa.",
+    "Cero guías del cien por cien hasta los créditos. Descubrir Leonida a ciegas solo pasa una vez.",
+    "Y graba tu primera llegada a Vice City: la consola guarda los últimos minutos con un botón.",
+    "¿Cuál eres?",
+    "Comenta historia u online. Solo una palabra."
+  ],
+  "V5-GTA-VI-PC-Es-Virus": [
+    "Si ves GTA seis para PC hoy, es un virus.",
+    "Salió solo en PS5 y Xbox Series. La de PC no tiene fecha.",
+    "Y los estafadores lo saben. Esta semana es su temporada alta.",
+    "Tres trampas: descargas para PC o móvil, generadores de dinero, y sorteos que te piden tu cuenta.",
+    "El online ni siquiera existe todavía. Cualquier truco de dinero es mentira.",
+    "Activa la verificación en dos pasos en tu cuenta. Son dos minutos.",
+    "Solo fuentes oficiales. Si te piden descargar algo fuera de la tienda, huye.",
+    "Un clic, y pierdes tu cuenta con GTA seis dentro.",
+    "Etiqueta al amigo que caería en esto."
+  ]
+}
