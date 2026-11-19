@@ -1,24 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <!-- Cero Relleno: un "0" tachado (Ø = conjunto vacío = cero relleno) que a la vez es un botón de play -->
+  <!-- Ojo Al Dato: un ojo cuyo iris es un botón de play; las pestañas son destellos de "¡atención!" -->
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ff2e88"/>
       <stop offset="0.55" stop-color="#ff8a3d"/>
       <stop offset="1" stop-color="#ffe14d"/>
     </linearGradient>
+    <linearGradient id="gu" gradientUnits="userSpaceOnUse" x1="120" y1="60" x2="400" y2="150">
+      <stop offset="0" stop-color="#ff2e88"/>
+      <stop offset="0.55" stop-color="#ff8a3d"/>
+      <stop offset="1" stop-color="#ffe14d"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#5ff5e8"/>
+      <stop offset="1" stop-color="#0fa89c"/>
+    </radialGradient>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feGaussianBlur stdDeviation="9" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="eye"><path d="M56 286 Q256 96 456 286 Q256 476 56 286 Z"/></clipPath>
   </defs>
-  <rect width="512" height="512" rx="0" fill="#0b0614"/>
+  <rect class="bg" width="512" height="512" fill="#0b0614"/>
   <g filter="url(#glow)">
-    <!-- el cero -->
-    <ellipse cx="256" cy="256" rx="132" ry="164" fill="none" stroke="url(#g)" stroke-width="46"/>
-    <!-- play -->
-    <path d="M222 190 L318 256 L222 322 Z" fill="#ffffff" stroke="#ffffff" stroke-width="14" stroke-linejoin="round"/>
-    <!-- el tachón (Ø) -->
-    <path d="M118 408 L394 104" stroke="#0b0614" stroke-width="44" stroke-linecap="round"/>
-    <path d="M118 408 L394 104" stroke="#19e3d1" stroke-width="22" stroke-linecap="round"/>
+    <!-- pestañas / destellos -->
+    <g stroke="url(#gu)" stroke-width="26" stroke-linecap="round">
+      <line x1="256" y1="118" x2="256" y2="62"/>
+      <line x1="170" y1="140" x2="140" y2="94"/>
+      <line x1="342" y1="140" x2="372" y2="94"/>
+    </g>
+    <!-- blanco del ojo -->
+    <path d="M56 286 Q256 96 456 286 Q256 476 56 286 Z" fill="#ffffff"/>
+    <!-- iris + pupila con play -->
+    <g clip-path="url(#eye)">
+      <circle cx="256" cy="286" r="104" fill="url(#iris)"/>
+      <circle cx="256" cy="286" r="64" fill="#0b0614"/>
+      <path d="M236 252 L290 286 L236 320 Z" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/>
+      <circle cx="300" cy="236" r="16" fill="#ffffff" opacity="0.9"/>
+    </g>
+    <!-- contorno -->
+    <path d="M56 286 Q256 96 456 286 Q256 476 56 286 Z" fill="none" stroke="url(#g)" stroke-width="28" stroke-linejoin="round"/>
   </g>
 </svg>
