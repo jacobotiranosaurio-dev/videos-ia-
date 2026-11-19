@@ -11,7 +11,7 @@
 
 ## Guion segundo a segundo
 
-> La tabla muestra los tiempos base. En el MP4 final con voz en off (Piper, `src/videos/voiceover.json`) algunas escenas se alargan 0,5–2 s para que la frase quepa completa. La columna "Voz en off" es el texto pensado para grabar con tu propia voz; la versión sintética usa una variante escrita fonéticamente.
+> La tabla muestra los tiempos base. En el MP4 final con voz en off (ElevenLabs, `src/videos/voiceover.json`) algunas escenas se alargan 0,5–2 s para que la frase quepa completa. La columna "Voz en off" es el texto pensado para grabar con tu propia voz; la versión de ElevenLabs usa casi el mismo texto.
 
 | Tiempo | Plano / ángulo | Visual y b-roll | Texto en pantalla | Voz en off (opcional) | SFX |
 |---|---|---|---|---|---|

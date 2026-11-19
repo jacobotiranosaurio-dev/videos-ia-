@@ -1,6 +1,6 @@
 # GTA VI Shorts — 5 videos virales hechos con Remotion
 
-5 videos verticales (1080×1920, 30 fps, 41–45 s) para **TikTok, Instagram Reels y YouTube Shorts**, sobre GTA VI en su semana de lanzamiento (19 nov 2026). Llevan **voz en off en español (México)** generada gratis y offline con [Piper](https://github.com/rhasspy/piper), más beat y efectos sintéticos libres de copyright.
+5 videos verticales (1080×1920, 30 fps, 41–45 s) para **TikTok, Instagram Reels y YouTube Shorts**, sobre GTA VI en su semana de lanzamiento (19 nov 2026). Llevan **voz en off en español con ElevenLabs** (voz "Liam", plan gratuito), más beat y efectos sintéticos libres de copyright.
 
 ## 📦 Videos listos para subir (`out/`)
 
@@ -25,22 +25,23 @@ npm run render:all -- --sin-musica  # sin beat, para usar un audio en tendencia 
 npm run render:all -- --sin-voz     # solo texto, sin narración
 ```
 
-### Voz en off (gratis, Piper)
-Las frases están en `src/videos/voiceover.json` (una por escena, escritas "como suenan": *Ge Te A seis*, *onlain*…).
-Para cambiarlas o usar otra voz:
+### Voz en off
+Las frases están en `src/videos/voiceover.json` (una por escena). Para cambiarlas o probar otra voz:
 
 ```bash
-pip install piper-tts
-# descarga es_MX-claude-high.onnx y .onnx.json de
-# https://huggingface.co/rhasspy/piper-voices/tree/main/es/es_MX/claude/high
-python3 scripts/make-voice.py --voice ruta/es_MX-claude-high.onnx --speed 0.82
+# ElevenLabs (por defecto). Los 5 videos usan ~3.100 caracteres; el plan gratis da 10.000/mes
+ELEVENLABS_API_KEY=tu_clave python3 scripts/make-voice.py --voice-id TX3LPaxmHKxFdv7VOQHJ --speed 1.1
+python3 scripts/make-voice.py --only V1-Consola-Sin-Espacio --speed 1.2   # regenerar un solo video
+
+# Alternativa 100% gratis y offline: Piper (usa voiceover-piper.json, escrito fonéticamente)
+pip install piper-tts   # + modelo es_MX-claude-high de huggingface.co/rhasspy/piper-voices
+python3 scripts/make-voice.py --engine piper --model ruta/es_MX-claude-high.onnx --speed 0.82
+
 npm run render:all
 ```
 
-El script deja los audios en `public/vo/` y sus duraciones en `src/videos/vo-durations.json`; cada escena se alarga sola lo necesario para que su frase quepa, y el beat baja de volumen mientras habla la voz.
-¿Quieres usar **tu propia voz**? Graba cada frase y guárdala como `public/vo/<video>/<n>.wav` (n = número de escena empezando en 0), actualiza las duraciones en `vo-durations.json` y vuelve a renderizar.
-
-Renderizar uno solo: `npx remotion render V2-Cero-Spoilers out/v2.mp4`
+Los audios quedan en `public/vo/` y sus duraciones en `src/videos/vo-durations.json`: cada escena se alarga sola para que su frase quepa y el beat baja mientras habla la voz.
+¿Tu propia voz? Graba cada frase como `public/vo/<video>/<n>.wav` (n = escena, desde 0), pon sus duraciones en `vo-durations.json` y vuelve a renderizar.
 
 ### Usar tu propio gameplay de fondo
 1. Copia tu clip a `public/broll/mi-clip.mp4` (grábalo tú con la consola).
