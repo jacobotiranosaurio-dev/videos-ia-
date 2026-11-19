@@ -1,0 +1,909 @@
+{
+ "duration": 64.078367,
+ "words": [
+  {
+   "text": "Hay",
+   "start": 0.0,
+   "end": 0.174,
+   "scene": 0
+  },
+  {
+   "text": "un",
+   "start": 0.221,
+   "end": 0.279,
+   "scene": 0
+  },
+  {
+   "text": "lugar",
+   "start": 0.302,
+   "end": 0.511,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 0.557,
+   "end": 0.604,
+   "scene": 0
+  },
+  {
+   "text": "la",
+   "start": 0.639,
+   "end": 0.697,
+   "scene": 0
+  },
+  {
+   "text": "Tierra",
+   "start": 0.766,
+   "end": 1.033,
+   "scene": 0
+  },
+  {
+   "text": "donde,",
+   "start": 1.08,
+   "end": 1.474,
+   "scene": 0
+  },
+  {
+   "text": "si",
+   "start": 1.579,
+   "end": 1.718,
+   "scene": 0
+  },
+  {
+   "text": "pisas",
+   "start": 1.765,
+   "end": 2.032,
+   "scene": 0
+  },
+  {
+   "text": "la",
+   "start": 2.078,
+   "end": 2.136,
+   "scene": 0
+  },
+  {
+   "text": "playa,",
+   "start": 2.183,
+   "end": 2.67,
+   "scene": 0
+  },
+  {
+   "text": "probablemente",
+   "start": 2.972,
+   "end": 3.669,
+   "scene": 0
+  },
+  {
+   "text": "no",
+   "start": 3.727,
+   "end": 3.808,
+   "scene": 0
+  },
+  {
+   "text": "salgas",
+   "start": 3.866,
+   "end": 4.156,
+   "scene": 0
+  },
+  {
+   "text": "vivo.",
+   "start": 4.214,
+   "end": 4.586,
+   "scene": 0
+  },
+  {
+   "text": "Y",
+   "start": 5.074,
+   "end": 5.166,
+   "scene": 0
+  },
+  {
+   "text": "nadie",
+   "start": 5.259,
+   "end": 5.573,
+   "scene": 0
+  },
+  {
+   "text": "irá",
+   "start": 5.608,
+   "end": 5.782,
+   "scene": 0
+  },
+  {
+   "text": "a",
+   "start": 5.828,
+   "end": 5.851,
+   "scene": 0
+  },
+  {
+   "text": "buscarte.",
+   "start": 5.886,
+   "end": 6.571,
+   "scene": 0
+  },
+  {
+   "text": "Uno.",
+   "start": 7.233,
+   "end": 7.639,
+   "scene": 1
+  },
+  {
+   "text": "Isla",
+   "start": 8.406,
+   "end": 8.696,
+   "scene": 1
+  },
+  {
+   "text": "Sentinel",
+   "start": 8.777,
+   "end": 9.23,
+   "scene": 1
+  },
+  {
+   "text": "del",
+   "start": 9.288,
+   "end": 9.404,
+   "scene": 1
+  },
+  {
+   "text": "Norte,",
+   "start": 9.474,
+   "end": 9.961,
+   "scene": 1
+  },
+  {
+   "text": "en",
+   "start": 10.159,
+   "end": 10.286,
+   "scene": 1
+  },
+  {
+   "text": "la",
+   "start": 10.344,
+   "end": 10.437,
+   "scene": 1
+  },
+  {
+   "text": "India.",
+   "start": 10.507,
+   "end": 10.96,
+   "scene": 1
+  },
+  {
+   "text": "Se",
+   "start": 11.622,
+   "end": 11.761,
+   "scene": 1
+  },
+  {
+   "text": "cree",
+   "start": 11.796,
+   "end": 11.97,
+   "scene": 1
+  },
+  {
+   "text": "que",
+   "start": 12.005,
+   "end": 12.074,
+   "scene": 1
+  },
+  {
+   "text": "su",
+   "start": 12.109,
+   "end": 12.202,
+   "scene": 1
+  },
+  {
+   "text": "tribu",
+   "start": 12.26,
+   "end": 12.574,
+   "scene": 1
+  },
+  {
+   "text": "lleva",
+   "start": 12.597,
+   "end": 12.852,
+   "scene": 1
+  },
+  {
+   "text": "hasta",
+   "start": 12.875,
+   "end": 13.096,
+   "scene": 1
+  },
+  {
+   "text": "sesenta",
+   "start": 13.142,
+   "end": 13.514,
+   "scene": 1
+  },
+  {
+   "text": "mil",
+   "start": 13.572,
+   "end": 13.735,
+   "scene": 1
+  },
+  {
+   "text": "años",
+   "start": 13.781,
+   "end": 14.025,
+   "scene": 1
+  },
+  {
+   "text": "aislada.",
+   "start": 14.071,
+   "end": 14.629,
+   "scene": 1
+  },
+  {
+   "text": "Acercarte",
+   "start": 15.523,
+   "end": 16.091,
+   "scene": 2
+  },
+  {
+   "text": "a",
+   "start": 16.126,
+   "end": 16.149,
+   "scene": 2
+  },
+  {
+   "text": "menos",
+   "start": 16.196,
+   "end": 16.451,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 16.486,
+   "end": 16.544,
+   "scene": 2
+  },
+  {
+   "text": "cinco",
+   "start": 16.59,
+   "end": 16.915,
+   "scene": 2
+  },
+  {
+   "text": "millas",
+   "start": 16.973,
+   "end": 17.24,
+   "scene": 2
+  },
+  {
+   "text": "náuticas",
+   "start": 17.31,
+   "end": 17.809,
+   "scene": 2
+  },
+  {
+   "text": "es",
+   "start": 17.902,
+   "end": 18.018,
+   "scene": 2
+  },
+  {
+   "text": "ilegal.",
+   "start": 18.088,
+   "end": 18.645,
+   "scene": 2
+  },
+  {
+   "text": "En",
+   "start": 19.307,
+   "end": 19.458,
+   "scene": 2
+  },
+  {
+   "text": "dos",
+   "start": 19.516,
+   "end": 19.679,
+   "scene": 2
+  },
+  {
+   "text": "mil",
+   "start": 19.771,
+   "end": 19.934,
+   "scene": 2
+  },
+  {
+   "text": "dieciocho,",
+   "start": 19.992,
+   "end": 20.7,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 20.863,
+   "end": 20.967,
+   "scene": 2
+  },
+  {
+   "text": "misionero",
+   "start": 21.002,
+   "end": 21.443,
+   "scene": 2
+  },
+  {
+   "text": "lo",
+   "start": 21.478,
+   "end": 21.536,
+   "scene": 2
+  },
+  {
+   "text": "intentó.",
+   "start": 21.571,
+   "end": 22.151,
+   "scene": 2
+  },
+  {
+   "text": "No",
+   "start": 22.813,
+   "end": 22.953,
+   "scene": 2
+  },
+  {
+   "text": "volvió.",
+   "start": 22.987,
+   "end": 23.498,
+   "scene": 2
+  },
+  {
+   "text": "Dos.",
+   "start": 24.067,
+   "end": 24.555,
+   "scene": 3
+  },
+  {
+   "text": "Isla",
+   "start": 25.449,
+   "end": 25.774,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 25.82,
+   "end": 25.878,
+   "scene": 3
+  },
+  {
+   "text": "la",
+   "start": 25.913,
+   "end": 25.971,
+   "scene": 3
+  },
+  {
+   "text": "Quemada",
+   "start": 26.041,
+   "end": 26.389,
+   "scene": 3
+  },
+  {
+   "text": "Grande,",
+   "start": 26.436,
+   "end": 26.958,
+   "scene": 3
+  },
+  {
+   "text": "en",
+   "start": 27.004,
+   "end": 27.121,
+   "scene": 3
+  },
+  {
+   "text": "Brasil.",
+   "start": 27.179,
+   "end": 27.759,
+   "scene": 3
+  },
+  {
+   "text": "Miles",
+   "start": 28.525,
+   "end": 28.827,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 28.862,
+   "end": 28.908,
+   "scene": 3
+  },
+  {
+   "text": "serpientes",
+   "start": 28.955,
+   "end": 29.524,
+   "scene": 3
+  },
+  {
+   "text": "cabeza",
+   "start": 29.593,
+   "end": 29.953,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 30.0,
+   "end": 30.058,
+   "scene": 3
+  },
+  {
+   "text": "lanza",
+   "start": 30.116,
+   "end": 30.406,
+   "scene": 3
+  },
+  {
+   "text": "dorada,",
+   "start": 30.453,
+   "end": 31.068,
+   "scene": 3
+  },
+  {
+   "text": "con",
+   "start": 31.207,
+   "end": 31.347,
+   "scene": 3
+  },
+  {
+   "text": "un",
+   "start": 31.416,
+   "end": 31.474,
+   "scene": 3
+  },
+  {
+   "text": "veneno",
+   "start": 31.521,
+   "end": 31.823,
+   "scene": 3
+  },
+  {
+   "text": "que",
+   "start": 31.869,
+   "end": 31.95,
+   "scene": 3
+  },
+  {
+   "text": "puede",
+   "start": 32.02,
+   "end": 32.299,
+   "scene": 3
+  },
+  {
+   "text": "necrosar",
+   "start": 32.345,
+   "end": 32.833,
+   "scene": 3
+  },
+  {
+   "text": "la",
+   "start": 32.879,
+   "end": 32.949,
+   "scene": 3
+  },
+  {
+   "text": "carne.",
+   "start": 32.995,
+   "end": 33.518,
+   "scene": 3
+  },
+  {
+   "text": "Solo",
+   "start": 34.086,
+   "end": 34.365,
+   "scene": 4
+  },
+  {
+   "text": "la",
+   "start": 34.412,
+   "end": 34.469,
+   "scene": 4
+  },
+  {
+   "text": "Marina",
+   "start": 34.527,
+   "end": 34.806,
+   "scene": 4
+  },
+  {
+   "text": "brasileña",
+   "start": 34.841,
+   "end": 35.41,
+   "scene": 4
+  },
+  {
+   "text": "y",
+   "start": 35.468,
+   "end": 35.491,
+   "scene": 4
+  },
+  {
+   "text": "algunos",
+   "start": 35.526,
+   "end": 35.816,
+   "scene": 4
+  },
+  {
+   "text": "científicos",
+   "start": 35.839,
+   "end": 36.408,
+   "scene": 4
+  },
+  {
+   "text": "pueden",
+   "start": 36.466,
+   "end": 36.698,
+   "scene": 4
+  },
+  {
+   "text": "pisarla.",
+   "start": 36.745,
+   "end": 37.36,
+   "scene": 4
+  },
+  {
+   "text": "Tres.",
+   "start": 37.929,
+   "end": 38.463,
+   "scene": 5
+  },
+  {
+   "text": "Área",
+   "start": 39.125,
+   "end": 39.357,
+   "scene": 5
+  },
+  {
+   "text": "cincuenta",
+   "start": 39.392,
+   "end": 39.798,
+   "scene": 5
+  },
+  {
+   "text": "y",
+   "start": 39.868,
+   "end": 39.891,
+   "scene": 5
+  },
+  {
+   "text": "uno,",
+   "start": 39.938,
+   "end": 40.216,
+   "scene": 5
+  },
+  {
+   "text": "en",
+   "start": 40.297,
+   "end": 40.402,
+   "scene": 5
+  },
+  {
+   "text": "Nevada.",
+   "start": 40.46,
+   "end": 40.959,
+   "scene": 5
+  },
+  {
+   "text": "Los",
+   "start": 41.621,
+   "end": 41.795,
+   "scene": 5
+  },
+  {
+   "text": "carteles",
+   "start": 41.853,
+   "end": 42.26,
+   "scene": 5
+  },
+  {
+   "text": "lo",
+   "start": 42.318,
+   "end": 42.387,
+   "scene": 5
+  },
+  {
+   "text": "dicen",
+   "start": 42.422,
+   "end": 42.689,
+   "scene": 5
+  },
+  {
+   "text": "claro:",
+   "start": 42.724,
+   "end": 43.177,
+   "scene": 5
+  },
+  {
+   "text": "uso",
+   "start": 43.479,
+   "end": 43.699,
+   "scene": 5
+  },
+  {
+   "text": "de",
+   "start": 43.757,
+   "end": 43.815,
+   "scene": 5
+  },
+  {
+   "text": "fuerza",
+   "start": 43.885,
+   "end": 44.222,
+   "scene": 5
+  },
+  {
+   "text": "letal",
+   "start": 44.268,
+   "end": 44.651,
+   "scene": 5
+  },
+  {
+   "text": "autorizado.",
+   "start": 44.721,
+   "end": 45.522,
+   "scene": 5
+  },
+  {
+   "text": "Estados",
+   "start": 46.091,
+   "end": 46.509,
+   "scene": 6
+  },
+  {
+   "text": "Unidos",
+   "start": 46.59,
+   "end": 46.927,
+   "scene": 6
+  },
+  {
+   "text": "negó",
+   "start": 47.008,
+   "end": 47.287,
+   "scene": 6
+  },
+  {
+   "text": "oficialmente",
+   "start": 47.356,
+   "end": 48.134,
+   "scene": 6
+  },
+  {
+   "text": "su",
+   "start": 48.181,
+   "end": 48.25,
+   "scene": 6
+  },
+  {
+   "text": "existencia",
+   "start": 48.273,
+   "end": 48.924,
+   "scene": 6
+  },
+  {
+   "text": "hasta",
+   "start": 48.97,
+   "end": 49.214,
+   "scene": 6
+  },
+  {
+   "text": "dos",
+   "start": 49.272,
+   "end": 49.458,
+   "scene": 6
+  },
+  {
+   "text": "mil",
+   "start": 49.539,
+   "end": 49.702,
+   "scene": 6
+  },
+  {
+   "text": "trece.",
+   "start": 49.783,
+   "end": 50.282,
+   "scene": 6
+  },
+  {
+   "text": "Ni",
+   "start": 50.7,
+   "end": 50.851,
+   "scene": 6
+  },
+  {
+   "text": "drones,",
+   "start": 50.886,
+   "end": 51.42,
+   "scene": 6
+  },
+  {
+   "text": "ni",
+   "start": 51.513,
+   "end": 51.629,
+   "scene": 6
+  },
+  {
+   "text": "fotos.",
+   "start": 51.699,
+   "end": 52.221,
+   "scene": 6
+  },
+  {
+   "text": "Lo",
+   "start": 52.639,
+   "end": 52.755,
+   "scene": 6
+  },
+  {
+   "text": "vigilan",
+   "start": 52.79,
+   "end": 53.138,
+   "scene": 6
+  },
+  {
+   "text": "cámaras,",
+   "start": 53.196,
+   "end": 53.695,
+   "scene": 6
+  },
+  {
+   "text": "sensores",
+   "start": 53.742,
+   "end": 54.334,
+   "scene": 6
+  },
+  {
+   "text": "y",
+   "start": 54.415,
+   "end": 54.462,
+   "scene": 6
+  },
+  {
+   "text": "patrullas.",
+   "start": 54.531,
+   "end": 55.228,
+   "scene": 6
+  },
+  {
+   "text": "¿A",
+   "start": 55.89,
+   "end": 56.087,
+   "scene": 7
+  },
+  {
+   "text": "cuál",
+   "start": 56.157,
+   "end": 56.308,
+   "scene": 7
+  },
+  {
+   "text": "entrarías",
+   "start": 56.354,
+   "end": 56.772,
+   "scene": 7
+  },
+  {
+   "text": "tú?",
+   "start": 56.83,
+   "end": 57.132,
+   "scene": 7
+  },
+  {
+   "text": "Te",
+   "start": 57.794,
+   "end": 57.921,
+   "scene": 7
+  },
+  {
+   "text": "leo",
+   "start": 57.98,
+   "end": 58.165,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 58.2,
+   "end": 58.247,
+   "scene": 7
+  },
+  {
+   "text": "comentarios.",
+   "start": 58.293,
+   "end": 59.024,
+   "scene": 7
+  },
+  {
+   "text": "Y",
+   "start": 59.512,
+   "end": 59.605,
+   "scene": 7
+  },
+  {
+   "text": "sígueme,",
+   "start": 59.698,
+   "end": 60.29,
+   "scene": 7
+  },
+  {
+   "text": "porque",
+   "start": 60.487,
+   "end": 60.778,
+   "scene": 7
+  },
+  {
+   "text": "hay",
+   "start": 60.824,
+   "end": 60.94,
+   "scene": 7
+  },
+  {
+   "text": "un",
+   "start": 60.987,
+   "end": 61.033,
+   "scene": 7
+  },
+  {
+   "text": "lugar",
+   "start": 61.079,
+   "end": 61.323,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 61.37,
+   "end": 61.416,
+   "scene": 7
+  },
+  {
+   "text": "la",
+   "start": 61.451,
+   "end": 61.509,
+   "scene": 7
+  },
+  {
+   "text": "Tierra",
+   "start": 61.579,
+   "end": 61.869,
+   "scene": 7
+  },
+  {
+   "text": "donde,",
+   "start": 61.915,
+   "end": 62.391,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 62.624,
+   "end": 62.774,
+   "scene": 7
+  },
+  {
+   "text": "pisas",
+   "start": 62.844,
+   "end": 63.134,
+   "scene": 7
+  },
+  {
+   "text": "la",
+   "start": 63.192,
+   "end": 63.262,
+   "scene": 7
+  },
+  {
+   "text": "playa…",
+   "start": 63.308,
+   "end": 64.04,
+   "scene": 7
+  }
+ ],
+ "scenes": [
+  "Hay un lugar en la Tierra donde, si pisas la playa, probablemente no salgas vivo. Y nadie irá a buscarte.",
+  "Uno. Isla Sentinel del Norte, en la India. Se cree que su tribu lleva hasta sesenta mil años aislada.",
+  "Acercarte a menos de cinco millas náuticas es ilegal. En dos mil dieciocho, un misionero lo intentó. No volvió.",
+  "Dos. Isla de la Quemada Grande, en Brasil. Miles de serpientes cabeza de lanza dorada, con un veneno que puede necrosar la carne.",
+  "Solo la Marina brasileña y algunos científicos pueden pisarla.",
+  "Tres. Área cincuenta y uno, en Nevada. Los carteles lo dicen claro: uso de fuerza letal autorizado.",
+  "Estados Unidos negó oficialmente su existencia hasta dos mil trece. Ni drones, ni fotos. Lo vigilan cámaras, sensores y patrullas.",
+  "¿A cuál entrarías tú? Te leo en comentarios. Y sígueme, porque hay un lugar en la Tierra donde, si pisas la playa…"
+ ]
+}

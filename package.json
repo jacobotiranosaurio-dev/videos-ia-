@@ -1,0 +1,34 @@
+{
+  "name": "videos-ia-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobotiranosaurio-dev/videos-ia-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobotiranosaurio-dev/videos-ia-/issues"
+  },
+  "homepage": "https://github.com/jacobotiranosaurio-dev/videos-ia-#readme",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.545",
+    "@remotion/cli": "^4.0.545",
+    "@remotion/fonts": "4.0.545",
+    "@remotion/google-fonts": "^4.0.545",
+    "@remotion/media": "4.0.545",
+    "@remotion/renderer": "^4.0.545",
+    "@remotion/transitions": "4.0.545",
+    "@types/react": "^19.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.545",
+    "typescript": "^7.0.2"
+  }
+}
