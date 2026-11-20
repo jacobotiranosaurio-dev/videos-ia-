@@ -1,0 +1,964 @@
+{
+ "duration": 61.048163,
+ "words": [
+  {
+   "text": "Este",
+   "start": 0.0,
+   "end": 0.244,
+   "scene": 0
+  },
+  {
+   "text": "tarro",
+   "start": 0.313,
+   "end": 0.557,
+   "scene": 0
+  },
+  {
+   "text": "de",
+   "start": 0.604,
+   "end": 0.673,
+   "scene": 0
+  },
+  {
+   "text": "miel",
+   "start": 0.743,
+   "end": 0.929,
+   "scene": 0
+  },
+  {
+   "text": "podría",
+   "start": 0.987,
+   "end": 1.289,
+   "scene": 0
+  },
+  {
+   "text": "tener",
+   "start": 1.335,
+   "end": 1.579,
+   "scene": 0
+  },
+  {
+   "text": "tres",
+   "start": 1.672,
+   "end": 1.927,
+   "scene": 0
+  },
+  {
+   "text": "mil",
+   "start": 2.032,
+   "end": 2.229,
+   "scene": 0
+  },
+  {
+   "text": "años…",
+   "start": 2.276,
+   "end": 2.926,
+   "scene": 0
+  },
+  {
+   "text": "y",
+   "start": 3.286,
+   "end": 3.332,
+   "scene": 0
+  },
+  {
+   "text": "aun",
+   "start": 3.39,
+   "end": 3.529,
+   "scene": 0
+  },
+  {
+   "text": "así",
+   "start": 3.576,
+   "end": 3.762,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 3.82,
+   "end": 3.889,
+   "scene": 0
+  },
+  {
+   "text": "lo",
+   "start": 3.924,
+   "end": 3.994,
+   "scene": 0
+  },
+  {
+   "text": "podrías",
+   "start": 4.029,
+   "end": 4.354,
+   "scene": 0
+  },
+  {
+   "text": "comer.",
+   "start": 4.4,
+   "end": 4.911,
+   "scene": 0
+  },
+  {
+   "text": "En",
+   "start": 5.677,
+   "end": 5.828,
+   "scene": 1
+  },
+  {
+   "text": "tumbas",
+   "start": 5.886,
+   "end": 6.2,
+   "scene": 1
+  },
+  {
+   "text": "del",
+   "start": 6.235,
+   "end": 6.339,
+   "scene": 1
+  },
+  {
+   "text": "antiguo",
+   "start": 6.385,
+   "end": 6.757,
+   "scene": 1
+  },
+  {
+   "text": "Egipto,",
+   "start": 6.792,
+   "end": 7.488,
+   "scene": 1
+  },
+  {
+   "text": "los",
+   "start": 7.651,
+   "end": 7.802,
+   "scene": 1
+  },
+  {
+   "text": "arqueólogos",
+   "start": 7.86,
+   "end": 8.348,
+   "scene": 1
+  },
+  {
+   "text": "encontraron",
+   "start": 8.406,
+   "end": 8.905,
+   "scene": 1
+  },
+  {
+   "text": "tarros",
+   "start": 8.975,
+   "end": 9.265,
+   "scene": 1
+  },
+  {
+   "text": "de",
+   "start": 9.3,
+   "end": 9.358,
+   "scene": 1
+  },
+  {
+   "text": "miel",
+   "start": 9.416,
+   "end": 9.601,
+   "scene": 1
+  },
+  {
+   "text": "de",
+   "start": 9.671,
+   "end": 9.752,
+   "scene": 1
+  },
+  {
+   "text": "más",
+   "start": 9.845,
+   "end": 10.031,
+   "scene": 1
+  },
+  {
+   "text": "de",
+   "start": 10.066,
+   "end": 10.124,
+   "scene": 1
+  },
+  {
+   "text": "tres",
+   "start": 10.17,
+   "end": 10.368,
+   "scene": 1
+  },
+  {
+   "text": "mil",
+   "start": 10.449,
+   "end": 10.612,
+   "scene": 1
+  },
+  {
+   "text": "años.",
+   "start": 10.635,
+   "end": 11.146,
+   "scene": 1
+  },
+  {
+   "text": "Y",
+   "start": 11.447,
+   "end": 11.54,
+   "scene": 1
+  },
+  {
+   "text": "seguía",
+   "start": 11.633,
+   "end": 11.958,
+   "scene": 1
+  },
+  {
+   "text": "siendo",
+   "start": 12.016,
+   "end": 12.307,
+   "scene": 1
+  },
+  {
+   "text": "comestible.",
+   "start": 12.365,
+   "end": 13.119,
+   "scene": 1
+  },
+  {
+   "text": "En",
+   "start": 13.688,
+   "end": 13.827,
+   "scene": 2
+  },
+  {
+   "text": "Georgia",
+   "start": 13.886,
+   "end": 14.199,
+   "scene": 2
+  },
+  {
+   "text": "apareció",
+   "start": 14.245,
+   "end": 14.709,
+   "scene": 2
+  },
+  {
+   "text": "miel",
+   "start": 14.779,
+   "end": 15.0,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 15.069,
+   "end": 15.127,
+   "scene": 2
+  },
+  {
+   "text": "hace",
+   "start": 15.174,
+   "end": 15.394,
+   "scene": 2
+  },
+  {
+   "text": "cinco",
+   "start": 15.441,
+   "end": 15.778,
+   "scene": 2
+  },
+  {
+   "text": "mil",
+   "start": 15.847,
+   "end": 16.01,
+   "scene": 2
+  },
+  {
+   "text": "quinientos",
+   "start": 16.068,
+   "end": 16.521,
+   "scene": 2
+  },
+  {
+   "text": "años.",
+   "start": 16.544,
+   "end": 17.055,
+   "scene": 2
+  },
+  {
+   "text": "La",
+   "start": 17.624,
+   "end": 17.716,
+   "scene": 2
+  },
+  {
+   "text": "más",
+   "start": 17.763,
+   "end": 17.902,
+   "scene": 2
+  },
+  {
+   "text": "antigua",
+   "start": 17.96,
+   "end": 18.401,
+   "scene": 2
+  },
+  {
+   "text": "jamás",
+   "start": 18.471,
+   "end": 18.924,
+   "scene": 2
+  },
+  {
+   "text": "encontrada.",
+   "start": 18.982,
+   "end": 19.655,
+   "scene": 2
+  },
+  {
+   "text": "¿El",
+   "start": 20.317,
+   "end": 20.561,
+   "scene": 3
+  },
+  {
+   "text": "secreto?",
+   "start": 20.619,
+   "end": 21.316,
+   "scene": 3
+  },
+  {
+   "text": "Tiene",
+   "start": 21.803,
+   "end": 22.035,
+   "scene": 3
+  },
+  {
+   "text": "tan",
+   "start": 22.082,
+   "end": 22.198,
+   "scene": 3
+  },
+  {
+   "text": "poca",
+   "start": 22.256,
+   "end": 22.581,
+   "scene": 3
+  },
+  {
+   "text": "agua",
+   "start": 22.639,
+   "end": 22.86,
+   "scene": 3
+  },
+  {
+   "text": "que,",
+   "start": 22.929,
+   "end": 23.22,
+   "scene": 3
+  },
+  {
+   "text": "si",
+   "start": 23.324,
+   "end": 23.452,
+   "scene": 3
+  },
+  {
+   "text": "una",
+   "start": 23.51,
+   "end": 23.603,
+   "scene": 3
+  },
+  {
+   "text": "bacteria",
+   "start": 23.638,
+   "end": 23.986,
+   "scene": 3
+  },
+  {
+   "text": "la",
+   "start": 24.021,
+   "end": 24.09,
+   "scene": 3
+  },
+  {
+   "text": "toca,",
+   "start": 24.148,
+   "end": 24.497,
+   "scene": 3
+  },
+  {
+   "text": "se",
+   "start": 24.555,
+   "end": 24.671,
+   "scene": 3
+  },
+  {
+   "text": "seca",
+   "start": 24.74,
+   "end": 25.019,
+   "scene": 3
+  },
+  {
+   "text": "y",
+   "start": 25.066,
+   "end": 25.1,
+   "scene": 3
+  },
+  {
+   "text": "muere.",
+   "start": 25.158,
+   "end": 25.611,
+   "scene": 3
+  },
+  {
+   "text": "Además",
+   "start": 26.029,
+   "end": 26.366,
+   "scene": 4
+  },
+  {
+   "text": "es",
+   "start": 26.424,
+   "end": 26.482,
+   "scene": 4
+  },
+  {
+   "text": "ácida,",
+   "start": 26.563,
+   "end": 27.086,
+   "scene": 4
+  },
+  {
+   "text": "casi",
+   "start": 27.283,
+   "end": 27.538,
+   "scene": 4
+  },
+  {
+   "text": "como",
+   "start": 27.597,
+   "end": 27.759,
+   "scene": 4
+  },
+  {
+   "text": "el",
+   "start": 27.805,
+   "end": 27.864,
+   "scene": 4
+  },
+  {
+   "text": "zumo",
+   "start": 27.933,
+   "end": 28.189,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 28.223,
+   "end": 28.281,
+   "scene": 4
+  },
+  {
+   "text": "naranja.",
+   "start": 28.328,
+   "end": 28.908,
+   "scene": 4
+  },
+  {
+   "text": "Y",
+   "start": 29.477,
+   "end": 29.535,
+   "scene": 4
+  },
+  {
+   "text": "una",
+   "start": 29.605,
+   "end": 29.71,
+   "scene": 4
+  },
+  {
+   "text": "enzima",
+   "start": 29.733,
+   "end": 30.069,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 30.104,
+   "end": 30.151,
+   "scene": 4
+  },
+  {
+   "text": "las",
+   "start": 30.186,
+   "end": 30.302,
+   "scene": 4
+  },
+  {
+   "text": "abejas",
+   "start": 30.371,
+   "end": 30.719,
+   "scene": 4
+  },
+  {
+   "text": "fabrica",
+   "start": 30.789,
+   "end": 31.207,
+   "scene": 4
+  },
+  {
+   "text": "agua",
+   "start": 31.288,
+   "end": 31.509,
+   "scene": 4
+  },
+  {
+   "text": "oxigenada",
+   "start": 31.532,
+   "end": 32.124,
+   "scene": 4
+  },
+  {
+   "text": "dentro",
+   "start": 32.205,
+   "end": 32.565,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 32.612,
+   "end": 32.681,
+   "scene": 4
+  },
+  {
+   "text": "ella.",
+   "start": 32.716,
+   "end": 33.076,
+   "scene": 4
+  },
+  {
+   "text": "Por",
+   "start": 33.738,
+   "end": 33.924,
+   "scene": 5
+  },
+  {
+   "text": "eso",
+   "start": 33.97,
+   "end": 34.086,
+   "scene": 5
+  },
+  {
+   "text": "los",
+   "start": 34.121,
+   "end": 34.237,
+   "scene": 5
+  },
+  {
+   "text": "egipcios",
+   "start": 34.295,
+   "end": 34.748,
+   "scene": 5
+  },
+  {
+   "text": "ya",
+   "start": 34.818,
+   "end": 34.91,
+   "scene": 5
+  },
+  {
+   "text": "la",
+   "start": 34.957,
+   "end": 35.003,
+   "scene": 5
+  },
+  {
+   "text": "usaban",
+   "start": 35.05,
+   "end": 35.433,
+   "scene": 5
+  },
+  {
+   "text": "para",
+   "start": 35.479,
+   "end": 35.653,
+   "scene": 5
+  },
+  {
+   "text": "curar",
+   "start": 35.7,
+   "end": 35.979,
+   "scene": 5
+  },
+  {
+   "text": "heridas.",
+   "start": 36.002,
+   "end": 36.571,
+   "scene": 5
+  },
+  {
+   "text": "Y",
+   "start": 37.232,
+   "end": 37.337,
+   "scene": 6
+  },
+  {
+   "text": "ojo",
+   "start": 37.441,
+   "end": 37.592,
+   "scene": 6
+  },
+  {
+   "text": "al",
+   "start": 37.616,
+   "end": 37.662,
+   "scene": 6
+  },
+  {
+   "text": "dato:",
+   "start": 37.72,
+   "end": 38.208,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 38.568,
+   "end": 38.765,
+   "scene": 6
+  },
+  {
+   "text": "abeja,",
+   "start": 38.8,
+   "end": 39.241,
+   "scene": 6
+  },
+  {
+   "text": "en",
+   "start": 39.264,
+   "end": 39.392,
+   "scene": 6
+  },
+  {
+   "text": "toda",
+   "start": 39.462,
+   "end": 39.659,
+   "scene": 6
+  },
+  {
+   "text": "su",
+   "start": 39.717,
+   "end": 39.81,
+   "scene": 6
+  },
+  {
+   "text": "vida,",
+   "start": 39.856,
+   "end": 40.263,
+   "scene": 6
+  },
+  {
+   "text": "produce",
+   "start": 40.495,
+   "end": 40.901,
+   "scene": 6
+  },
+  {
+   "text": "menos",
+   "start": 40.994,
+   "end": 41.261,
+   "scene": 6
+  },
+  {
+   "text": "de",
+   "start": 41.319,
+   "end": 41.377,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 41.47,
+   "end": 41.644,
+   "scene": 6
+  },
+  {
+   "text": "décima",
+   "start": 41.702,
+   "end": 42.062,
+   "scene": 6
+  },
+  {
+   "text": "parte",
+   "start": 42.12,
+   "end": 42.399,
+   "scene": 6
+  },
+  {
+   "text": "de",
+   "start": 42.445,
+   "end": 42.515,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 42.596,
+   "end": 42.747,
+   "scene": 6
+  },
+  {
+   "text": "cucharadita.",
+   "start": 42.794,
+   "end": 43.571,
+   "scene": 6
+  },
+  {
+   "text": "Consejo:",
+   "start": 44.338,
+   "end": 45.104,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 45.592,
+   "end": 45.731,
+   "scene": 7
+  },
+  {
+   "text": "tu",
+   "start": 45.789,
+   "end": 45.882,
+   "scene": 7
+  },
+  {
+   "text": "miel",
+   "start": 45.952,
+   "end": 46.126,
+   "scene": 7
+  },
+  {
+   "text": "se",
+   "start": 46.172,
+   "end": 46.253,
+   "scene": 7
+  },
+  {
+   "text": "cristaliza,",
+   "start": 46.288,
+   "end": 47.031,
+   "scene": 7
+  },
+  {
+   "text": "no",
+   "start": 47.136,
+   "end": 47.275,
+   "scene": 7
+  },
+  {
+   "text": "está",
+   "start": 47.321,
+   "end": 47.484,
+   "scene": 7
+  },
+  {
+   "text": "mala.",
+   "start": 47.542,
+   "end": 47.937,
+   "scene": 7
+  },
+  {
+   "text": "Caliéntala",
+   "start": 48.424,
+   "end": 49.109,
+   "scene": 7
+  },
+  {
+   "text": "al",
+   "start": 49.144,
+   "end": 49.214,
+   "scene": 7
+  },
+  {
+   "text": "baño",
+   "start": 49.272,
+   "end": 49.527,
+   "scene": 7
+  },
+  {
+   "text": "maría.",
+   "start": 49.562,
+   "end": 50.015,
+   "scene": 7
+  },
+  {
+   "text": "Y",
+   "start": 50.375,
+   "end": 50.456,
+   "scene": 7
+  },
+  {
+   "text": "ciérrala",
+   "start": 50.514,
+   "end": 50.874,
+   "scene": 7
+  },
+  {
+   "text": "bien:",
+   "start": 50.909,
+   "end": 51.292,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 51.652,
+   "end": 51.768,
+   "scene": 7
+  },
+  {
+   "text": "coge",
+   "start": 51.826,
+   "end": 52.0,
+   "scene": 7
+  },
+  {
+   "text": "humedad,",
+   "start": 52.035,
+   "end": 52.581,
+   "scene": 7
+  },
+  {
+   "text": "sí",
+   "start": 52.743,
+   "end": 52.917,
+   "scene": 7
+  },
+  {
+   "text": "puede",
+   "start": 52.975,
+   "end": 53.184,
+   "scene": 7
+  },
+  {
+   "text": "fermentar.",
+   "start": 53.219,
+   "end": 53.858,
+   "scene": 7
+  },
+  {
+   "text": "¿Cuánto",
+   "start": 54.345,
+   "end": 54.729,
+   "scene": 8
+  },
+  {
+   "text": "tiempo",
+   "start": 54.775,
+   "end": 55.042,
+   "scene": 8
+  },
+  {
+   "text": "lleva",
+   "start": 55.065,
+   "end": 55.263,
+   "scene": 8
+  },
+  {
+   "text": "la",
+   "start": 55.297,
+   "end": 55.356,
+   "scene": 8
+  },
+  {
+   "text": "miel",
+   "start": 55.414,
+   "end": 55.553,
+   "scene": 8
+  },
+  {
+   "text": "de",
+   "start": 55.599,
+   "end": 55.657,
+   "scene": 8
+  },
+  {
+   "text": "tu",
+   "start": 55.692,
+   "end": 55.774,
+   "scene": 8
+  },
+  {
+   "text": "casa?",
+   "start": 55.82,
+   "end": 56.25,
+   "scene": 8
+  },
+  {
+   "text": "Comenta.",
+   "start": 56.911,
+   "end": 57.527,
+   "scene": 8
+  },
+  {
+   "text": "Y",
+   "start": 58.095,
+   "end": 58.188,
+   "scene": 8
+  },
+  {
+   "text": "sígueme,",
+   "start": 58.27,
+   "end": 58.792,
+   "scene": 8
+  },
+  {
+   "text": "porque",
+   "start": 58.908,
+   "end": 59.164,
+   "scene": 8
+  },
+  {
+   "text": "este",
+   "start": 59.187,
+   "end": 59.338,
+   "scene": 8
+  },
+  {
+   "text": "tarro",
+   "start": 59.384,
+   "end": 59.616,
+   "scene": 8
+  },
+  {
+   "text": "de",
+   "start": 59.663,
+   "end": 59.721,
+   "scene": 8
+  },
+  {
+   "text": "miel",
+   "start": 59.767,
+   "end": 59.918,
+   "scene": 8
+  },
+  {
+   "text": "podría",
+   "start": 59.988,
+   "end": 60.301,
+   "scene": 8
+  },
+  {
+   "text": "tener…",
+   "start": 60.359,
+   "end": 61.021,
+   "scene": 8
+  }
+ ],
+ "scenes": [
+  "Este tarro de miel podría tener tres mil años… y aun así te lo podrías comer.",
+  "En tumbas del antiguo Egipto, los arqueólogos encontraron tarros de miel de más de tres mil años. Y seguía siendo comestible.",
+  "En Georgia apareció miel de hace cinco mil quinientos años. La más antigua jamás encontrada.",
+  "¿El secreto? Tiene tan poca agua que, si una bacteria la toca, se seca y muere.",
+  "Además es ácida, casi como el zumo de naranja. Y una enzima de las abejas fabrica agua oxigenada dentro de ella.",
+  "Por eso los egipcios ya la usaban para curar heridas.",
+  "Y ojo al dato: una abeja, en toda su vida, produce menos de una décima parte de una cucharadita.",
+  "Consejo: si tu miel se cristaliza, no está mala. Caliéntala al baño maría. Y ciérrala bien: si coge humedad, sí puede fermentar.",
+  "¿Cuánto tiempo lleva la miel de tu casa? Comenta. Y sígueme, porque este tarro de miel podría tener…"
+ ]
+}

@@ -1,0 +1,764 @@
+{
+ "duration": 54.334694,
+ "words": [
+  {
+   "text": "La",
+   "start": 0.0,
+   "end": 0.151,
+   "scene": 0
+  },
+  {
+   "text": "persona",
+   "start": 0.197,
+   "end": 0.534,
+   "scene": 0
+  },
+  {
+   "text": "que",
+   "start": 0.592,
+   "end": 0.685,
+   "scene": 0
+  },
+  {
+   "text": "más",
+   "start": 0.789,
+   "end": 1.022,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 1.057,
+   "end": 1.115,
+   "scene": 0
+  },
+  {
+   "text": "envidia",
+   "start": 1.149,
+   "end": 1.509,
+   "scene": 0
+  },
+  {
+   "text": "probablemente",
+   "start": 1.567,
+   "end": 2.206,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 2.252,
+   "end": 2.322,
+   "scene": 0
+  },
+  {
+   "text": "sonríe",
+   "start": 2.368,
+   "end": 2.74,
+   "scene": 0
+  },
+  {
+   "text": "todos",
+   "start": 2.821,
+   "end": 3.146,
+   "scene": 0
+  },
+  {
+   "text": "los",
+   "start": 3.204,
+   "end": 3.344,
+   "scene": 0
+  },
+  {
+   "text": "días.",
+   "start": 3.379,
+   "end": 3.855,
+   "scene": 0
+  },
+  {
+   "text": "Y",
+   "start": 4.214,
+   "end": 4.319,
+   "scene": 0
+  },
+  {
+   "text": "hay",
+   "start": 4.389,
+   "end": 4.481,
+   "scene": 0
+  },
+  {
+   "text": "tres",
+   "start": 4.54,
+   "end": 4.737,
+   "scene": 0
+  },
+  {
+   "text": "señales",
+   "start": 4.76,
+   "end": 5.213,
+   "scene": 0
+  },
+  {
+   "text": "que",
+   "start": 5.271,
+   "end": 5.341,
+   "scene": 0
+  },
+  {
+   "text": "la",
+   "start": 5.399,
+   "end": 5.468,
+   "scene": 0
+  },
+  {
+   "text": "delatan.",
+   "start": 5.515,
+   "end": 6.118,
+   "scene": 0
+  },
+  {
+   "text": "Uno.",
+   "start": 6.78,
+   "end": 7.233,
+   "scene": 1
+  },
+  {
+   "text": "Minimiza",
+   "start": 7.895,
+   "end": 8.51,
+   "scene": 1
+  },
+  {
+   "text": "tus",
+   "start": 8.557,
+   "end": 8.719,
+   "scene": 1
+  },
+  {
+   "text": "logros.",
+   "start": 8.789,
+   "end": 9.334,
+   "scene": 1
+  },
+  {
+   "text": "Consigues",
+   "start": 9.636,
+   "end": 10.112,
+   "scene": 1
+  },
+  {
+   "text": "algo",
+   "start": 10.205,
+   "end": 10.403,
+   "scene": 1
+  },
+  {
+   "text": "y",
+   "start": 10.426,
+   "end": 10.461,
+   "scene": 1
+  },
+  {
+   "text": "te",
+   "start": 10.507,
+   "end": 10.577,
+   "scene": 1
+  },
+  {
+   "text": "dice:",
+   "start": 10.623,
+   "end": 11.041,
+   "scene": 1
+  },
+  {
+   "text": "bueno,",
+   "start": 11.122,
+   "end": 11.494,
+   "scene": 1
+  },
+  {
+   "text": "tuviste",
+   "start": 11.54,
+   "end": 11.877,
+   "scene": 1
+  },
+  {
+   "text": "suerte.",
+   "start": 11.912,
+   "end": 12.562,
+   "scene": 1
+  },
+  {
+   "text": "Dos.",
+   "start": 12.864,
+   "end": 13.375,
+   "scene": 2
+  },
+  {
+   "text": "Te",
+   "start": 13.862,
+   "end": 14.002,
+   "scene": 2
+  },
+  {
+   "text": "copia",
+   "start": 14.071,
+   "end": 14.362,
+   "scene": 2
+  },
+  {
+   "text": "en",
+   "start": 14.385,
+   "end": 14.431,
+   "scene": 2
+  },
+  {
+   "text": "silencio.",
+   "start": 14.489,
+   "end": 15.221,
+   "scene": 2
+  },
+  {
+   "text": "Tu",
+   "start": 15.453,
+   "end": 15.604,
+   "scene": 2
+  },
+  {
+   "text": "ropa,",
+   "start": 15.697,
+   "end": 16.335,
+   "scene": 2
+  },
+  {
+   "text": "tus",
+   "start": 16.498,
+   "end": 16.684,
+   "scene": 2
+  },
+  {
+   "text": "ideas,",
+   "start": 16.753,
+   "end": 17.427,
+   "scene": 2
+  },
+  {
+   "text": "tus",
+   "start": 17.589,
+   "end": 17.798,
+   "scene": 2
+  },
+  {
+   "text": "planes.",
+   "start": 17.868,
+   "end": 18.483,
+   "scene": 2
+  },
+  {
+   "text": "Pero",
+   "start": 18.971,
+   "end": 19.191,
+   "scene": 2
+  },
+  {
+   "text": "nunca",
+   "start": 19.249,
+   "end": 19.516,
+   "scene": 2
+  },
+  {
+   "text": "te",
+   "start": 19.563,
+   "end": 19.632,
+   "scene": 2
+  },
+  {
+   "text": "lo",
+   "start": 19.667,
+   "end": 19.725,
+   "scene": 2
+  },
+  {
+   "text": "reconoce.",
+   "start": 19.795,
+   "end": 20.503,
+   "scene": 2
+  },
+  {
+   "text": "Tres.",
+   "start": 20.991,
+   "end": 21.525,
+   "scene": 3
+  },
+  {
+   "text": "Aparece",
+   "start": 21.943,
+   "end": 22.442,
+   "scene": 3
+  },
+  {
+   "text": "más",
+   "start": 22.5,
+   "end": 22.709,
+   "scene": 3
+  },
+  {
+   "text": "cuando",
+   "start": 22.767,
+   "end": 22.988,
+   "scene": 3
+  },
+  {
+   "text": "te",
+   "start": 23.057,
+   "end": 23.127,
+   "scene": 3
+  },
+  {
+   "text": "va",
+   "start": 23.173,
+   "end": 23.266,
+   "scene": 3
+  },
+  {
+   "text": "mal",
+   "start": 23.324,
+   "end": 23.545,
+   "scene": 3
+  },
+  {
+   "text": "que",
+   "start": 23.777,
+   "end": 23.893,
+   "scene": 3
+  },
+  {
+   "text": "cuando",
+   "start": 23.94,
+   "end": 24.16,
+   "scene": 3
+  },
+  {
+   "text": "te",
+   "start": 24.218,
+   "end": 24.288,
+   "scene": 3
+  },
+  {
+   "text": "va",
+   "start": 24.334,
+   "end": 24.404,
+   "scene": 3
+  },
+  {
+   "text": "bien.",
+   "start": 24.451,
+   "end": 24.822,
+   "scene": 3
+  },
+  {
+   "text": "La",
+   "start": 25.484,
+   "end": 25.6,
+   "scene": 4
+  },
+  {
+   "text": "psicología",
+   "start": 25.623,
+   "end": 26.215,
+   "scene": 4
+  },
+  {
+   "text": "lo",
+   "start": 26.262,
+   "end": 26.343,
+   "scene": 4
+  },
+  {
+   "text": "llama",
+   "start": 26.366,
+   "end": 26.738,
+   "scene": 4
+  },
+  {
+   "text": "schadenfreude:",
+   "start": 26.877,
+   "end": 27.817,
+   "scene": 4
+  },
+  {
+   "text": "alegrarse",
+   "start": 28.235,
+   "end": 28.804,
+   "scene": 4
+  },
+  {
+   "text": "del",
+   "start": 28.862,
+   "end": 28.978,
+   "scene": 4
+  },
+  {
+   "text": "mal",
+   "start": 29.048,
+   "end": 29.187,
+   "scene": 4
+  },
+  {
+   "text": "ajeno.",
+   "start": 29.234,
+   "end": 29.768,
+   "scene": 4
+  },
+  {
+   "text": "Y",
+   "start": 30.07,
+   "end": 30.139,
+   "scene": 4
+  },
+  {
+   "text": "los",
+   "start": 30.209,
+   "end": 30.325,
+   "scene": 4
+  },
+  {
+   "text": "estudios",
+   "start": 30.395,
+   "end": 30.79,
+   "scene": 4
+  },
+  {
+   "text": "lo",
+   "start": 30.848,
+   "end": 30.917,
+   "scene": 4
+  },
+  {
+   "text": "relacionan",
+   "start": 30.964,
+   "end": 31.463,
+   "scene": 4
+  },
+  {
+   "text": "directamente",
+   "start": 31.521,
+   "end": 32.171,
+   "scene": 4
+  },
+  {
+   "text": "con",
+   "start": 32.229,
+   "end": 32.357,
+   "scene": 4
+  },
+  {
+   "text": "la",
+   "start": 32.392,
+   "end": 32.473,
+   "scene": 4
+  },
+  {
+   "text": "envidia.",
+   "start": 32.531,
+   "end": 33.158,
+   "scene": 4
+  },
+  {
+   "text": "Qué",
+   "start": 33.82,
+   "end": 33.959,
+   "scene": 5
+  },
+  {
+   "text": "hacer:",
+   "start": 34.006,
+   "end": 34.528,
+   "scene": 5
+  },
+  {
+   "text": "no",
+   "start": 34.829,
+   "end": 34.957,
+   "scene": 5
+  },
+  {
+   "text": "cuentes",
+   "start": 35.004,
+   "end": 35.34,
+   "scene": 5
+  },
+  {
+   "text": "tus",
+   "start": 35.375,
+   "end": 35.514,
+   "scene": 5
+  },
+  {
+   "text": "planes",
+   "start": 35.572,
+   "end": 35.956,
+   "scene": 5
+  },
+  {
+   "text": "antes",
+   "start": 36.048,
+   "end": 36.385,
+   "scene": 5
+  },
+  {
+   "text": "de",
+   "start": 36.42,
+   "end": 36.466,
+   "scene": 5
+  },
+  {
+   "text": "tiempo.",
+   "start": 36.524,
+   "end": 37.035,
+   "scene": 5
+  },
+  {
+   "text": "Fíjate",
+   "start": 37.802,
+   "end": 38.22,
+   "scene": 5
+  },
+  {
+   "text": "en",
+   "start": 38.243,
+   "end": 38.289,
+   "scene": 5
+  },
+  {
+   "text": "las",
+   "start": 38.336,
+   "end": 38.452,
+   "scene": 5
+  },
+  {
+   "text": "reacciones,",
+   "start": 38.545,
+   "end": 39.322,
+   "scene": 5
+  },
+  {
+   "text": "no",
+   "start": 39.462,
+   "end": 39.613,
+   "scene": 5
+  },
+  {
+   "text": "en",
+   "start": 39.659,
+   "end": 39.706,
+   "scene": 5
+  },
+  {
+   "text": "las",
+   "start": 39.74,
+   "end": 39.845,
+   "scene": 5
+  },
+  {
+   "text": "palabras.",
+   "start": 39.903,
+   "end": 40.518,
+   "scene": 5
+  },
+  {
+   "text": "Y",
+   "start": 41.285,
+   "end": 41.377,
+   "scene": 5
+  },
+  {
+   "text": "no",
+   "start": 41.47,
+   "end": 41.563,
+   "scene": 5
+  },
+  {
+   "text": "compitas:",
+   "start": 41.621,
+   "end": 42.318,
+   "scene": 5
+  },
+  {
+   "text": "aléjate",
+   "start": 42.62,
+   "end": 43.061,
+   "scene": 5
+  },
+  {
+   "text": "con",
+   "start": 43.107,
+   "end": 43.223,
+   "scene": 5
+  },
+  {
+   "text": "elegancia.",
+   "start": 43.27,
+   "end": 43.955,
+   "scene": 5
+  },
+  {
+   "text": "Celebra",
+   "start": 44.721,
+   "end": 45.127,
+   "scene": 5
+  },
+  {
+   "text": "tus",
+   "start": 45.174,
+   "end": 45.325,
+   "scene": 5
+  },
+  {
+   "text": "logros",
+   "start": 45.418,
+   "end": 45.766,
+   "scene": 5
+  },
+  {
+   "text": "con",
+   "start": 45.812,
+   "end": 45.929,
+   "scene": 5
+  },
+  {
+   "text": "quien",
+   "start": 45.975,
+   "end": 46.138,
+   "scene": 5
+  },
+  {
+   "text": "los",
+   "start": 46.184,
+   "end": 46.312,
+   "scene": 5
+  },
+  {
+   "text": "celebra",
+   "start": 46.335,
+   "end": 46.718,
+   "scene": 5
+  },
+  {
+   "text": "contigo.",
+   "start": 46.764,
+   "end": 47.322,
+   "scene": 5
+  },
+  {
+   "text": "Escribe",
+   "start": 47.891,
+   "end": 48.39,
+   "scene": 6
+  },
+  {
+   "text": "un",
+   "start": 48.448,
+   "end": 48.518,
+   "scene": 6
+  },
+  {
+   "text": "uno",
+   "start": 48.622,
+   "end": 48.785,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 48.854,
+   "end": 48.959,
+   "scene": 6
+  },
+  {
+   "text": "ya",
+   "start": 49.017,
+   "end": 49.11,
+   "scene": 6
+  },
+  {
+   "text": "sabes",
+   "start": 49.191,
+   "end": 49.504,
+   "scene": 6
+  },
+  {
+   "text": "quién",
+   "start": 49.574,
+   "end": 49.748,
+   "scene": 6
+  },
+  {
+   "text": "es.",
+   "start": 49.818,
+   "end": 50.131,
+   "scene": 6
+  },
+  {
+   "text": "Y",
+   "start": 50.898,
+   "end": 50.979,
+   "scene": 6
+  },
+  {
+   "text": "sígueme,",
+   "start": 51.072,
+   "end": 51.617,
+   "scene": 6
+  },
+  {
+   "text": "porque",
+   "start": 51.977,
+   "end": 52.291,
+   "scene": 6
+  },
+  {
+   "text": "la",
+   "start": 52.337,
+   "end": 52.395,
+   "scene": 6
+  },
+  {
+   "text": "persona",
+   "start": 52.442,
+   "end": 52.813,
+   "scene": 6
+  },
+  {
+   "text": "que",
+   "start": 52.871,
+   "end": 52.964,
+   "scene": 6
+  },
+  {
+   "text": "más",
+   "start": 53.057,
+   "end": 53.301,
+   "scene": 6
+  },
+  {
+   "text": "te",
+   "start": 53.347,
+   "end": 53.405,
+   "scene": 6
+  },
+  {
+   "text": "envidia…",
+   "start": 53.452,
+   "end": 54.288,
+   "scene": 6
+  }
+ ],
+ "scenes": [
+  "La persona que más te envidia probablemente te sonríe todos los días. Y hay tres señales que la delatan.",
+  "Uno. Minimiza tus logros. Consigues algo y te dice: bueno, tuviste suerte.",
+  "Dos. Te copia en silencio. Tu ropa, tus ideas, tus planes. Pero nunca te lo reconoce.",
+  "Tres. Aparece más cuando te va mal que cuando te va bien.",
+  "La psicología lo llama schadenfreude: alegrarse del mal ajeno. Y los estudios lo relacionan directamente con la envidia.",
+  "Qué hacer: no cuentes tus planes antes de tiempo. Fíjate en las reacciones, no en las palabras. Y no compitas: aléjate con elegancia. Celebra tus logros con quien los celebra contigo.",
+  "Escribe un uno si ya sabes quién es. Y sígueme, porque la persona que más te envidia…"
+ ]
+}
