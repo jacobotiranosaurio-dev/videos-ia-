@@ -1,0 +1,1317 @@
+{
+ "duration": 54.554,
+ "words": [
+  {
+   "text": "Sabías",
+   "key": false,
+   "start": 0.25,
+   "end": 0.55,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "que",
+   "key": false,
+   "start": 0.55,
+   "end": 0.735,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "podrías",
+   "key": false,
+   "start": 0.735,
+   "end": 1.036,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "comerte",
+   "key": false,
+   "start": 1.036,
+   "end": 1.451,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "una",
+   "key": false,
+   "start": 1.451,
+   "end": 1.752,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "miel",
+   "key": true,
+   "start": 1.752,
+   "end": 1.937,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 1.937,
+   "end": 2.122,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "hace",
+   "key": false,
+   "start": 2.122,
+   "end": 2.422,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "3.000",
+   "key": true,
+   "start": 2.422,
+   "end": 2.722,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "años",
+   "key": true,
+   "start": 2.722,
+   "end": 3.023,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 3.184,
+   "end": 3.369,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "estaría",
+   "key": false,
+   "start": 3.369,
+   "end": 3.785,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "perfecta",
+   "key": true,
+   "start": 3.785,
+   "end": 4.201,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "En",
+   "key": false,
+   "start": 4.561,
+   "end": 4.747,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "las",
+   "key": false,
+   "start": 4.747,
+   "end": 4.933,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "tumbas",
+   "key": true,
+   "start": 4.933,
+   "end": 5.235,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "del",
+   "key": false,
+   "start": 5.235,
+   "end": 5.421,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "antiguo",
+   "key": false,
+   "start": 5.421,
+   "end": 5.839,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "Egipto",
+   "key": true,
+   "start": 5.839,
+   "end": 6.257,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "los",
+   "key": false,
+   "start": 6.397,
+   "end": 6.598,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "arqueólogos",
+   "key": false,
+   "start": 6.598,
+   "end": 7.174,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "encontraron",
+   "key": false,
+   "start": 7.174,
+   "end": 7.75,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "tarros",
+   "key": false,
+   "start": 7.75,
+   "end": 8.076,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 8.076,
+   "end": 8.276,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "miel",
+   "key": false,
+   "start": 8.276,
+   "end": 8.477,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 8.477,
+   "end": 8.677,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "más",
+   "key": false,
+   "start": 8.677,
+   "end": 8.878,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 8.878,
+   "end": 9.078,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "3.000",
+   "key": true,
+   "start": 9.078,
+   "end": 9.404,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "años",
+   "key": false,
+   "start": 9.404,
+   "end": 9.73,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "Y",
+   "key": false,
+   "start": 10.09,
+   "end": 10.294,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "seguía",
+   "key": false,
+   "start": 10.294,
+   "end": 10.626,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "siendo",
+   "key": false,
+   "start": 10.626,
+   "end": 10.958,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "comestible",
+   "key": true,
+   "start": 10.958,
+   "end": 11.546,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "El",
+   "key": false,
+   "start": 11.906,
+   "end": 12.118,
+   "sentence": 3,
+   "phrase": 0
+  },
+  {
+   "text": "secreto",
+   "key": true,
+   "start": 12.118,
+   "end": 12.595,
+   "sentence": 3,
+   "phrase": 0
+  },
+  {
+   "text": "La",
+   "key": false,
+   "start": 12.735,
+   "end": 12.921,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "miel",
+   "key": false,
+   "start": 12.921,
+   "end": 13.107,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "solo",
+   "key": false,
+   "start": 13.107,
+   "end": 13.409,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "tiene",
+   "key": false,
+   "start": 13.409,
+   "end": 13.711,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "un",
+   "key": false,
+   "start": 13.711,
+   "end": 13.897,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "17%",
+   "key": true,
+   "start": 13.897,
+   "end": 14.781,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 14.781,
+   "end": 14.967,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "agua",
+   "key": true,
+   "start": 14.967,
+   "end": 15.269,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "Las",
+   "key": false,
+   "start": 15.629,
+   "end": 15.812,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "bacterias",
+   "key": true,
+   "start": 15.812,
+   "end": 16.223,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "que",
+   "key": false,
+   "start": 16.223,
+   "end": 16.406,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "intentan",
+   "key": false,
+   "start": 16.406,
+   "end": 16.817,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "vivir",
+   "key": false,
+   "start": 16.817,
+   "end": 17.115,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 17.115,
+   "end": 17.297,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "ella",
+   "key": false,
+   "start": 17.297,
+   "end": 17.594,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "se",
+   "key": false,
+   "start": 17.734,
+   "end": 17.953,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "deshidratan",
+   "key": false,
+   "start": 17.953,
+   "end": 18.583,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 18.723,
+   "end": 18.935,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "mueren",
+   "key": true,
+   "start": 18.935,
+   "end": 19.281,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "Además",
+   "key": false,
+   "start": 19.641,
+   "end": 20.15,
+   "sentence": 5,
+   "phrase": 0
+  },
+  {
+   "text": "es",
+   "key": false,
+   "start": 20.29,
+   "end": 20.469,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "muy",
+   "key": false,
+   "start": 20.469,
+   "end": 20.647,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "ácida",
+   "key": true,
+   "start": 20.647,
+   "end": 21.048,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "su",
+   "key": false,
+   "start": 21.188,
+   "end": 21.395,
+   "sentence": 5,
+   "phrase": 2
+  },
+  {
+   "text": "pH",
+   "key": false,
+   "start": 21.395,
+   "end": 21.859,
+   "sentence": 5,
+   "phrase": 2
+  },
+  {
+   "text": "ronda",
+   "key": false,
+   "start": 21.859,
+   "end": 22.195,
+   "sentence": 5,
+   "phrase": 2
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 22.195,
+   "end": 22.401,
+   "sentence": 5,
+   "phrase": 2
+  },
+  {
+   "text": "3,9",
+   "key": true,
+   "start": 22.401,
+   "end": 23.124,
+   "sentence": 5,
+   "phrase": 2
+  },
+  {
+   "text": "como",
+   "key": false,
+   "start": 23.264,
+   "end": 23.506,
+   "sentence": 5,
+   "phrase": 3
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 23.506,
+   "end": 23.655,
+   "sentence": 5,
+   "phrase": 3
+  },
+  {
+   "text": "zumo",
+   "key": false,
+   "start": 23.655,
+   "end": 23.897,
+   "sentence": 5,
+   "phrase": 3
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 23.897,
+   "end": 24.046,
+   "sentence": 5,
+   "phrase": 3
+  },
+  {
+   "text": "naranja",
+   "key": true,
+   "start": 24.046,
+   "end": 24.381,
+   "sentence": 5,
+   "phrase": 3
+  },
+  {
+   "text": "Y",
+   "key": false,
+   "start": 24.741,
+   "end": 24.901,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "las",
+   "key": false,
+   "start": 24.901,
+   "end": 25.061,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "abejas",
+   "key": true,
+   "start": 25.061,
+   "end": 25.42,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "le",
+   "key": false,
+   "start": 25.42,
+   "end": 25.58,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "añaden",
+   "key": false,
+   "start": 25.58,
+   "end": 25.939,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "una",
+   "key": false,
+   "start": 25.939,
+   "end": 26.198,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "enzima",
+   "key": true,
+   "start": 26.198,
+   "end": 26.557,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "que",
+   "key": false,
+   "start": 26.697,
+   "end": 26.838,
+   "sentence": 6,
+   "phrase": 1
+  },
+  {
+   "text": "con",
+   "key": false,
+   "start": 26.838,
+   "end": 26.979,
+   "sentence": 6,
+   "phrase": 1
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 26.979,
+   "end": 27.119,
+   "sentence": 6,
+   "phrase": 1
+  },
+  {
+   "text": "humedad",
+   "key": false,
+   "start": 27.119,
+   "end": 27.436,
+   "sentence": 6,
+   "phrase": 1
+  },
+  {
+   "text": "fabrica",
+   "key": false,
+   "start": 27.576,
+   "end": 28.032,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "agua",
+   "key": true,
+   "start": 28.032,
+   "end": 28.362,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "oxigenada",
+   "key": true,
+   "start": 28.362,
+   "end": 29.072,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "Un",
+   "key": false,
+   "start": 29.432,
+   "end": 29.624,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "antiséptico",
+   "key": true,
+   "start": 29.624,
+   "end": 30.297,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "natural",
+   "key": false,
+   "start": 30.297,
+   "end": 30.729,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "Pero",
+   "key": false,
+   "start": 31.089,
+   "end": 31.359,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "aquí",
+   "key": false,
+   "start": 31.359,
+   "end": 31.628,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "viene",
+   "key": false,
+   "start": 31.628,
+   "end": 31.897,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 31.897,
+   "end": 32.063,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "problema",
+   "key": true,
+   "start": 32.063,
+   "end": 32.436,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "no",
+   "key": false,
+   "start": 32.576,
+   "end": 32.754,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "toda",
+   "key": false,
+   "start": 32.754,
+   "end": 33.043,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 33.043,
+   "end": 33.221,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "miel",
+   "key": false,
+   "start": 33.221,
+   "end": 33.399,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "del",
+   "key": false,
+   "start": 33.399,
+   "end": 33.577,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "súper",
+   "key": false,
+   "start": 33.577,
+   "end": 33.865,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "es",
+   "key": false,
+   "start": 33.865,
+   "end": 34.043,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "igual",
+   "key": false,
+   "start": 34.043,
+   "end": 34.332,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "Si",
+   "key": false,
+   "start": 34.692,
+   "end": 34.888,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 34.888,
+   "end": 35.084,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "calientan",
+   "key": true,
+   "start": 35.084,
+   "end": 35.525,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "demasiado",
+   "key": false,
+   "start": 35.525,
+   "end": 36.089,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "o",
+   "key": false,
+   "start": 36.229,
+   "end": 36.425,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 36.425,
+   "end": 36.621,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "mezclan",
+   "key": false,
+   "start": 36.621,
+   "end": 36.939,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "con",
+   "key": false,
+   "start": 36.939,
+   "end": 37.135,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "siropes",
+   "key": true,
+   "start": 37.135,
+   "end": 37.576,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "pierde",
+   "key": false,
+   "start": 37.716,
+   "end": 38.014,
+   "sentence": 9,
+   "phrase": 2
+  },
+  {
+   "text": "gran",
+   "key": false,
+   "start": 38.014,
+   "end": 38.197,
+   "sentence": 9,
+   "phrase": 2
+  },
+  {
+   "text": "parte",
+   "key": false,
+   "start": 38.197,
+   "end": 38.494,
+   "sentence": 9,
+   "phrase": 2
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 38.494,
+   "end": 38.677,
+   "sentence": 9,
+   "phrase": 2
+  },
+  {
+   "text": "esa",
+   "key": false,
+   "start": 38.677,
+   "end": 38.975,
+   "sentence": 9,
+   "phrase": 2
+  },
+  {
+   "text": "magia",
+   "key": true,
+   "start": 38.975,
+   "end": 39.272,
+   "sentence": 9,
+   "phrase": 2
+  },
+  {
+   "text": "Y",
+   "key": false,
+   "start": 39.632,
+   "end": 39.792,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "ojo",
+   "key": false,
+   "start": 39.792,
+   "end": 40.052,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "si",
+   "key": false,
+   "start": 40.192,
+   "end": 40.405,
+   "sentence": 10,
+   "phrase": 1
+  },
+  {
+   "text": "cristaliza",
+   "key": true,
+   "start": 40.405,
+   "end": 41.02,
+   "sentence": 10,
+   "phrase": 1
+  },
+  {
+   "text": "no",
+   "key": false,
+   "start": 41.16,
+   "end": 41.315,
+   "sentence": 10,
+   "phrase": 2
+  },
+  {
+   "text": "está",
+   "key": false,
+   "start": 41.315,
+   "end": 41.566,
+   "sentence": 10,
+   "phrase": 2
+  },
+  {
+   "text": "mala",
+   "key": false,
+   "start": 41.566,
+   "end": 41.818,
+   "sentence": 10,
+   "phrase": 2
+  },
+  {
+   "text": "Caliéntala",
+   "key": false,
+   "start": 42.178,
+   "end": 42.726,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "al",
+   "key": false,
+   "start": 42.726,
+   "end": 42.916,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "baño",
+   "key": false,
+   "start": 42.916,
+   "end": 43.226,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "maría",
+   "key": false,
+   "start": 43.226,
+   "end": 43.535,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "a",
+   "key": false,
+   "start": 43.675,
+   "end": 43.866,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "menos",
+   "key": false,
+   "start": 43.866,
+   "end": 44.175,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 44.175,
+   "end": 44.365,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "40 °C",
+   "key": true,
+   "start": 44.365,
+   "end": 45.032,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "Para",
+   "key": false,
+   "start": 45.392,
+   "end": 45.669,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "producir",
+   "key": false,
+   "start": 45.669,
+   "end": 46.053,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "un",
+   "key": false,
+   "start": 46.053,
+   "end": 46.224,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "solo",
+   "key": false,
+   "start": 46.224,
+   "end": 46.501,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "kilo",
+   "key": true,
+   "start": 46.501,
+   "end": 46.779,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "las",
+   "key": false,
+   "start": 46.919,
+   "end": 47.099,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "abejas",
+   "key": false,
+   "start": 47.099,
+   "end": 47.504,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "visitan",
+   "key": false,
+   "start": 47.504,
+   "end": 47.909,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "unos",
+   "key": false,
+   "start": 47.909,
+   "end": 48.201,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "4 millones",
+   "key": true,
+   "start": 48.201,
+   "end": 48.831,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 48.831,
+   "end": 49.011,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "flores",
+   "key": true,
+   "start": 49.011,
+   "end": 49.303,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "Tú",
+   "key": false,
+   "start": 49.663,
+   "end": 49.844,
+   "sentence": 13,
+   "phrase": 0
+  },
+  {
+   "text": "guardas",
+   "key": false,
+   "start": 49.844,
+   "end": 50.137,
+   "sentence": 13,
+   "phrase": 0
+  },
+  {
+   "text": "miel",
+   "key": false,
+   "start": 50.137,
+   "end": 50.317,
+   "sentence": 13,
+   "phrase": 0
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 50.317,
+   "end": 50.498,
+   "sentence": 13,
+   "phrase": 0
+  },
+  {
+   "text": "casa",
+   "key": false,
+   "start": 50.498,
+   "end": 50.791,
+   "sentence": 13,
+   "phrase": 0
+  },
+  {
+   "text": "Cuéntamelo",
+   "key": true,
+   "start": 50.931,
+   "end": 51.482,
+   "sentence": 13,
+   "phrase": 1
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 51.482,
+   "end": 51.674,
+   "sentence": 13,
+   "phrase": 1
+  },
+  {
+   "text": "los",
+   "key": false,
+   "start": 51.674,
+   "end": 51.866,
+   "sentence": 13,
+   "phrase": 1
+  },
+  {
+   "text": "comentarios",
+   "key": false,
+   "start": 51.866,
+   "end": 52.417,
+   "sentence": 13,
+   "phrase": 1
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 52.557,
+   "end": 52.732,
+   "sentence": 13,
+   "phrase": 2
+  },
+  {
+   "text": "sígueme",
+   "key": true,
+   "start": 52.732,
+   "end": 53.125,
+   "sentence": 13,
+   "phrase": 2
+  },
+  {
+   "text": "para",
+   "key": false,
+   "start": 53.125,
+   "end": 53.408,
+   "sentence": 13,
+   "phrase": 2
+  },
+  {
+   "text": "más",
+   "key": false,
+   "start": 53.408,
+   "end": 53.583,
+   "sentence": 13,
+   "phrase": 2
+  },
+  {
+   "text": "curiosidades",
+   "key": false,
+   "start": 53.583,
+   "end": 54.194,
+   "sentence": 13,
+   "phrase": 2
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.25,
+   "end": 4.201,
+   "text": "¿Sabías que podrías comerte una *miel de hace {*3.000|tres mil} *años, y estaría *perfecta?"
+  },
+  {
+   "start": 4.561,
+   "end": 9.73,
+   "text": "En las *tumbas del antiguo *Egipto / los arqueólogos encontraron tarros de miel de más de {*3.000|tres mil} años."
+  },
+  {
+   "start": 10.09,
+   "end": 11.546,
+   "text": "Y seguía siendo *comestible."
+  },
+  {
+   "start": 11.906,
+   "end": 15.269,
+   "text": "¿El *secreto? / La miel solo tiene un {*17%|diecisiete por ciento} de *agua."
+  },
+  {
+   "start": 15.629,
+   "end": 19.281,
+   "text": "Las *bacterias que intentan vivir en ella / se deshidratan / y *mueren."
+  },
+  {
+   "start": 19.641,
+   "end": 24.381,
+   "text": "Además / es muy *ácida / su {pH|pe hache} ronda el {*3,9|tres coma nueve} / como el zumo de *naranja."
+  },
+  {
+   "start": 24.741,
+   "end": 29.072,
+   "text": "Y las *abejas le añaden una *enzima / que con la humedad / fabrica *agua *oxigenada."
+  },
+  {
+   "start": 29.432,
+   "end": 30.729,
+   "text": "Un *antiséptico natural."
+  },
+  {
+   "start": 31.089,
+   "end": 34.332,
+   "text": "Pero aquí viene el *problema / no toda la miel del súper es igual."
+  },
+  {
+   "start": 34.692,
+   "end": 39.272,
+   "text": "Si la *calientan demasiado / o la mezclan con *siropes / pierde gran parte de esa *magia."
+  },
+  {
+   "start": 39.632,
+   "end": 41.818,
+   "text": "Y ojo / si *cristaliza / no está mala."
+  },
+  {
+   "start": 42.178,
+   "end": 45.032,
+   "text": "Caliéntala al baño maría / a menos de {*40 °C|cuarenta grados}."
+  },
+  {
+   "start": 45.392,
+   "end": 49.303,
+   "text": "Para producir un solo *kilo / las abejas visitan unos {*4 millones|cuatro millones} de *flores."
+  },
+  {
+   "start": 49.663,
+   "end": 54.194,
+   "text": "¿Tú guardas miel en casa? / *Cuéntamelo en los comentarios / y *sígueme para más curiosidades."
+  }
+ ]
+}

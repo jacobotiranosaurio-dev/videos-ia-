@@ -1,0 +1,16 @@
+# Una frase por línea. "/" = pausa corta (coma). {mostrar|decir} = texto en pantalla distinto del hablado.
+# *palabra = palabra clave resaltada en subtítulos.
+¿Sabías que podrías comerte una *miel de hace {*3.000|tres mil} *años, y estaría *perfecta?
+En las *tumbas del antiguo *Egipto / los arqueólogos encontraron tarros de miel de más de {*3.000|tres mil} años.
+Y seguía siendo *comestible.
+¿El *secreto? / La miel solo tiene un {*17%|diecisiete por ciento} de *agua.
+Las *bacterias que intentan vivir en ella / se deshidratan / y *mueren.
+Además / es muy *ácida / su {pH|pe hache} ronda el {*3,9|tres coma nueve} / como el zumo de *naranja.
+Y las *abejas le añaden una *enzima / que con la humedad / fabrica *agua *oxigenada.
+Un *antiséptico natural.
+Pero aquí viene el *problema / no toda la miel del súper es igual.
+Si la *calientan demasiado / o la mezclan con *siropes / pierde gran parte de esa *magia.
+Y ojo / si *cristaliza / no está mala.
+Caliéntala al baño maría / a menos de {*40 °C|cuarenta grados}.
+Para producir un solo *kilo / las abejas visitan unos {*4 millones|cuatro millones} de *flores.
+¿Tú guardas miel en casa? / *Cuéntamelo en los comentarios / y *sígueme para más curiosidades.
