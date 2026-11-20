@@ -31,10 +31,13 @@
 12. ¿Qué pasa si caes en un agujero negro?
 
 ## Registro de rendimiento
-| Fecha | Short | Views 24 h | Notas |
-|---|---|---|---|
-| 19 nov 20:55 | Lugares prohibidos | — | primer vídeo del canal |
-| 20 nov 09:50 | Envidia | — | |
-| 20 nov 13:50 | Sin humanos | — | |
-| 20 nov 15:50 | Planetas | — | |
-| 20 nov 17:20 | Roma | — | |
+| Publicado | Short | Estado | Views 24 h | Notas |
+|---|---|---|---|---|
+| 19 nov 20:55 | Lugares prohibidos | ✅ [publicado](https://www.youtube.com/shorts/3oJCUS43G20) | pendiente (Metricool tarda 24-48 h) | primer vídeo del canal |
+| 20 nov 09:50 | Envidia | ✅ [publicado](https://www.youtube.com/shorts/baptKWnpFBk) | pendiente | |
+| 20 nov 15:50 | Planetas | ✅ [publicado](https://www.youtube.com/shorts/mW3kiJsVdBY) | pendiente | |
+| 21 nov 15:50 | Sin humanos | programado | — | |
+| 22 nov 15:50 | Roma | programado | — | |
+
+### Revisiones diarias
+- **20 nov:** 3/3 publicaciones correctas. **2 suscriptores** (los primeros del canal). Las visualizaciones por vídeo todavía no han llegado a Metricool. Mejor hora para el sábado 21: 16:00 (y 10:00 como segunda opción).
