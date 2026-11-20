@@ -49,6 +49,17 @@ SCRIPTS = {
  "Lo último en desaparecer: el plástico… y nuestras señales de radio, viajando por el espacio para siempre.",
  "¿Qué crees que quedaría al final? Comenta, y sígueme. Porque si todos los humanos desapareciéramos hoy…",
 ],
+"miel": [
+ "Este tarro de miel podría tener tres mil años… y aun así te lo podrías comer.",
+ "En tumbas del antiguo Egipto, los arqueólogos encontraron tarros de miel de más de tres mil años. Y seguía siendo comestible.",
+ "En Georgia apareció miel de hace cinco mil quinientos años. La más antigua jamás encontrada.",
+ "¿El secreto? Tiene tan poca agua que, si una bacteria la toca, se seca y muere.",
+ "Además es ácida, casi como el zumo de naranja. Y una enzima de las abejas fabrica agua oxigenada dentro de ella.",
+ "Por eso los egipcios ya la usaban para curar heridas.",
+ "Y ojo al dato: una abeja, en toda su vida, produce menos de una décima parte de una cucharadita.",
+ "Consejo: si tu miel se cristaliza, no está mala. Caliéntala al baño maría. Y ciérrala bien: si coge humedad, sí puede fermentar.",
+ "¿Cuánto tiempo lleva la miel de tu casa? Comenta. Y sígueme, porque este tarro de miel podría tener…",
+],
 }
 if __name__ == "__main__":
     tot=0

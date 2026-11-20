@@ -129,6 +129,31 @@ Vídeos finales: `out/<id>.mp4` · Código Remotion: `src/videos/<id>.tsx` · Gu
 
 ---
 
+## 6 · ¿Sabías que la miel puede durar miles de años?  (`miel`, 61 s)
+
+**Hook hablado:** "Este tarro de miel podría tener tres mil años… y aun así te lo podrías comer."
+**Hook visual (0–3 s):** un tarro de miel antiguo y polvoriento que gotea, con el contador "AÑO 2026" que retrocede rápido hasta "AÑO 1000 a. C."; aparece **3.000 AÑOS** con un impacto.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Pirámides y un tarro en la tumba | paneo | **+3.000 AÑOS** · sello "COMESTIBLE ✓" | Tumbas egipcias, ánforas |
+| 2 | Globo terráqueo con un marcador | pull-out | 📍 Georgia · **5.500 AÑOS**, la más antigua del mundo | Excavación arqueológica |
+| 3 | Bacterias que caen en la miel y se secan | push-in | **≈17 % AGUA**: demasiado seca para vivir | Microscopio |
+| 4 | Medidor de pH que baja | tilt | ÁCIDA · 🍊 como el zumo · **H₂O₂** agua oxigenada natural | Enzimas, abejas en el panal |
+| 5 | Papiro con un ánfora | paneo | 🩹 antiséptico natural | Papiro médico egipcio |
+| 6 | Una abeja volando y una cuchara casi vacía | push-in | 👁 OJO AL DATO · **< 1/10 de cucharadita** en toda su vida | Abeja libando |
+| 7 | **Consejos accionables** con un tarro que se cristaliza y se vuelve a fundir | paneo | 💎 Cristalizada no es mala · ♨️ Baño maría (máx. 40 °C) · 🔒 Ciérrala bien | Tarro al baño maría |
+| 8 | Tarro + CTA | pull-out | "¿Cuánto lleva la miel de tu casa?" · SUSCRÍBETE | — |
+
+**CTA:** "¿Cuánto tiempo lleva la miel de tu casa? Comenta. Y sígueme…" → bucle a "este tarro de miel podría tener…".
+
+**Título:** La comida que NUNCA caduca 🍯 (3.000 años y comestible)
+**Descripción:** Encontraron miel en tumbas egipcias… y se podía comer. Te cuento por qué no se estropea y cómo conservar la tuya. ¿Cuánto lleva la miel de tu casa? 👇 #shorts #miel #curiosidades #ciencia #egipto #ojoaldato
+**Comentario fijado:** "La mía lleva 2 años en el armario 😅 ¿y la tuya?"
+**Fuentes:** miel comestible en tumbas egipcias (Smithsonian); miel de Borjomi, Georgia, de unos 5.500 años (2003); contenido de agua del 17–18 % y pH 3,2–4,5; la glucosa oxidasa produce peróxido de hidrógeno; uso medicinal en el papiro Edwin Smith; una abeja produce ≈1/12 de cucharadita en su vida (National Honey Board).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.
