@@ -7,7 +7,7 @@ import {SCENES} from './scenes';
 import {SceneCtx, TOTAL_FRAMES, wordFrame, words} from './timing';
 import {Subtitles} from './Subtitles';
 
-const FADE = 6;
+const FADE = 4;
 const sceneFrom = (i: number) => (i === 0 ? 0 : wordFrame(SCENES[i].anchor) - 4);
 const TIMELINE = SCENES.map((s, i) => {
   const from = sceneFrom(i);

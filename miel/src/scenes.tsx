@@ -626,7 +626,7 @@ const Kilo: React.FC = () => {
   return (
     <g>
       <Rays x={CX} y={1150} o={0.15} />
-      <g transform={`translate(${CX} ${interpolate(drop, [0, 1], [500, 1035])}) scale(0.7)`}>
+      <g transform={`translate(${CX} ${interpolate(drop, [0, 1], [760, 1035])}) scale(0.7)`}>
         <HoneyJar mood="happy" seed={14} label="1 KG" />
       </g>
       {/* báscula */}

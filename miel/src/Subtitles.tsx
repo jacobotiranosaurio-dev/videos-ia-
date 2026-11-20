@@ -63,7 +63,7 @@ export const Subtitles: React.FC = () => {
         flexWrap: 'wrap',
         justifyContent: 'center',
         alignContent: 'center',
-        gap: '6px 22px',
+        gap: '8px 40px',
         transform: `scale(${interpolate(appear, [0, 1], [0.8, 1])})`,
         opacity: appear,
       }}
@@ -72,7 +72,7 @@ export const Subtitles: React.FC = () => {
         const active = t >= w.start - 0.03 && t < w.end + 0.05;
         const said = t >= w.start - 0.03;
         const pop = spring({frame: frame - Math.round(w.start * fps), fps, config: {damping: 10, stiffness: 260}});
-        const scale = active ? interpolate(pop, [0, 1], [0.9, 1.08]) : 1;
+        const lift = active ? interpolate(pop, [0, 1], [10, -6]) : 0;
         const isKeyActive = w.key && said;
         return (
           <span
@@ -87,7 +87,7 @@ export const Subtitles: React.FC = () => {
               display: 'inline-block',
               padding: isKeyActive ? '0 16px' : '0 2px',
               borderRadius: 18,
-              transform: `scale(${scale}) rotate(${isKeyActive ? -2 : 0}deg)`,
+              transform: `translateY(${lift}px) rotate(${isKeyActive ? -2 : 0}deg)`,
               background: isKeyActive ? C.honey : 'transparent',
               boxShadow: isKeyActive ? `0 8px 0 ${C.ink}, 0 0 0 6px ${C.ink}` : 'none',
               color: isKeyActive ? C.ink : said ? C.white : 'rgba(255,255,255,0.5)',
