@@ -40,10 +40,12 @@
 | 20 nov 09:50 | Envidia | ✅ [publicado](https://www.youtube.com/shorts/baptKWnpFBk) | pendiente | |
 | 20 nov 15:50 | Planetas | ✅ [publicado](https://www.youtube.com/shorts/mW3kiJsVdBY) | pendiente | |
 | 21 nov 15:50 | Miel (versión subida fuera de esta sesión) | ✅ [publicado](https://www.youtube.com/shorts/D-ZkMa7L5Ug) con aviso: no se pudo subir la miniatura | pendiente | |
-| 21 nov 20:55 | Sin humanos | programado | — | |
-| 22 nov 15:50 | Miel (versión de esta sesión) | programado | — | ⚠️ posible duplicado del de las 15:50 del 21 nov |
-| 22 nov 20:50 | Roma | programado | — | |
+| 21 nov 20:55 | Sin humanos | ✅ [publicado](https://www.youtube.com/shorts/qcJyfvip0nk) | pendiente | |
+| 22 nov 15:50 | Miel (versión de esta sesión) | ✅ [publicado](https://www.youtube.com/shorts/ywFOAxlQhd4) | pendiente | duplica el tema del 21 nov |
+| 22 nov 20:50 | Carteles electorales | programado | — | tema de actualidad (elecciones) |
+| 23 nov 15:50 | Roma | programado | — | |
 
 ### Revisiones diarias
 - **20 nov:** 3/3 publicaciones correctas. **2 suscriptores** (los primeros del canal). Las visualizaciones por vídeo todavía no han llegado a Metricool. Mejor hora para el sábado 21: 16:00 (y 10:00 como segunda opción).
 - **21 nov:** **5 suscriptores** (+3 hoy). Las visualizaciones por vídeo siguen sin llegar a Metricool. Se ha publicado una versión del Short de la miel a las 15:50 que no se programó desde esta sesión, y la versión de esta sesión está programada para el 22 nov a las 15:50: posible duplicado, pendiente de que el usuario decida. Mejor hora para el domingo 22: 16:00.
+- **22 nov:** **14 suscriptores** (+9 hoy). Primer dato de visualizaciones del canal en Metricool: **1.214 visualizaciones** el 19 nov (día del primer Short). Las dos versiones de la miel se han publicado (21 y 22 nov). Mejor hora para el lunes 23: 16:00 (ahí ya va Roma a las 15:50).
