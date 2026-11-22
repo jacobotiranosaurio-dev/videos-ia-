@@ -2,7 +2,7 @@ import React from 'react';
 import {Composition} from 'remotion';
 import {Short} from './engine/Short';
 import {VideoDef} from './engine/types';
-import {FPS, totalFrames} from './engine/util';
+import {FPS, videoFrames} from './engine/util';
 import {planetas} from './videos/planetas';
 import {prohibidos} from './videos/prohibidos';
 import {envidia} from './videos/envidia';
@@ -22,7 +22,7 @@ const COMPONENTS = VIDEOS.map((v) => {
 export const RemotionRoot: React.FC = () => (
 	<>
 		{COMPONENTS.map(({v, C}) => (
-			<Composition key={v.id} id={v.id} component={C} durationInFrames={totalFrames(v.timing)} fps={FPS} width={1080} height={1920} />
+			<Composition key={v.id} id={v.id} component={C} durationInFrames={videoFrames(v)} fps={FPS} width={1080} height={1920} />
 		))}
 	</>
 );

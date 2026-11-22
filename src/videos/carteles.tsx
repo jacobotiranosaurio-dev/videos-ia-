@@ -1,6 +1,13 @@
 import React from 'react';
 import {AbsoluteFill, interpolate} from 'remotion';
-import timing from '../data/carteles.timing.json';
+import fullTiming from '../data/carteles.timing.json';
+
+// Se quita la frase final "porque si arrancas uno de estos carteles…": la voz se corta tras "sígueme"
+const CUT = 51.85;
+const timing = {
+	...fullTiming,
+	words: fullTiming.words.filter((w) => w.start < CUT).map((w) => (w.text === 'sígueme,' ? {...w, text: 'sígueme.'} : w)),
+};
 import {At, Chip, FollowCTA, Glow, Particles, Stage, Stamp, Stat} from '../engine/kit';
 import {anton, montserrat} from '../engine/fonts';
 import {VideoDef} from '../engine/types';
@@ -57,6 +64,8 @@ const Title: React.FC<{t: string; frame: number; color?: string; size?: number}>
 export const carteles: VideoDef = {
 	id: 'carteles',
 	timing,
+	voiceCutAt: CUT,
+	endAt: 52.9,
 	music: 'music/carteles.mp3',
 	theme: {bg1: '#0b1230', bg2: '#0a0a12', accent: Y, accent2: B, text: '#fff'},
 	label: 'ELECCIONES',

@@ -38,4 +38,6 @@ export type VideoDef = {
 	scenes: SceneDef[];
 	keywords: string[]; // palabras resaltadas en subtítulos (minúsculas, sin acentos)
 	replacements?: {match: string[]; show: string}[]; // "cuatrocientos treinta" -> "430"
+	voiceCutAt?: number; // segundos: la voz se silencia aquí (recorte sin regenerar)
+	endAt?: number; // segundos: duración total del vídeo
 };

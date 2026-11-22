@@ -26,6 +26,9 @@ export const sceneStarts = (t: Timing, fps = FPS): number[] => {
 	return starts;
 };
 
+export const videoFrames = (def: {timing: Timing; endAt?: number}, fps = FPS) =>
+	def.endAt ? Math.round(def.endAt * fps) : totalFrames(def.timing, fps);
+
 export const totalFrames = (t: Timing, fps = FPS) => {
 	const last = t.words[t.words.length - 1];
 	return Math.ceil((last.end + 0.25) * fps);

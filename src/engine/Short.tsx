@@ -4,7 +4,7 @@ import {Audio} from '@remotion/media';
 import {Captions} from './Captions';
 import {montserrat} from './fonts';
 import {VideoDef} from './types';
-import {ease, pop, sceneStarts, totalFrames, wordFrame} from './util';
+import {ease, pop, sceneStarts, videoFrames, wordFrame} from './util';
 
 const Camera: React.FC<{mode: string; frame: number; dur: number; children: React.ReactNode}> = ({mode, frame, dur, children}) => {
 	const p = frame / Math.max(1, dur);
@@ -70,7 +70,7 @@ export const Short: React.FC<{def: VideoDef}> = ({def}) => {
 	const {fps} = useVideoConfig();
 	const {timing, theme} = def;
 	const starts = sceneStarts(timing, fps);
-	const total = totalFrames(timing, fps);
+	const total = videoFrames(def, fps);
 	const ends = starts.map((s, i) => (i < starts.length - 1 ? starts[i + 1] : total));
 	const cams = ['push', 'panL', 'pull', 'tilt', 'panR', 'push', 'shake', 'pull'] as const;
 
@@ -110,7 +110,7 @@ export const Short: React.FC<{def: VideoDef}> = ({def}) => {
 			<AbsoluteFill style={{background: 'linear-gradient(180deg, transparent 55%, rgba(0,0,0,0.45) 72%, rgba(0,0,0,0.2) 100%)'}} />
 			<Brand label={def.label} accent={theme.accent} frame={frame} />
 			<Captions timing={timing} theme={theme} keywords={def.keywords} replacements={def.replacements} />
-			<Audio src={staticFile(`audio/${def.id}.mp3`)} />
+			<Audio src={staticFile(`audio/${def.id}.mp3`)} volume={(f) => (def.voiceCutAt ? Math.max(0, Math.min(1, (def.voiceCutAt * fps - f) / 3)) : 1)} />
 			<Audio src={staticFile(def.music)} volume={(f) => (def.musicVolume ?? 0.13) * Math.min(1, (total - f) / 8)} />
 			{sfx.map((s, i) => (
 				<Sequence key={i} from={s.at} layout="none">
