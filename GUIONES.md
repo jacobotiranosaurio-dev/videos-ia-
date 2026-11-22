@@ -154,6 +154,30 @@ Vídeos finales: `out/<id>.mp4` · Código Remotion: `src/videos/<id>.tsx` · Gu
 
 ---
 
+## 7 · ¿Qué pasa si arrancas un cartel electoral?  (`carteles`, 55 s)
+
+**Hook hablado:** "Si arrancas uno de estos carteles electorales, la broma te puede costar hasta mil euros."
+**Hook visual (0–3 s):** un cartel genérico de "VOTA PARTIDO A" en una pared de noche; una mano lo arranca, la mitad cae rasgada y aparece **1.000 €** con un impacto.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Ayuntamiento y marco de "ESPACIO RESERVADO" | paneo | 🏛️ Ayuntamiento · sello GRATIS (art. 55 LOREG) | Paneles municipales de carteles |
+| 2 | Cuatro carteles iguales y una balanza | pull-out | **IGUALDAD**: mismo espacio para todos | Calle con varios carteles |
+| 3 | Martillo de juez y sello MULTA | temblor | JUNTA ELECTORAL · **100 – 1.000 €** para particulares (art. 153 LOREG) | Junta Electoral |
+| 4 | Un cartel rasgado | tilt | ⚖️ Código Penal · Delito leve de daños · **1 – 3 MESES** de multa · 💶 según tus ingresos (art. 263 CP) | Juzgado |
+| 5 | Megáfono que se silencia | push-in | "¿POR QUÉ TAN SERIO?" · Todos tienen derecho a darse a conocer | Mitin, megáfono |
+| 6 | **Consejos accionables** | paneo | 🚫 No lo toques · 📸 Hazle una foto · 🏛️ Avisa al ayuntamiento o a la Junta Electoral | Móvil haciendo una foto |
+| 7 | Pared de carteles + CTA | pull-out | "¿Has visto alguno arrancado en tu calle?" · SUSCRÍBETE | — |
+
+Los partidos son ficticios (A, B, C y D, con formas genéricas), sin logos ni colores de ningún partido real. El tono es neutral.
+
+**Título:** ¿Arrancar un cartel electoral? Te puede costar 1.000 € 😳
+**Descripción:** Quedan días para las elecciones y las calles están llenas de carteles. ¿Qué pasa si arrancas uno? Multa de la Junta Electoral y hasta delito de daños. Te cuento por qué y qué hacer si ves uno mal puesto 👇 #shorts #elecciones #carteles #ley #curiosidades #ojoaldato
+**Comentario fijado:** "¿Sabías que podía salir tan caro? 👀"
+**Fuentes:** LOREG arts. 55–56 (espacios gratuitos y reparto) y art. 153 (multas de 100–1.000 € a particulares, cuya constitucionalidad confirmó el TC); Código Penal art. 263 (daños; delito leve con multa de 1–3 meses si el perjuicio no supera 400 €).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.

@@ -60,6 +60,16 @@ SCRIPTS = {
  "Consejo: si tu miel se cristaliza, no está mala. Caliéntala al baño maría. Y ciérrala bien: si coge humedad, sí puede fermentar.",
  "¿Cuánto tiempo lleva la miel de tu casa? Comenta. Y sígueme, porque este tarro de miel podría tener…",
 ],
+"carteles": [
+ "Si arrancas uno de estos carteles electorales, la broma te puede costar hasta mil euros.",
+ "No es un papel cualquiera. El ayuntamiento está obligado por ley a ceder espacios gratis para colocarlos.",
+ "Y se reparten en igualdad entre todos los partidos que se presentan.",
+ "Si lo arrancas, la Junta Electoral puede multarte con entre cien y mil euros.",
+ "Y si lo rompes, puede ser un delito leve de daños, con una multa de uno a tres meses calculada según tus ingresos.",
+ "¿Por qué tan serio? Porque en campaña todos tienen derecho a darse a conocer. Arrancar un cartel es quitarle la voz a alguien.",
+ "Consejo: si ves un cartel mal colocado, no lo toques. Hazle una foto y avisa al ayuntamiento o a la Junta Electoral.",
+ "¿Has visto alguno arrancado en tu calle? Comenta. Y sígueme, porque si arrancas uno de estos carteles…",
+],
 }
 if __name__ == "__main__":
     tot=0
