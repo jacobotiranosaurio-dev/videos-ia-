@@ -10,31 +10,23 @@ const Y = '#ffd400';
 const R = '#ff3348';
 const B = '#3fa9ff';
 
-// partidos ficticios (colores y formas genéricas, ninguno real)
+// partidos reales (solo nombre y color, sin logotipos); se trata a todos por igual
 const PARTIES = [
-	{name: 'PARTIDO A', c1: '#7b2ff7', c2: '#c48bff', shape: 'circle'},
-	{name: 'PARTIDO B', c1: '#00a884', c2: '#7affd8', shape: 'triangle'},
-	{name: 'PARTIDO C', c1: '#ff7a00', c2: '#ffd08a', shape: 'square'},
-	{name: 'PARTIDO D', c1: '#e6007e', c2: '#ff9fd2', shape: 'diamond'},
+	{name: 'PSOE', c1: '#e30613', c2: '#ffd1d4'},
+	{name: 'PP', c1: '#1d5bbf', c2: '#cfe2ff'},
+	{name: 'VOX', c1: '#5cb82a', c2: '#e3f7d3'},
+	{name: 'PODEMOS', c1: '#6b2a7e', c2: '#ecd3f5'},
 ] as const;
 
-const Shape: React.FC<{shape: string; color: string; size: number}> = ({shape, color, size}) => (
-	<svg width={size} height={size} viewBox="0 0 100 100">
-		{shape === 'circle' && <circle cx={50} cy={50} r={40} fill={color} />}
-		{shape === 'triangle' && <path d="M50 8 L92 88 L8 88Z" fill={color} />}
-		{shape === 'square' && <rect x={14} y={14} width={72} height={72} rx={10} fill={color} />}
-		{shape === 'diamond' && <path d="M50 6 L94 50 L50 94 L6 50Z" fill={color} />}
-	</svg>
-);
 
 const Poster: React.FC<{p: number; w?: number; tear?: number; frame?: number}> = ({p, w = 300, tear = 0, frame = 0}) => {
 	const P = PARTIES[p % PARTIES.length];
 	const h = w * 1.4;
 	const inner = (
 		<div style={{width: w, height: h, background: `linear-gradient(160deg, ${P.c1}, ${P.c1}cc 60%, #111 140%)`, borderRadius: 8, border: '6px solid #fff', boxShadow: '0 20px 40px rgba(0,0,0,0.5)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: w * 0.06}}>
-			<Shape shape={P.shape} color={P.c2} size={w * 0.38} />
-			<div style={{fontFamily: anton, fontSize: w * 0.26, color: '#fff', lineHeight: 1}}>VOTA</div>
-			<div style={{fontFamily: montserrat, fontWeight: 900, fontSize: w * 0.09, color: P.c2}}>{P.name}</div>
+			<div style={{fontFamily: montserrat, fontWeight: 900, fontSize: w * 0.1, color: P.c2, letterSpacing: 2}}>VOTA</div>
+			<div style={{fontFamily: anton, fontSize: w * (P.name.length > 5 ? 0.2 : 0.3), color: '#fff', lineHeight: 1, textAlign: 'center'}}>{P.name}</div>
+			<div style={{width: w * 0.5, height: w * 0.025, background: P.c2, borderRadius: 4}} />
 		</div>
 	);
 	if (tear <= 0) return inner;
@@ -92,6 +84,11 @@ export const carteles: VideoDef = {
 						<At x={interpolate(frame, [at('broma') + 10, at('broma') + 30], [740, 1000], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} y={handY}>
 							<div style={{fontSize: 170, transform: `rotate(${-20 + tear * 40}deg)`}}>✋</div>
 						</At>
+						{frame >= 8 && (
+							<At x={540} y={20}>
+								<div style={{fontFamily: anton, fontSize: 76, color: R, letterSpacing: 3, WebkitTextStroke: '6px #000', paintOrder: 'stroke fill', transform: `scale(${pop(frame, 8)}) rotate(-4deg) translateX(${Math.sin(frame * 1.3) * 3}px)`, opacity: 0.75 + 0.25 * Math.abs(Math.sin(frame / 6)), textShadow: `0 0 24px ${R}aa`}}>¿CÁRCEL?</div>
+							</At>
+						)}
 						<At x={540} y={800}>
 							<Stat value="1.000 €" label="lo que te puede costar" color={R} frame={frame} at={at('mil')} size={150} count={false} />
 						</At>
@@ -182,7 +179,7 @@ export const carteles: VideoDef = {
 				return (
 					<Stage>
 						<At x={250} y={330}>
-							<Poster p={2} w={280} tear={tear} frame={frame} />
+							<Poster p={1} w={280} tear={tear} frame={frame} />
 						</At>
 						<At x={700} y={280}>
 							<Chip text="⚖️ Código Penal" color="#fff" frame={frame} at={at('delito')} size={42} dark />
@@ -272,9 +269,9 @@ export const carteles: VideoDef = {
 				<Stage>
 					<Glow x={540} y={250} r={380} color={Y} o={0.25} />
 					<div style={{position: 'absolute', top: 40, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 20}}>
-						{[0, 1, 2].map((i) => (
-							<div key={i} style={{transform: `rotate(${(i - 1) * 5}deg) scale(${pop(frame, i * 4)})`}}>
-								<Poster p={i + 1} w={200} tear={i === 1 ? 0.25 : 0} frame={frame} />
+						{[0, 1, 2, 3].map((i) => (
+							<div key={i} style={{transform: `rotate(${(i - 1.5) * 4}deg) scale(${pop(frame, i * 4)})`}}>
+								<Poster p={i} w={200} />
 							</div>
 						))}
 					</div>
