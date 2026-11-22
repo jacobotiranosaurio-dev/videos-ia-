@@ -181,8 +181,15 @@ export const FollowCTA: React.FC<{frame: number; at: number; color: string; ques
 				💬 {question}
 			</div>
 			{frame >= at && (
-				<div style={{transform: `scale(${p2 * pulse})`, background: '#ff0033', color: '#fff', fontFamily: montserrat, fontWeight: 900, fontSize: 58, padding: '18px 50px', borderRadius: 60, boxShadow: '0 0 50px #ff003399'}}>
-					🔔 SUSCRÍBETE
+				<div style={{transform: `scale(${p2 * pulse})`, background: '#ff0033', color: '#fff', fontFamily: montserrat, fontWeight: 900, fontSize: 58, padding: '14px 50px 12px', borderRadius: 60, boxShadow: '0 0 50px #ff003399', display: 'flex', flexDirection: 'column', alignItems: 'center', lineHeight: 1.1}}>
+					<span>🔔 SUSCRÍBETE</span>
+					<span style={{display: 'flex', alignItems: 'center', gap: 8, fontSize: 24, letterSpacing: 3, opacity: 0.85, marginTop: 4}}>
+						<svg width={30} height={18} viewBox="0 0 50 30">
+							<path d="M2 15 Q25 -8 48 15 Q25 38 2 15Z" fill="#fff" />
+							<circle cx={25} cy={15} r={8} fill="#ff0033" />
+						</svg>
+						OJO AL DATO
+					</span>
 				</div>
 			)}
 		</div>

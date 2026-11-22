@@ -108,7 +108,7 @@ export const Short: React.FC<{def: VideoDef}> = ({def}) => {
 			{/* viñeta para legibilidad */}
 			<AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 40%, transparent 55%, rgba(0,0,0,0.55) 100%)'}} />
 			<AbsoluteFill style={{background: 'linear-gradient(180deg, transparent 55%, rgba(0,0,0,0.45) 72%, rgba(0,0,0,0.2) 100%)'}} />
-			<Brand label={def.label} accent={theme.accent} frame={frame} />
+			{def.showBrand && <Brand label={def.label} accent={theme.accent} frame={frame} />}
 			<Captions timing={timing} theme={theme} keywords={def.keywords} replacements={def.replacements} />
 			<Audio src={staticFile(`audio/${def.id}.mp3`)} volume={(f) => (def.voiceCutAt ? Math.max(0, Math.min(1, (def.voiceCutAt * fps - f) / 3)) : 1)} />
 			<Audio src={staticFile(def.music)} volume={(f) => (def.musicVolume ?? 0.13) * Math.min(1, (total - f) / 8)} />

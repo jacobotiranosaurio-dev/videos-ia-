@@ -12,6 +12,9 @@
 - Cuota de ElevenLabs (gratuita): unos 3.150 caracteres hasta el 20 de diciembre de 2026, que dan para unos 4 Shorts de ~750 caracteres.
 - Horas de publicación: 10 minutos antes del pico de cada día según Metricool.
 
+## Estilo fijo (decidido por el usuario)
+- Desde el 22 nov: **sin el cartel superior "OJO AL DATO · …"**. La marca va solo, discreta, dentro del botón final de "Suscríbete" (`FollowCTA`). Para recuperar el cartel en un vídeo concreto: `showBrand: true`.
+
 ## Requisitos
 - El repositorio tiene que seguir **público** para que Metricool pueda descargar los MP4 (después los copia a su propio almacenamiento).
 - Voz: Liam (ElevenLabs, multilingual v2). Música: generada con `data/music.py`.

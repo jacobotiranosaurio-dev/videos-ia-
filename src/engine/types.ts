@@ -40,4 +40,5 @@ export type VideoDef = {
 	replacements?: {match: string[]; show: string}[]; // "cuatrocientos treinta" -> "430"
 	voiceCutAt?: number; // segundos: la voz se silencia aquí (recorte sin regenerar)
 	endAt?: number; // segundos: duración total del vídeo
+	showBrand?: boolean; // cartel superior "OJO AL DATO · …" (desactivado por defecto desde el 22 nov)
 };
