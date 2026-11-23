@@ -304,7 +304,7 @@ const NoVale: React.FC = () => {
   return (
     <g>
       <g transform={`translate(${CX} 1180) scale(0.9)`}><SmallGround lights={0} crowd={0} seed="nv" /></g>
-      <g transform={`translate(${CX} 1130) rotate(-12) scale(${interpolate(s, [0, 1], [2.5, 1])})`} opacity={s > 0.02 ? 1 : 0}>
+      <g transform={`translate(${CX} 1130) rotate(-12) scale(${interpolate(s, [0, 1], [3.2, 1.45])})`} opacity={s > 0.02 ? 1 : 0}>
         <rect x={-260} y={-90} width={520} height={180} rx={24} fill="none" stroke={C.red} strokeWidth={18} />
         <text y={42} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={120} fill={C.red}>NO VALE</text>
       </g>
@@ -485,8 +485,8 @@ const Obras: React.FC = () => {
       <Enter at={0} dx={-500} dy={0}>
         <g transform={`translate(${CX - 260} 1450) scale(0.95)`}><Crane t={f} /></g>
       </Enter>
-      <Pop x={CX + 160} y={1130} at={w(134)}>
-        <g transform="scale(0.85)"><Stopwatch p={interpolate(f, [w(134), w(135, 20)], [0, 0.85], clamp)} /></g>
+      <Pop x={CX + 160} y={1130} at={6}>
+        <g transform="scale(0.85)"><Stopwatch p={interpolate(f, [6, w(135, 20)], [0, 0.85], clamp)} /></g>
       </Pop>
       <Label text="CONTRARRELOJ" x={CX} y={650} at={w(135)} size={70} bg={C.honey} rot={-3} />
     </g>
