@@ -77,7 +77,7 @@ const Title: React.FC<{t: string; frame: number; color?: string; size?: number}>
 export const copa: VideoDef = {
 	id: 'copa',
 	timing,
-	endAt: 62.6, // 1 s de pantalla final tras "Y sígueme" (pausa tras "Rey." acortada 0,3 s)
+	endAt: 59.4, // 1 s de pantalla final tras "Y sígueme" (silencios acortados con data/tighten.py)
 	music: 'music/copa.mp3',
 	theme: {bg1: '#050a18', bg2: '#062612', accent: GOLD, accent2: '#7fd8ff', text: '#fff'},
 	label: 'FÚTBOL',

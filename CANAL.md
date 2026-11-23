@@ -15,6 +15,7 @@
 ## Estilo fijo (decidido por el usuario)
 - Desde el 22 nov: **sin el cartel superior "OJO AL DATO · …"**. La marca va solo, discreta, dentro del botón final de "Suscríbete" (`FollowCTA`). Para recuperar el cartel en un vídeo concreto: `showBrand: true`.
 - Desde el 23 nov: **todo el contenido 70 px más abajo** (escenario `top 370`, subtítulos `top 1260`) para que quede más centrado. Sigue lejos de la zona del nombre de la cuenta.
+- Desde el 23 nov: **voz más ágil**. Tras generar la voz se ejecuta `python3 data/tighten.py <id>`, que acorta los silencios largos (máx. ~0,22 s tras punto y ~0,14 s entre palabras) sin regenerar la voz.
 
 ## Requisitos
 - El repositorio tiene que seguir **público** para que Metricool pueda descargar los MP4 (después los copia a su propio almacenamiento).
