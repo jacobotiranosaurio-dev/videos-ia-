@@ -12,8 +12,9 @@ import {miel} from './videos/miel';
 import {carteles} from './videos/carteles';
 import {votoobligatorio} from './videos/votoobligatorio';
 import {blanconulo} from './videos/blanconulo';
+import {copa} from './videos/copa';
 
-const VIDEOS: VideoDef[] = [planetas, prohibidos, envidia, roma, sinhumanos, miel, carteles, votoobligatorio, blanconulo];
+const VIDEOS: VideoDef[] = [planetas, prohibidos, envidia, roma, sinhumanos, miel, carteles, votoobligatorio, blanconulo, copa];
 
 // Cada vídeo es un componente propio (las funciones no pueden ir en props serializadas)
 const COMPONENTS = VIDEOS.map((v) => {

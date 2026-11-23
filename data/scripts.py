@@ -91,6 +91,17 @@ SCRIPTS = {
  "Consejo: si quieres que tu voto cuente, el blanco cuenta y el nulo no. Elige sabiendo lo que haces.",
  "¿Tú sabías la diferencia? Comenta. Y sígueme.",
 ],
+"copa": [
+ "Hoy ha sido el sorteo de la Copa del Rey. Pero, ¿sabías por qué siempre juega en casa el equipo modesto?",
+ "Desde dos mil diecinueve, la Copa se juega a partido único hasta semifinales.",
+ "Y la norma es clara: si los dos equipos son de distinta categoría, juega en casa el de categoría inferior.",
+ "¿Por qué? Para darle una ventaja real al pequeño. Su campo, su gente, su césped.",
+ "Y funciona: en dos mil veintiuno, el Alcoyano, de Segunda B, eliminó al Real Madrid en su propio estadio.",
+ "Además, para un club humilde es un premio enorme: estadio lleno, televisión y una inyección de dinero que muchos necesitan.",
+ "¿Y si su campo no cumple los requisitos, como la iluminación o la seguridad? Entonces el partido se juega en otro estadio que sí los cumpla.",
+ "Y si los dos son de la misma categoría, decide el sorteo: el primero que sale, juega en casa.",
+ "¿Qué cruce tienes más ganas de ver? Comenta. Y sígueme.",
+],
 }
 if __name__ == "__main__":
     tot=0

@@ -227,6 +227,31 @@ Las papeletas son genéricas, sin partidos reales. El tono es neutral e informat
 
 ---
 
+## 10 · ¿Por qué juega en casa el equipo modesto? (Copa del Rey)  (`copa`, 63 s)
+
+**Hook hablado:** "Hoy ha sido el sorteo de la Copa del Rey. Pero, ¿sabías por qué siempre juega en casa el equipo modesto?"
+**Hook visual (0–3 s):** estadio de noche con focos y público, el título "SORTEO DE COPA", un bombo con bolas girando del que sale la bola "1" y el trofeo dorado brillando.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Formato | pull-out | **DESDE 2019** · sello **1 SOLO PARTIDO** · ⚽ Hasta semifinales | Imágenes del sorteo |
+| 2 | Escudo de 1ª División vs escudo de categoría inferior; la 🏠 pasa al pequeño | paneo | LA NORMA · sello **LOCAL** | Campo modesto |
+| 3 | Tres tarjetas | push-in | 🏟️ Su campo · 📣 Su gente · 🌱 Su césped | Grada llena |
+| 4 | Marcador | temblor | **2021** · ALCOYANO (Segunda B) **2–1** R. MADRID (1ª) · sello **ELIMINADO** | Celebración de un modesto |
+| 5 | Tarjetas con lluvia de monedas | tilt | UN PREMIO ENORME · 🏟️ LLENO · 📺 TV · 💶 DINERO | Taquilla |
+| 6 | Foco apagado y escudo de seguridad; el autobús se va a otro estadio | paneo | ¿Y SI EL CAMPO NO CUMPLE? · Iluminación ✗ · Seguridad ✗ · Se juega en OTRO estadio ✓ | Estadio alternativo |
+| 7 | Bombo que saca la bola "1º" | push-in | ¿MISMA CATEGORÍA? · sello **LOCAL** | Sorteo |
+| 8 | Trofeo + CTA (sin bucle) | pull-out | "¿Qué cruce tienes más ganas de ver?" · SUSCRÍBETE + marca discreta | — |
+
+Sin escudos ni logotipos reales; solo se nombra a los equipos en el marcador.
+
+**Título:** ¿Por qué el equipo PEQUEÑO juega en casa en la Copa? ⚽🏆
+**Descripción:** Hoy ha sido el sorteo de la Copa del Rey. Te explico por qué el modesto juega en casa, qué pasa si su campo no cumple y qué ocurre si son de la misma categoría. ¿Qué cruce quieres ver? 👇 #shorts #copadelrey #futbol #sorteo #curiosidades #ojoaldato
+**Comentario fijado:** "¿Habrá otro Alcoyano este año? 👀"
+**Fuentes:** RFEF (formato de la Copa del Rey 2026/27: partido único hasta semifinales; local el de inferior categoría si su campo cumple los requisitos mínimos; en la misma categoría decide el sorteo); sorteo del 23 nov 2026 en Las Rozas; Alcoyano 2–1 Real Madrid (dieciseisavos, 20 ene 2021).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.
