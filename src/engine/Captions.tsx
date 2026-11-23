@@ -79,7 +79,7 @@ export const Captions: React.FC<{
 	const fontSize = Math.min(88, Math.floor(820 / (maxLen * 0.8)));
 	return (
 		// Zona segura: lejos de la barra inferior (título/canal) y de los botones de la derecha
-		<AbsoluteFill style={{top: 1190, height: 290, left: 60, width: 860, alignItems: 'center', justifyContent: 'center'}}>
+		<AbsoluteFill style={{top: 1260, height: 290, left: 60, width: 860, alignItems: 'center', justifyContent: 'center'}}>
 			<div
 				style={{
 					display: 'flex',

@@ -4,7 +4,7 @@ import {anton, montserrat} from './fonts';
 import {ease, pop, rand} from './util';
 
 // Escenario central (zona visual segura: entre la cabecera y los subtítulos)
-export const Stage: React.FC<{children: React.ReactNode; top?: number; height?: number}> = ({children, top = 300, height = 860}) => (
+export const Stage: React.FC<{children: React.ReactNode; top?: number; height?: number}> = ({children, top = 370, height = 860}) => (
 	<div style={{position: 'absolute', left: 0, width: 1080, top, height}}>{children}</div>
 );
 

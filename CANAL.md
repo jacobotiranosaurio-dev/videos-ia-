@@ -14,6 +14,7 @@
 
 ## Estilo fijo (decidido por el usuario)
 - Desde el 22 nov: **sin el cartel superior "OJO AL DATO · …"**. La marca va solo, discreta, dentro del botón final de "Suscríbete" (`FollowCTA`). Para recuperar el cartel en un vídeo concreto: `showBrand: true`.
+- Desde el 23 nov: **todo el contenido 70 px más abajo** (escenario `top 370`, subtítulos `top 1260`) para que quede más centrado. Sigue lejos de la zona del nombre de la cuenta.
 
 ## Requisitos
 - El repositorio tiene que seguir **público** para que Metricool pueda descargar los MP4 (después los copia a su propio almacenamiento).
