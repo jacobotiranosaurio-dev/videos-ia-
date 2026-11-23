@@ -21,7 +21,7 @@ const buildTokens = (
 			if (m.every((x, k) => ws[i + k] && norm(ws[i + k].text) === x)) {
 				const last = ws[i + m.length - 1];
 				const trail = last.text.match(/[.,:?!…]+$/)?.[0] ?? '';
-				out.push({text: r.show + trail, start: ws[i].start, end: last.end, scene: ws[i].scene, key: true});
+				out.push({text: r.show.endsWith(trail) ? r.show : r.show + trail, start: ws[i].start, end: last.end, scene: ws[i].scene, key: true});
 				i += m.length - 1;
 				done = true;
 				break;
