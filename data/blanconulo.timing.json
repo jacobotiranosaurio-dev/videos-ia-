@@ -1,0 +1,940 @@
+{
+ "duration": 55.849796,
+ "words": [
+  {
+   "text": "Votar",
+   "start": 0.0,
+   "end": 0.313,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 0.36,
+   "end": 0.406,
+   "scene": 0
+  },
+  {
+   "text": "blanco",
+   "start": 0.441,
+   "end": 0.743,
+   "scene": 0
+  },
+  {
+   "text": "y",
+   "start": 0.778,
+   "end": 0.801,
+   "scene": 0
+  },
+  {
+   "text": "votar",
+   "start": 0.848,
+   "end": 1.103,
+   "scene": 0
+  },
+  {
+   "text": "nulo",
+   "start": 1.173,
+   "end": 1.428,
+   "scene": 0
+  },
+  {
+   "text": "no",
+   "start": 1.521,
+   "end": 1.66,
+   "scene": 0
+  },
+  {
+   "text": "es",
+   "start": 1.707,
+   "end": 1.776,
+   "scene": 0
+  },
+  {
+   "text": "lo",
+   "start": 1.834,
+   "end": 1.904,
+   "scene": 0
+  },
+  {
+   "text": "mismo.",
+   "start": 1.962,
+   "end": 2.415,
+   "scene": 0
+  },
+  {
+   "text": "Y",
+   "start": 2.833,
+   "end": 2.914,
+   "scene": 0
+  },
+  {
+   "text": "uno",
+   "start": 3.007,
+   "end": 3.158,
+   "scene": 0
+  },
+  {
+   "text": "de",
+   "start": 3.204,
+   "end": 3.286,
+   "scene": 0
+  },
+  {
+   "text": "ellos",
+   "start": 3.332,
+   "end": 3.576,
+   "scene": 0
+  },
+  {
+   "text": "puede",
+   "start": 3.646,
+   "end": 3.855,
+   "scene": 0
+  },
+  {
+   "text": "dejar",
+   "start": 3.901,
+   "end": 4.156,
+   "scene": 0
+  },
+  {
+   "text": "fuera",
+   "start": 4.226,
+   "end": 4.493,
+   "scene": 0
+  },
+  {
+   "text": "a",
+   "start": 4.528,
+   "end": 4.551,
+   "scene": 0
+  },
+  {
+   "text": "los",
+   "start": 4.586,
+   "end": 4.69,
+   "scene": 0
+  },
+  {
+   "text": "partidos",
+   "start": 4.737,
+   "end": 5.108,
+   "scene": 0
+  },
+  {
+   "text": "pequeños.",
+   "start": 5.155,
+   "end": 5.817,
+   "scene": 0
+  },
+  {
+   "text": "Voto",
+   "start": 6.385,
+   "end": 6.676,
+   "scene": 1
+  },
+  {
+   "text": "en",
+   "start": 6.722,
+   "end": 6.769,
+   "scene": 1
+  },
+  {
+   "text": "blanco:",
+   "start": 6.803,
+   "end": 7.326,
+   "scene": 1
+  },
+  {
+   "text": "metes",
+   "start": 7.523,
+   "end": 7.837,
+   "scene": 1
+  },
+  {
+   "text": "el",
+   "start": 7.895,
+   "end": 7.953,
+   "scene": 1
+  },
+  {
+   "text": "sobre",
+   "start": 8.022,
+   "end": 8.29,
+   "scene": 1
+  },
+  {
+   "text": "vacío,",
+   "start": 8.324,
+   "end": 8.8,
+   "scene": 1
+  },
+  {
+   "text": "sin",
+   "start": 8.916,
+   "end": 9.125,
+   "scene": 1
+  },
+  {
+   "text": "papeleta.",
+   "start": 9.183,
+   "end": 9.81,
+   "scene": 1
+  },
+  {
+   "text": "Y",
+   "start": 10.17,
+   "end": 10.252,
+   "scene": 1
+  },
+  {
+   "text": "cuenta",
+   "start": 10.344,
+   "end": 10.623,
+   "scene": 1
+  },
+  {
+   "text": "como",
+   "start": 10.67,
+   "end": 10.844,
+   "scene": 1
+  },
+  {
+   "text": "voto",
+   "start": 10.89,
+   "end": 11.111,
+   "scene": 1
+  },
+  {
+   "text": "válido.",
+   "start": 11.157,
+   "end": 11.668,
+   "scene": 1
+  },
+  {
+   "text": "Y",
+   "start": 12.028,
+   "end": 12.121,
+   "scene": 2
+  },
+  {
+   "text": "ahí",
+   "start": 12.202,
+   "end": 12.365,
+   "scene": 2
+  },
+  {
+   "text": "está",
+   "start": 12.434,
+   "end": 12.655,
+   "scene": 2
+  },
+  {
+   "text": "la",
+   "start": 12.725,
+   "end": 12.783,
+   "scene": 2
+  },
+  {
+   "text": "clave:",
+   "start": 12.829,
+   "end": 13.317,
+   "scene": 2
+  },
+  {
+   "text": "para",
+   "start": 13.584,
+   "end": 13.781,
+   "scene": 2
+  },
+  {
+   "text": "entrar",
+   "start": 13.804,
+   "end": 14.095,
+   "scene": 2
+  },
+  {
+   "text": "en",
+   "start": 14.129,
+   "end": 14.176,
+   "scene": 2
+  },
+  {
+   "text": "el",
+   "start": 14.222,
+   "end": 14.28,
+   "scene": 2
+  },
+  {
+   "text": "reparto",
+   "start": 14.35,
+   "end": 14.698,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 14.744,
+   "end": 14.802,
+   "scene": 2
+  },
+  {
+   "text": "escaños,",
+   "start": 14.837,
+   "end": 15.522,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 15.685,
+   "end": 15.778,
+   "scene": 2
+  },
+  {
+   "text": "partido",
+   "start": 15.836,
+   "end": 16.184,
+   "scene": 2
+  },
+  {
+   "text": "necesita",
+   "start": 16.23,
+   "end": 16.695,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 16.788,
+   "end": 16.892,
+   "scene": 2
+  },
+  {
+   "text": "mínimo",
+   "start": 16.973,
+   "end": 17.31,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 17.357,
+   "end": 17.415,
+   "scene": 2
+  },
+  {
+   "text": "votos",
+   "start": 17.449,
+   "end": 17.74,
+   "scene": 2
+  },
+  {
+   "text": "válidos.",
+   "start": 17.798,
+   "end": 18.378,
+   "scene": 2
+  },
+  {
+   "text": "En",
+   "start": 18.796,
+   "end": 18.924,
+   "scene": 2
+  },
+  {
+   "text": "el",
+   "start": 18.982,
+   "end": 19.052,
+   "scene": 2
+  },
+  {
+   "text": "Congreso,",
+   "start": 19.11,
+   "end": 19.679,
+   "scene": 2
+  },
+  {
+   "text": "el",
+   "start": 19.748,
+   "end": 19.876,
+   "scene": 2
+  },
+  {
+   "text": "tres",
+   "start": 19.957,
+   "end": 20.131,
+   "scene": 2
+  },
+  {
+   "text": "por",
+   "start": 20.189,
+   "end": 20.317,
+   "scene": 2
+  },
+  {
+   "text": "ciento.",
+   "start": 20.363,
+   "end": 20.816,
+   "scene": 2
+  },
+  {
+   "text": "Cuantos",
+   "start": 21.478,
+   "end": 21.826,
+   "scene": 3
+  },
+  {
+   "text": "más",
+   "start": 21.884,
+   "end": 22.012,
+   "scene": 3
+  },
+  {
+   "text": "votos",
+   "start": 22.07,
+   "end": 22.326,
+   "scene": 3
+  },
+  {
+   "text": "en",
+   "start": 22.395,
+   "end": 22.453,
+   "scene": 3
+  },
+  {
+   "text": "blanco,",
+   "start": 22.5,
+   "end": 23.08,
+   "scene": 3
+  },
+  {
+   "text": "más",
+   "start": 23.278,
+   "end": 23.487,
+   "scene": 3
+  },
+  {
+   "text": "alto",
+   "start": 23.556,
+   "end": 23.777,
+   "scene": 3
+  },
+  {
+   "text": "es",
+   "start": 23.835,
+   "end": 23.916,
+   "scene": 3
+  },
+  {
+   "text": "ese",
+   "start": 23.986,
+   "end": 24.125,
+   "scene": 3
+  },
+  {
+   "text": "mínimo…",
+   "start": 24.183,
+   "end": 24.671,
+   "scene": 3
+  },
+  {
+   "text": "y",
+   "start": 25.031,
+   "end": 25.1,
+   "scene": 3
+  },
+  {
+   "text": "más",
+   "start": 25.182,
+   "end": 25.333,
+   "scene": 3
+  },
+  {
+   "text": "difícil",
+   "start": 25.367,
+   "end": 25.774,
+   "scene": 3
+  },
+  {
+   "text": "lo",
+   "start": 25.797,
+   "end": 25.867,
+   "scene": 3
+  },
+  {
+   "text": "tienen",
+   "start": 25.913,
+   "end": 26.145,
+   "scene": 3
+  },
+  {
+   "text": "los",
+   "start": 26.192,
+   "end": 26.296,
+   "scene": 3
+  },
+  {
+   "text": "partidos",
+   "start": 26.354,
+   "end": 26.726,
+   "scene": 3
+  },
+  {
+   "text": "pequeños.",
+   "start": 26.772,
+   "end": 27.411,
+   "scene": 3
+  },
+  {
+   "text": "Voto",
+   "start": 28.305,
+   "end": 28.595,
+   "scene": 4
+  },
+  {
+   "text": "nulo:",
+   "start": 28.653,
+   "end": 29.048,
+   "scene": 4
+  },
+  {
+   "text": "una",
+   "start": 29.245,
+   "end": 29.408,
+   "scene": 4
+  },
+  {
+   "text": "papeleta",
+   "start": 29.454,
+   "end": 29.872,
+   "scene": 4
+  },
+  {
+   "text": "escrita,",
+   "start": 29.895,
+   "end": 30.418,
+   "scene": 4
+  },
+  {
+   "text": "tachada,",
+   "start": 30.453,
+   "end": 31.056,
+   "scene": 4
+  },
+  {
+   "text": "o",
+   "start": 31.289,
+   "end": 31.37,
+   "scene": 4
+  },
+  {
+   "text": "dos",
+   "start": 31.428,
+   "end": 31.567,
+   "scene": 4
+  },
+  {
+   "text": "papeletas",
+   "start": 31.625,
+   "end": 32.101,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 32.136,
+   "end": 32.194,
+   "scene": 4
+  },
+  {
+   "text": "partidos",
+   "start": 32.252,
+   "end": 32.659,
+   "scene": 4
+  },
+  {
+   "text": "distintos",
+   "start": 32.693,
+   "end": 33.204,
+   "scene": 4
+  },
+  {
+   "text": "en",
+   "start": 33.262,
+   "end": 33.309,
+   "scene": 4
+  },
+  {
+   "text": "el",
+   "start": 33.367,
+   "end": 33.425,
+   "scene": 4
+  },
+  {
+   "text": "mismo",
+   "start": 33.471,
+   "end": 33.727,
+   "scene": 4
+  },
+  {
+   "text": "sobre.",
+   "start": 33.773,
+   "end": 34.214,
+   "scene": 4
+  },
+  {
+   "text": "Ese",
+   "start": 34.632,
+   "end": 34.841,
+   "scene": 5
+  },
+  {
+   "text": "voto",
+   "start": 34.876,
+   "end": 35.062,
+   "scene": 5
+  },
+  {
+   "text": "no",
+   "start": 35.108,
+   "end": 35.178,
+   "scene": 5
+  },
+  {
+   "text": "cuenta",
+   "start": 35.224,
+   "end": 35.491,
+   "scene": 5
+  },
+  {
+   "text": "para",
+   "start": 35.538,
+   "end": 35.712,
+   "scene": 5
+  },
+  {
+   "text": "nada.",
+   "start": 35.782,
+   "end": 36.176,
+   "scene": 5
+  },
+  {
+   "text": "Solo",
+   "start": 36.838,
+   "end": 37.082,
+   "scene": 5
+  },
+  {
+   "text": "suma",
+   "start": 37.128,
+   "end": 37.361,
+   "scene": 5
+  },
+  {
+   "text": "como",
+   "start": 37.407,
+   "end": 37.57,
+   "scene": 5
+  },
+  {
+   "text": "que",
+   "start": 37.616,
+   "end": 37.686,
+   "scene": 5
+  },
+  {
+   "text": "fuiste",
+   "start": 37.744,
+   "end": 38.046,
+   "scene": 5
+  },
+  {
+   "text": "a",
+   "start": 38.092,
+   "end": 38.115,
+   "scene": 5
+  },
+  {
+   "text": "votar.",
+   "start": 38.162,
+   "end": 38.673,
+   "scene": 5
+  },
+  {
+   "text": "Y",
+   "start": 39.334,
+   "end": 39.439,
+   "scene": 6
+  },
+  {
+   "text": "ojo",
+   "start": 39.555,
+   "end": 39.752,
+   "scene": 6
+  },
+  {
+   "text": "al",
+   "start": 39.787,
+   "end": 39.857,
+   "scene": 6
+  },
+  {
+   "text": "dato:",
+   "start": 39.926,
+   "end": 40.379,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 40.739,
+   "end": 40.867,
+   "scene": 6
+  },
+  {
+   "text": "metes",
+   "start": 40.913,
+   "end": 41.169,
+   "scene": 6
+  },
+  {
+   "text": "dos",
+   "start": 41.227,
+   "end": 41.389,
+   "scene": 6
+  },
+  {
+   "text": "papeletas",
+   "start": 41.447,
+   "end": 41.935,
+   "scene": 6
+  },
+  {
+   "text": "del",
+   "start": 41.981,
+   "end": 42.086,
+   "scene": 6
+  },
+  {
+   "text": "mismo",
+   "start": 42.132,
+   "end": 42.341,
+   "scene": 6
+  },
+  {
+   "text": "partido,",
+   "start": 42.376,
+   "end": 42.957,
+   "scene": 6
+  },
+  {
+   "text": "no",
+   "start": 43.189,
+   "end": 43.328,
+   "scene": 6
+  },
+  {
+   "text": "es",
+   "start": 43.386,
+   "end": 43.433,
+   "scene": 6
+  },
+  {
+   "text": "nulo.",
+   "start": 43.491,
+   "end": 43.885,
+   "scene": 6
+  },
+  {
+   "text": "Cuenta",
+   "start": 44.187,
+   "end": 44.489,
+   "scene": 6
+  },
+  {
+   "text": "como",
+   "start": 44.536,
+   "end": 44.733,
+   "scene": 6
+  },
+  {
+   "text": "un",
+   "start": 44.872,
+   "end": 45.012,
+   "scene": 6
+  },
+  {
+   "text": "solo",
+   "start": 45.093,
+   "end": 45.372,
+   "scene": 6
+  },
+  {
+   "text": "voto.",
+   "start": 45.43,
+   "end": 45.86,
+   "scene": 6
+  },
+  {
+   "text": "Consejo:",
+   "start": 46.161,
+   "end": 46.858,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 47.16,
+   "end": 47.288,
+   "scene": 7
+  },
+  {
+   "text": "quieres",
+   "start": 47.334,
+   "end": 47.531,
+   "scene": 7
+  },
+  {
+   "text": "que",
+   "start": 47.566,
+   "end": 47.636,
+   "scene": 7
+  },
+  {
+   "text": "tu",
+   "start": 47.682,
+   "end": 47.764,
+   "scene": 7
+  },
+  {
+   "text": "voto",
+   "start": 47.81,
+   "end": 48.042,
+   "scene": 7
+  },
+  {
+   "text": "cuente,",
+   "start": 48.112,
+   "end": 48.681,
+   "scene": 7
+  },
+  {
+   "text": "el",
+   "start": 48.774,
+   "end": 48.901,
+   "scene": 7
+  },
+  {
+   "text": "blanco",
+   "start": 48.936,
+   "end": 49.192,
+   "scene": 7
+  },
+  {
+   "text": "cuenta",
+   "start": 49.25,
+   "end": 49.575,
+   "scene": 7
+  },
+  {
+   "text": "y",
+   "start": 49.633,
+   "end": 49.656,
+   "scene": 7
+  },
+  {
+   "text": "el",
+   "start": 49.691,
+   "end": 49.761,
+   "scene": 7
+  },
+  {
+   "text": "nulo",
+   "start": 49.83,
+   "end": 50.028,
+   "scene": 7
+  },
+  {
+   "text": "no.",
+   "start": 50.086,
+   "end": 50.399,
+   "scene": 7
+  },
+  {
+   "text": "Elige",
+   "start": 50.701,
+   "end": 51.049,
+   "scene": 7
+  },
+  {
+   "text": "sabiendo",
+   "start": 51.096,
+   "end": 51.49,
+   "scene": 7
+  },
+  {
+   "text": "lo",
+   "start": 51.525,
+   "end": 51.595,
+   "scene": 7
+  },
+  {
+   "text": "que",
+   "start": 51.641,
+   "end": 51.723,
+   "scene": 7
+  },
+  {
+   "text": "haces.",
+   "start": 51.769,
+   "end": 52.21,
+   "scene": 7
+  },
+  {
+   "text": "¿Tú",
+   "start": 52.442,
+   "end": 52.64,
+   "scene": 8
+  },
+  {
+   "text": "sabías",
+   "start": 52.686,
+   "end": 52.988,
+   "scene": 8
+  },
+  {
+   "text": "la",
+   "start": 53.046,
+   "end": 53.093,
+   "scene": 8
+  },
+  {
+   "text": "diferencia?",
+   "start": 53.139,
+   "end": 53.801,
+   "scene": 8
+  },
+  {
+   "text": "Comenta.",
+   "start": 53.998,
+   "end": 54.648,
+   "scene": 8
+  },
+  {
+   "text": "Y",
+   "start": 54.95,
+   "end": 55.043,
+   "scene": 8
+  },
+  {
+   "text": "sígueme.",
+   "start": 55.136,
+   "end": 55.821,
+   "scene": 8
+  }
+ ],
+ "scenes": [
+  "Votar en blanco y votar nulo no es lo mismo. Y uno de ellos puede dejar fuera a los partidos pequeños.",
+  "Voto en blanco: metes el sobre vacío, sin papeleta. Y cuenta como voto válido.",
+  "Y ahí está la clave: para entrar en el reparto de escaños, un partido necesita un mínimo de votos válidos. En el Congreso, el tres por ciento.",
+  "Cuantos más votos en blanco, más alto es ese mínimo… y más difícil lo tienen los partidos pequeños.",
+  "Voto nulo: una papeleta escrita, tachada, o dos papeletas de partidos distintos en el mismo sobre.",
+  "Ese voto no cuenta para nada. Solo suma como que fuiste a votar.",
+  "Y ojo al dato: si metes dos papeletas del mismo partido, no es nulo. Cuenta como un solo voto.",
+  "Consejo: si quieres que tu voto cuente, el blanco cuenta y el nulo no. Elige sabiendo lo que haces.",
+  "¿Tú sabías la diferencia? Comenta. Y sígueme."
+ ]
+}

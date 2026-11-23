@@ -80,6 +80,17 @@ SCRIPTS = {
  "¿Y en España? Votar no es obligatorio. Pero si te toca estar en una mesa electoral y no vas, puede ser delito.",
  "¿Crees que en España debería ser obligatorio? Comenta. Y sígueme.",
 ],
+"blanconulo": [
+ "Votar en blanco y votar nulo no es lo mismo. Y uno de ellos puede dejar fuera a los partidos pequeños.",
+ "Voto en blanco: metes el sobre vacío, sin papeleta. Y cuenta como voto válido.",
+ "Y ahí está la clave: para entrar en el reparto de escaños, un partido necesita un mínimo de votos válidos. En el Congreso, el tres por ciento.",
+ "Cuantos más votos en blanco, más alto es ese mínimo… y más difícil lo tienen los partidos pequeños.",
+ "Voto nulo: una papeleta escrita, tachada, o dos papeletas de partidos distintos en el mismo sobre.",
+ "Ese voto no cuenta para nada. Solo suma como que fuiste a votar.",
+ "Y ojo al dato: si metes dos papeletas del mismo partido, no es nulo. Cuenta como un solo voto.",
+ "Consejo: si quieres que tu voto cuente, el blanco cuenta y el nulo no. Elige sabiendo lo que haces.",
+ "¿Tú sabías la diferencia? Comenta. Y sígueme.",
+],
 }
 if __name__ == "__main__":
     tot=0

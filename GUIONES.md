@@ -202,6 +202,31 @@ Los partidos son ficticios (A, B, C y D, con formas genéricas), sin logos ni co
 
 ---
 
+## 9 · Voto en blanco vs voto nulo: no es lo mismo  (`blanconulo`, 57 s)
+
+**Hook hablado:** "Votar en blanco y votar nulo no es lo mismo. Y uno de ellos puede dejar fuera a los partidos pequeños."
+**Hook visual (0–3 s):** la pantalla está dividida en azul y rojo, con BLANCO a un lado (sobre que se abre vacío) y NULO al otro (papeleta tachada). En el centro, "VS" se convierte en un "≠" gigante.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Sobre vacío | pull-out | 📭 Sobre vacío · sello **VÁLIDO ✓** | Urna, sobre |
+| 2 | Gráfico de barras con la línea del mínimo | tilt | LA CLAVE · **3 %**, mínimo en el Congreso | Recuento |
+| 3 | Se apilan sobres en blanco, sube el mínimo y el partido pequeño queda FUERA | push-in | + BLANCOS = MÍNIMO MÁS ALTO | — |
+| 4 | Papeleta escrita, papeleta tachada, dos papeletas distintas | paneo | VOTO NULO · ✍️ Escrita · ❌ Tachada · 2 partidos | — |
+| 5 | Papeleta en gris | temblor | sello **NO CUENTA** · Solo suma como participación | — |
+| 6 | Dos papeletas iguales que se funden en una | push-in | 👁 OJO AL DATO · **= 1 VOTO ✓** (mismo partido) | — |
+| 7 | **Consejo** (tabla) | paneo | BLANCO: CUENTA ✓ · NULO: NO CUENTA ✗ · Elige sabiendo lo que haces | — |
+| 8 | CTA (sin bucle) | pull-out | "¿Tú sabías la diferencia?" · SUSCRÍBETE + marca discreta | — |
+
+Las papeletas son genéricas, sin partidos reales. El tono es neutral e informativo.
+
+**Título:** Voto en BLANCO vs NULO: no es lo mismo 🗳️ (y casi nadie lo sabe)
+**Descripción:** El voto en blanco cuenta como válido y sube el mínimo para entrar en el reparto. El nulo no cuenta para nada. Y dos papeletas del mismo partido… no anulan tu voto 👀 ¿Lo sabías? 👇 #shorts #elecciones #votoenblanco #votonulo #curiosidades #ojoaldato
+**Comentario fijado:** "¿Sabías lo de las dos papeletas del mismo partido? 👀"
+**Fuentes:** LOREG art. 96 (voto nulo; sobre sin papeleta = voto en blanco válido; varias papeletas de la misma candidatura = un voto válido) y art. 163.1.a (mínimo del 3 % de los votos válidos en el Congreso); Instrucción 1/2012 de la Junta Electoral Central (alteraciones que anulan la papeleta).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.
