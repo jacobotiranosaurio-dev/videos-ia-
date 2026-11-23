@@ -1,8 +1,8 @@
 # Una frase por línea. "/" = pausa corta (coma). {mostrar|decir} = texto en pantalla distinto del hablado.
 # *palabra = palabra clave resaltada en subtítulos.
-El *premio escondido del *sorteo de la Copa del Rey / no es pasar de ronda.
-Es jugar en *casa.
-En la primera eliminatoria entran {*112|ciento doce} equipos / y se juegan {*56|cincuenta y seis} partidos a partido *único.
+Acaba de salir el *sorteo de la Copa del Rey.
+Pero / ¿sabías por qué juega en *casa / el equipo *modesto?
+En la primera eliminatoria entraron {*112|ciento doce} equipos / y se jugaron {*56|cincuenta y seis} partidos a partido *único.
 La regla es clara / juega de *local / el equipo de *menor categoría.
 Para un club humilde / es su campo lleno hasta la *bandera / la *taquilla de su vida / y un *grande pisando su césped.
 Pero aquí viene el *problema / no vale cualquier campo.

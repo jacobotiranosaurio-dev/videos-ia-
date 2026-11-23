@@ -46,8 +46,6 @@ const Hook: React.FC = () => {
       <Enter at={0}>
         <g transform={`translate(${CX} 1080) scale(1.05)`}><Bombo /></g>
       </Enter>
-      <QMark x={150} y={800} at={w(1)} rot={-14} />
-      <QMark x={780} y={760} at={w(2)} rot={12} size={110} />
       <Label text="SORTEO" x={CX} y={640} at={w(4)} size={84} rot={-4} />
       <Pop x={CX + 270} y={1380} at={w(7)} rot={8}>
         <g transform="scale(0.45)"><Float amp={16} speed={0.15}><Trophy /></Float></g>
@@ -93,11 +91,13 @@ const Casa: React.FC = () => {
         <rect x={-290} y={-60} width={580} height={400} rx={30} fill={C.cream} {...S} strokeWidth={10} />
         <g transform="translate(0 200) scale(0.6)"><Pitch w={900} h={360} /></g>
       </Pop>
-      <Pop x={CX} y={1080} at={w(16)}>
+      <Pop x={CX} y={1080} at={w(14)}>
         <g transform="scale(0.85)"><Float amp={12} speed={0.2}><Ball mood="happy" arms="wave" seed={1} /></Float></g>
       </Pop>
-      <Label text="JUGAR EN CASA" x={CX} y={650} at={w(18)} size={66} bg={C.green} rot={-3} />
-      <Badge ok x={CX + 300} y={820} at={w(18, 4)} r={70} />
+      <Label text="¿POR QUÉ EN CASA?" x={CX} y={650} at={w(16)} size={60} bg={C.green} rot={-3} />
+      <QMark x={150} y={830} at={w(11)} rot={-14} />
+      <QMark x={780} y={800} at={w(13)} rot={12} size={110} />
+      <Label text="MODESTO" x={CX} y={1450} at={w(19)} size={56} bg={C.red} fg={C.white} rot={3} />
     </g>
   );
 };
@@ -105,7 +105,7 @@ const Casa: React.FC = () => {
 const Equipos: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const shown = interpolate(f, [2, w(25)], [0, 112], clamp);
+  const shown = interpolate(f, [2, w(26)], [0, 112], clamp);
   const dots = [];
   for (let i = 0; i < 112; i++) {
     const c = i % 11;
@@ -121,8 +121,8 @@ const Equipos: React.FC = () => {
   return (
     <g>
       {dots}
-      <Counter to={112} a={w(22)} b={w(24, 6)} x={CX} y={640} size={170} color={C.honey} at={w(21)} />
-      <Label text="EQUIPOS" x={CX} y={790} at={w(25)} size={56} bg={C.cream} rot={3} />
+      <Counter to={112} a={w(23)} b={w(25, 6)} x={CX} y={640} size={170} color={C.honey} at={w(22)} />
+      <Label text="EQUIPOS" x={CX} y={790} at={w(26)} size={56} bg={C.cream} rot={3} />
     </g>
   );
 };
@@ -138,9 +138,9 @@ const Partidos: React.FC = () => {
       <Pop x={CX} y={1180} at={8}>
         <text textAnchor="middle" y={30} fontFamily={FONT} fontWeight={900} fontSize={90} fill={C.white} stroke={C.ink} strokeWidth={12} paintOrder="stroke">VS</text>
       </Pop>
-      <Counter to={56} a={w(28)} b={w(29, 8)} x={CX} y={650} size={170} color={C.honey} at={w(27)} />
-      <Label text="PARTIDOS" x={CX} y={800} at={w(30)} size={54} bg={C.cream} rot={-3} out={w(33, -3)} />
-      <Label text="PARTIDO ÚNICO" x={CX} y={800} at={w(33)} size={64} bg={C.teal} rot={3} />
+      <Counter to={56} a={w(29)} b={w(30, 8)} x={CX} y={650} size={170} color={C.honey} at={w(28)} />
+      <Label text="PARTIDOS" x={CX} y={800} at={w(31)} size={54} bg={C.cream} rot={-3} out={w(34, -3)} />
+      <Label text="PARTIDO ÚNICO" x={CX} y={800} at={w(34)} size={64} bg={C.teal} rot={3} />
     </g>
   );
 };
@@ -161,7 +161,7 @@ const Regla: React.FC = () => {
         </g>
       </Pop>
       {/* silbato */}
-      <Pop x={CX + 250} y={900} at={w(37)} rot={-15}>
+      <Pop x={CX + 250} y={900} at={w(38)} rot={-15}>
         <g transform={`rotate(${Math.sin(f * 0.8) * 8})`}>
           <path d="M -90 -40 L 60 -40 Q 110 -40 110 10 Q 110 60 60 60 L -10 60 Q -90 60 -90 -20 Z" fill={C.steel} {...S} />
           <rect x={-150} y={-40} width={70} height={36} rx={8} fill={C.steel} {...S} />
@@ -170,9 +170,9 @@ const Regla: React.FC = () => {
       </Pop>
       {[0, 1, 2].map((i) => (
         <path key={i} d={`M ${CX + 380} ${860 + i * 40} l 60 ${-20 + i * 20}`} stroke={C.white} strokeWidth={10} strokeLinecap="round"
-          opacity={f > w(37, 4) ? 0.5 + 0.5 * Math.sin(f * 0.6 + i) : 0} />
+          opacity={f > w(38, 4) ? 0.5 + 0.5 * Math.sin(f * 0.6 + i) : 0} />
       ))}
-      <Label text="REGLA CLARA" x={CX} y={650} at={w(37)} size={70} rot={-3} />
+      <Label text="REGLA CLARA" x={CX} y={650} at={w(38)} size={70} rot={-3} />
     </g>
   );
 };
@@ -193,8 +193,8 @@ const Local: React.FC = () => {
           <Player {...GRANDE} mood="wow" look={[-1, 0]} hair={C.ink} skin={C.skin2} seed={2} num="10" />
         </g>
       </Enter>
-      <Label text="LOCAL" x={CX - 200} y={790} at={w(40)} size={70} bg={C.green} rot={-5} />
-      <Arrow d={`M ${CX - 200} 850 Q ${CX - 240} 880 ${CX - 210} 905`} head={[CX - 210, 905, 70]} at={w(40, 3)} />
+      <Label text="LOCAL" x={CX - 200} y={790} at={w(41)} size={70} bg={C.green} rot={-5} />
+      <Arrow d={`M ${CX - 200} 850 Q ${CX - 240} 880 ${CX - 210} 905`} head={[CX - 210, 905, 70]} at={w(41, 3)} />
     </g>
   );
 };
@@ -202,16 +202,16 @@ const Local: React.FC = () => {
 const Categoria: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const hi = f >= w(44) ? 5 : -1;
+  const hi = f >= w(45) ? 5 : -1;
   return (
     <g>
       <Enter at={0}>
         <g transform={`translate(${CX} 940) scale(1.15)`}><Ladder hi={hi} /></g>
       </Enter>
-      <Pop x={120} y={1060} at={w(44, 3)}>
+      <Pop x={120} y={1060} at={w(45, 3)}>
         <g transform="scale(0.45)"><Player {...MODESTO} mood="happy" arm="up" seed={3} /></g>
       </Pop>
-      <Label text="MENOR CATEGORÍA" x={CX} y={650} at={w(44)} size={58} bg={C.honey} rot={-3} />
+      <Label text="MENOR CATEGORÍA" x={CX} y={650} at={w(45)} size={58} bg={C.honey} rot={-3} />
     </g>
   );
 };
@@ -219,21 +219,21 @@ const Categoria: React.FC = () => {
 const Humilde: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const crowd = interpolate(f, [w(52), w(54)], [0.15, 1], clamp);
+  const crowd = interpolate(f, [w(53), w(55)], [0.15, 1], clamp);
   return (
     <g>
       <Enter at={0}>
         <g transform={`translate(${CX} 1150) scale(0.95)`}><SmallGround crowd={crowd} lights={0.6} seed="hu" /></g>
       </Enter>
-      {f >= w(56) - 2
+      {f >= w(57) - 2
         ? [-300, -60, 200].map((x, i) => (
-            <Pop key={i} x={CX + x} y={890} at={w(56, i * 2)}>
+            <Pop key={i} x={CX + x} y={890} at={w(57, i * 2)}>
               <line x1={0} y1={0} x2={0} y2={-150} stroke={C.ink} strokeWidth={8} />
               <path d={`M 0 -150 Q 60 ${-160 + Math.sin(f * 0.4 + i) * 15} 120 -150 L 120 -90 Q 60 ${-100 + Math.sin(f * 0.4 + i) * 15} 0 -90 Z`} fill={i === 1 ? C.white : C.red} {...S} strokeWidth={5} />
             </Pop>
           ))
         : null}
-      <Label text="¡LLENO!" x={CX} y={650} at={w(56)} size={84} bg={C.red} fg={C.white} rot={-4} />
+      <Label text="¡LLENO!" x={CX} y={650} at={w(57)} size={84} bg={C.red} fg={C.white} rot={-4} />
     </g>
   );
 };
@@ -254,7 +254,7 @@ const Taquilla: React.FC = () => {
         const y = 760 + ((t * (10 + random('cv' + i) * 6) + random('co' + i) * 700) % 760);
         return <g key={i} transform={`translate(${x} ${y}) rotate(${t * 9}) scale(${0.6 + random('cs' + i) * 0.4})`}><Coin /></g>;
       })}
-      <Label text="TAQUILLA" x={CX} y={650} at={w(58)} size={84} rot={-3} />
+      <Label text="TAQUILLA" x={CX} y={650} at={w(59)} size={84} rot={-3} />
     </g>
   );
 };
@@ -262,7 +262,7 @@ const Taquilla: React.FC = () => {
 const Grande: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const drop = spring({frame: f - w(63), fps: 30, config: {damping: 10, stiffness: 120}});
+  const drop = spring({frame: f - w(64), fps: 30, config: {damping: 10, stiffness: 120}});
   return (
     <g>
       <g transform={`translate(${CX} 1260) scale(0.8)`}><SmallGround lights={0.6} crowd={1} seed="gr" /></g>
@@ -271,8 +271,8 @@ const Grande: React.FC = () => {
       <g transform={`translate(${CX + 160} ${interpolate(drop, [0, 1], [400, 1180])}) scale(1.05)`}>
         <Player {...GRANDE} mood="happy" look={[-1, 0.4]} hair={C.honey} seed={6} num="9" arm="up" />
       </g>
-      {f > w(64, 4) ? <Sparkles x={CX + 160} y={950} spread={240} n={8} at={w(64, 4)} seed="st" /> : null}
-      <Label text="UN GRANDE" x={CX} y={650} at={w(64)} size={78} bg={C.cream} rot={-3} />
+      {f > w(65, 4) ? <Sparkles x={CX + 160} y={950} spread={240} n={8} at={w(65, 4)} seed="st" /> : null}
+      <Label text="UN GRANDE" x={CX} y={650} at={w(65)} size={78} bg={C.cream} rot={-3} />
     </g>
   );
 };
@@ -285,22 +285,22 @@ const Twist: React.FC = () => {
     <g>
       <rect x={0} y={0} width={1080} height={1920} fill={C.white} opacity={flash} />
       <Rays x={CX} y={1120} o={0.12} color={C.white} n={10} />
-      <Pop x={CX} y={1130} at={w(68)}>
+      <Pop x={CX} y={1130} at={w(69)}>
         <g transform={`rotate(${Math.sin(f * 0.9) * 4})`}>
           <path d="M 0 -300 L 300 230 L -300 230 Z" fill={C.honey} {...S} strokeWidth={14} />
           <rect x={-26} y={-150} width={52} height={230} rx={26} fill={C.ink} />
           <circle cx={0} cy={150} r={32} fill={C.ink} />
         </g>
       </Pop>
-      <Label text="PERO…" x={CX - 160} y={650} at={w(68)} size={78} bg={C.cream} rot={-6} out={w(72, -3)} />
-      <Label text="¡PROBLEMA!" x={CX} y={650} at={w(72)} size={84} bg={C.red} fg={C.white} rot={3} />
+      <Label text="PERO…" x={CX - 160} y={650} at={w(69)} size={78} bg={C.cream} rot={-6} out={w(73, -3)} />
+      <Label text="¡PROBLEMA!" x={CX} y={650} at={w(73)} size={84} bg={C.red} fg={C.white} rot={3} />
     </g>
   );
 };
 
 const NoVale: React.FC = () => {
   const w = useW();
-  const s = usePop(w(75), {damping: 8, stiffness: 200, mass: 0.6});
+  const s = usePop(w(76), {damping: 8, stiffness: 200, mass: 0.6});
   return (
     <g>
       <g transform={`translate(${CX} 1180) scale(0.9)`}><SmallGround lights={0} crowd={0} seed="nv" /></g>
@@ -308,7 +308,7 @@ const NoVale: React.FC = () => {
         <rect x={-260} y={-90} width={520} height={180} rx={24} fill="none" stroke={C.red} strokeWidth={18} />
         <text y={42} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={120} fill={C.red}>NO VALE</text>
       </g>
-      <Label text="CUALQUIER CAMPO" x={CX} y={650} at={w(75)} size={58} bg={C.cream} rot={-3} />
+      <Label text="CUALQUIER CAMPO" x={CX} y={650} at={w(76)} size={58} bg={C.cream} rot={-3} />
     </g>
   );
 };
@@ -316,16 +316,16 @@ const NoVale: React.FC = () => {
 const Luz: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const on = interpolate(f, [w(80), w(80, 3)], [0, 1], clamp) * (f < w(80, 6) ? (f % 2 ? 1 : 0.4) : 1);
+  const on = interpolate(f, [w(81), w(81, 3)], [0, 1], clamp) * (f < w(81, 6) ? (f % 2 ? 1 : 0.4) : 1);
   return (
     <g>
       <rect x={0} y={0} width={1080} height={1920} fill={C.honeyLight} opacity={on * 0.08} />
       <Floodlight x={250} y={1180} s={0.9} on={on} />
-      <Pop x={CX + 150} y={1230} at={w(82)}>
+      <Pop x={CX + 150} y={1230} at={w(83)}>
         <g transform="scale(1.15)"><TVCamera /></g>
       </Pop>
-      <Label text="LUZ PARA LA TELE" x={CX} y={650} at={w(80)} size={60} bg={C.honey} rot={-3} />
-      <Badge ok x={CX + 300} y={830} at={w(83)} r={65} />
+      <Label text="LUZ PARA LA TELE" x={CX} y={650} at={w(81)} size={60} bg={C.honey} rot={-3} />
+      <Badge ok x={CX + 300} y={830} at={w(84)} r={65} />
     </g>
   );
 };
@@ -354,7 +354,7 @@ const Aforo: React.FC = () => {
   return (
     <g>
       {seats}
-      <Label text="AFORO SUFICIENTE" x={CX} y={650} at={w(84)} size={58} bg={C.teal} rot={3} />
+      <Label text="AFORO SUFICIENTE" x={CX} y={650} at={w(85)} size={58} bg={C.teal} rot={3} />
     </g>
   );
 };
@@ -374,7 +374,7 @@ const Cesped: React.FC = () => {
       <rect x={-20} y={1500} width={1120} height={500} fill={C.grassDark} />
       {blades}
       {/* calendario */}
-      <Pop x={CX} y={1000} at={w(91)}>
+      <Pop x={CX} y={1000} at={w(92)}>
         <g transform="rotate(-4)">
           <rect x={-170} y={-170} width={340} height={340} rx={30} fill={C.white} {...S} strokeWidth={10} />
           <rect x={-170} y={-170} width={340} height={90} rx={30} fill={C.red} {...S} strokeWidth={10} />
@@ -382,14 +382,14 @@ const Cesped: React.FC = () => {
           <circle cx={90} cy={-170} r={16} fill={C.ink} />
           <text y={-108} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={40} fill={C.white}>MÁXIMO</text>
           <text y={70} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={150} fill={C.ink}>
-            {Math.round(interpolate(f, [w(92), w(94)], [1, 8], clamp))}
+            {Math.round(interpolate(f, [w(93), w(95)], [1, 8], clamp))}
           </text>
           <text y={140} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={44} fill={C.ink}>AÑOS</text>
         </g>
       </Pop>
-      <Label text="NATURAL" x={CX - 190} y={760} at={w(88)} size={52} bg={C.green} rot={-5} />
-      <Label text="ARTIFICIAL" x={CX + 170} y={800} at={w(90)} size={52} bg={C.teal} rot={5} />
-      <Label text="MENOS DE 8 AÑOS" x={CX} y={650} at={w(94)} size={60} bg={C.honey} rot={-2} />
+      <Label text="NATURAL" x={CX - 190} y={760} at={w(89)} size={52} bg={C.green} rot={-5} />
+      <Label text="ARTIFICIAL" x={CX + 170} y={800} at={w(91)} size={52} bg={C.teal} rot={5} />
+      <Label text="MENOS DE 8 AÑOS" x={CX} y={650} at={w(95)} size={60} bg={C.honey} rot={-2} />
     </g>
   );
 };
@@ -397,18 +397,18 @@ const Cesped: React.FC = () => {
 const Mudanza: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const go = interpolate(f, [w(100), w(102, 6)], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
+  const go = interpolate(f, [w(101), w(103, 6)], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
   const x = interpolate(go, [0, 1], [-500, CX]);
   return (
     <g>
       <rect x={-20} y={1340} width={1120} height={120} fill="#3A4466" />
       <path d="M 0 1400 L 1080 1400" stroke={C.white} strokeWidth={10} strokeDasharray="60 50" strokeDashoffset={-f * 8} />
-      <QMark x={CX} y={1000} at={w(97)} size={220} />
+      <QMark x={CX} y={1000} at={w(98)} size={220} />
       <g transform={`translate(${x + 40} ${1300 + Math.sin(f * 0.8) * 3 * (1 - go)}) scale(0.95)`} opacity={go > 0 ? 1 : 0}>
         <Truck t={f} />
       </g>
-      <Label text="¿Y SI NO CUMPLE?" x={CX} y={650} at={w(96)} size={60} bg={C.cream} rot={-3} out={w(101, -3)} />
-      <Label text="A OTRO ESTADIO" x={CX} y={650} at={w(101)} size={62} bg={C.red} fg={C.white} rot={3} />
+      <Label text="¿Y SI NO CUMPLE?" x={CX} y={650} at={w(97)} size={60} bg={C.cream} rot={-3} out={w(102, -3)} />
+      <Label text="A OTRO ESTADIO" x={CX} y={650} at={w(102)} size={62} bg={C.red} fg={C.white} rot={3} />
     </g>
   );
 };
@@ -424,8 +424,8 @@ const Tavernes: React.FC = () => {
           <Float amp={8} speed={0.15}><Player {...MODESTO} mood="happy" arm="up" seed={7} /></Float>
         </g>
       </Enter>
-      <Label text="TAVERNES" x={CX} y={650} at={w(108)} size={80} bg={C.red} fg={C.white} rot={-3} />
-      <Label text="CATEGORÍA REGIONAL" x={CX} y={800} at={w(113)} size={46} bg={C.cream} rot={3} />
+      <Label text="TAVERNES" x={CX} y={650} at={w(109)} size={80} bg={C.red} fg={C.white} rot={-3} />
+      <Label text="CATEGORÍA REGIONAL" x={CX} y={800} at={w(114)} size={46} bg={C.cream} rot={3} />
     </g>
   );
 };
@@ -439,11 +439,11 @@ const Mestalla: React.FC = () => {
       <Enter at={0} dy={700}>
         <g transform={`translate(${CX} 1130) scale(0.82)`}><BigStadium name={undefined} seed="me" /></g>
       </Enter>
-      <Pop x={CX} y={1400} at={w(118)}>
+      <Pop x={CX} y={1400} at={w(119)}>
         <rect x={-210} y={-48} width={420} height={96} rx={20} fill={C.ink} />
         <text y={20} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={60} fill={C.white}>MESTALLA</text>
       </Pop>
-      <Label text="VS VALENCIA" x={CX} y={650} at={w(116)} size={66} bg={C.white} rot={-3} />
+      <Label text="VS VALENCIA" x={CX} y={650} at={w(117)} size={66} bg={C.white} rot={-3} />
     </g>
   );
 };
@@ -451,8 +451,8 @@ const Mestalla: React.FC = () => {
 const Visitante: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const flip = f >= w(125);
-  const blink = flip && Math.floor((f - w(125)) / 4) % 2 === 0;
+  const flip = f >= w(126);
+  const blink = flip && Math.floor((f - w(126)) / 4) % 2 === 0;
   return (
     <g>
       <Enter at={0} dy={-600}>
@@ -470,9 +470,9 @@ const Visitante: React.FC = () => {
       <g transform={`translate(${CX} 1370) scale(0.62)`}>
         <Player {...GRANDE} mood={flip ? 'wow' : 'worried'} look={[0, -1]} hair={C.ink} skin={C.skin2} seed={8} />
       </g>
-      <QMark x={CX - 230} y={1150} at={w(125)} rot={-12} size={120} />
-      <QMark x={CX + 240} y={1110} at={w(126)} rot={12} size={100} />
-      <Label text="¡VISITANTE EN CASA!" x={CX} y={650} at={w(125)} size={54} bg={C.red} fg={C.white} rot={-2} />
+      <QMark x={CX - 230} y={1150} at={w(126)} rot={-12} size={120} />
+      <QMark x={CX + 240} y={1110} at={w(127)} rot={12} size={100} />
+      <Label text="¡VISITANTE EN CASA!" x={CX} y={650} at={w(126)} size={54} bg={C.red} fg={C.white} rot={-2} />
     </g>
   );
 };
@@ -486,9 +486,9 @@ const Obras: React.FC = () => {
         <g transform={`translate(${CX - 260} 1450) scale(0.95)`}><Crane t={f} /></g>
       </Enter>
       <Pop x={CX + 160} y={1130} at={6}>
-        <g transform="scale(0.85)"><Stopwatch p={interpolate(f, [6, w(135, 20)], [0, 0.85], clamp)} /></g>
+        <g transform="scale(0.85)"><Stopwatch p={interpolate(f, [6, w(136, 20)], [0, 0.85], clamp)} /></g>
       </Pop>
-      <Label text="CONTRARRELOJ" x={CX} y={650} at={w(135)} size={70} bg={C.honey} rot={-3} />
+      <Label text="CONTRARRELOJ" x={CX} y={650} at={w(136)} size={70} bg={C.honey} rot={-3} />
     </g>
   );
 };
@@ -496,7 +496,7 @@ const Obras: React.FC = () => {
 const Gradas: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const lights = f >= w(139) ? interpolate(f, [w(139), w(139, 4)], [0, 1], clamp) : 0;
+  const lights = f >= w(140) ? interpolate(f, [w(140), w(140, 4)], [0, 1], clamp) : 0;
   return (
     <g>
       <g transform={`translate(${CX} 1260) scale(0.85)`}>
@@ -504,7 +504,7 @@ const Gradas: React.FC = () => {
       </g>
       {/* gradas supletorias de andamio */}
       {[-1, 1].map((side) => (
-        <Pop key={side} x={CX + side * 320} y={1000} at={w(136, side > 0 ? 3 : 0)}>
+        <Pop key={side} x={CX + side * 320} y={1000} at={w(137, side > 0 ? 3 : 0)}>
           <g>
             <Crowd x={-150} y={-110} w={300} rows={2} size={18} seed={'sup' + side} />
             <rect x={-150} y={-40} width={300} height={22} rx={6} fill={C.steel} {...S} strokeWidth={5} />
@@ -514,8 +514,8 @@ const Gradas: React.FC = () => {
           </g>
         </Pop>
       ))}
-      <Label text="GRADAS SUPLETORIAS" x={CX} y={650} at={w(136)} size={52} bg={C.cream} rot={-2} out={w(139, -3)} />
-      <Label text="FOCOS NUEVOS" x={CX} y={650} at={w(139)} size={66} bg={C.honey} rot={3} />
+      <Label text="GRADAS SUPLETORIAS" x={CX} y={650} at={w(137)} size={52} bg={C.cream} rot={-2} out={w(140, -3)} />
+      <Label text="FOCOS NUEVOS" x={CX} y={650} at={w(140)} size={66} bg={C.honey} rot={3} />
     </g>
   );
 };
@@ -523,8 +523,8 @@ const Gradas: React.FC = () => {
 const Prefieres: React.FC = () => {
   const w = useW();
   const f = useCurrentFrame();
-  const left = f >= w(144) && f < w(147);
-  const right = f >= w(147);
+  const left = f >= w(145) && f < w(148);
+  const right = f >= w(148);
   return (
     <g>
       <Pop x={CX - 220} y={1100} at={2}>
@@ -543,9 +543,9 @@ const Prefieres: React.FC = () => {
         <circle r={70} fill={C.red} {...S} />
         <text y={26} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={64} fill={C.white}>VS</text>
       </Pop>
-      <Label text="PEQUEÑO" x={CX - 220} y={1380} at={w(144)} size={50} bg={C.cream} rot={-4} />
-      <Label text="GRANDE" x={CX + 220} y={1380} at={w(147)} size={50} bg={C.honey} rot={4} />
-      <Label text="¿TÚ QUÉ PREFIERES?" x={CX} y={650} at={w(141)} size={56} bg={C.teal} rot={-2} />
+      <Label text="PEQUEÑO" x={CX - 220} y={1380} at={w(145)} size={50} bg={C.cream} rot={-4} />
+      <Label text="GRANDE" x={CX + 220} y={1380} at={w(148)} size={50} bg={C.honey} rot={4} />
+      <Label text="¿TÚ QUÉ PREFIERES?" x={CX} y={650} at={w(142)} size={56} bg={C.teal} rot={-2} />
     </g>
   );
 };
@@ -562,15 +562,15 @@ const CTA: React.FC = () => {
           <Float amp={14} speed={0.18}><Ball mood="happy" arms="wave" seed={9} spin={Math.sin(f * 0.1) * 10} /></Float>
         </g>
       </Enter>
-      <Pop x={CX + 230} y={900} at={w(150)} rot={6}>
+      <Pop x={CX + 230} y={900} at={w(151)} rot={6}>
         <path d="M -150 -90 Q -150 -130 -110 -130 L 110 -130 Q 150 -130 150 -90 L 150 40 Q 150 80 110 80 L -40 80 L -90 140 L -80 80 L -110 80 Q -150 80 -150 40 Z" fill={C.white} {...S} />
         <circle cx={-60} cy={-25} r={18} fill={C.ink} />
         <circle cx={0} cy={-25} r={18} fill={C.ink} />
         <circle cx={60} cy={-25} r={18} fill={C.ink} />
       </Pop>
-      <Label text="COMENTA" x={CX - 40} y={640} at={w(153)} size={66} bg={C.cream} rot={-4} out={w(155, -3)} />
-      <Pop x={CX} y={640} at={w(155)} rot={-2}>
-        <g transform={`scale(${1 + Math.max(0, Math.sin((f - w(155)) * 0.25)) * 0.05})`}>
+      <Label text="COMENTA" x={CX - 40} y={640} at={w(154)} size={66} bg={C.cream} rot={-4} out={w(156, -3)} />
+      <Pop x={CX} y={640} at={w(156)} rot={-2}>
+        <g transform={`scale(${1 + Math.max(0, Math.sin((f - w(156)) * 0.25)) * 0.05})`}>
           <rect x={-250} y={-70} width={500} height={140} rx={70} fill={C.red} {...S} strokeWidth={10} />
           <text x={30} y={26} textAnchor="middle" fontFamily={FONT} fontWeight={900} fontSize={72} fill={C.white}>SÍGUEME</text>
           <g transform={`translate(-185 0) rotate(${Math.sin(f * 0.8) * 15})`}>
@@ -579,7 +579,7 @@ const CTA: React.FC = () => {
           </g>
         </g>
       </Pop>
-      <Sparkles x={CX} y={1100} spread={380} n={10} at={w(155)} seed="cta" />
+      <Sparkles x={CX} y={1100} spread={380} n={10} at={w(156)} seed="cta" />
     </g>
   );
 };
@@ -589,27 +589,26 @@ const PITCHBG: [string, string] = ['#0F2A3D', '#1F6B4A'];
 
 export const SCENES: SceneDef[] = [
   {id: 'hook', anchor: 0, bg: NIGHT, C: Hook},
-  {id: 'ronda', anchor: 10, bg: ['#1A1745', '#3A2F7A'], C: Ronda},
-  {id: 'casa', anchor: 15, bg: ['#123A2A', '#2FA84F'], C: Casa},
-  {id: 'equipos', anchor: 19, bg: NIGHT, C: Equipos},
-  {id: 'partidos', anchor: 26, bg: PITCHBG, C: Partidos},
-  {id: 'regla', anchor: 34, bg: ['#1A1745', '#3A2F7A'], C: Regla},
-  {id: 'local', anchor: 38, bg: PITCHBG, C: Local},
-  {id: 'categoria', anchor: 43, bg: NIGHT, C: Categoria},
-  {id: 'humilde', anchor: 46, bg: ['#0F1B3D', '#3A2F7A'], C: Humilde},
-  {id: 'taquilla', anchor: 57, bg: ['#2A1F05', '#8A6A10'], C: Taquilla},
-  {id: 'grande', anchor: 62, bg: ['#0F1B3D', '#2A4FA8'], C: Grande},
-  {id: 'twist', anchor: 68, bg: ['#3A0A14', '#B3202E'], shakeAt: 68, C: Twist},
-  {id: 'novale', anchor: 73, bg: ['#2A0F1A', '#6A2030'], C: NoVale},
-  {id: 'luz', anchor: 77, bg: ['#070B1C', '#1A2550'], C: Luz},
-  {id: 'aforo', anchor: 84, bg: NIGHT, C: Aforo},
-  {id: 'cesped', anchor: 86, bg: ['#0F2A3D', '#3A8FBF'], C: Cesped},
-  {id: 'mudanza', anchor: 96, bg: ['#1A1745', '#5A4FA8'], C: Mudanza},
-  {id: 'tavernes', anchor: 105, bg: ['#2A0F1A', '#8A2030'], C: Tavernes},
-  {id: 'mestalla', anchor: 114, bg: NIGHT, C: Mestalla},
-  {id: 'visitante', anchor: 119, bg: ['#1A1745', '#3A2F7A'], shakeAt: 125, C: Visitante},
-  {id: 'obras', anchor: 130, bg: ['#2A1F05', '#7A5A20'], C: Obras},
-  {id: 'gradas', anchor: 136, bg: ['#0F1B3D', '#2A4FA8'], C: Gradas},
-  {id: 'prefieres', anchor: 141, bg: ['#1A1745', '#3A2F7A'], C: Prefieres},
-  {id: 'cta', anchor: 149, bg: ['#0F1B3D', '#2A4FA8'], C: CTA},
+  {id: 'casa', anchor: 10, bg: ['#123A2A', '#2FA84F'], C: Casa},
+  {id: 'equipos', anchor: 20, bg: NIGHT, C: Equipos},
+  {id: 'partidos', anchor: 27, bg: PITCHBG, C: Partidos},
+  {id: 'regla', anchor: 35, bg: ['#1A1745', '#3A2F7A'], C: Regla},
+  {id: 'local', anchor: 39, bg: PITCHBG, C: Local},
+  {id: 'categoria', anchor: 44, bg: NIGHT, C: Categoria},
+  {id: 'humilde', anchor: 47, bg: ['#0F1B3D', '#3A2F7A'], C: Humilde},
+  {id: 'taquilla', anchor: 58, bg: ['#2A1F05', '#8A6A10'], C: Taquilla},
+  {id: 'grande', anchor: 63, bg: ['#0F1B3D', '#2A4FA8'], C: Grande},
+  {id: 'twist', anchor: 69, bg: ['#3A0A14', '#B3202E'], shakeAt: 68, C: Twist},
+  {id: 'novale', anchor: 74, bg: ['#2A0F1A', '#6A2030'], C: NoVale},
+  {id: 'luz', anchor: 78, bg: ['#070B1C', '#1A2550'], C: Luz},
+  {id: 'aforo', anchor: 85, bg: NIGHT, C: Aforo},
+  {id: 'cesped', anchor: 87, bg: ['#0F2A3D', '#3A8FBF'], C: Cesped},
+  {id: 'mudanza', anchor: 97, bg: ['#1A1745', '#5A4FA8'], C: Mudanza},
+  {id: 'tavernes', anchor: 106, bg: ['#2A0F1A', '#8A2030'], C: Tavernes},
+  {id: 'mestalla', anchor: 115, bg: NIGHT, C: Mestalla},
+  {id: 'visitante', anchor: 120, bg: ['#1A1745', '#3A2F7A'], shakeAt: 125, C: Visitante},
+  {id: 'obras', anchor: 131, bg: ['#2A1F05', '#7A5A20'], C: Obras},
+  {id: 'gradas', anchor: 137, bg: ['#0F1B3D', '#2A4FA8'], C: Gradas},
+  {id: 'prefieres', anchor: 142, bg: ['#1A1745', '#3A2F7A'], C: Prefieres},
+  {id: 'cta', anchor: 150, bg: ['#0F1B3D', '#2A4FA8'], C: CTA},
 ];

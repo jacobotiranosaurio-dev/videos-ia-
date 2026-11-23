@@ -1,1291 +1,1299 @@
 {
- "duration": 53.546,
+ "duration": 54.125,
  "words": [
   {
-   "text": "El",
+   "text": "Acaba",
    "key": false,
    "start": 0.25,
-   "end": 0.431,
+   "end": 0.621,
    "sentence": 0,
    "phrase": 0
   },
   {
-   "text": "premio",
-   "key": true,
-   "start": 0.431,
-   "end": 0.726,
-   "sentence": 0,
-   "phrase": 0
-  },
-  {
-   "text": "escondido",
+   "text": "de",
    "key": false,
-   "start": 0.726,
-   "end": 1.248,
+   "start": 0.621,
+   "end": 0.786,
    "sentence": 0,
    "phrase": 0
   },
   {
-   "text": "del",
+   "text": "salir",
    "key": false,
-   "start": 1.248,
-   "end": 1.429,
+   "start": 0.786,
+   "end": 1.054,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 1.054,
+   "end": 1.219,
    "sentence": 0,
    "phrase": 0
   },
   {
    "text": "sorteo",
    "key": true,
-   "start": 1.429,
-   "end": 1.724,
+   "start": 1.219,
+   "end": 1.487,
    "sentence": 0,
    "phrase": 0
   },
   {
    "text": "de",
    "key": false,
-   "start": 1.724,
-   "end": 1.905,
+   "start": 1.487,
+   "end": 1.652,
    "sentence": 0,
    "phrase": 0
   },
   {
    "text": "la",
    "key": false,
-   "start": 1.905,
-   "end": 2.087,
+   "start": 1.652,
+   "end": 1.817,
    "sentence": 0,
    "phrase": 0
   },
   {
    "text": "Copa",
    "key": false,
-   "start": 2.087,
-   "end": 2.382,
+   "start": 1.817,
+   "end": 2.085,
    "sentence": 0,
    "phrase": 0
   },
   {
    "text": "del",
    "key": false,
-   "start": 2.382,
-   "end": 2.563,
+   "start": 2.085,
+   "end": 2.25,
    "sentence": 0,
    "phrase": 0
   },
   {
    "text": "Rey",
    "key": false,
-   "start": 2.563,
-   "end": 2.744,
+   "start": 2.25,
+   "end": 2.415,
    "sentence": 0,
    "phrase": 0
   },
   {
-   "text": "no",
+   "text": "Pero",
    "key": false,
-   "start": 2.884,
-   "end": 3.062,
-   "sentence": 0,
-   "phrase": 1
-  },
-  {
-   "text": "es",
-   "key": false,
-   "start": 3.062,
-   "end": 3.239,
-   "sentence": 0,
-   "phrase": 1
-  },
-  {
-   "text": "pasar",
-   "key": false,
-   "start": 3.239,
-   "end": 3.527,
-   "sentence": 0,
-   "phrase": 1
-  },
-  {
-   "text": "de",
-   "key": false,
-   "start": 3.527,
-   "end": 3.704,
-   "sentence": 0,
-   "phrase": 1
-  },
-  {
-   "text": "ronda",
-   "key": false,
-   "start": 3.704,
-   "end": 3.992,
-   "sentence": 0,
-   "phrase": 1
-  },
-  {
-   "text": "Es",
-   "key": false,
-   "start": 4.352,
-   "end": 4.538,
+   "start": 2.775,
+   "end": 3.054,
    "sentence": 1,
    "phrase": 0
   },
   {
-   "text": "jugar",
+   "text": "sabías",
    "key": false,
-   "start": 4.538,
-   "end": 4.841,
+   "start": 3.194,
+   "end": 3.501,
    "sentence": 1,
-   "phrase": 0
+   "phrase": 1
+  },
+  {
+   "text": "por",
+   "key": false,
+   "start": 3.501,
+   "end": 3.69,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "qué",
+   "key": false,
+   "start": 3.69,
+   "end": 3.879,
+   "sentence": 1,
+   "phrase": 1
+  },
+  {
+   "text": "juega",
+   "key": false,
+   "start": 3.879,
+   "end": 4.186,
+   "sentence": 1,
+   "phrase": 1
   },
   {
    "text": "en",
    "key": false,
-   "start": 4.841,
-   "end": 5.027,
+   "start": 4.186,
+   "end": 4.374,
    "sentence": 1,
-   "phrase": 0
+   "phrase": 1
   },
   {
    "text": "casa",
    "key": true,
-   "start": 5.027,
-   "end": 5.33,
+   "start": 4.374,
+   "end": 4.681,
    "sentence": 1,
-   "phrase": 0
+   "phrase": 1
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 4.821,
+   "end": 4.992,
+   "sentence": 1,
+   "phrase": 2
+  },
+  {
+   "text": "equipo",
+   "key": false,
+   "start": 4.992,
+   "end": 5.375,
+   "sentence": 1,
+   "phrase": 2
+  },
+  {
+   "text": "modesto",
+   "key": true,
+   "start": 5.375,
+   "end": 5.759,
+   "sentence": 1,
+   "phrase": 2
   },
   {
    "text": "En",
    "key": false,
-   "start": 5.69,
-   "end": 5.868,
+   "start": 6.119,
+   "end": 6.294,
    "sentence": 2,
    "phrase": 0
   },
   {
    "text": "la",
    "key": false,
-   "start": 5.868,
-   "end": 6.046,
+   "start": 6.294,
+   "end": 6.469,
    "sentence": 2,
    "phrase": 0
   },
   {
    "text": "primera",
    "key": false,
-   "start": 6.046,
-   "end": 6.447,
+   "start": 6.469,
+   "end": 6.862,
    "sentence": 2,
    "phrase": 0
   },
   {
    "text": "eliminatoria",
    "key": false,
-   "start": 6.447,
-   "end": 7.181,
+   "start": 6.862,
+   "end": 7.583,
    "sentence": 2,
    "phrase": 0
   },
   {
-   "text": "entran",
+   "text": "entraron",
    "key": false,
-   "start": 7.181,
-   "end": 7.471,
+   "start": 7.583,
+   "end": 7.977,
    "sentence": 2,
    "phrase": 0
   },
   {
    "text": "112",
    "key": true,
-   "start": 7.471,
-   "end": 7.983,
+   "start": 7.977,
+   "end": 8.479,
    "sentence": 2,
    "phrase": 0
   },
   {
    "text": "equipos",
    "key": false,
-   "start": 7.983,
-   "end": 8.383,
+   "start": 8.479,
+   "end": 8.873,
    "sentence": 2,
    "phrase": 0
   },
   {
    "text": "y",
    "key": false,
-   "start": 8.523,
-   "end": 8.704,
+   "start": 9.013,
+   "end": 9.196,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "se",
    "key": false,
-   "start": 8.704,
-   "end": 8.885,
+   "start": 9.196,
+   "end": 9.38,
    "sentence": 2,
    "phrase": 1
   },
   {
-   "text": "juegan",
+   "text": "jugaron",
    "key": false,
-   "start": 8.885,
-   "end": 9.178,
+   "start": 9.38,
+   "end": 9.794,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "56",
    "key": true,
-   "start": 9.178,
-   "end": 9.698,
+   "start": 9.794,
+   "end": 10.322,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "partidos",
    "key": false,
-   "start": 9.698,
-   "end": 10.104,
+   "start": 10.322,
+   "end": 10.736,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "a",
    "key": false,
-   "start": 10.104,
-   "end": 10.285,
+   "start": 10.736,
+   "end": 10.919,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "partido",
    "key": false,
-   "start": 10.285,
-   "end": 10.691,
+   "start": 10.919,
+   "end": 11.333,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "único",
    "key": true,
-   "start": 10.691,
-   "end": 11.098,
+   "start": 11.333,
+   "end": 11.746,
    "sentence": 2,
    "phrase": 1
   },
   {
    "text": "La",
    "key": false,
-   "start": 11.458,
-   "end": 11.669,
+   "start": 12.106,
+   "end": 12.316,
    "sentence": 3,
    "phrase": 0
   },
   {
    "text": "regla",
    "key": false,
-   "start": 11.669,
-   "end": 12.011,
+   "start": 12.316,
+   "end": 12.655,
    "sentence": 3,
    "phrase": 0
   },
   {
    "text": "es",
    "key": false,
-   "start": 12.011,
-   "end": 12.222,
+   "start": 12.655,
+   "end": 12.864,
    "sentence": 3,
    "phrase": 0
   },
   {
    "text": "clara",
    "key": false,
-   "start": 12.222,
-   "end": 12.565,
+   "start": 12.864,
+   "end": 13.204,
    "sentence": 3,
    "phrase": 0
   },
   {
    "text": "juega",
    "key": false,
-   "start": 12.705,
-   "end": 12.995,
+   "start": 13.344,
+   "end": 13.645,
    "sentence": 3,
    "phrase": 1
   },
   {
    "text": "de",
    "key": false,
-   "start": 12.995,
-   "end": 13.173,
+   "start": 13.645,
+   "end": 13.831,
    "sentence": 3,
    "phrase": 1
   },
   {
    "text": "local",
    "key": true,
-   "start": 13.173,
-   "end": 13.463,
+   "start": 13.831,
+   "end": 14.132,
    "sentence": 3,
    "phrase": 1
   },
   {
    "text": "el",
    "key": false,
-   "start": 13.603,
-   "end": 13.776,
+   "start": 14.272,
+   "end": 14.448,
    "sentence": 3,
    "phrase": 2
   },
   {
    "text": "equipo",
    "key": false,
-   "start": 13.776,
-   "end": 14.163,
+   "start": 14.448,
+   "end": 14.843,
    "sentence": 3,
    "phrase": 2
   },
   {
    "text": "de",
    "key": false,
-   "start": 14.163,
-   "end": 14.335,
+   "start": 14.843,
+   "end": 15.018,
    "sentence": 3,
    "phrase": 2
   },
   {
    "text": "menor",
    "key": true,
-   "start": 14.335,
-   "end": 14.615,
+   "start": 15.018,
+   "end": 15.304,
    "sentence": 3,
    "phrase": 2
   },
   {
    "text": "categoría",
    "key": false,
-   "start": 14.615,
-   "end": 15.11,
+   "start": 15.304,
+   "end": 15.809,
    "sentence": 3,
    "phrase": 2
   },
   {
    "text": "Para",
    "key": false,
-   "start": 15.47,
-   "end": 15.718,
+   "start": 16.169,
+   "end": 16.431,
    "sentence": 4,
    "phrase": 0
   },
   {
    "text": "un",
    "key": false,
-   "start": 15.718,
-   "end": 15.871,
+   "start": 16.431,
+   "end": 16.592,
    "sentence": 4,
    "phrase": 0
   },
   {
    "text": "club",
    "key": false,
-   "start": 15.871,
-   "end": 16.024,
+   "start": 16.592,
+   "end": 16.754,
    "sentence": 4,
    "phrase": 0
   },
   {
    "text": "humilde",
    "key": false,
-   "start": 16.024,
-   "end": 16.368,
+   "start": 16.754,
+   "end": 17.117,
    "sentence": 4,
    "phrase": 0
   },
   {
    "text": "es",
    "key": false,
-   "start": 16.508,
-   "end": 16.655,
+   "start": 17.257,
+   "end": 17.406,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "su",
    "key": false,
-   "start": 16.655,
-   "end": 16.802,
+   "start": 17.406,
+   "end": 17.556,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "campo",
    "key": false,
-   "start": 16.802,
-   "end": 17.04,
+   "start": 17.556,
+   "end": 17.799,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "lleno",
    "key": false,
-   "start": 17.04,
-   "end": 17.279,
+   "start": 17.799,
+   "end": 18.043,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "hasta",
    "key": false,
-   "start": 17.279,
-   "end": 17.517,
+   "start": 18.043,
+   "end": 18.286,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "la",
    "key": false,
-   "start": 17.517,
-   "end": 17.664,
+   "start": 18.286,
+   "end": 18.436,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "bandera",
    "key": true,
-   "start": 17.664,
-   "end": 17.995,
+   "start": 18.436,
+   "end": 18.773,
    "sentence": 4,
    "phrase": 1
   },
   {
    "text": "la",
    "key": false,
-   "start": 18.135,
-   "end": 18.296,
+   "start": 18.913,
+   "end": 19.064,
    "sentence": 4,
    "phrase": 2
   },
   {
    "text": "taquilla",
    "key": true,
-   "start": 18.296,
-   "end": 18.658,
+   "start": 19.064,
+   "end": 19.404,
    "sentence": 4,
    "phrase": 2
   },
   {
    "text": "de",
    "key": false,
-   "start": 18.658,
-   "end": 18.819,
+   "start": 19.404,
+   "end": 19.555,
    "sentence": 4,
    "phrase": 2
   },
   {
    "text": "su",
    "key": false,
-   "start": 18.819,
-   "end": 18.98,
+   "start": 19.555,
+   "end": 19.705,
    "sentence": 4,
    "phrase": 2
   },
   {
    "text": "vida",
    "key": false,
-   "start": 18.98,
-   "end": 19.242,
+   "start": 19.705,
+   "end": 19.951,
    "sentence": 4,
    "phrase": 2
   },
   {
    "text": "y",
    "key": false,
-   "start": 19.382,
-   "end": 19.552,
+   "start": 20.091,
+   "end": 20.257,
    "sentence": 4,
    "phrase": 3
   },
   {
    "text": "un",
    "key": false,
-   "start": 19.552,
-   "end": 19.722,
+   "start": 20.257,
+   "end": 20.424,
    "sentence": 4,
    "phrase": 3
   },
   {
    "text": "grande",
    "key": true,
-   "start": 19.722,
-   "end": 19.999,
+   "start": 20.424,
+   "end": 20.695,
    "sentence": 4,
    "phrase": 3
   },
   {
    "text": "pisando",
    "key": false,
-   "start": 19.999,
-   "end": 20.382,
+   "start": 20.695,
+   "end": 21.07,
    "sentence": 4,
    "phrase": 3
   },
   {
    "text": "su",
    "key": false,
-   "start": 20.382,
-   "end": 20.552,
+   "start": 21.07,
+   "end": 21.237,
    "sentence": 4,
    "phrase": 3
   },
   {
    "text": "césped",
    "key": false,
-   "start": 20.552,
-   "end": 20.829,
+   "start": 21.237,
+   "end": 21.508,
    "sentence": 4,
    "phrase": 3
   },
   {
    "text": "Pero",
    "key": false,
-   "start": 21.189,
-   "end": 21.446,
+   "start": 21.868,
+   "end": 22.115,
    "sentence": 5,
    "phrase": 0
   },
   {
    "text": "aquí",
    "key": false,
-   "start": 21.446,
-   "end": 21.704,
+   "start": 22.115,
+   "end": 22.362,
    "sentence": 5,
    "phrase": 0
   },
   {
    "text": "viene",
    "key": false,
-   "start": 21.704,
-   "end": 21.961,
+   "start": 22.362,
+   "end": 22.61,
    "sentence": 5,
    "phrase": 0
   },
   {
    "text": "el",
    "key": false,
-   "start": 21.961,
-   "end": 22.119,
+   "start": 22.61,
+   "end": 22.762,
    "sentence": 5,
    "phrase": 0
   },
   {
    "text": "problema",
    "key": true,
-   "start": 22.119,
-   "end": 22.476,
+   "start": 22.762,
+   "end": 23.105,
    "sentence": 5,
    "phrase": 0
   },
   {
    "text": "no",
    "key": false,
-   "start": 22.616,
-   "end": 22.82,
+   "start": 23.245,
+   "end": 23.433,
    "sentence": 5,
    "phrase": 1
   },
   {
    "text": "vale",
    "key": false,
-   "start": 22.82,
-   "end": 23.151,
+   "start": 23.433,
+   "end": 23.74,
    "sentence": 5,
    "phrase": 1
   },
   {
    "text": "cualquier",
    "key": false,
-   "start": 23.151,
-   "end": 23.482,
+   "start": 23.74,
+   "end": 24.046,
    "sentence": 5,
    "phrase": 1
   },
   {
    "text": "campo",
    "key": false,
-   "start": 23.482,
-   "end": 23.813,
+   "start": 24.046,
+   "end": 24.352,
    "sentence": 5,
    "phrase": 1
   },
   {
    "text": "La",
    "key": false,
-   "start": 24.173,
-   "end": 24.334,
+   "start": 24.712,
+   "end": 24.871,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "Federación",
    "key": false,
-   "start": 24.334,
-   "end": 24.795,
+   "start": 24.871,
+   "end": 25.327,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "exige",
    "key": false,
-   "start": 24.795,
-   "end": 25.156,
+   "start": 25.327,
+   "end": 25.685,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "luz",
    "key": true,
-   "start": 25.156,
-   "end": 25.317,
+   "start": 25.685,
+   "end": 25.843,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "para",
    "key": false,
-   "start": 25.317,
-   "end": 25.578,
+   "start": 25.843,
+   "end": 26.101,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "la",
    "key": false,
-   "start": 25.578,
-   "end": 25.738,
+   "start": 26.101,
+   "end": 26.26,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "tele",
    "key": false,
-   "start": 25.738,
-   "end": 25.999,
+   "start": 26.26,
+   "end": 26.518,
    "sentence": 6,
    "phrase": 0
   },
   {
    "text": "aforo",
    "key": true,
-   "start": 26.139,
-   "end": 26.52,
+   "start": 26.658,
+   "end": 27.044,
    "sentence": 6,
    "phrase": 1
   },
   {
    "text": "suficiente",
    "key": false,
-   "start": 26.52,
-   "end": 27.007,
+   "start": 27.044,
+   "end": 27.536,
    "sentence": 6,
    "phrase": 1
   },
   {
    "text": "y",
    "key": false,
-   "start": 27.147,
-   "end": 27.323,
+   "start": 27.676,
+   "end": 27.845,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "césped",
    "key": false,
-   "start": 27.323,
-   "end": 27.61,
+   "start": 27.845,
+   "end": 28.12,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "natural",
    "key": false,
-   "start": 27.61,
-   "end": 28.006,
+   "start": 28.12,
+   "end": 28.501,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "o",
    "key": false,
-   "start": 28.006,
-   "end": 28.182,
+   "start": 28.501,
+   "end": 28.67,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "artificial",
    "key": false,
-   "start": 28.182,
-   "end": 28.689,
+   "start": 28.67,
+   "end": 29.157,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "de",
    "key": false,
-   "start": 28.689,
-   "end": 28.865,
+   "start": 29.157,
+   "end": 29.326,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "menos",
    "key": false,
-   "start": 28.865,
-   "end": 29.152,
+   "start": 29.326,
+   "end": 29.601,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "de",
    "key": false,
-   "start": 29.152,
-   "end": 29.328,
+   "start": 29.601,
+   "end": 29.77,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "8",
    "key": true,
-   "start": 29.328,
-   "end": 29.614,
+   "start": 29.77,
+   "end": 30.045,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "años",
    "key": true,
-   "start": 29.614,
-   "end": 29.901,
+   "start": 30.045,
+   "end": 30.32,
    "sentence": 6,
    "phrase": 2
   },
   {
    "text": "Y",
    "key": false,
-   "start": 30.261,
-   "end": 30.444,
+   "start": 30.68,
+   "end": 30.866,
    "sentence": 7,
    "phrase": 0
   },
   {
    "text": "si",
    "key": false,
-   "start": 30.444,
-   "end": 30.627,
+   "start": 30.866,
+   "end": 31.051,
    "sentence": 7,
    "phrase": 0
   },
   {
    "text": "no",
    "key": false,
-   "start": 30.627,
-   "end": 30.811,
+   "start": 31.051,
+   "end": 31.237,
    "sentence": 7,
    "phrase": 0
   },
   {
    "text": "cumple",
    "key": false,
-   "start": 30.811,
-   "end": 31.109,
+   "start": 31.237,
+   "end": 31.538,
    "sentence": 7,
    "phrase": 0
   },
   {
    "text": "Toca",
    "key": false,
-   "start": 31.249,
-   "end": 31.536,
+   "start": 31.678,
+   "end": 31.965,
    "sentence": 7,
    "phrase": 1
   },
   {
    "text": "mudarse",
    "key": true,
-   "start": 31.536,
-   "end": 31.934,
+   "start": 31.965,
+   "end": 32.363,
    "sentence": 7,
    "phrase": 1
   },
   {
    "text": "a",
    "key": false,
-   "start": 31.934,
-   "end": 32.11,
+   "start": 32.363,
+   "end": 32.54,
    "sentence": 7,
    "phrase": 1
   },
   {
    "text": "otro",
    "key": false,
-   "start": 32.11,
-   "end": 32.398,
+   "start": 32.54,
+   "end": 32.827,
    "sentence": 7,
    "phrase": 1
   },
   {
    "text": "estadio",
    "key": false,
-   "start": 32.398,
-   "end": 32.795,
+   "start": 32.827,
+   "end": 33.225,
    "sentence": 7,
    "phrase": 1
   },
   {
    "text": "Le",
    "key": false,
-   "start": 33.155,
-   "end": 33.351,
+   "start": 33.585,
+   "end": 33.785,
    "sentence": 8,
    "phrase": 0
   },
   {
    "text": "pasó",
    "key": false,
-   "start": 33.351,
-   "end": 33.668,
+   "start": 33.785,
+   "end": 34.111,
    "sentence": 8,
    "phrase": 0
   },
   {
    "text": "al",
    "key": false,
-   "start": 33.668,
-   "end": 33.863,
+   "start": 34.111,
+   "end": 34.311,
    "sentence": 8,
    "phrase": 0
   },
   {
    "text": "Tavernes",
    "key": false,
-   "start": 33.863,
-   "end": 34.303,
+   "start": 34.311,
+   "end": 34.762,
    "sentence": 8,
    "phrase": 0
   },
   {
    "text": "un",
    "key": false,
-   "start": 34.443,
-   "end": 34.62,
+   "start": 34.902,
+   "end": 35.075,
    "sentence": 8,
    "phrase": 1
   },
   {
    "text": "modesto",
    "key": false,
-   "start": 34.62,
-   "end": 35.02,
+   "start": 35.075,
+   "end": 35.466,
    "sentence": 8,
    "phrase": 1
   },
   {
    "text": "de",
    "key": false,
-   "start": 35.02,
-   "end": 35.198,
+   "start": 35.466,
+   "end": 35.639,
    "sentence": 8,
    "phrase": 1
   },
   {
    "text": "categoría",
    "key": false,
-   "start": 35.198,
-   "end": 35.709,
+   "start": 35.639,
+   "end": 36.138,
    "sentence": 8,
    "phrase": 1
   },
   {
    "text": "regional",
    "key": true,
-   "start": 35.709,
-   "end": 36.109,
+   "start": 36.138,
+   "end": 36.528,
    "sentence": 8,
    "phrase": 1
   },
   {
    "text": "recibió",
    "key": false,
-   "start": 36.249,
-   "end": 36.722,
+   "start": 36.668,
+   "end": 37.146,
    "sentence": 8,
    "phrase": 2
   },
   {
    "text": "al",
    "key": false,
-   "start": 36.722,
-   "end": 36.933,
+   "start": 37.146,
+   "end": 37.358,
    "sentence": 8,
    "phrase": 2
   },
   {
    "text": "Valencia",
    "key": false,
-   "start": 36.933,
-   "end": 37.406,
+   "start": 37.358,
+   "end": 37.836,
    "sentence": 8,
    "phrase": 2
   },
   {
    "text": "en",
    "key": false,
-   "start": 37.546,
-   "end": 37.746,
+   "start": 37.976,
+   "end": 38.175,
    "sentence": 8,
    "phrase": 3
   },
   {
    "text": "Mestalla",
    "key": true,
-   "start": 37.746,
-   "end": 38.195,
+   "start": 38.175,
+   "end": 38.624,
    "sentence": 8,
    "phrase": 3
   },
   {
    "text": "Así",
    "key": false,
-   "start": 38.555,
-   "end": 38.807,
+   "start": 38.984,
+   "end": 39.248,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "que",
    "key": false,
-   "start": 38.807,
-   "end": 38.962,
+   "start": 39.248,
+   "end": 39.41,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "el",
    "key": false,
-   "start": 38.962,
-   "end": 39.118,
+   "start": 39.41,
+   "end": 39.572,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "Valencia",
    "key": false,
-   "start": 39.118,
-   "end": 39.467,
+   "start": 39.572,
+   "end": 39.937,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "jugó",
    "key": false,
-   "start": 39.467,
-   "end": 39.719,
+   "start": 39.937,
+   "end": 40.201,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "de",
    "key": false,
-   "start": 39.719,
-   "end": 39.874,
+   "start": 40.201,
+   "end": 40.363,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "visitante",
    "key": true,
-   "start": 39.874,
-   "end": 40.321,
+   "start": 40.363,
+   "end": 40.83,
    "sentence": 9,
    "phrase": 0
   },
   {
    "text": "en",
    "key": false,
-   "start": 40.461,
-   "end": 40.661,
+   "start": 40.97,
+   "end": 41.18,
    "sentence": 9,
    "phrase": 1
   },
   {
    "text": "su",
    "key": false,
-   "start": 40.661,
-   "end": 40.862,
+   "start": 41.18,
+   "end": 41.391,
    "sentence": 9,
    "phrase": 1
   },
   {
    "text": "propio",
    "key": false,
-   "start": 40.862,
-   "end": 41.187,
+   "start": 41.391,
+   "end": 41.733,
    "sentence": 9,
    "phrase": 1
   },
   {
    "text": "estadio",
    "key": false,
-   "start": 41.187,
-   "end": 41.638,
+   "start": 41.733,
+   "end": 42.207,
    "sentence": 9,
    "phrase": 1
   },
   {
    "text": "Otros",
    "key": false,
-   "start": 41.998,
-   "end": 42.315,
+   "start": 42.567,
+   "end": 42.892,
    "sentence": 10,
    "phrase": 0
   },
   {
    "text": "clubes",
    "key": false,
-   "start": 42.315,
-   "end": 42.631,
+   "start": 42.892,
+   "end": 43.217,
    "sentence": 10,
    "phrase": 0
   },
   {
    "text": "prefieren",
    "key": false,
-   "start": 42.631,
-   "end": 43.07,
+   "start": 43.217,
+   "end": 43.667,
    "sentence": 10,
    "phrase": 0
   },
   {
    "text": "hacer",
    "key": false,
-   "start": 43.07,
-   "end": 43.386,
+   "start": 43.667,
+   "end": 43.992,
    "sentence": 10,
    "phrase": 0
   },
   {
    "text": "obras",
    "key": false,
-   "start": 43.386,
-   "end": 43.703,
+   "start": 43.992,
+   "end": 44.317,
    "sentence": 10,
    "phrase": 0
   },
   {
    "text": "contrarreloj",
    "key": false,
-   "start": 43.703,
-   "end": 44.263,
+   "start": 44.317,
+   "end": 44.892,
    "sentence": 10,
    "phrase": 0
   },
   {
    "text": "gradas",
    "key": true,
-   "start": 44.403,
-   "end": 44.76,
+   "start": 45.032,
+   "end": 45.403,
    "sentence": 10,
    "phrase": 1
   },
   {
    "text": "supletorias",
    "key": false,
-   "start": 44.76,
-   "end": 45.391,
+   "start": 45.403,
+   "end": 46.059,
    "sentence": 10,
    "phrase": 1
   },
   {
    "text": "y",
    "key": false,
-   "start": 45.531,
-   "end": 45.754,
+   "start": 46.199,
+   "end": 46.427,
    "sentence": 10,
    "phrase": 2
   },
   {
    "text": "focos",
    "key": true,
-   "start": 45.754,
-   "end": 46.116,
+   "start": 46.427,
+   "end": 46.797,
    "sentence": 10,
    "phrase": 2
   },
   {
    "text": "nuevos",
    "key": false,
-   "start": 46.116,
-   "end": 46.479,
+   "start": 46.797,
+   "end": 47.167,
    "sentence": 10,
    "phrase": 2
   },
   {
    "text": "Tú",
    "key": false,
-   "start": 46.839,
-   "end": 47.029,
+   "start": 47.527,
+   "end": 47.727,
    "sentence": 11,
    "phrase": 0
   },
   {
    "text": "qué",
    "key": false,
-   "start": 47.029,
-   "end": 47.219,
+   "start": 47.727,
+   "end": 47.926,
    "sentence": 11,
    "phrase": 0
   },
   {
    "text": "prefieres",
    "key": false,
-   "start": 47.219,
-   "end": 47.647,
+   "start": 47.926,
+   "end": 48.375,
    "sentence": 11,
    "phrase": 0
   },
   {
    "text": "Campo",
    "key": false,
-   "start": 47.787,
-   "end": 48.066,
+   "start": 48.515,
+   "end": 48.782,
    "sentence": 11,
    "phrase": 1
   },
   {
    "text": "pequeño",
    "key": false,
-   "start": 48.066,
-   "end": 48.454,
+   "start": 48.782,
+   "end": 49.152,
    "sentence": 11,
    "phrase": 1
   },
   {
    "text": "o",
    "key": false,
-   "start": 48.454,
-   "end": 48.626,
+   "start": 49.152,
+   "end": 49.316,
    "sentence": 11,
    "phrase": 1
   },
   {
    "text": "estadio",
    "key": false,
-   "start": 48.626,
-   "end": 49.013,
+   "start": 49.316,
+   "end": 49.685,
    "sentence": 11,
    "phrase": 1
   },
   {
    "text": "grande",
    "key": false,
-   "start": 49.013,
-   "end": 49.293,
+   "start": 49.685,
+   "end": 49.952,
    "sentence": 11,
    "phrase": 1
   },
   {
    "text": "Te",
    "key": false,
-   "start": 49.653,
-   "end": 49.843,
+   "start": 50.312,
+   "end": 50.495,
    "sentence": 12,
    "phrase": 0
   },
   {
    "text": "leo",
    "key": false,
-   "start": 49.843,
-   "end": 50.033,
+   "start": 50.495,
+   "end": 50.678,
    "sentence": 12,
    "phrase": 0
   },
   {
    "text": "en",
    "key": false,
-   "start": 50.033,
-   "end": 50.224,
+   "start": 50.678,
+   "end": 50.861,
    "sentence": 12,
    "phrase": 0
   },
   {
    "text": "los",
    "key": false,
-   "start": 50.224,
-   "end": 50.414,
+   "start": 50.861,
+   "end": 51.044,
    "sentence": 12,
    "phrase": 0
   },
   {
    "text": "comentarios",
    "key": true,
-   "start": 50.414,
-   "end": 50.96,
+   "start": 51.044,
+   "end": 51.569,
    "sentence": 12,
    "phrase": 0
   },
   {
    "text": "y",
    "key": false,
-   "start": 51.1,
-   "end": 51.274,
+   "start": 51.709,
+   "end": 51.881,
    "sentence": 12,
    "phrase": 1
   },
   {
    "text": "sígueme",
    "key": true,
-   "start": 51.274,
-   "end": 51.665,
+   "start": 51.881,
+   "end": 52.266,
    "sentence": 12,
    "phrase": 1
   },
   {
    "text": "para",
    "key": false,
-   "start": 51.665,
-   "end": 51.947,
+   "start": 52.266,
+   "end": 52.544,
    "sentence": 12,
    "phrase": 1
   },
   {
    "text": "más",
    "key": false,
-   "start": 51.947,
-   "end": 52.121,
+   "start": 52.544,
+   "end": 52.715,
    "sentence": 12,
    "phrase": 1
   },
   {
    "text": "curiosidades",
    "key": false,
-   "start": 52.121,
-   "end": 52.729,
+   "start": 52.715,
+   "end": 53.315,
    "sentence": 12,
    "phrase": 1
   },
   {
    "text": "de",
    "key": false,
-   "start": 52.729,
-   "end": 52.903,
+   "start": 53.315,
+   "end": 53.486,
    "sentence": 12,
    "phrase": 1
   },
   {
    "text": "fútbol",
    "key": false,
-   "start": 52.903,
-   "end": 53.186,
+   "start": 53.486,
+   "end": 53.765,
    "sentence": 12,
    "phrase": 1
   }
@@ -1293,67 +1301,67 @@
  "sentences": [
   {
    "start": 0.25,
-   "end": 3.992,
-   "text": "El *premio escondido del *sorteo de la Copa del Rey / no es pasar de ronda."
+   "end": 2.415,
+   "text": "Acaba de salir el *sorteo de la Copa del Rey."
   },
   {
-   "start": 4.352,
-   "end": 5.33,
-   "text": "Es jugar en *casa."
+   "start": 2.775,
+   "end": 5.759,
+   "text": "Pero / ¿sabías por qué juega en *casa / el equipo *modesto?"
   },
   {
-   "start": 5.69,
-   "end": 11.098,
-   "text": "En la primera eliminatoria entran {*112|ciento doce} equipos / y se juegan {*56|cincuenta y seis} partidos a partido *único."
+   "start": 6.119,
+   "end": 11.746,
+   "text": "En la primera eliminatoria entraron {*112|ciento doce} equipos / y se jugaron {*56|cincuenta y seis} partidos a partido *único."
   },
   {
-   "start": 11.458,
-   "end": 15.11,
+   "start": 12.106,
+   "end": 15.809,
    "text": "La regla es clara / juega de *local / el equipo de *menor categoría."
   },
   {
-   "start": 15.47,
-   "end": 20.829,
+   "start": 16.169,
+   "end": 21.508,
    "text": "Para un club humilde / es su campo lleno hasta la *bandera / la *taquilla de su vida / y un *grande pisando su césped."
   },
   {
-   "start": 21.189,
-   "end": 23.813,
+   "start": 21.868,
+   "end": 24.352,
    "text": "Pero aquí viene el *problema / no vale cualquier campo."
   },
   {
-   "start": 24.173,
-   "end": 29.901,
+   "start": 24.712,
+   "end": 30.32,
    "text": "La Federación exige *luz para la tele / *aforo suficiente / y césped natural o artificial de menos de {*8|ocho} *años."
   },
   {
-   "start": 30.261,
-   "end": 32.795,
+   "start": 30.68,
+   "end": 33.225,
    "text": "¿Y si no cumple? / Toca *mudarse a otro estadio."
   },
   {
-   "start": 33.155,
-   "end": 38.195,
+   "start": 33.585,
+   "end": 38.624,
    "text": "Le pasó al Tavernes / un modesto de categoría *regional / recibió al Valencia / en *Mestalla."
   },
   {
-   "start": 38.555,
-   "end": 41.638,
+   "start": 38.984,
+   "end": 42.207,
    "text": "Así que el Valencia jugó de *visitante / en su propio estadio."
   },
   {
-   "start": 41.998,
-   "end": 46.479,
+   "start": 42.567,
+   "end": 47.167,
    "text": "Otros clubes prefieren hacer obras contrarreloj / *gradas supletorias / y *focos nuevos."
   },
   {
-   "start": 46.839,
-   "end": 49.293,
+   "start": 47.527,
+   "end": 49.952,
    "text": "¿Tú qué prefieres? / ¿Campo pequeño o estadio grande?"
   },
   {
-   "start": 49.653,
-   "end": 53.186,
+   "start": 50.312,
+   "end": 53.765,
    "text": "Te leo en los *comentarios / y *sígueme para más curiosidades de fútbol."
   }
  ]
