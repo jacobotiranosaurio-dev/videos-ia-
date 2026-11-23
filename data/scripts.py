@@ -70,6 +70,16 @@ SCRIPTS = {
  "Consejo: si ves un cartel mal colocado, no lo toques. Hazle una foto y avisa al ayuntamiento o a la Junta Electoral.",
  "¿Has visto alguno arrancado en tu calle? Comenta. Y sígueme, porque si arrancas uno de estos carteles…",
 ],
+"votoobligatorio": [
+ "¿Sabías que hay países en los que votar es obligatorio? Y si no vas, te castigan.",
+ "Pasa en unos veinte países de todo el mundo.",
+ "Bélgica fue de los primeros: allí es obligatorio desde mil ochocientos noventa y tres.",
+ "En Australia, si no votas sin una buena excusa, te llega una multa de veinte dólares. Por eso allí vota más del noventa por ciento.",
+ "En Brasil la multa es de menos de un euro… pero si faltas tres veces sin justificarlo, pueden bloquearte hasta el pasaporte.",
+ "Y en Singapur, si no votas, te borran del censo electoral.",
+ "¿Y en España? Votar no es obligatorio. Pero si te toca estar en una mesa electoral y no vas, puede ser delito.",
+ "¿Crees que en España debería ser obligatorio? Comenta. Y sígueme.",
+],
 }
 if __name__ == "__main__":
     tot=0

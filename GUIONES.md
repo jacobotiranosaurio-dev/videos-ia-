@@ -178,6 +178,30 @@ Los partidos son ficticios (A, B, C y D, con formas genéricas), sin logos ni co
 
 ---
 
+## 8 · ¿Sabías que hay países en los que votar es obligatorio?  (`votoobligatorio`, 50 s)
+
+**Hook hablado:** "¿Sabías que hay países en los que votar es obligatorio? Y si no vas, te castigan."
+**Hook visual (0–3 s):** el titular "¿VOTAR, OBLIGATORIO?", una urna con una papeleta que cae, el sello **OBLIGATORIO** y el aviso "⚠️ Y si no vas… castigo".
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Globo terráqueo que se llena de puntos rojos | pull-out | **≈20 PAÍSES** con voto obligatorio | Mapa del voto obligatorio |
+| 2 | 🇧🇪 Bélgica | paneo | **DESDE 1893**, de los primeros del mundo | Parlamento belga |
+| 3 | 🇦🇺 Australia: sobre con la multa y barra de participación | tilt | **20 $** de multa · participación **+90 %** | Colegio electoral australiano |
+| 4 | 🇧🇷 Brasil: ❌❌❌ y pasaporte | temblor | Multa < 1 € · sello **PASAPORTE BLOQUEADO** | Pasaporte brasileño |
+| 5 | 🇸🇬 Singapur: censo con "TÚ" tachado | push-in | Sello **BORRADO DEL CENSO** | Lista electoral |
+| 6 | 🇪🇸 España: tabla comparativa | paneo | Votar: NO OBLIGATORIO · Mesa electoral: OBLIGATORIA · ⚖️ No ir puede ser delito | Mesa electoral |
+| 7 | Urna + CTA (sin bucle) | pull-out | "¿Debería ser obligatorio en España?" · SUSCRÍBETE + marca discreta | — |
+
+**CTA:** "¿Crees que en España debería ser obligatorio? Comenta. Y sígueme." Es una pregunta abierta y neutral, y termina con 1 s de pantalla final.
+
+**Título:** Países donde NO votar está castigado 🗳️ (¿y en España?)
+**Descripción:** En unos 20 países votar es obligatorio: multas, pasaporte bloqueado o te borran del censo. ¿Y en España? ¿Debería ser obligatorio? Te leo 👇 #shorts #elecciones #votar #curiosidades #ley #ojoaldato
+**Comentario fijado:** "¿Sí o no? 👇 Yo tengo mi opinión pero quiero leer la vuestra"
+**Fuentes:** IDEA (International IDEA, base de datos de voto obligatorio); Wikipedia "Compulsory voting" (21 países en 2023); Australian Electoral Commission (multa de 20 AUD; participación >90 %); TSE de Brasil (multa de 3,51 R$; cancelación del título tras 3 ausencias sin justificar, que impide obtener pasaporte); Elections Department de Singapur (eliminación del registro); LOREG art. 143 (mesa electoral).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.
