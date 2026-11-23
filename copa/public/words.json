@@ -1,0 +1,1360 @@
+{
+ "duration": 53.546,
+ "words": [
+  {
+   "text": "El",
+   "key": false,
+   "start": 0.25,
+   "end": 0.431,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "premio",
+   "key": true,
+   "start": 0.431,
+   "end": 0.726,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "escondido",
+   "key": false,
+   "start": 0.726,
+   "end": 1.248,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "del",
+   "key": false,
+   "start": 1.248,
+   "end": 1.429,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "sorteo",
+   "key": true,
+   "start": 1.429,
+   "end": 1.724,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 1.724,
+   "end": 1.905,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 1.905,
+   "end": 2.087,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "Copa",
+   "key": false,
+   "start": 2.087,
+   "end": 2.382,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "del",
+   "key": false,
+   "start": 2.382,
+   "end": 2.563,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "Rey",
+   "key": false,
+   "start": 2.563,
+   "end": 2.744,
+   "sentence": 0,
+   "phrase": 0
+  },
+  {
+   "text": "no",
+   "key": false,
+   "start": 2.884,
+   "end": 3.062,
+   "sentence": 0,
+   "phrase": 1
+  },
+  {
+   "text": "es",
+   "key": false,
+   "start": 3.062,
+   "end": 3.239,
+   "sentence": 0,
+   "phrase": 1
+  },
+  {
+   "text": "pasar",
+   "key": false,
+   "start": 3.239,
+   "end": 3.527,
+   "sentence": 0,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 3.527,
+   "end": 3.704,
+   "sentence": 0,
+   "phrase": 1
+  },
+  {
+   "text": "ronda",
+   "key": false,
+   "start": 3.704,
+   "end": 3.992,
+   "sentence": 0,
+   "phrase": 1
+  },
+  {
+   "text": "Es",
+   "key": false,
+   "start": 4.352,
+   "end": 4.538,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "jugar",
+   "key": false,
+   "start": 4.538,
+   "end": 4.841,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 4.841,
+   "end": 5.027,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "casa",
+   "key": true,
+   "start": 5.027,
+   "end": 5.33,
+   "sentence": 1,
+   "phrase": 0
+  },
+  {
+   "text": "En",
+   "key": false,
+   "start": 5.69,
+   "end": 5.868,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 5.868,
+   "end": 6.046,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "primera",
+   "key": false,
+   "start": 6.046,
+   "end": 6.447,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "eliminatoria",
+   "key": false,
+   "start": 6.447,
+   "end": 7.181,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "entran",
+   "key": false,
+   "start": 7.181,
+   "end": 7.471,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "112",
+   "key": true,
+   "start": 7.471,
+   "end": 7.983,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "equipos",
+   "key": false,
+   "start": 7.983,
+   "end": 8.383,
+   "sentence": 2,
+   "phrase": 0
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 8.523,
+   "end": 8.704,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "se",
+   "key": false,
+   "start": 8.704,
+   "end": 8.885,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "juegan",
+   "key": false,
+   "start": 8.885,
+   "end": 9.178,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "56",
+   "key": true,
+   "start": 9.178,
+   "end": 9.698,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "partidos",
+   "key": false,
+   "start": 9.698,
+   "end": 10.104,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "a",
+   "key": false,
+   "start": 10.104,
+   "end": 10.285,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "partido",
+   "key": false,
+   "start": 10.285,
+   "end": 10.691,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "único",
+   "key": true,
+   "start": 10.691,
+   "end": 11.098,
+   "sentence": 2,
+   "phrase": 1
+  },
+  {
+   "text": "La",
+   "key": false,
+   "start": 11.458,
+   "end": 11.669,
+   "sentence": 3,
+   "phrase": 0
+  },
+  {
+   "text": "regla",
+   "key": false,
+   "start": 11.669,
+   "end": 12.011,
+   "sentence": 3,
+   "phrase": 0
+  },
+  {
+   "text": "es",
+   "key": false,
+   "start": 12.011,
+   "end": 12.222,
+   "sentence": 3,
+   "phrase": 0
+  },
+  {
+   "text": "clara",
+   "key": false,
+   "start": 12.222,
+   "end": 12.565,
+   "sentence": 3,
+   "phrase": 0
+  },
+  {
+   "text": "juega",
+   "key": false,
+   "start": 12.705,
+   "end": 12.995,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 12.995,
+   "end": 13.173,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "local",
+   "key": true,
+   "start": 13.173,
+   "end": 13.463,
+   "sentence": 3,
+   "phrase": 1
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 13.603,
+   "end": 13.776,
+   "sentence": 3,
+   "phrase": 2
+  },
+  {
+   "text": "equipo",
+   "key": false,
+   "start": 13.776,
+   "end": 14.163,
+   "sentence": 3,
+   "phrase": 2
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 14.163,
+   "end": 14.335,
+   "sentence": 3,
+   "phrase": 2
+  },
+  {
+   "text": "menor",
+   "key": true,
+   "start": 14.335,
+   "end": 14.615,
+   "sentence": 3,
+   "phrase": 2
+  },
+  {
+   "text": "categoría",
+   "key": false,
+   "start": 14.615,
+   "end": 15.11,
+   "sentence": 3,
+   "phrase": 2
+  },
+  {
+   "text": "Para",
+   "key": false,
+   "start": 15.47,
+   "end": 15.718,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "un",
+   "key": false,
+   "start": 15.718,
+   "end": 15.871,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "club",
+   "key": false,
+   "start": 15.871,
+   "end": 16.024,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "humilde",
+   "key": false,
+   "start": 16.024,
+   "end": 16.368,
+   "sentence": 4,
+   "phrase": 0
+  },
+  {
+   "text": "es",
+   "key": false,
+   "start": 16.508,
+   "end": 16.655,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "su",
+   "key": false,
+   "start": 16.655,
+   "end": 16.802,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "campo",
+   "key": false,
+   "start": 16.802,
+   "end": 17.04,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "lleno",
+   "key": false,
+   "start": 17.04,
+   "end": 17.279,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "hasta",
+   "key": false,
+   "start": 17.279,
+   "end": 17.517,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 17.517,
+   "end": 17.664,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "bandera",
+   "key": true,
+   "start": 17.664,
+   "end": 17.995,
+   "sentence": 4,
+   "phrase": 1
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 18.135,
+   "end": 18.296,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "taquilla",
+   "key": true,
+   "start": 18.296,
+   "end": 18.658,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 18.658,
+   "end": 18.819,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "su",
+   "key": false,
+   "start": 18.819,
+   "end": 18.98,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "vida",
+   "key": false,
+   "start": 18.98,
+   "end": 19.242,
+   "sentence": 4,
+   "phrase": 2
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 19.382,
+   "end": 19.552,
+   "sentence": 4,
+   "phrase": 3
+  },
+  {
+   "text": "un",
+   "key": false,
+   "start": 19.552,
+   "end": 19.722,
+   "sentence": 4,
+   "phrase": 3
+  },
+  {
+   "text": "grande",
+   "key": true,
+   "start": 19.722,
+   "end": 19.999,
+   "sentence": 4,
+   "phrase": 3
+  },
+  {
+   "text": "pisando",
+   "key": false,
+   "start": 19.999,
+   "end": 20.382,
+   "sentence": 4,
+   "phrase": 3
+  },
+  {
+   "text": "su",
+   "key": false,
+   "start": 20.382,
+   "end": 20.552,
+   "sentence": 4,
+   "phrase": 3
+  },
+  {
+   "text": "césped",
+   "key": false,
+   "start": 20.552,
+   "end": 20.829,
+   "sentence": 4,
+   "phrase": 3
+  },
+  {
+   "text": "Pero",
+   "key": false,
+   "start": 21.189,
+   "end": 21.446,
+   "sentence": 5,
+   "phrase": 0
+  },
+  {
+   "text": "aquí",
+   "key": false,
+   "start": 21.446,
+   "end": 21.704,
+   "sentence": 5,
+   "phrase": 0
+  },
+  {
+   "text": "viene",
+   "key": false,
+   "start": 21.704,
+   "end": 21.961,
+   "sentence": 5,
+   "phrase": 0
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 21.961,
+   "end": 22.119,
+   "sentence": 5,
+   "phrase": 0
+  },
+  {
+   "text": "problema",
+   "key": true,
+   "start": 22.119,
+   "end": 22.476,
+   "sentence": 5,
+   "phrase": 0
+  },
+  {
+   "text": "no",
+   "key": false,
+   "start": 22.616,
+   "end": 22.82,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "vale",
+   "key": false,
+   "start": 22.82,
+   "end": 23.151,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "cualquier",
+   "key": false,
+   "start": 23.151,
+   "end": 23.482,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "campo",
+   "key": false,
+   "start": 23.482,
+   "end": 23.813,
+   "sentence": 5,
+   "phrase": 1
+  },
+  {
+   "text": "La",
+   "key": false,
+   "start": 24.173,
+   "end": 24.334,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "Federación",
+   "key": false,
+   "start": 24.334,
+   "end": 24.795,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "exige",
+   "key": false,
+   "start": 24.795,
+   "end": 25.156,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "luz",
+   "key": true,
+   "start": 25.156,
+   "end": 25.317,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "para",
+   "key": false,
+   "start": 25.317,
+   "end": 25.578,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "la",
+   "key": false,
+   "start": 25.578,
+   "end": 25.738,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "tele",
+   "key": false,
+   "start": 25.738,
+   "end": 25.999,
+   "sentence": 6,
+   "phrase": 0
+  },
+  {
+   "text": "aforo",
+   "key": true,
+   "start": 26.139,
+   "end": 26.52,
+   "sentence": 6,
+   "phrase": 1
+  },
+  {
+   "text": "suficiente",
+   "key": false,
+   "start": 26.52,
+   "end": 27.007,
+   "sentence": 6,
+   "phrase": 1
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 27.147,
+   "end": 27.323,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "césped",
+   "key": false,
+   "start": 27.323,
+   "end": 27.61,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "natural",
+   "key": false,
+   "start": 27.61,
+   "end": 28.006,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "o",
+   "key": false,
+   "start": 28.006,
+   "end": 28.182,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "artificial",
+   "key": false,
+   "start": 28.182,
+   "end": 28.689,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 28.689,
+   "end": 28.865,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "menos",
+   "key": false,
+   "start": 28.865,
+   "end": 29.152,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 29.152,
+   "end": 29.328,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "8",
+   "key": true,
+   "start": 29.328,
+   "end": 29.614,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "años",
+   "key": true,
+   "start": 29.614,
+   "end": 29.901,
+   "sentence": 6,
+   "phrase": 2
+  },
+  {
+   "text": "Y",
+   "key": false,
+   "start": 30.261,
+   "end": 30.444,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "si",
+   "key": false,
+   "start": 30.444,
+   "end": 30.627,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "no",
+   "key": false,
+   "start": 30.627,
+   "end": 30.811,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "cumple",
+   "key": false,
+   "start": 30.811,
+   "end": 31.109,
+   "sentence": 7,
+   "phrase": 0
+  },
+  {
+   "text": "Toca",
+   "key": false,
+   "start": 31.249,
+   "end": 31.536,
+   "sentence": 7,
+   "phrase": 1
+  },
+  {
+   "text": "mudarse",
+   "key": true,
+   "start": 31.536,
+   "end": 31.934,
+   "sentence": 7,
+   "phrase": 1
+  },
+  {
+   "text": "a",
+   "key": false,
+   "start": 31.934,
+   "end": 32.11,
+   "sentence": 7,
+   "phrase": 1
+  },
+  {
+   "text": "otro",
+   "key": false,
+   "start": 32.11,
+   "end": 32.398,
+   "sentence": 7,
+   "phrase": 1
+  },
+  {
+   "text": "estadio",
+   "key": false,
+   "start": 32.398,
+   "end": 32.795,
+   "sentence": 7,
+   "phrase": 1
+  },
+  {
+   "text": "Le",
+   "key": false,
+   "start": 33.155,
+   "end": 33.351,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "pasó",
+   "key": false,
+   "start": 33.351,
+   "end": 33.668,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "al",
+   "key": false,
+   "start": 33.668,
+   "end": 33.863,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "Tavernes",
+   "key": false,
+   "start": 33.863,
+   "end": 34.303,
+   "sentence": 8,
+   "phrase": 0
+  },
+  {
+   "text": "un",
+   "key": false,
+   "start": 34.443,
+   "end": 34.62,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "modesto",
+   "key": false,
+   "start": 34.62,
+   "end": 35.02,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 35.02,
+   "end": 35.198,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "categoría",
+   "key": false,
+   "start": 35.198,
+   "end": 35.709,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "regional",
+   "key": true,
+   "start": 35.709,
+   "end": 36.109,
+   "sentence": 8,
+   "phrase": 1
+  },
+  {
+   "text": "recibió",
+   "key": false,
+   "start": 36.249,
+   "end": 36.722,
+   "sentence": 8,
+   "phrase": 2
+  },
+  {
+   "text": "al",
+   "key": false,
+   "start": 36.722,
+   "end": 36.933,
+   "sentence": 8,
+   "phrase": 2
+  },
+  {
+   "text": "Valencia",
+   "key": false,
+   "start": 36.933,
+   "end": 37.406,
+   "sentence": 8,
+   "phrase": 2
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 37.546,
+   "end": 37.746,
+   "sentence": 8,
+   "phrase": 3
+  },
+  {
+   "text": "Mestalla",
+   "key": true,
+   "start": 37.746,
+   "end": 38.195,
+   "sentence": 8,
+   "phrase": 3
+  },
+  {
+   "text": "Así",
+   "key": false,
+   "start": 38.555,
+   "end": 38.807,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "que",
+   "key": false,
+   "start": 38.807,
+   "end": 38.962,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "el",
+   "key": false,
+   "start": 38.962,
+   "end": 39.118,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "Valencia",
+   "key": false,
+   "start": 39.118,
+   "end": 39.467,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "jugó",
+   "key": false,
+   "start": 39.467,
+   "end": 39.719,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 39.719,
+   "end": 39.874,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "visitante",
+   "key": true,
+   "start": 39.874,
+   "end": 40.321,
+   "sentence": 9,
+   "phrase": 0
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 40.461,
+   "end": 40.661,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "su",
+   "key": false,
+   "start": 40.661,
+   "end": 40.862,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "propio",
+   "key": false,
+   "start": 40.862,
+   "end": 41.187,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "estadio",
+   "key": false,
+   "start": 41.187,
+   "end": 41.638,
+   "sentence": 9,
+   "phrase": 1
+  },
+  {
+   "text": "Otros",
+   "key": false,
+   "start": 41.998,
+   "end": 42.315,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "clubes",
+   "key": false,
+   "start": 42.315,
+   "end": 42.631,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "prefieren",
+   "key": false,
+   "start": 42.631,
+   "end": 43.07,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "hacer",
+   "key": false,
+   "start": 43.07,
+   "end": 43.386,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "obras",
+   "key": false,
+   "start": 43.386,
+   "end": 43.703,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "contrarreloj",
+   "key": false,
+   "start": 43.703,
+   "end": 44.263,
+   "sentence": 10,
+   "phrase": 0
+  },
+  {
+   "text": "gradas",
+   "key": true,
+   "start": 44.403,
+   "end": 44.76,
+   "sentence": 10,
+   "phrase": 1
+  },
+  {
+   "text": "supletorias",
+   "key": false,
+   "start": 44.76,
+   "end": 45.391,
+   "sentence": 10,
+   "phrase": 1
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 45.531,
+   "end": 45.754,
+   "sentence": 10,
+   "phrase": 2
+  },
+  {
+   "text": "focos",
+   "key": true,
+   "start": 45.754,
+   "end": 46.116,
+   "sentence": 10,
+   "phrase": 2
+  },
+  {
+   "text": "nuevos",
+   "key": false,
+   "start": 46.116,
+   "end": 46.479,
+   "sentence": 10,
+   "phrase": 2
+  },
+  {
+   "text": "Tú",
+   "key": false,
+   "start": 46.839,
+   "end": 47.029,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "qué",
+   "key": false,
+   "start": 47.029,
+   "end": 47.219,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "prefieres",
+   "key": false,
+   "start": 47.219,
+   "end": 47.647,
+   "sentence": 11,
+   "phrase": 0
+  },
+  {
+   "text": "Campo",
+   "key": false,
+   "start": 47.787,
+   "end": 48.066,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "pequeño",
+   "key": false,
+   "start": 48.066,
+   "end": 48.454,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "o",
+   "key": false,
+   "start": 48.454,
+   "end": 48.626,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "estadio",
+   "key": false,
+   "start": 48.626,
+   "end": 49.013,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "grande",
+   "key": false,
+   "start": 49.013,
+   "end": 49.293,
+   "sentence": 11,
+   "phrase": 1
+  },
+  {
+   "text": "Te",
+   "key": false,
+   "start": 49.653,
+   "end": 49.843,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "leo",
+   "key": false,
+   "start": 49.843,
+   "end": 50.033,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "en",
+   "key": false,
+   "start": 50.033,
+   "end": 50.224,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "los",
+   "key": false,
+   "start": 50.224,
+   "end": 50.414,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "comentarios",
+   "key": true,
+   "start": 50.414,
+   "end": 50.96,
+   "sentence": 12,
+   "phrase": 0
+  },
+  {
+   "text": "y",
+   "key": false,
+   "start": 51.1,
+   "end": 51.274,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "sígueme",
+   "key": true,
+   "start": 51.274,
+   "end": 51.665,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "para",
+   "key": false,
+   "start": 51.665,
+   "end": 51.947,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "más",
+   "key": false,
+   "start": 51.947,
+   "end": 52.121,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "curiosidades",
+   "key": false,
+   "start": 52.121,
+   "end": 52.729,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "de",
+   "key": false,
+   "start": 52.729,
+   "end": 52.903,
+   "sentence": 12,
+   "phrase": 1
+  },
+  {
+   "text": "fútbol",
+   "key": false,
+   "start": 52.903,
+   "end": 53.186,
+   "sentence": 12,
+   "phrase": 1
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.25,
+   "end": 3.992,
+   "text": "El *premio escondido del *sorteo de la Copa del Rey / no es pasar de ronda."
+  },
+  {
+   "start": 4.352,
+   "end": 5.33,
+   "text": "Es jugar en *casa."
+  },
+  {
+   "start": 5.69,
+   "end": 11.098,
+   "text": "En la primera eliminatoria entran {*112|ciento doce} equipos / y se juegan {*56|cincuenta y seis} partidos a partido *único."
+  },
+  {
+   "start": 11.458,
+   "end": 15.11,
+   "text": "La regla es clara / juega de *local / el equipo de *menor categoría."
+  },
+  {
+   "start": 15.47,
+   "end": 20.829,
+   "text": "Para un club humilde / es su campo lleno hasta la *bandera / la *taquilla de su vida / y un *grande pisando su césped."
+  },
+  {
+   "start": 21.189,
+   "end": 23.813,
+   "text": "Pero aquí viene el *problema / no vale cualquier campo."
+  },
+  {
+   "start": 24.173,
+   "end": 29.901,
+   "text": "La Federación exige *luz para la tele / *aforo suficiente / y césped natural o artificial de menos de {*8|ocho} *años."
+  },
+  {
+   "start": 30.261,
+   "end": 32.795,
+   "text": "¿Y si no cumple? / Toca *mudarse a otro estadio."
+  },
+  {
+   "start": 33.155,
+   "end": 38.195,
+   "text": "Le pasó al Tavernes / un modesto de categoría *regional / recibió al Valencia / en *Mestalla."
+  },
+  {
+   "start": 38.555,
+   "end": 41.638,
+   "text": "Así que el Valencia jugó de *visitante / en su propio estadio."
+  },
+  {
+   "start": 41.998,
+   "end": 46.479,
+   "text": "Otros clubes prefieren hacer obras contrarreloj / *gradas supletorias / y *focos nuevos."
+  },
+  {
+   "start": 46.839,
+   "end": 49.293,
+   "text": "¿Tú qué prefieres? / ¿Campo pequeño o estadio grande?"
+  },
+  {
+   "start": 49.653,
+   "end": 53.186,
+   "text": "Te leo en los *comentarios / y *sígueme para más curiosidades de fútbol."
+  }
+ ]
+}

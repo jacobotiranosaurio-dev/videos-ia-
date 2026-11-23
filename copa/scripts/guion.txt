@@ -1,0 +1,15 @@
+# Una frase por línea. "/" = pausa corta (coma). {mostrar|decir} = texto en pantalla distinto del hablado.
+# *palabra = palabra clave resaltada en subtítulos.
+El *premio escondido del *sorteo de la Copa del Rey / no es pasar de ronda.
+Es jugar en *casa.
+En la primera eliminatoria entran {*112|ciento doce} equipos / y se juegan {*56|cincuenta y seis} partidos a partido *único.
+La regla es clara / juega de *local / el equipo de *menor categoría.
+Para un club humilde / es su campo lleno hasta la *bandera / la *taquilla de su vida / y un *grande pisando su césped.
+Pero aquí viene el *problema / no vale cualquier campo.
+La Federación exige *luz para la tele / *aforo suficiente / y césped natural o artificial de menos de {*8|ocho} *años.
+¿Y si no cumple? / Toca *mudarse a otro estadio.
+Le pasó al Tavernes / un modesto de categoría *regional / recibió al Valencia / en *Mestalla.
+Así que el Valencia jugó de *visitante / en su propio estadio.
+Otros clubes prefieren hacer obras contrarreloj / *gradas supletorias / y *focos nuevos.
+¿Tú qué prefieres? / ¿Campo pequeño o estadio grande?
+Te leo en los *comentarios / y *sígueme para más curiosidades de fútbol.
