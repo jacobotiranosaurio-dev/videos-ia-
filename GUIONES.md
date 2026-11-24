@@ -252,6 +252,31 @@ Sin escudos ni logotipos reales; solo se nombra a los equipos en el marcador.
 
 ---
 
+## 11 · ¿Qué pasa si te ponen 6 estrellas en GTA VI?  (`gta6`, 61 s)
+
+**Hook hablado:** "¿Qué pasa si te ponen seis estrellas en GTA seis? Spoiler: ya no hay escapatoria."
+**Hook visual (0–3 s):** atardecer de neón con palmeras y sirenas roja y azul; el título "6 ESTRELLAS", las estrellas se encienden una a una hasta seis, aparece un coche patrulla y el sello **SIN ESCAPATORIA**.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Comparativa de estrellas | pull-out | GTA V ★★★★★ · GTA VI ★★★★★★ · ⭐ Vuelve la sexta estrella | — |
+| 2 | Explosiones y un tanque que entra | push-in | DESTRUCCIÓN MASIVA · 🪖 Robar un tanque de la base militar | — |
+| 3 | Helicópteros cruzando y sirenas | tilt | EL EJÉRCITO ENTERO · Tanques (ya con 5★) · Helicópteros de ataque · Camiones con torreta · Barricadas | — |
+| 4 | Seis estrellas con candado | push-in | LO PEOR · sello **YA NO BAJA** · 🙈 Da igual dónde te escondas | — |
+| 5 | Mapa con patrullas que convergen | temblor | 🚔 Arrestado · 💀 O muerto | — |
+| 6 | Estrellas huecas y rojas | paneo | 👁 OJO AL DATO · HUECAS: aviso, no saben quién eres · ROJAS: te han perdido de vista, pero tienen información | — |
+| 7 | **Consejo** | pull-out | 💾 Guarda la partida ANTES · sello **DE 6★ NO SE SALE** | — |
+| 8 | Estrellas + CTA (sin bucle) | pull-out | "¿Cuánto has aguantado tú con 6 estrellas?" · SUSCRÍBETE + marca discreta | — |
+
+Ilustraciones genéricas, sin logotipos, capturas ni arte de Rockstar. Silencios recortados con `data/tighten.py` (4,5 s menos).
+
+**Título:** ¿Qué pasa si te ponen 6 ESTRELLAS en GTA 6? 😱⭐
+**Descripción:** En GTA V el máximo eran 5 estrellas… en GTA 6 vuelve la sexta. Ejército, tanques, helicópteros y un nivel de búsqueda que YA NO BAJA. ¿Cuánto has aguantado tú? 👇 #shorts #gta6 #gtavi #videojuegos #gaming #curiosidades #ojoaldato
+**Comentario fijado:** "Mi récord con 6 estrellas: 47 segundos 😂 ¿y el tuyo?"
+**Fuentes:** guías y análisis tras el lanzamiento (PC Gamer: cómo llegar a 6 estrellas y qué pasa; CBR, Engadget y GameRant: sistema de búsqueda, estrellas huecas o rojas, el nivel máximo no se puede perder).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.

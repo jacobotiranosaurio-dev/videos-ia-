@@ -102,6 +102,17 @@ SCRIPTS = {
  "Y si los dos son de la misma categoría, decide el sorteo: el primero que sale, juega en casa.",
  "¿Qué cruce tienes más ganas de ver? Comenta. Y sígueme.",
 ],
+"gta6": [
+ "¿Qué pasa si te ponen seis estrellas en GTA seis? Spoiler: ya no hay escapatoria.",
+ "En GTA cinco, el máximo eran cinco estrellas. En GTA seis, vuelve la sexta.",
+ "Y no es fácil llegar. Tienes que causar una destrucción masiva. El método más usado: robar un tanque de la base militar.",
+ "Con cinco estrellas ya te mandan tanques. Con seis, llega el ejército entero: helicópteros de ataque, camiones con torreta y barricadas.",
+ "Y aquí viene lo peor: con seis estrellas, el nivel de búsqueda ya no baja. Da igual dónde te escondas.",
+ "Te persiguen por todo el mapa hasta que te arrestan… o mueres.",
+ "Ojo al dato: si las estrellas salen huecas, la policía tiene un aviso pero no sabe quién eres. Si se ponen rojas, te han perdido de vista, pero tienen información sobre ti.",
+ "Consejo: si quieres probarlo, guarda la partida antes. Porque de las seis estrellas no se sale.",
+ "¿Cuánto has aguantado tú con seis estrellas? Comenta. Y sígueme.",
+],
 }
 if __name__ == "__main__":
     tot=0
