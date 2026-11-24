@@ -250,3 +250,11 @@ export const Tag: React.FC<{
     </div>
   );
 };
+
+// ---------- Mapa de tiempos (voz original -> voz con silencios recortados) ----------
+export const makeMapper = (tm: [number, number][]) => (t: number) => {
+  let i = tm.length - 2;
+  for (let j = 0; j < tm.length - 1; j++) if (t < tm[j + 1][0]) { i = j; break; }
+  const [x0, y0] = tm[i], [x1, y1] = tm[i + 1];
+  return x1 === x0 ? y0 : y0 + ((t - x0) * (y1 - y0)) / (x1 - x0);
+};

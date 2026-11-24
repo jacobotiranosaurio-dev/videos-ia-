@@ -5,8 +5,8 @@ uso: python3 tools/tighten.py voz_in.mp3 voz_out.mp3 timemap.json [--hook 12] [-
 Escribe timemap.json = [[t_original, t_nuevo], ...] para remapear subtítulos, escenas y efectos."""
 import subprocess, re, json, sys, argparse
 p = argparse.ArgumentParser(); p.add_argument("inp"); p.add_argument("out"); p.add_argument("map")
-p.add_argument("--hook", type=float, default=12); p.add_argument("--keep", type=float, default=0.16)
-p.add_argument("--keep-hook", type=float, default=0.09); p.add_argument("--dramatic", default="")
+p.add_argument("--hook", type=float, default=12); p.add_argument("--keep", type=float, default=0.25)
+p.add_argument("--keep-hook", type=float, default=0.15); p.add_argument("--dramatic", default="")
 a = p.parse_args()
 dram = [float(x) for x in a.dramatic.split(",") if x]
 log = subprocess.run(["ffmpeg", "-i", a.inp, "-af", "silencedetect=noise=-38dB:d=0.1", "-f", "null", "-"], capture_output=True, text=True).stderr
@@ -17,7 +17,7 @@ keepsegs, cur, removed = [], 0.0, 0.0
 tmap = [[0.0, 0.0]]
 for s, e in zip(st, en):
     if s < 0.05: continue  # silencio inicial: lo dejamos
-    keep = 0.3 if any(abs(s - d) < 0.4 for d in dram) else (a.keep_hook if s < a.hook else a.keep)
+    keep = 0.4 if any(abs(s - d) < 0.4 for d in dram) else (a.keep_hook if s < a.hook else a.keep)
     gap = e - s
     if gap <= keep: continue
     cut_a = s + keep / 2; cut_b = e - keep / 2

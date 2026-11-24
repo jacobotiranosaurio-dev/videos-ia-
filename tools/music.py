@@ -7,6 +7,7 @@ SR = 44100
 dur = float(sys.argv[1]); out = sys.argv[2]
 bpm = float(sys.argv[3]) if len(sys.argv) > 3 else 104
 rng = np.random.default_rng(int(sys.argv[4]) if len(sys.argv) > 4 else 7)
+style = sys.argv[5] if len(sys.argv) > 5 else "lofi"  # lofi | synth (synthwave)
 os.makedirs(out, exist_ok=True)
 n = int(dur * SR); t = np.arange(n) / SR
 mix = np.zeros((n, 2))
@@ -22,6 +23,9 @@ beat = 60 / bpm; bar = 4 * beat
 # progresión: Am - F - C - G (curiosa, positiva)
 prog = [[57, 60, 64], [53, 57, 60], [48, 55, 64], [55, 59, 62]]
 bass = [45, 41, 48, 43]
+if style == "synth":
+    prog = [[57, 60, 64], [53, 57, 60], [55, 59, 62], [52, 55, 59]]
+    bass = [45, 41, 43, 40]
 def pad(notes, L):
     tt = np.arange(int(L * SR)) / SR
     s = sum(np.sin(2*np.pi*f(m)*tt + 0.3*np.sin(2*np.pi*0.4*tt)) + 0.5*np.sin(2*np.pi*f(m)*1.003*tt) for m in notes)
@@ -29,6 +33,9 @@ def pad(notes, L):
     return lp(s * env, 1200) * 0.08
 def pluck(m, L=0.6):
     tt = np.arange(int(L * SR)) / SR
+    if style == "synth":
+        s = sum(np.sin(2*np.pi*f(m)*k*tt)/k for k in range(1, 8))
+        return lp(s * np.exp(-tt * 9), 2600) * 0.12
     s = np.sin(2*np.pi*f(m)*tt) + 0.35*np.sin(2*np.pi*f(m)*4*tt)*np.exp(-tt*30)
     return s * np.exp(-tt * 7) * 0.16
 def kick():
@@ -51,6 +58,9 @@ for b in range(nb):
         for k in range(4):
             if k in (0, 2): add(kick(), t0 + k*beat)
             add(hat(), t0 + k*beat + beat/2, pan=0.2)
+            if style == "synth" and k in (1, 3):
+                tt2 = np.arange(int(0.2*SR))/SR
+                add(lp(hp(rng.standard_normal(len(tt2)), 900), 5000)*np.exp(-tt2*25)*0.12, t0 + k*beat)
 # fades
 fade = np.minimum(1, t/1.5) * np.minimum(1, (dur - t)/2.5)
 mix *= fade[:, None]
