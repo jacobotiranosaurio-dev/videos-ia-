@@ -46,12 +46,14 @@
 | 22 nov 15:50 | Miel (versión de esta sesión) | ✅ [publicado](https://www.youtube.com/shorts/ywFOAxlQhd4) | pendiente | duplica el tema del 21 nov |
 | 22 nov 20:50 | Carteles electorales | ✅ [publicado](https://www.youtube.com/shorts/b5rty9D_6s0) | pendiente | tema de actualidad (elecciones) |
 | 23 nov 15:50 | Copa del Rey | ✅ [publicado](https://www.youtube.com/shorts/0gPbO8Ex494) | pendiente | día del sorteo; primer vídeo con silencios recortados |
-| 23 nov 20:55 | Voto obligatorio | programado | — | |
-| 24 nov 15:50 | Voto en blanco vs nulo | programado | — | |
+| 23 nov 20:55 | Voto obligatorio | ✅ [publicado](https://www.youtube.com/shorts/c4IMeGSAVDI) | pendiente | |
+| 24 nov 15:50 | Voto en blanco vs nulo | ✅ [publicado](https://www.youtube.com/shorts/HPGsDeADwzA) | pendiente | |
 | 24 nov 20:50 | Roma | programado | — | |
+| 25 nov 15:30 | Curva del olvido (creado fuera de esta sesión) | programado | — | |
 
 ### Revisiones diarias
 - **20 nov:** 3/3 publicaciones correctas. **2 suscriptores** (los primeros del canal). Las visualizaciones por vídeo todavía no han llegado a Metricool. Mejor hora para el sábado 21: 16:00 (y 10:00 como segunda opción).
 - **21 nov:** **5 suscriptores** (+3 hoy). Las visualizaciones por vídeo siguen sin llegar a Metricool. Se ha publicado una versión del Short de la miel a las 15:50 que no se programó desde esta sesión, y la versión de esta sesión está programada para el 22 nov a las 15:50: posible duplicado, pendiente de que el usuario decida. Mejor hora para el domingo 22: 16:00.
 - **22 nov:** **14 suscriptores** (+9 hoy). Primer dato de visualizaciones del canal en Metricool: **1.214 visualizaciones** el 19 nov (día del primer Short). Las dos versiones de la miel se han publicado (21 y 22 nov). Mejor hora para el lunes 23: 16:00 (ahí ya va Roma a las 15:50).
 - **23 nov:** **15 suscriptores**. Visualizaciones del canal según Metricool: **1.214 (19 nov)** y **1.853 (20 nov)**; los días siguientes aún no han llegado. Carteles (22 nov) y Copa (23 nov) publicados sin errores. Mejor hora el martes 24: 16:00 (ahí va el voto en blanco a las 15:50).
+- **24 nov:** **16 suscriptores**. Visualizaciones diarias: 1.214 (19) → 1.853 (20) → **2.788 (21 nov)**, con +9 suscriptores ese día: el canal crece cada día. Voto obligatorio y voto en blanco publicados sin errores. Mejor hora el miércoles 25: 16:00 (pico más alto de la semana).
