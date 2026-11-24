@@ -4,9 +4,21 @@ import { Backdrop, Big, C, Camera, CountUp, FONT, SceneIn, Tag, clamp, lin, useP
 import { Bed, Book, Brain, Bulb, Cabinet, CalendarCard, EyeMascot, Flashcard, Folder, Scientist } from "../lib/chars";
 import { Captions, Word } from "../lib/Captions";
 import wordsJson from "./words.json";
+import timemap from "./timemap.json";
+
+// Mapa de tiempos (voz original -> voz con silencios recortados). Todos los tiempos del guion se escriben
+// en segundos de la voz ORIGINAL y m() los traslada a la voz recortada.
+const TM = timemap as [number, number][];
+const m = (t: number) => {
+  let i = TM.length - 2;
+  for (let j = 0; j < TM.length - 1; j++) if (t < TM[j + 1][0]) { i = j; break; }
+  const [x0, y0] = TM[i], [x1, y1] = TM[i + 1];
+  return x1 === x0 ? y0 : y0 + ((t - x0) * (y1 - y0)) / (x1 - x0);
+};
 
 const words = wordsJson as Word[];
-export const V01_DURATION = 66.6;
+const ORIG_END = 66.6;
+export const V01_DURATION = Math.round(m(ORIG_END) * 30) / 30;
 
 const KEYWORDS = [
   "olvidado", "culpa", "1885", "Ebbinghaus", "brutal", "sílabas", "meses", "miedo", "20", "minutos", "42%", "hora", "mitad",
@@ -15,7 +27,7 @@ const KEYWORDS = [
 ];
 
 // Escenas [inicio, fin] en segundos absolutos
-const S = {
+const S0 = {
   hook: [0, 5.0],
   ebb: [5.0, 18.9],
   curve: [18.9, 29.4],
@@ -24,8 +36,9 @@ const S = {
   t1: [36.3, 46.4],
   t2: [46.4, 52.1],
   t3: [52.1, 57.1],
-  cta: [57.1, V01_DURATION],
+  cta: [57.1, ORIG_END],
 } as const;
+const S = Object.fromEntries(Object.entries(S0).map(([k, [x, y]]) => [k, [m(x), m(y)]])) as Record<keyof typeof S0, [number, number]>;
 
 const OVER = 0.25; // solape para transiciones
 
@@ -44,15 +57,15 @@ const Hook: React.FC = () => {
   const t = useSec();
   const pct = Math.round(interpolate(t, [0.15, 2.4], [100, 33], clamp));
   const barColor = pct > 66 ? C.mint : pct > 45 ? C.yellow : C.coral;
-  const shake = t < 3.3 ? Math.sin(t * 50) * 5 * (t > 0.5 ? 1 : 0) : 0;
+  const shake = t < m(3.3) ? Math.sin(t * 50) * 5 * (t > 0.5 ? 1 : 0) : 0;
   const items = ["ABC", "π", "E=mc²", "7×8", "París", "√2", "H₂O", "1492", "do re mi", "x²"];
-  const alarm = t < 3.3 && Math.floor(t * 4) % 2 === 0;
-  const after = t >= 3.3;
+  const alarm = t < m(3.3) && Math.floor(t * 4) % 2 === 0;
+  const after = t >= m(3.3);
   return (
     <AbsoluteFill>
       <Backdrop from="#6A2CF0" to="#1B0A3A" seed={3} />
       {alarm && <AbsoluteFill style={{ boxShadow: "inset 0 0 220px rgba(255,60,90,0.65)" }} />}
-      <Camera dur={5} zoom={[1.05, 1.15]} punchAt={[0, 3.3]}>
+      <Camera dur={5} zoom={[1.05, 1.15]} punchAt={[0, m(3.3)]}>
         {/* barra de memoria */}
         <div style={{ position: "absolute", left: 150, top: 640, width: 780 }}>
           <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 46, color: "#fff", marginBottom: 10, display: "flex", justifyContent: "space-between", WebkitTextStroke: `8px ${C.ink}`, paintOrder: "stroke fill" }}>
@@ -80,7 +93,7 @@ const Hook: React.FC = () => {
         <div style={{ position: "absolute", left: 540 - 280, top: 920, transform: `translateX(${shake}px)` }}>
           <Brain size={560} mood={after ? "wink" : "worried"} sweat={!after} />
         </div>
-        {after && <Tag at={0.6 + 3.3 - 0.6} x={540} y={1480} bg={C.mint} size={60} rotate={3}>¡NO ES TU CULPA!</Tag>}
+        {after && <Tag at={m(3.3)} x={540} y={1480} bg={C.mint} size={60} rotate={3}>¡NO ES TU CULPA!</Tag>}
       </Camera>
     </AbsoluteFill>
   );
@@ -104,7 +117,7 @@ const Stopwatch: React.FC<{ size?: number }> = ({ size = 200 }) => {
 
 const Ebbinghaus: React.FC = () => {
   const O = S.ebb[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   const calK = usePop(a(5.3), 11, 120);
   const calToCorner = lin(t, a(7.2), a(7.8));
@@ -221,7 +234,7 @@ const Marker: React.FC<{ at: number; until?: number; x: number; y: number; label
 
 const Curve: React.FC = () => {
   const O = S.curve[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   // progreso del trazo sincronizado con la voz
   const prog = interpolate(t, [0, a(19.4), a(21.2), a(22.7), a(24.0), a(25.2), a(27.4)], [0, 0.04, 0.15, 0.2, 0.3, 0.4, 1], clamp);
@@ -277,7 +290,7 @@ const Curve: React.FC = () => {
 // ======================= ESCENA 4: NOMBRE + 2015 =======================
 const NameScene: React.FC = () => {
   const O = S.name[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   const tk = usePop(a(29.9), 10, 140);
   const up = lin(t, a(31.2), a(31.7));
@@ -315,10 +328,10 @@ const NameScene: React.FC = () => {
 // ======================= ESCENA 5: DOBLAR LA CURVA =======================
 const BendScene: React.FC = () => {
   const O = S.bend[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
-  const m = lin(t, a(35.5), a(36.1));
-  const ease = 1 - Math.pow(1 - m, 3);
+  const mo = lin(t, a(35.5), a(36.1));
+  const ease = 1 - Math.pow(1 - mo, 3);
   const y = (base: number, target: number) => base + (target - base) * ease;
   const pts: [number, number][] = [
     [0, 100], [0.15, y(58, 92)], [0.3, y(44, 88)], [0.6, y(34, 90)], [1, y(21, 95)],
@@ -326,15 +339,15 @@ const BendScene: React.FC = () => {
   const d = pathFrom(pts);
   return (
     <AbsoluteFill>
-      <Backdrop from={m > 0.5 ? "#2FE6A0" : "#3B3B8F"} to={m > 0.5 ? "#06614A" : "#141433"} seed={15} />
+      <Backdrop from={mo > 0.5 ? "#2FE6A0" : "#3B3B8F"} to={mo > 0.5 ? "#06614A" : "#141433"} seed={15} />
       <Camera dur={2} zoom={[1.05, 1.15]} punchAt={[a(35.7)]}>
         <div style={{ position: "absolute", left: CHART.x, top: CHART.y + 80, width: CHART.w, height: CHART.h, background: "#fff", borderRadius: 40, border: `9px solid ${C.ink}`, boxShadow: `0 16px 0 ${C.ink}` }} />
         <svg width={1080} height={1920} style={{ position: "absolute", top: 80 }}>
-          <path d={d} fill="none" stroke={m > 0.5 ? C.mint : C.coral} strokeWidth={18} strokeLinecap="round" />
+          <path d={d} fill="none" stroke={mo > 0.5 ? C.mint : C.coral} strokeWidth={18} strokeLinecap="round" />
           <path d={`M${P(0, 0)[0]} ${P(0, 105)[1]} L${P(0, 0)[0]} ${P(0, 0)[1]} L${P(1.02, 0)[0]} ${P(0, 0)[1]}`} stroke={C.ink} strokeWidth={8} fill="none" />
         </svg>
-        {m > 0.6 && <Tag at={a(35.9)} x={540} y={1430} bg={C.yellow} size={70} rotate={-4}>¡SE PUEDE DOBLAR!</Tag>}
-        {m > 0.3 &&
+        {mo > 0.6 && <Tag at={a(35.9)} x={540} y={1430} bg={C.yellow} size={70} rotate={-4}>¡SE PUEDE DOBLAR!</Tag>}
+        {mo > 0.3 &&
           Array.from({ length: 10 }, (_, i) => {
             const p = (t - a(35.6)) * 1.5;
             const ang = (i / 10) * Math.PI * 2;
@@ -359,7 +372,7 @@ const TipBadge: React.FC<{ n: number; color: string }> = ({ n, color }) => {
 // ======================= ESCENA 6: TRUCO 1 =======================
 const Tip1: React.FC = () => {
   const O = S.t1[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   const phase = t < a(39.4) ? 0 : 1;
   const xK = usePop(a(37.2), 8, 220);
@@ -424,7 +437,7 @@ const Tip1: React.FC = () => {
 // ======================= ESCENA 7: TRUCO 2 =======================
 const Tip2: React.FC = () => {
   const O = S.t2[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   const reviews = [a(49.5), a(50.8), a(51.4)];
   const X0 = 170, X1 = 930, Y0 = 820, Y1 = 1330;
@@ -470,7 +483,7 @@ const Tip2: React.FC = () => {
 // ======================= ESCENA 8: TRUCO 3 =======================
 const Tip3: React.FC = () => {
   const O = S.t3[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   const bedK = usePop(a(53.0), 13, 110);
   const store = t > a(55.9);
@@ -527,7 +540,7 @@ const Tip3: React.FC = () => {
 // ======================= ESCENA 9: CTA =======================
 const CTA: React.FC = () => {
   const O = S.cta[0];
-  const a = (x: number) => x - O;
+  const a = (x: number) => m(x) - O;
   const t = useSec();
   const quiz = t > a(58.9) && t < a(62.4);
   const follow = t >= a(62.4);
@@ -632,10 +645,10 @@ export const Video01: React.FC = () => {
       <Audio src={staticFile("v01/voz.mp3")} />
       <Audio
         src={staticFile("v01/musica.mp3")}
-        volume={(f) => interpolate(f / fps, [0, 1, 64.5, 65.5, V01_DURATION], [0.0, 0.13, 0.13, 0.3, 0.0], clamp)}
+        volume={(f) => interpolate(f / fps, [0, 1, m(64.5), m(65.5), V01_DURATION], [0.0, 0.13, 0.13, 0.3, 0.0], clamp)}
       />
       {SFX.map(([at, name, vol], i) => (
-        <Sequence key={i} from={Math.round(at * fps)} durationInFrames={Math.round(1.3 * fps)} name={`sfx-${name}`}>
+        <Sequence key={i} from={Math.round(m(at) * fps)} durationInFrames={Math.round(1.3 * fps)} name={`sfx-${name}`}>
           <Audio src={staticFile(`v01/${name}.wav`)} volume={vol} />
         </Sequence>
       ))}

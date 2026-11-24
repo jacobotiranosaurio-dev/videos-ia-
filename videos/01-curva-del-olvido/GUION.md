@@ -1,6 +1,6 @@
 # 01 · La curva del olvido — "Ojo al Dato"
 
-**Duración:** 66 s · **Formato:** 1080×1920, 30 fps · **Voz:** ElevenLabs Liam (multilingual v2) · **Música:** original sintetizada (sin copyright)
+**Duración:** 54 s (silencios recortados: pausas de 0,08 s en el gancho y 0,2 s en el resto; los tiempos de las tablas son de la voz original y `src/v01/timemap.json` los convierte) · **Formato:** 1080×1920, 30 fps · **Voz:** ElevenLabs Liam (multilingual v2) · **Música:** original sintetizada (sin copyright)
 
 ## HOOK (0–5 s)
 - **Frase:** "Mañana habrás olvidado casi todo lo que aprendiste hoy. Y no es culpa tuya."

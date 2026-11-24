@@ -13,7 +13,10 @@ Vídeos verticales animados (2D) para YouTube Shorts, hechos con **Remotion**. V
 ## Flujo para un vídeo nuevo
 ```bash
 python3 tools/tts.py videos/02-x/voz.txt public/v02/voz.mp3 videos/02-x/alignment.json
-python3 tools/words.py videos/02-x/alignment.json videos/02-x/numeros.json x src/v02/words.json
+python3 tools/words.py videos/02-x/alignment.json videos/02-x/numeros.json x videos/02-x/words_original.json
+# recortar silencios (0 créditos): gancho a 0.08 s, resto a 0.2 s
+python3 tools/tighten.py public/v02/voz_original.mp3 public/v02/voz.mp3 src/v02/timemap.json --hook 12 --keep 0.2 --keep-hook 0.08
+python3 tools/remap_words.py videos/02-x/words_original.json src/v02/timemap.json src/v02/words.json
 python3 tools/music.py 65 public/v02 100 <semilla> && ffmpeg -i public/v02/musica.wav public/v02/musica.mp3
 npx remotion studio            # previsualizar
 npx remotion render src/index.ts V02-... out/02-x.mp4
