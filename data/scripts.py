@@ -124,6 +124,17 @@ SCRIPTS = {
  "Pero el Senado tiene su as: sin su mayoría absoluta, no se puede aplicar el artículo ciento cincuenta y cinco.",
  "¿Tú sabías que podías mezclar partidos en el Senado? Comenta. Y sígueme.",
 ],
+"diputado": [
+ "Un diputado en España puede cobrar más de cinco mil euros al mes. Y una parte no paga impuestos.",
+ "Primero, el sueldo base: tres mil trescientos sesenta y siete euros brutos al mes. Igual para los trescientos cincuenta.",
+ "Pero hay más. Para gastos, los que vienen de fuera de Madrid reciben unos dos mil ciento sesenta euros al mes. Los de Madrid, unos mil treinta.",
+ "Y esa parte está exenta de IRPF. No paga impuestos.",
+ "En total, un diputado de fuera de Madrid ronda los cinco mil quinientos euros al mes.",
+ "Además, el Congreso les paga los viajes en tren o avión, y les da una tarjeta de taxi de hasta tres mil euros al año… aunque solo se pagan los viajes que hacen.",
+ "Y si tienen un cargo, como portavoz o presidente de una comisión, cobran un complemento extra.",
+ "Ojo al dato: todas estas cifras son públicas. Puedes consultarlas en la web del Congreso.",
+ "¿Te parece mucho o poco? Comenta. Y sígueme.",
+],
 }
 if __name__ == "__main__":
     tot=0

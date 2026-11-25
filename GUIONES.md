@@ -302,6 +302,31 @@ Papeletas genéricas, sin partidos reales; tono neutral e informativo. Silencios
 
 ---
 
+## 13 · ¿Cuánto cobra un diputado?  (`diputado`, 59 s)
+
+**Hook hablado:** "Un diputado en España puede cobrar más de cinco mil euros al mes. Y una parte no paga impuestos."
+**Hook visual (0–3 s):** el título "SUELDO DE UN DIPUTADO", un contador que sube hasta **+5.000 €** con lluvia de billetes y monedas, y el sello **PARTE SIN IMPUESTOS**.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Tarjeta tipo nómina | pull-out | SUELDO BASE · Asignación constitucional **3.367 €** brutos al mes · 🟰 Igual para los 350 | Hemiciclo |
+| 2 | Dos tarjetas | paneo | + PARA GASTOS · Fuera de Madrid **2.160 €** · Madrid **1.030 €** · 📍 Según por dónde los eligieron | — |
+| 3 | Sello sobre la indemnización | temblor | **SIN IRPF** · 🧾 No paga impuestos | — |
+| 4 | Suma | push-in | EN TOTAL · 3.367 € + 2.160 € = **≈ 5.500 €** al mes (fuera de Madrid) | — |
+| 5 | Tren, avión y taxi | paneo | 🎫 Viajes pagados por el Congreso · 🚕 Taxi: hasta 3.000 € al año · Solo se pagan los viajes reales | Estación, aeropuerto |
+| 6 | Portavoz y presidente de comisión | tilt | ¿Y SI TIENEN CARGO? · sello **+ COMPLEMENTO** | — |
+| 7 | Ventana de congreso.es con el régimen económico | push-in | 👁 OJO AL DATO · sello **DATOS PÚBLICOS** | Web del Congreso |
+| 8 | 💶 + CTA (sin bucle) | pull-out | "¿Te parece mucho o poco?" · SUSCRÍBETE + marca discreta | — |
+
+Tono informativo y neutral, sin valoraciones ni partidos. Silencios recortados con `data/tighten.py` (6 s menos).
+
+**Título:** ¿Cuánto cobra un DIPUTADO en España? 💶 (y una parte sin impuestos)
+**Descripción:** Sueldo base, dinero para gastos sin IRPF, viajes y tarjeta de taxi… Te lo cuento con las cifras oficiales del Congreso. ¿Te parece mucho o poco? 👇 #shorts #diputados #congreso #sueldos #politica #curiosidades #ojoaldato
+**Comentario fijado:** "¿Mucho, poco o justo? Te leo 👇"
+**Fuentes:** Congreso de los Diputados, régimen económico (asignación constitucional de 3.366,99 €; indemnización de 2.162,85 € fuera de Madrid y 1.032,38 € en Madrid, exenta de IRPF; tarjeta de taxi de hasta 3.000 €/año, solo por viajes realizados; transporte público pagado); prensa de 2026 (Infobae, sueldospublicos.com).
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.
