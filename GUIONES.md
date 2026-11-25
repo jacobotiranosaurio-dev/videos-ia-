@@ -277,6 +277,31 @@ Ilustraciones genéricas, sin logotipos, capturas ni arte de Rockstar. Silencios
 
 ---
 
+## 12 · El 29N votas dos veces: Congreso y Senado, ¿en qué se diferencian?  (`congresosenado`, 58 s)
+
+**Hook hablado:** "El 29N votas dos veces: al Congreso y al Senado. ¿Sabes en qué se diferencian?"
+**Hook visual (0–3 s):** el título "29N" en dorado sobre una pantalla partida en azul y sepia; aparecen la papeleta blanca del Congreso y la sepia del Senado y cae el sello **VOTAS ×2**.
+
+| # | Escena | Cámara | Texto en pantalla / dato | B-roll sugerido |
+|---|---|---|---|---|
+| 1 | Papeleta blanca con candado | paneo | PAPELETA BLANCA · 🗳️ Votas a un PARTIDO · 🔒 Lista cerrada: ni orden ni nombres | Papeleta real del Congreso |
+| 2 | Hemiciclo que se llena | pull-out | CONGRESO · **350** diputados | Hemiciclo |
+| 3 | Papeleta sepia en la que se marcan 3 cruces de colores distintos | tilt | PAPELETA SEPIA · 👤 Personas · ✕ Hasta 3 · 🎨 De partidos distintos | Papeleta del Senado |
+| 4 | Una cuarta cruz roja | temblor | ¡OJO! · sello **+3 = NULO** | — |
+| 5 | Hemiciclo del Senado (las urnas y los designados en gris) | pull-out | SENADO · **209** en las urnas · el resto, los parlamentos autonómicos | Senado |
+| 6 | Balanza que se inclina hacia el Congreso | push-in | ¿QUIÉN MANDA MÁS? · 👑 Solo él elige al presidente · ↩️ Levanta el veto del Senado | — |
+| 7 | Carta "as" con el ART. 155 | push-in | EL AS DEL SENADO · **155** · Necesita su mayoría absoluta | — |
+| 8 | Las dos papeletas + CTA (sin bucle) | pull-out | "¿Sabías que podías mezclar partidos en el Senado?" · SUSCRÍBETE + marca discreta | — |
+
+Papeletas genéricas, sin partidos reales; tono neutral e informativo. Silencios recortados con `data/tighten.py` (8,7 s menos).
+
+**Título:** 29N: votas 2 veces y casi nadie sabe la diferencia 🗳️ (Congreso vs Senado)
+**Descripción:** Papeleta blanca y papeleta sepia: no funcionan igual. En el Senado votas a personas, puedes mezclar partidos… y con más de 3 cruces tu voto es nulo. ¿Lo sabías? 👇 #shorts #elecciones #29N #senado #congreso #curiosidades #ojoaldato
+**Comentario fijado:** "¿Sabías que podías votar a candidatos de partidos distintos en el Senado? 👀"
+**Fuentes:** Ministerio del Interior (209 senadores elegidos el 29N); LOREG (Congreso con lista cerrada, Senado con voto a candidatos y nulidad por exceso de marcas, papeleta sepia); Constitución arts. 90 (veto del Senado y su levantamiento), 99 (investidura en el Congreso) y 155.
+
+---
+
 ## Fuentes de los datos (verificables)
 - Planetas: NASA Planetary Fact Sheets (temperaturas, presión de Venus ≈ 92 bar, vientos de Saturno ≈ 1.800 km/h). Pérdida de conciencia en el vacío o sin O₂ en unos 15 s: NASA.
 - Sentinel del Norte: zona de exclusión de 5 millas náuticas (Gobierno de la India); muerte de John Allen Chau en 2018.

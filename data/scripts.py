@@ -113,6 +113,17 @@ SCRIPTS = {
  "Consejo: si quieres probarlo, guarda la partida antes. Porque de las seis estrellas no se sale.",
  "¿Cuánto has aguantado tú con seis estrellas? Comenta. Y sígueme.",
 ],
+"congresosenado": [
+ "El veintinueve ene votas dos veces: al Congreso y al Senado. ¿Sabes en qué se diferencian?",
+ "Papeleta blanca: Congreso. Ahí votas a un partido, con una lista cerrada. No puedes tocar ni el orden ni los nombres.",
+ "Se eligen trescientos cincuenta diputados.",
+ "Papeleta sepia: Senado. Aquí votas a personas, no a partidos. En la mayoría de provincias puedes marcar hasta tres candidatos… incluso de partidos distintos.",
+ "Pero ojo: si marcas más de tres, tu voto al Senado es nulo.",
+ "En las urnas se eligen doscientos nueve senadores. El resto los designan los parlamentos autonómicos.",
+ "¿Y quién manda más? El Congreso. Solo él elige al presidente del Gobierno. Y si el Senado veta una ley, el Congreso puede levantar ese veto.",
+ "Pero el Senado tiene su as: sin su mayoría absoluta, no se puede aplicar el artículo ciento cincuenta y cinco.",
+ "¿Tú sabías que podías mezclar partidos en el Senado? Comenta. Y sígueme.",
+],
 }
 if __name__ == "__main__":
     tot=0

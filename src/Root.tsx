@@ -14,8 +14,9 @@ import {votoobligatorio} from './videos/votoobligatorio';
 import {blanconulo} from './videos/blanconulo';
 import {copa} from './videos/copa';
 import {gta6} from './videos/gta6';
+import {congresosenado} from './videos/congresosenado';
 
-const VIDEOS: VideoDef[] = [planetas, prohibidos, envidia, roma, sinhumanos, miel, carteles, votoobligatorio, blanconulo, copa, gta6];
+const VIDEOS: VideoDef[] = [planetas, prohibidos, envidia, roma, sinhumanos, miel, carteles, votoobligatorio, blanconulo, copa, gta6, congresosenado];
 
 // Cada vídeo es un componente propio (las funciones no pueden ir en props serializadas)
 const COMPONENTS = VIDEOS.map((v) => {
