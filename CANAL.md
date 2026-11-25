@@ -48,8 +48,11 @@
 | 23 nov 15:50 | Copa del Rey | ✅ [publicado](https://www.youtube.com/shorts/0gPbO8Ex494) | pendiente | día del sorteo; primer vídeo con silencios recortados |
 | 23 nov 20:55 | Voto obligatorio | ✅ [publicado](https://www.youtube.com/shorts/c4IMeGSAVDI) | pendiente | |
 | 24 nov 15:50 | Voto en blanco vs nulo | ✅ [publicado](https://www.youtube.com/shorts/HPGsDeADwzA) | pendiente | |
-| 24 nov 20:50 | Roma | programado | — | |
-| 25 nov 15:30 | Curva del olvido (creado fuera de esta sesión) | programado | — | |
+| 24 nov 20:50 | Roma | ✅ [publicado](https://www.youtube.com/shorts/5C_DctHh3yA) | pendiente | |
+| 25 nov 15:50 | GTA VI 6 estrellas | ✅ [publicado](https://www.youtube.com/shorts/4xFZkXoN3hw) | pendiente | categoría Gaming |
+| 26 nov 15:50 | Congreso vs Senado | programado | — | |
+| 27 nov 15:50 | Curva del olvido (creado fuera de esta sesión) | programado | — | |
+| 28 nov 15:50 | Sueldo diputado (versión creada fuera de esta sesión) | programado | — | la versión de esta sesión está en borrador por decisión del usuario |
 
 ### Revisiones diarias
 - **20 nov:** 3/3 publicaciones correctas. **2 suscriptores** (los primeros del canal). Las visualizaciones por vídeo todavía no han llegado a Metricool. Mejor hora para el sábado 21: 16:00 (y 10:00 como segunda opción).
@@ -57,3 +60,4 @@
 - **22 nov:** **14 suscriptores** (+9 hoy). Primer dato de visualizaciones del canal en Metricool: **1.214 visualizaciones** el 19 nov (día del primer Short). Las dos versiones de la miel se han publicado (21 y 22 nov). Mejor hora para el lunes 23: 16:00 (ahí ya va Roma a las 15:50).
 - **23 nov:** **15 suscriptores**. Visualizaciones del canal según Metricool: **1.214 (19 nov)** y **1.853 (20 nov)**; los días siguientes aún no han llegado. Carteles (22 nov) y Copa (23 nov) publicados sin errores. Mejor hora el martes 24: 16:00 (ahí va el voto en blanco a las 15:50).
 - **24 nov:** **16 suscriptores**. Visualizaciones diarias: 1.214 (19) → 1.853 (20) → **2.788 (21 nov)**, con +9 suscriptores ese día: el canal crece cada día. Voto obligatorio y voto en blanco publicados sin errores. Mejor hora el miércoles 25: 16:00 (pico más alto de la semana).
+- **25 nov:** **18 suscriptores**. Visualizaciones diarias: 1.214 (19) · 1.853 (20) · 2.788 (21) · **2.585 (22 nov)** → **8.440 en los 4 primeros días**. Roma y GTA VI publicados sin errores. Mejor hora jueves 26: 16:00 (ahí va Congreso vs Senado a las 15:50).
