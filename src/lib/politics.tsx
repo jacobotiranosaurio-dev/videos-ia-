@@ -65,7 +65,7 @@ export const Deputy: React.FC<{ size?: number; mood?: "smile" | "smug" | "shock"
 };
 
 // ---------- Hemiciclo con N escaños ----------
-export const Hemicycle: React.FC<{ size?: number; filled?: number; total?: number; color?: string }> = ({ size = 900, filled = 350, total = 350, color = P.red }) => {
+export const Hemicycle: React.FC<{ size?: number; filled?: number; total?: number; color?: string; emptyColor?: string }> = ({ size = 900, filled = 350, total = 350, color = P.red, emptyColor = "rgba(255,255,255,0.15)" }) => {
   const rows = 10;
   const seats: [number, number][] = [];
   const radii = Array.from({ length: rows }, (_, i) => 150 + i * 30);
@@ -81,9 +81,9 @@ export const Hemicycle: React.FC<{ size?: number; filled?: number; total?: numbe
   return (
     <svg width={size} height={size * 0.55} viewBox="0 0 900 500">
       {seats.slice(0, total).map(([x, y], i) => (
-        <circle key={i} cx={x} cy={y} r={11} fill={i < filled ? color : "rgba(255,255,255,0.15)"} stroke={i < filled ? INK : "none"} strokeWidth={3} />
+        <circle key={i} cx={x} cy={y} r={11} fill={i < filled ? color : emptyColor} stroke={i < filled ? INK : "none"} strokeWidth={3} />
       ))}
-      <rect x={380} y={455} width={140} height={40} rx={8} fill={P.gold} stroke={INK} strokeWidth={5} />
+      {emptyColor !== "transparent" && <rect x={380} y={455} width={140} height={40} rx={8} fill={P.gold} stroke={INK} strokeWidth={5} />}
     </svg>
   );
 };

@@ -1,11 +1,12 @@
-# 04 · ¿Cómo se reparten los escaños? La ley D'Hondt en 50 segundos — "Ojo al Dato"
+# 04 · ¿Cómo se reparten los escaños? La ley D'Hondt en 40 segundos (v2) — "Ojo al Dato"
 
-**Duración:** 63 s (la explicación dura 37 s, cronometrada en pantalla) · **Voz:** Liam 1,05, recorte suave de silencios · **Música:** lo-fi original · **Tono:** neutral y didáctico; los partidos son ficticios (A, B, C, D) y tienen colores neutros
+**Duración:** 60 s (la explicación dura 36 s, cronometrada en pantalla sobre 0:40) · **Voz:** Liam 1,05, recorte suave de silencios · **Música:** lo-fi original · **Tono:** neutral y didáctico; los partidos son ficticios (A, B, C, D) y tienen colores neutros
 
-## HOOK (0–8 s)
-- **Frase:** "¿Por qué un partido con el 12 % de los votos puede quedarse sin escaño? Culpa de la ley D'Hondt. Te la explico en 50 segundos."
-- **Hook visual:** un montón de papeletas rosas con un **12 %** → flecha → escaño vacío parpadeando, con una ✕ roja y un **0** gigante. Después, el título "LA LEY D'HONDT" + "EN 50 SEGUNDOS".
-- **Gancho de retención:** aparece un **cronómetro real** arriba ("0:12 / 0:50") que corre mientras se explica. Al terminar marca "✓ EXPLICADO EN 37 s". Cumple la promesa del título, da sensación de ritmo y anima a volver a verlo.
+## HOOK (0–5 s)
+- **Frase (la que pediste):** "¿Cómo se reparten los escaños? Te explico la ley D'Hondt en 40 segundos."
+- **Hook visual:** desde el fotograma 0, papeletas de colores vuelan hacia un hemiciclo, que se va llenando de escaños de 4 colores, con un "?" gigante que se balancea. Al decir "ley D'Hondt" entra el título con un golpe de sonido, después la etiqueta "⏱ EN 40 SEGUNDOS" y un gancho final: **"¿POR QUÉ UN 12 % SACA 0?"**, que se resuelve en el segundo ~33.
+- **Cronómetro real** arriba ("0:12 / 0:40") → al terminar marca "✓ EXPLICADO EN 36 s".
+- **Voz:** solo se ha regenerado la frase inicial (75 caracteres); el resto es la misma locución del v1.
 
 ## DESARROLLO
 | Escena | Locución | Visual | Texto en pantalla |
@@ -30,7 +31,7 @@
 - La relación entre el tamaño de la circunscripción y la proporcionalidad es la explicación clásica de la ciencia política; en el vídeo se muestra de forma cualitativa, sin porcentajes exactos.
 
 ## Publicación sugerida
-- **Título:** La ley D'Hondt explicada en 50 segundos ⏱️ (por qué un 12 % puede sacar 0 escaños) #shorts
+- **Título:** ¿Cómo se reparten los escaños? La ley D'Hondt en 40 segundos ⏱️ #shorts
 - **Descripción:** Cómo se convierten los votos en escaños en España: 52 circunscripciones, barrera del 3 % y la tabla D'Hondt, con un ejemplo. ¿Sabías que funcionaba así? Comenta SÍ o NO 👇
 - **Hashtags:** #shorts #ojoaldato #elecciones #leydhondt #congreso #politica #españa #educacion
 - **Comentario fijado:** "¿SÍ o NO? 👇 (y dime cuántos escaños reparte tu provincia)"

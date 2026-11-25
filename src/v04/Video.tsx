@@ -8,12 +8,17 @@ import wordsJson from "./words.json";
 import timemap from "./timemap.json";
 
 const words = wordsJson as Word[];
-const m = makeMapper(timemap as [number, number][]);
+// La voz es: intro nueva (0–5,15 s) + voz original desde 8,30 s. Los tiempos del gancho están en segundos de la intro;
+// el resto, en segundos de la voz original v1. sh() los une y makeMapper aplica el recorte de silencios.
+const base = makeMapper(timemap as [number, number][]);
+const INTRO = 5.15, CUT = 8.3;
+const sh = (t: number) => (t < CUT ? t : t - CUT + INTRO);
+const m = (t: number) => base(sh(t));
 const ORIG_END = 75.3;
 export const V04_DURATION = Math.round(m(ORIG_END) * 30) / 30;
 
 const KEYWORDS = [
-  "12%", "escaño", "D'Hondt", "50 segundos", "350", "52", "provincia", "Ceuta", "Melilla", "separado", "filtro", "3%", "fuera",
+  "reparten", "escaños?", "12%", "escaño", "D'Hondt", "40 segundos", "350", "52", "provincia", "Ceuta", "Melilla", "separado", "filtro", "3%", "fuera",
   "truco", "4", "1", "2", "3", "altos", "escaños", "42%", "mitad", "0", "premia", "grandes", "pequeña", "votos", "consejo",
   "clave", "pesa", "sí", "no", "sígueme", "datos",
 ];
@@ -27,8 +32,8 @@ const PARTIES = [
 ];
 
 const S0 = {
-  hook: [0, 8.5],
-  spain: [8.5, 19.6],
+  hook: [0, 8.3],
+  spain: [8.3, 19.6],
   filtro: [19.6, 26.2],
   truco: [26.2, 40.9],
   result: [40.9, 52.6],
@@ -75,7 +80,7 @@ const Ballot: React.FC<{ size?: number; color?: string; label?: string }> = ({ s
 const Stopwatch: React.FC = () => {
   const { fps } = useVideoConfig();
   const t = useSec();
-  const t0 = m(7.2), t1 = m(51.7);
+  const t0 = m(4.97), t1 = m(51.7);
   if (t < t0) return null;
   const el = Math.min(t, t1) - t0;
   const done = t >= t1;
@@ -84,60 +89,68 @@ const Stopwatch: React.FC = () => {
   return (
     <div style={{ position: "absolute", left: 540, top: 225, transform: `translate(-50%,-50%) scale(${k * (done ? 1 + 0.15 * Math.exp(-(t - t1) * 4) : 1)})` }}>
       <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 40, color: done ? C.ink : "#fff", background: done ? C.mint : "rgba(27,16,51,0.85)", border: `5px solid ${C.ink}`, borderRadius: 999, padding: "6px 26px", fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
-        {done ? `✓ EXPLICADO EN ${s} s` : `⏱ 0:${String(s).padStart(2, "0")} / 0:50`}
+        {done ? `✓ EXPLICADO EN ${s} s` : `⏱ 0:${String(s).padStart(2, "0")} / 0:40`}
       </div>
     </div>
   );
 };
 
 // ================= 1. HOOK =================
+// Tiempos en segundos de la intro: "¿Cómo se reparten los escaños?" 0–1,7 · "Te explico la ley D'Hondt" 2,0–3,4 · "en 40 segundos" 3,7–5,0
 const Hook: React.FC = () => {
   const a = useA("hook");
   const t = useSec();
-  const title = t >= a(4.7);
-  const blink = Math.floor(t * 4) % 2 === 0;
+  const title = t >= a(2.0);
+  const n = Math.round(interpolate(t, [0, a(1.9)], [40, 350], clamp));
+  const layers = [
+    { c: PARTIES[3].c, f: 1 },
+    { c: PARTIES[2].c, f: 0.88 },
+    { c: PARTIES[1].c, f: 0.72 },
+    { c: PARTIES[0].c, f: 0.42 },
+  ];
   return (
     <AbsoluteFill>
       <Backdrop from="#2E5BFF" to="#0A1240" seed={4} />
-      <Camera dur={8} zoom={[1.06, 1.14]} punchAt={[0, a(3.4), a(5.6)]}>
+      <Camera dur={5} zoom={[1.06, 1.16]} punchAt={[0, a(1.1), a(2.8), a(3.7)]}>
         {!title && (
           <>
-            {/* montón de papeletas del partido D... y escaño vacío en rojo */}
-            <div style={{ position: "absolute", left: 300, top: 1100, transform: "translate(-50%,-50%)" }}>
-              {Array.from({ length: 6 }, (_, i) => (
-                <div key={i} style={{ position: "absolute", left: (i % 3) * 60 - 90, top: -Math.floor(i / 3) * 70 + Math.sin(t * 3 + i) * 6, transform: `rotate(${(i - 3) * 8}deg)` }}>
-                  <Ballot size={130} color={PARTIES[3].c} />
+            {/* papeletas que vuelan hacia el hemiciclo y se convierten en escaños */}
+            <div style={{ position: "absolute", left: 540, top: 1000, transform: "translate(-50%,-50%)" }}>
+              <div style={{ position: "relative", width: 900, height: 495 }}>
+                <div style={{ position: "absolute", inset: 0 }}><Hemicycle size={900} filled={0} /></div>
+                {layers.map((l, i) => (
+                  <div key={i} style={{ position: "absolute", inset: 0 }}>
+                    <Hemicycle size={900} filled={Math.round(n * l.f)} color={l.c} emptyColor="transparent" />
+                  </div>
+                ))}
+              </div>
+            </div>
+            {Array.from({ length: 10 }, (_, i) => {
+              const p = ((t * 1.3 + i / 10) % 1);
+              const x0 = 100 + ((i * 263) % 880);
+              const x = interpolate(p, [0, 1], [x0, 540 + Math.cos(i * 1.7) * 300]);
+              const y = interpolate(p, [0, 1], [1800, 900]) - Math.sin(p * Math.PI) * 200;
+              return (
+                <div key={i} style={{ position: "absolute", left: x, top: y, transform: `translate(-50%,-50%) rotate(${p * 360 * (i % 2 ? 1 : -1)}deg) scale(${1 - p * 0.6})`, opacity: 1 - p * p }}>
+                  <Ballot size={90} color={PARTIES[i % 4].c} />
                 </div>
-              ))}
-              <div style={{ position: "absolute", left: -110, top: 150 }}>
-                <Big size={130} color={PARTIES[3].c} stroke={14}>12%</Big>
-              </div>
-            </div>
-            <div style={{ position: "absolute", left: 790, top: 1080, transform: "translate(-50%,-50%)" }}>
-              <div style={{ opacity: blink ? 1 : 0.6 }}>
-                <Seat color="rgba(255,255,255,0.15)" size={240} />
-              </div>
-              <div style={{ position: "absolute", left: 0, top: 0, width: 240, height: 240, display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${pop(t, a(3.4))})` }}>
-                <Big size={260} color={C.coral} stroke={16}>✕</Big>
-              </div>
-              <div style={{ textAlign: "center", marginTop: 10 }}>
-                <Big size={130} color={C.coral} stroke={14}>0</Big>
-              </div>
-            </div>
-            <div style={{ position: "absolute", left: 540, top: 1090, transform: "translate(-50%,-50%)" }}>
-              <Big size={120} color="#fff" stroke={12}>→</Big>
+              );
+            })}
+            <div style={{ position: "absolute", left: 540, top: 1180, transform: `translate(-50%,-50%) rotate(${Math.sin(t * 5) * 10}deg) scale(${1 + Math.sin(t * 8) * 0.06})` }}>
+              <Big size={260} color={C.yellow} stroke={18}>?</Big>
             </div>
           </>
         )}
         {title && (
-          <div style={{ position: "absolute", left: 540, top: 1000, transform: `translate(-50%,-50%) scale(${pop(t, a(4.7))}) rotate(-3deg)`, textAlign: "center" }}>
+          <div style={{ position: "absolute", left: 540, top: 980, transform: `translate(-50%,-50%) scale(${pop(t, a(2.05))}) rotate(-3deg)`, textAlign: "center" }}>
             <Big size={110} color="#fff" stroke={13}>LA LEY</Big>
-            <Big size={190} color={C.yellow} stroke={18}>D'HONDT</Big>
-            <div style={{ marginTop: 20, display: "inline-block", transform: `scale(${pop(t, a(7.2))})` }}>
-              <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 64, color: C.ink, background: C.mint, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 40px", boxShadow: `0 10px 0 ${C.ink}` }}>EN 50 SEGUNDOS</div>
+            <Big size={158} color={C.yellow} stroke={16}>D'HONDT</Big>
+            <div style={{ marginTop: 20, display: "inline-block", transform: `scale(${pop(t, a(3.7))})` }}>
+              <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 64, color: C.ink, background: C.mint, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 40px", boxShadow: `0 10px 0 ${C.ink}` }}>⏱ EN 40 SEGUNDOS</div>
             </div>
           </div>
         )}
+        {title && t > a(4.3) && <Tag at={a(4.3)} x={540} y={1400} bg={PARTIES[3].c} size={50} rotate={3}>¿POR QUÉ UN 12% SACA 0?</Tag>}
       </Camera>
     </AbsoluteFill>
   );
@@ -484,7 +497,7 @@ const CTA: React.FC = () => {
 };
 
 const SFX: [number, string, number][] = [
-  [0, "whoosh", 0.4], [0.2, "rise", 0.3], [3.4, "boom", 0.55], [4.7, "whoosh", 0.4], [5.6, "pop", 0.45], [7.2, "ding", 0.45],
+  [0, "whoosh", 0.4], [0.1, "rise", 0.3], [1.1, "pop", 0.4], [2.05, "whoosh", 0.4], [2.8, "boom", 0.55], [3.7, "ding", 0.45], [4.3, "pop", 0.4],
   [8.5, "whoosh", 0.4], [9.4, "rise", 0.3], [10.6, "ding", 0.4], [11.9, "tick", 0.5], [16.1, "pop", 0.4], [16.7, "pop", 0.4], [18.0, "whoosh", 0.35],
   [19.6, "whoosh", 0.4], [20.0, "pop", 0.4], [22.7, "tick", 0.5], [25.1, "boom", 0.55],
   [26.2, "whoosh", 0.4], [27.0, "pop", 0.4], [29.6, "pop", 0.4], [31.0, "whoosh", 0.35], [33.6, "tick", 0.5], [34.5, "tick", 0.5], [35.4, "tick", 0.5],
@@ -499,7 +512,7 @@ export const Video04: React.FC = () => {
   const { fps } = useVideoConfig();
   return (
     <AbsoluteFill style={{ background: C.ink }}>
-      <Scene k="hook"><SceneIn type="zoom"><Hook /></SceneIn></Scene>
+      <Scene k="hook"><Hook /></Scene>
       <Scene k="spain"><SceneIn type="up"><Spain /></SceneIn></Scene>
       <Scene k="filtro"><SceneIn type="left"><Filtro /></SceneIn></Scene>
       <Scene k="truco"><SceneIn type="spin"><Truco /></SceneIn></Scene>
