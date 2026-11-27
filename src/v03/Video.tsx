@@ -8,6 +8,7 @@ import wordsJson from "./words.json";
 import timemap from "./timemap.json";
 
 const words = wordsJson as Word[];
+// Voz: Dan (ElevenLabs, generada por el usuario). timemap = voz original de Liam -> voz de Dan (alineación DTW, tools/align_voice.py).
 const m = makeMapper(timemap as [number, number][]);
 const ORIG_END = 81.5;
 export const V03_DURATION = Math.round(m(ORIG_END) * 30) / 30;

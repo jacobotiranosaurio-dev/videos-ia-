@@ -1,6 +1,6 @@
 # 03 · ¿Cuánto cobra un diputado? — "Ojo al Dato"
 
-**Duración:** 65,5 s · **Voz:** Liam, velocidad 1,05, recorte suave de silencios (0,15 s en el gancho / 0,25 s en el resto / 0,4 s dramáticas) · **Música:** lo-fi original · **Tono:** neutral, solo datos oficiales
+**Duración:** 67,7 s · **Voz:** Dan – Upbeat, Dynamic and Friendly (ElevenLabs, generada por el usuario; audio sin recortar), sincronizada con la versión de Liam mediante alineación DTW (`tools/align_voice.py`, error medio 0,04 s). La versión con Liam está en `liam/`. · **Música:** lo-fi original · **Tono:** neutral, solo datos oficiales
 
 ## HOOK (0–5 s)
 - **Frase:** "¿Cuánto cobra un diputado? Más de lo que crees… y una parte, sin pagar impuestos."
