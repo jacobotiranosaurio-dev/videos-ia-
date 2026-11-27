@@ -10,6 +10,7 @@ import timemap from "./timemap.json";
 const words = wordsJson as Word[];
 // La voz es: intro nueva (0–5,15 s) + voz original desde 8,30 s. Los tiempos del gancho están en segundos de la intro;
 // el resto, en segundos de la voz original v1. sh() los une y makeMapper aplica el recorte de silencios.
+// Voz: Dan (ElevenLabs, generada por el usuario). base = voz combinada de Liam -> voz de Dan (alineación DTW, tools/align_voice.py).
 const base = makeMapper(timemap as [number, number][]);
 const INTRO = 5.15, CUT = 8.3;
 const sh = (t: number) => (t < CUT ? t : t - CUT + INTRO);

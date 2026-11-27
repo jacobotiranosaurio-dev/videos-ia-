@@ -1,11 +1,11 @@
 # 04 · ¿Cómo se reparten los escaños? La ley D'Hondt en 40 segundos (v2) — "Ojo al Dato"
 
-**Duración:** 60 s (la explicación dura 36 s, cronometrada en pantalla sobre 0:40) · **Voz:** Liam 1,05, recorte suave de silencios · **Música:** lo-fi original · **Tono:** neutral y didáctico; los partidos son ficticios (A, B, C, D) y tienen colores neutros
+**Duración:** 59 s (la explicación dura 34 s, cronometrada en pantalla sobre 0:40) · **Voz:** Dan – Upbeat, Dynamic and Friendly (ElevenLabs, generada por el usuario; audio sin recortar), sincronizada mediante alineación DTW con la versión de Liam (error medio 0,03 s; la versión con Liam está en `liam/`) · **Música:** lo-fi original · **Tono:** neutral y didáctico; los partidos son ficticios (A, B, C, D) y tienen colores neutros
 
 ## HOOK (0–5 s)
 - **Frase (la que pediste):** "¿Cómo se reparten los escaños? Te explico la ley D'Hondt en 40 segundos."
 - **Hook visual:** desde el fotograma 0, papeletas de colores vuelan hacia un hemiciclo, que se va llenando de escaños de 4 colores, con un "?" gigante que se balancea. Al decir "ley D'Hondt" entra el título con un golpe de sonido, después la etiqueta "⏱ EN 40 SEGUNDOS" y un gancho final: **"¿POR QUÉ UN 12 % SACA 0?"**, que se resuelve en el segundo ~33.
-- **Cronómetro real** arriba ("0:12 / 0:40") → al terminar marca "✓ EXPLICADO EN 36 s".
+- **Cronómetro real** arriba ("0:12 / 0:40") → al terminar marca "✓ EXPLICADO EN 34 s".
 - **Voz:** solo se ha regenerado la frase inicial (75 caracteres); el resto es la misma locución del v1.
 
 ## DESARROLLO
