@@ -1,0 +1,988 @@
+{
+ "duration": 60.439,
+ "words": [
+  {
+   "text": "¿Qué",
+   "start": 0.0,
+   "end": 0.174,
+   "scene": 0
+  },
+  {
+   "text": "pasa",
+   "start": 0.244,
+   "end": 0.511,
+   "scene": 0
+  },
+  {
+   "text": "si",
+   "start": 0.557,
+   "end": 0.639,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 0.685,
+   "end": 0.766,
+   "scene": 0
+  },
+  {
+   "text": "ponen",
+   "start": 0.824,
+   "end": 1.08,
+   "scene": 0
+  },
+  {
+   "text": "seis",
+   "start": 1.161,
+   "end": 1.405,
+   "scene": 0
+  },
+  {
+   "text": "estrellas",
+   "start": 1.463,
+   "end": 1.962,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 2.055,
+   "end": 2.159,
+   "scene": 0
+  },
+  {
+   "text": "GTA",
+   "start": 2.264,
+   "end": 2.67,
+   "scene": 0
+  },
+  {
+   "text": "seis?",
+   "start": 2.728,
+   "end": 3.181,
+   "scene": 0
+  },
+  {
+   "text": "Spoiler:",
+   "start": 3.401,
+   "end": 3.97,
+   "scene": 0
+  },
+  {
+   "text": "ya",
+   "start": 4.202,
+   "end": 4.341,
+   "scene": 0
+  },
+  {
+   "text": "no",
+   "start": 4.388,
+   "end": 4.492,
+   "scene": 0
+  },
+  {
+   "text": "hay",
+   "start": 4.539,
+   "end": 4.655,
+   "scene": 0
+  },
+  {
+   "text": "escapatoria.",
+   "start": 4.701,
+   "end": 5.433,
+   "scene": 0
+  },
+  {
+   "text": "En",
+   "start": 5.653,
+   "end": 5.815,
+   "scene": 1
+  },
+  {
+   "text": "GTA",
+   "start": 5.908,
+   "end": 6.291,
+   "scene": 1
+  },
+  {
+   "text": "cinco,",
+   "start": 6.338,
+   "end": 6.918,
+   "scene": 1
+  },
+  {
+   "text": "el",
+   "start": 7.081,
+   "end": 7.22,
+   "scene": 1
+  },
+  {
+   "text": "máximo",
+   "start": 7.313,
+   "end": 7.789,
+   "scene": 1
+  },
+  {
+   "text": "eran",
+   "start": 7.835,
+   "end": 8.033,
+   "scene": 1
+  },
+  {
+   "text": "cinco",
+   "start": 8.091,
+   "end": 8.485,
+   "scene": 1
+  },
+  {
+   "text": "estrellas.",
+   "start": 8.52,
+   "end": 9.17,
+   "scene": 1
+  },
+  {
+   "text": "En",
+   "start": 9.39,
+   "end": 9.553,
+   "scene": 1
+  },
+  {
+   "text": "GTA",
+   "start": 9.657,
+   "end": 10.064,
+   "scene": 1
+  },
+  {
+   "text": "seis,",
+   "start": 10.133,
+   "end": 10.575,
+   "scene": 1
+  },
+  {
+   "text": "vuelve",
+   "start": 10.737,
+   "end": 11.085,
+   "scene": 1
+  },
+  {
+   "text": "la",
+   "start": 11.12,
+   "end": 11.19,
+   "scene": 1
+  },
+  {
+   "text": "sexta.",
+   "start": 11.248,
+   "end": 11.736,
+   "scene": 1
+  },
+  {
+   "text": "Y",
+   "start": 11.956,
+   "end": 12.026,
+   "scene": 2
+  },
+  {
+   "text": "no",
+   "start": 12.107,
+   "end": 12.177,
+   "scene": 2
+  },
+  {
+   "text": "es",
+   "start": 12.223,
+   "end": 12.281,
+   "scene": 2
+  },
+  {
+   "text": "fácil",
+   "start": 12.34,
+   "end": 12.595,
+   "scene": 2
+  },
+  {
+   "text": "llegar.",
+   "start": 12.618,
+   "end": 13.071,
+   "scene": 2
+  },
+  {
+   "text": "Tienes",
+   "start": 13.291,
+   "end": 13.604,
+   "scene": 2
+  },
+  {
+   "text": "que",
+   "start": 13.651,
+   "end": 13.72,
+   "scene": 2
+  },
+  {
+   "text": "causar",
+   "start": 13.778,
+   "end": 14.104,
+   "scene": 2
+  },
+  {
+   "text": "una",
+   "start": 14.162,
+   "end": 14.289,
+   "scene": 2
+  },
+  {
+   "text": "destrucción",
+   "start": 14.336,
+   "end": 14.951,
+   "scene": 2
+  },
+  {
+   "text": "masiva.",
+   "start": 15.009,
+   "end": 15.648,
+   "scene": 2
+  },
+  {
+   "text": "El",
+   "start": 15.868,
+   "end": 16.018,
+   "scene": 2
+  },
+  {
+   "text": "método",
+   "start": 16.076,
+   "end": 16.402,
+   "scene": 2
+  },
+  {
+   "text": "más",
+   "start": 16.483,
+   "end": 16.657,
+   "scene": 2
+  },
+  {
+   "text": "usado:",
+   "start": 16.727,
+   "end": 17.261,
+   "scene": 2
+  },
+  {
+   "text": "robar",
+   "start": 17.481,
+   "end": 17.817,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 17.875,
+   "end": 17.933,
+   "scene": 2
+  },
+  {
+   "text": "tanque",
+   "start": 18.003,
+   "end": 18.34,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 18.386,
+   "end": 18.444,
+   "scene": 2
+  },
+  {
+   "text": "la",
+   "start": 18.491,
+   "end": 18.56,
+   "scene": 2
+  },
+  {
+   "text": "base",
+   "start": 18.63,
+   "end": 18.909,
+   "scene": 2
+  },
+  {
+   "text": "militar.",
+   "start": 18.955,
+   "end": 19.501,
+   "scene": 2
+  },
+  {
+   "text": "Con",
+   "start": 19.768,
+   "end": 19.977,
+   "scene": 3
+  },
+  {
+   "text": "cinco",
+   "start": 20.012,
+   "end": 20.313,
+   "scene": 3
+  },
+  {
+   "text": "estrellas",
+   "start": 20.348,
+   "end": 20.836,
+   "scene": 3
+  },
+  {
+   "text": "ya",
+   "start": 20.94,
+   "end": 21.103,
+   "scene": 3
+  },
+  {
+   "text": "te",
+   "start": 21.161,
+   "end": 21.242,
+   "scene": 3
+  },
+  {
+   "text": "mandan",
+   "start": 21.3,
+   "end": 21.602,
+   "scene": 3
+  },
+  {
+   "text": "tanques.",
+   "start": 21.66,
+   "end": 22.241,
+   "scene": 3
+  },
+  {
+   "text": "Con",
+   "start": 22.461,
+   "end": 22.658,
+   "scene": 3
+  },
+  {
+   "text": "seis,",
+   "start": 22.739,
+   "end": 23.25,
+   "scene": 3
+  },
+  {
+   "text": "llega",
+   "start": 23.343,
+   "end": 23.622,
+   "scene": 3
+  },
+  {
+   "text": "el",
+   "start": 23.645,
+   "end": 23.703,
+   "scene": 3
+  },
+  {
+   "text": "ejército",
+   "start": 23.761,
+   "end": 24.318,
+   "scene": 3
+  },
+  {
+   "text": "entero:",
+   "start": 24.365,
+   "end": 24.91,
+   "scene": 3
+  },
+  {
+   "text": "helicópteros",
+   "start": 25.13,
+   "end": 25.827,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 25.862,
+   "end": 25.908,
+   "scene": 3
+  },
+  {
+   "text": "ataque,",
+   "start": 25.954,
+   "end": 26.5,
+   "scene": 3
+  },
+  {
+   "text": "camiones",
+   "start": 26.697,
+   "end": 27.208,
+   "scene": 3
+  },
+  {
+   "text": "con",
+   "start": 27.266,
+   "end": 27.406,
+   "scene": 3
+  },
+  {
+   "text": "torreta",
+   "start": 27.464,
+   "end": 27.963,
+   "scene": 3
+  },
+  {
+   "text": "y",
+   "start": 28.033,
+   "end": 28.091,
+   "scene": 3
+  },
+  {
+   "text": "barricadas.",
+   "start": 28.16,
+   "end": 28.95,
+   "scene": 3
+  },
+  {
+   "text": "Y",
+   "start": 29.17,
+   "end": 29.263,
+   "scene": 4
+  },
+  {
+   "text": "aquí",
+   "start": 29.367,
+   "end": 29.611,
+   "scene": 4
+  },
+  {
+   "text": "viene",
+   "start": 29.669,
+   "end": 29.913,
+   "scene": 4
+  },
+  {
+   "text": "lo",
+   "start": 29.948,
+   "end": 30.04,
+   "scene": 4
+  },
+  {
+   "text": "peor:",
+   "start": 30.099,
+   "end": 30.54,
+   "scene": 4
+  },
+  {
+   "text": "con",
+   "start": 30.737,
+   "end": 30.911,
+   "scene": 4
+  },
+  {
+   "text": "seis",
+   "start": 30.969,
+   "end": 31.178,
+   "scene": 4
+  },
+  {
+   "text": "estrellas,",
+   "start": 31.247,
+   "end": 31.967,
+   "scene": 4
+  },
+  {
+   "text": "el",
+   "start": 32.107,
+   "end": 32.235,
+   "scene": 4
+  },
+  {
+   "text": "nivel",
+   "start": 32.316,
+   "end": 32.583,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 32.653,
+   "end": 32.711,
+   "scene": 4
+  },
+  {
+   "text": "búsqueda",
+   "start": 32.757,
+   "end": 33.187,
+   "scene": 4
+  },
+  {
+   "text": "ya",
+   "start": 33.28,
+   "end": 33.407,
+   "scene": 4
+  },
+  {
+   "text": "no",
+   "start": 33.454,
+   "end": 33.535,
+   "scene": 4
+  },
+  {
+   "text": "baja.",
+   "start": 33.593,
+   "end": 34.046,
+   "scene": 4
+  },
+  {
+   "text": "Da",
+   "start": 34.266,
+   "end": 34.405,
+   "scene": 4
+  },
+  {
+   "text": "igual",
+   "start": 34.44,
+   "end": 34.788,
+   "scene": 4
+  },
+  {
+   "text": "dónde",
+   "start": 34.858,
+   "end": 35.16,
+   "scene": 4
+  },
+  {
+   "text": "te",
+   "start": 35.195,
+   "end": 35.264,
+   "scene": 4
+  },
+  {
+   "text": "escondas.",
+   "start": 35.287,
+   "end": 35.88,
+   "scene": 4
+  },
+  {
+   "text": "Te",
+   "start": 36.1,
+   "end": 36.205,
+   "scene": 5
+  },
+  {
+   "text": "persiguen",
+   "start": 36.251,
+   "end": 36.646,
+   "scene": 5
+  },
+  {
+   "text": "por",
+   "start": 36.693,
+   "end": 36.797,
+   "scene": 5
+  },
+  {
+   "text": "todo",
+   "start": 36.843,
+   "end": 37.006,
+   "scene": 5
+  },
+  {
+   "text": "el",
+   "start": 37.029,
+   "end": 37.076,
+   "scene": 5
+  },
+  {
+   "text": "mapa",
+   "start": 37.145,
+   "end": 37.436,
+   "scene": 5
+  },
+  {
+   "text": "hasta",
+   "start": 37.47,
+   "end": 37.679,
+   "scene": 5
+  },
+  {
+   "text": "que",
+   "start": 37.726,
+   "end": 37.796,
+   "scene": 5
+  },
+  {
+   "text": "te",
+   "start": 37.842,
+   "end": 37.9,
+   "scene": 5
+  },
+  {
+   "text": "arrestan…",
+   "start": 37.923,
+   "end": 38.55,
+   "scene": 5
+  },
+  {
+   "text": "o",
+   "start": 38.77,
+   "end": 38.828,
+   "scene": 5
+  },
+  {
+   "text": "mueres.",
+   "start": 38.886,
+   "end": 39.42,
+   "scene": 5
+  },
+  {
+   "text": "Ojo",
+   "start": 39.64,
+   "end": 39.918,
+   "scene": 6
+  },
+  {
+   "text": "al",
+   "start": 39.953,
+   "end": 40.023,
+   "scene": 6
+  },
+  {
+   "text": "dato:",
+   "start": 40.069,
+   "end": 40.534,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 40.754,
+   "end": 40.87,
+   "scene": 6
+  },
+  {
+   "text": "las",
+   "start": 40.928,
+   "end": 41.032,
+   "scene": 6
+  },
+  {
+   "text": "estrellas",
+   "start": 41.102,
+   "end": 41.508,
+   "scene": 6
+  },
+  {
+   "text": "salen",
+   "start": 41.589,
+   "end": 41.903,
+   "scene": 6
+  },
+  {
+   "text": "huecas,",
+   "start": 41.938,
+   "end": 42.495,
+   "scene": 6
+  },
+  {
+   "text": "la",
+   "start": 42.692,
+   "end": 42.785,
+   "scene": 6
+  },
+  {
+   "text": "policía",
+   "start": 42.832,
+   "end": 43.238,
+   "scene": 6
+  },
+  {
+   "text": "tiene",
+   "start": 43.284,
+   "end": 43.493,
+   "scene": 6
+  },
+  {
+   "text": "un",
+   "start": 43.552,
+   "end": 43.633,
+   "scene": 6
+  },
+  {
+   "text": "aviso",
+   "start": 43.679,
+   "end": 43.969,
+   "scene": 6
+  },
+  {
+   "text": "pero",
+   "start": 44.028,
+   "end": 44.19,
+   "scene": 6
+  },
+  {
+   "text": "no",
+   "start": 44.248,
+   "end": 44.353,
+   "scene": 6
+  },
+  {
+   "text": "sabe",
+   "start": 44.411,
+   "end": 44.643,
+   "scene": 6
+  },
+  {
+   "text": "quién",
+   "start": 44.701,
+   "end": 44.864,
+   "scene": 6
+  },
+  {
+   "text": "eres.",
+   "start": 44.922,
+   "end": 45.351,
+   "scene": 6
+  },
+  {
+   "text": "Si",
+   "start": 45.571,
+   "end": 45.699,
+   "scene": 6
+  },
+  {
+   "text": "se",
+   "start": 45.745,
+   "end": 45.815,
+   "scene": 6
+  },
+  {
+   "text": "ponen",
+   "start": 45.873,
+   "end": 46.105,
+   "scene": 6
+  },
+  {
+   "text": "rojas,",
+   "start": 46.163,
+   "end": 46.709,
+   "scene": 6
+  },
+  {
+   "text": "te",
+   "start": 46.871,
+   "end": 46.976,
+   "scene": 6
+  },
+  {
+   "text": "han",
+   "start": 47.034,
+   "end": 47.104,
+   "scene": 6
+  },
+  {
+   "text": "perdido",
+   "start": 47.162,
+   "end": 47.464,
+   "scene": 6
+  },
+  {
+   "text": "de",
+   "start": 47.498,
+   "end": 47.568,
+   "scene": 6
+  },
+  {
+   "text": "vista,",
+   "start": 47.603,
+   "end": 48.114,
+   "scene": 6
+  },
+  {
+   "text": "pero",
+   "start": 48.311,
+   "end": 48.497,
+   "scene": 6
+  },
+  {
+   "text": "tienen",
+   "start": 48.532,
+   "end": 48.729,
+   "scene": 6
+  },
+  {
+   "text": "información",
+   "start": 48.776,
+   "end": 49.263,
+   "scene": 6
+  },
+  {
+   "text": "sobre",
+   "start": 49.298,
+   "end": 49.495,
+   "scene": 6
+  },
+  {
+   "text": "ti.",
+   "start": 49.542,
+   "end": 49.89,
+   "scene": 6
+  },
+  {
+   "text": "Consejo:",
+   "start": 50.11,
+   "end": 50.865,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 51.062,
+   "end": 51.202,
+   "scene": 7
+  },
+  {
+   "text": "quieres",
+   "start": 51.26,
+   "end": 51.48,
+   "scene": 7
+  },
+  {
+   "text": "probarlo,",
+   "start": 51.527,
+   "end": 52.119,
+   "scene": 7
+  },
+  {
+   "text": "guarda",
+   "start": 52.223,
+   "end": 52.514,
+   "scene": 7
+  },
+  {
+   "text": "la",
+   "start": 52.56,
+   "end": 52.618,
+   "scene": 7
+  },
+  {
+   "text": "partida",
+   "start": 52.665,
+   "end": 53.036,
+   "scene": 7
+  },
+  {
+   "text": "antes.",
+   "start": 53.059,
+   "end": 53.558,
+   "scene": 7
+  },
+  {
+   "text": "Porque",
+   "start": 53.778,
+   "end": 54.08,
+   "scene": 7
+  },
+  {
+   "text": "de",
+   "start": 54.138,
+   "end": 54.196,
+   "scene": 7
+  },
+  {
+   "text": "las",
+   "start": 54.243,
+   "end": 54.371,
+   "scene": 7
+  },
+  {
+   "text": "seis",
+   "start": 54.475,
+   "end": 54.638,
+   "scene": 7
+  },
+  {
+   "text": "estrellas",
+   "start": 54.696,
+   "end": 55.102,
+   "scene": 7
+  },
+  {
+   "text": "no",
+   "start": 55.206,
+   "end": 55.334,
+   "scene": 7
+  },
+  {
+   "text": "se",
+   "start": 55.381,
+   "end": 55.473,
+   "scene": 7
+  },
+  {
+   "text": "sale.",
+   "start": 55.52,
+   "end": 55.961,
+   "scene": 7
+  },
+  {
+   "text": "¿Cuánto",
+   "start": 56.181,
+   "end": 56.576,
+   "scene": 8
+  },
+  {
+   "text": "has",
+   "start": 56.611,
+   "end": 56.692,
+   "scene": 8
+  },
+  {
+   "text": "aguantado",
+   "start": 56.761,
+   "end": 57.203,
+   "scene": 8
+  },
+  {
+   "text": "tú",
+   "start": 57.261,
+   "end": 57.365,
+   "scene": 8
+  },
+  {
+   "text": "con",
+   "start": 57.435,
+   "end": 57.551,
+   "scene": 8
+  },
+  {
+   "text": "seis",
+   "start": 57.597,
+   "end": 57.772,
+   "scene": 8
+  },
+  {
+   "text": "estrellas?",
+   "start": 57.841,
+   "end": 58.445,
+   "scene": 8
+  },
+  {
+   "text": "Comenta.",
+   "start": 58.642,
+   "end": 59.304,
+   "scene": 8
+  },
+  {
+   "text": "Y",
+   "start": 59.524,
+   "end": 59.617,
+   "scene": 8
+  },
+  {
+   "text": "sígueme.",
+   "start": 59.698,
+   "end": 60.395,
+   "scene": 8
+  }
+ ],
+ "scenes": [
+  "¿Qué pasa si te ponen seis estrellas en GTA seis? Spoiler: ya no hay escapatoria.",
+  "En GTA cinco, el máximo eran cinco estrellas. En GTA seis, vuelve la sexta.",
+  "Y no es fácil llegar. Tienes que causar una destrucción masiva. El método más usado: robar un tanque de la base militar.",
+  "Con cinco estrellas ya te mandan tanques. Con seis, llega el ejército entero: helicópteros de ataque, camiones con torreta y barricadas.",
+  "Y aquí viene lo peor: con seis estrellas, el nivel de búsqueda ya no baja. Da igual dónde te escondas.",
+  "Te persiguen por todo el mapa hasta que te arrestan… o mueres.",
+  "Ojo al dato: si las estrellas salen huecas, la policía tiene un aviso pero no sabe quién eres. Si se ponen rojas, te han perdido de vista, pero tienen información sobre ti.",
+  "Consejo: si quieres probarlo, guarda la partida antes. Porque de las seis estrellas no se sale.",
+  "¿Cuánto has aguantado tú con seis estrellas? Comenta. Y sígueme."
+ ]
+}

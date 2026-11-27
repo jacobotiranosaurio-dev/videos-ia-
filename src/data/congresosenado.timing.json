@@ -1,0 +1,928 @@
+{
+ "duration": 57.272,
+ "words": [
+  {
+   "text": "El",
+   "start": 0.0,
+   "end": 0.139,
+   "scene": 0
+  },
+  {
+   "text": "veintinueve",
+   "start": 0.186,
+   "end": 0.731,
+   "scene": 0
+  },
+  {
+   "text": "ene",
+   "start": 0.766,
+   "end": 0.917,
+   "scene": 0
+  },
+  {
+   "text": "votas",
+   "start": 0.964,
+   "end": 1.3,
+   "scene": 0
+  },
+  {
+   "text": "dos",
+   "start": 1.358,
+   "end": 1.533,
+   "scene": 0
+  },
+  {
+   "text": "veces:",
+   "start": 1.602,
+   "end": 2.136,
+   "scene": 0
+  },
+  {
+   "text": "al",
+   "start": 2.356,
+   "end": 2.484,
+   "scene": 0
+  },
+  {
+   "text": "Congreso",
+   "start": 2.542,
+   "end": 3.006,
+   "scene": 0
+  },
+  {
+   "text": "y",
+   "start": 3.088,
+   "end": 3.111,
+   "scene": 0
+  },
+  {
+   "text": "al",
+   "start": 3.157,
+   "end": 3.215,
+   "scene": 0
+  },
+  {
+   "text": "Senado.",
+   "start": 3.273,
+   "end": 3.773,
+   "scene": 0
+  },
+  {
+   "text": "¿Sabes",
+   "start": 3.993,
+   "end": 4.446,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 4.516,
+   "end": 4.574,
+   "scene": 0
+  },
+  {
+   "text": "qué",
+   "start": 4.644,
+   "end": 4.736,
+   "scene": 0
+  },
+  {
+   "text": "se",
+   "start": 4.795,
+   "end": 4.864,
+   "scene": 0
+  },
+  {
+   "text": "diferencian?",
+   "start": 4.899,
+   "end": 5.665,
+   "scene": 0
+  },
+  {
+   "text": "Papeleta",
+   "start": 5.885,
+   "end": 6.338,
+   "scene": 1
+  },
+  {
+   "text": "blanca:",
+   "start": 6.373,
+   "end": 6.895,
+   "scene": 1
+  },
+  {
+   "text": "Congreso.",
+   "start": 7.115,
+   "end": 7.823,
+   "scene": 1
+  },
+  {
+   "text": "Ahí",
+   "start": 8.043,
+   "end": 8.252,
+   "scene": 1
+  },
+  {
+   "text": "votas",
+   "start": 8.298,
+   "end": 8.588,
+   "scene": 1
+  },
+  {
+   "text": "a",
+   "start": 8.658,
+   "end": 8.681,
+   "scene": 1
+  },
+  {
+   "text": "un",
+   "start": 8.763,
+   "end": 8.821,
+   "scene": 1
+  },
+  {
+   "text": "partido,",
+   "start": 8.879,
+   "end": 9.366,
+   "scene": 1
+  },
+  {
+   "text": "con",
+   "start": 9.413,
+   "end": 9.54,
+   "scene": 1
+  },
+  {
+   "text": "una",
+   "start": 9.599,
+   "end": 9.715,
+   "scene": 1
+  },
+  {
+   "text": "lista",
+   "start": 9.761,
+   "end": 10.017,
+   "scene": 1
+  },
+  {
+   "text": "cerrada.",
+   "start": 10.051,
+   "end": 10.597,
+   "scene": 1
+  },
+  {
+   "text": "No",
+   "start": 10.817,
+   "end": 10.933,
+   "scene": 1
+  },
+  {
+   "text": "puedes",
+   "start": 10.98,
+   "end": 11.2,
+   "scene": 1
+  },
+  {
+   "text": "tocar",
+   "start": 11.235,
+   "end": 11.525,
+   "scene": 1
+  },
+  {
+   "text": "ni",
+   "start": 11.583,
+   "end": 11.664,
+   "scene": 1
+  },
+  {
+   "text": "el",
+   "start": 11.699,
+   "end": 11.781,
+   "scene": 1
+  },
+  {
+   "text": "orden",
+   "start": 11.85,
+   "end": 12.129,
+   "scene": 1
+  },
+  {
+   "text": "ni",
+   "start": 12.187,
+   "end": 12.268,
+   "scene": 1
+  },
+  {
+   "text": "los",
+   "start": 12.315,
+   "end": 12.442,
+   "scene": 1
+  },
+  {
+   "text": "nombres.",
+   "start": 12.512,
+   "end": 13.023,
+   "scene": 1
+  },
+  {
+   "text": "Se",
+   "start": 13.243,
+   "end": 13.382,
+   "scene": 2
+  },
+  {
+   "text": "eligen",
+   "start": 13.417,
+   "end": 13.742,
+   "scene": 2
+  },
+  {
+   "text": "trescientos",
+   "start": 13.777,
+   "end": 14.334,
+   "scene": 2
+  },
+  {
+   "text": "cincuenta",
+   "start": 14.357,
+   "end": 14.88,
+   "scene": 2
+  },
+  {
+   "text": "diputados.",
+   "start": 14.914,
+   "end": 15.623,
+   "scene": 2
+  },
+  {
+   "text": "Papeleta",
+   "start": 15.843,
+   "end": 16.436,
+   "scene": 3
+  },
+  {
+   "text": "sepia:",
+   "start": 16.505,
+   "end": 17.051,
+   "scene": 3
+  },
+  {
+   "text": "Senado.",
+   "start": 17.271,
+   "end": 17.886,
+   "scene": 3
+  },
+  {
+   "text": "Aquí",
+   "start": 18.106,
+   "end": 18.397,
+   "scene": 3
+  },
+  {
+   "text": "votas",
+   "start": 18.455,
+   "end": 18.757,
+   "scene": 3
+  },
+  {
+   "text": "a",
+   "start": 18.815,
+   "end": 18.838,
+   "scene": 3
+  },
+  {
+   "text": "personas,",
+   "start": 18.884,
+   "end": 19.442,
+   "scene": 3
+  },
+  {
+   "text": "no",
+   "start": 19.523,
+   "end": 19.674,
+   "scene": 3
+  },
+  {
+   "text": "a",
+   "start": 19.72,
+   "end": 19.743,
+   "scene": 3
+  },
+  {
+   "text": "partidos.",
+   "start": 19.79,
+   "end": 20.417,
+   "scene": 3
+  },
+  {
+   "text": "En",
+   "start": 20.637,
+   "end": 20.776,
+   "scene": 3
+  },
+  {
+   "text": "la",
+   "start": 20.834,
+   "end": 20.88,
+   "scene": 3
+  },
+  {
+   "text": "mayoría",
+   "start": 20.927,
+   "end": 21.275,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 21.31,
+   "end": 21.368,
+   "scene": 3
+  },
+  {
+   "text": "provincias",
+   "start": 21.403,
+   "end": 21.902,
+   "scene": 3
+  },
+  {
+   "text": "puedes",
+   "start": 21.96,
+   "end": 22.227,
+   "scene": 3
+  },
+  {
+   "text": "marcar",
+   "start": 22.285,
+   "end": 22.599,
+   "scene": 3
+  },
+  {
+   "text": "hasta",
+   "start": 22.68,
+   "end": 22.935,
+   "scene": 3
+  },
+  {
+   "text": "tres",
+   "start": 23.005,
+   "end": 23.237,
+   "scene": 3
+  },
+  {
+   "text": "candidatos…",
+   "start": 23.295,
+   "end": 24.131,
+   "scene": 3
+  },
+  {
+   "text": "incluso",
+   "start": 24.351,
+   "end": 24.723,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 24.758,
+   "end": 24.816,
+   "scene": 3
+  },
+  {
+   "text": "partidos",
+   "start": 24.851,
+   "end": 25.245,
+   "scene": 3
+  },
+  {
+   "text": "distintos.",
+   "start": 25.292,
+   "end": 26.023,
+   "scene": 3
+  },
+  {
+   "text": "Pero",
+   "start": 26.243,
+   "end": 26.464,
+   "scene": 4
+  },
+  {
+   "text": "ojo:",
+   "start": 26.499,
+   "end": 26.998,
+   "scene": 4
+  },
+  {
+   "text": "si",
+   "start": 27.137,
+   "end": 27.265,
+   "scene": 4
+  },
+  {
+   "text": "marcas",
+   "start": 27.323,
+   "end": 27.613,
+   "scene": 4
+  },
+  {
+   "text": "más",
+   "start": 27.683,
+   "end": 27.834,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 27.857,
+   "end": 27.903,
+   "scene": 4
+  },
+  {
+   "text": "tres,",
+   "start": 27.95,
+   "end": 28.345,
+   "scene": 4
+  },
+  {
+   "text": "tu",
+   "start": 28.461,
+   "end": 28.576,
+   "scene": 4
+  },
+  {
+   "text": "voto",
+   "start": 28.646,
+   "end": 28.878,
+   "scene": 4
+  },
+  {
+   "text": "al",
+   "start": 28.913,
+   "end": 28.971,
+   "scene": 4
+  },
+  {
+   "text": "Senado",
+   "start": 29.018,
+   "end": 29.389,
+   "scene": 4
+  },
+  {
+   "text": "es",
+   "start": 29.482,
+   "end": 29.621,
+   "scene": 4
+  },
+  {
+   "text": "nulo.",
+   "start": 29.703,
+   "end": 30.167,
+   "scene": 4
+  },
+  {
+   "text": "En",
+   "start": 30.387,
+   "end": 30.526,
+   "scene": 5
+  },
+  {
+   "text": "las",
+   "start": 30.584,
+   "end": 30.724,
+   "scene": 5
+  },
+  {
+   "text": "urnas",
+   "start": 30.805,
+   "end": 31.118,
+   "scene": 5
+  },
+  {
+   "text": "se",
+   "start": 31.165,
+   "end": 31.281,
+   "scene": 5
+  },
+  {
+   "text": "eligen",
+   "start": 31.304,
+   "end": 31.641,
+   "scene": 5
+  },
+  {
+   "text": "doscientos",
+   "start": 31.711,
+   "end": 32.337,
+   "scene": 5
+  },
+  {
+   "text": "nueve",
+   "start": 32.43,
+   "end": 32.755,
+   "scene": 5
+  },
+  {
+   "text": "senadores.",
+   "start": 32.79,
+   "end": 33.522,
+   "scene": 5
+  },
+  {
+   "text": "El",
+   "start": 33.742,
+   "end": 33.904,
+   "scene": 5
+  },
+  {
+   "text": "resto",
+   "start": 33.974,
+   "end": 34.241,
+   "scene": 5
+  },
+  {
+   "text": "los",
+   "start": 34.287,
+   "end": 34.403,
+   "scene": 5
+  },
+  {
+   "text": "designan",
+   "start": 34.438,
+   "end": 34.868,
+   "scene": 5
+  },
+  {
+   "text": "los",
+   "start": 34.914,
+   "end": 35.042,
+   "scene": 5
+  },
+  {
+   "text": "parlamentos",
+   "start": 35.123,
+   "end": 35.75,
+   "scene": 5
+  },
+  {
+   "text": "autonómicos.",
+   "start": 35.82,
+   "end": 36.667,
+   "scene": 5
+  },
+  {
+   "text": "¿Y",
+   "start": 36.83,
+   "end": 37.016,
+   "scene": 6
+  },
+  {
+   "text": "quién",
+   "start": 37.109,
+   "end": 37.271,
+   "scene": 6
+  },
+  {
+   "text": "manda",
+   "start": 37.317,
+   "end": 37.538,
+   "scene": 6
+  },
+  {
+   "text": "más?",
+   "start": 37.585,
+   "end": 37.979,
+   "scene": 6
+  },
+  {
+   "text": "El",
+   "start": 38.199,
+   "end": 38.338,
+   "scene": 6
+  },
+  {
+   "text": "Congreso.",
+   "start": 38.396,
+   "end": 38.977,
+   "scene": 6
+  },
+  {
+   "text": "Solo",
+   "start": 39.197,
+   "end": 39.546,
+   "scene": 6
+  },
+  {
+   "text": "él",
+   "start": 39.615,
+   "end": 39.731,
+   "scene": 6
+  },
+  {
+   "text": "elige",
+   "start": 39.813,
+   "end": 40.149,
+   "scene": 6
+  },
+  {
+   "text": "al",
+   "start": 40.184,
+   "end": 40.254,
+   "scene": 6
+  },
+  {
+   "text": "presidente",
+   "start": 40.312,
+   "end": 40.799,
+   "scene": 6
+  },
+  {
+   "text": "del",
+   "start": 40.834,
+   "end": 40.927,
+   "scene": 6
+  },
+  {
+   "text": "Gobierno.",
+   "start": 40.962,
+   "end": 41.577,
+   "scene": 6
+  },
+  {
+   "text": "Y",
+   "start": 41.797,
+   "end": 41.901,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 42.006,
+   "end": 42.099,
+   "scene": 6
+  },
+  {
+   "text": "el",
+   "start": 42.157,
+   "end": 42.226,
+   "scene": 6
+  },
+  {
+   "text": "Senado",
+   "start": 42.296,
+   "end": 42.714,
+   "scene": 6
+  },
+  {
+   "text": "veta",
+   "start": 42.795,
+   "end": 43.086,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 43.167,
+   "end": 43.341,
+   "scene": 6
+  },
+  {
+   "text": "ley,",
+   "start": 43.387,
+   "end": 43.736,
+   "scene": 6
+  },
+  {
+   "text": "el",
+   "start": 43.898,
+   "end": 44.014,
+   "scene": 6
+  },
+  {
+   "text": "Congreso",
+   "start": 44.072,
+   "end": 44.432,
+   "scene": 6
+  },
+  {
+   "text": "puede",
+   "start": 44.479,
+   "end": 44.664,
+   "scene": 6
+  },
+  {
+   "text": "levantar",
+   "start": 44.711,
+   "end": 45.106,
+   "scene": 6
+  },
+  {
+   "text": "ese",
+   "start": 45.152,
+   "end": 45.28,
+   "scene": 6
+  },
+  {
+   "text": "veto.",
+   "start": 45.326,
+   "end": 45.756,
+   "scene": 6
+  },
+  {
+   "text": "Pero",
+   "start": 45.976,
+   "end": 46.22,
+   "scene": 7
+  },
+  {
+   "text": "el",
+   "start": 46.244,
+   "end": 46.302,
+   "scene": 7
+  },
+  {
+   "text": "Senado",
+   "start": 46.36,
+   "end": 46.685,
+   "scene": 7
+  },
+  {
+   "text": "tiene",
+   "start": 46.754,
+   "end": 46.987,
+   "scene": 7
+  },
+  {
+   "text": "su",
+   "start": 47.021,
+   "end": 47.149,
+   "scene": 7
+  },
+  {
+   "text": "as:",
+   "start": 47.219,
+   "end": 47.567,
+   "scene": 7
+  },
+  {
+   "text": "sin",
+   "start": 47.787,
+   "end": 47.961,
+   "scene": 7
+  },
+  {
+   "text": "su",
+   "start": 48.008,
+   "end": 48.089,
+   "scene": 7
+  },
+  {
+   "text": "mayoría",
+   "start": 48.135,
+   "end": 48.495,
+   "scene": 7
+  },
+  {
+   "text": "absoluta,",
+   "start": 48.518,
+   "end": 49.227,
+   "scene": 7
+  },
+  {
+   "text": "no",
+   "start": 49.424,
+   "end": 49.563,
+   "scene": 7
+  },
+  {
+   "text": "se",
+   "start": 49.621,
+   "end": 49.703,
+   "scene": 7
+  },
+  {
+   "text": "puede",
+   "start": 49.749,
+   "end": 49.981,
+   "scene": 7
+  },
+  {
+   "text": "aplicar",
+   "start": 50.004,
+   "end": 50.341,
+   "scene": 7
+  },
+  {
+   "text": "el",
+   "start": 50.376,
+   "end": 50.422,
+   "scene": 7
+  },
+  {
+   "text": "artículo",
+   "start": 50.469,
+   "end": 50.945,
+   "scene": 7
+  },
+  {
+   "text": "ciento",
+   "start": 50.991,
+   "end": 51.316,
+   "scene": 7
+  },
+  {
+   "text": "cincuenta",
+   "start": 51.351,
+   "end": 51.769,
+   "scene": 7
+  },
+  {
+   "text": "y",
+   "start": 51.804,
+   "end": 51.827,
+   "scene": 7
+  },
+  {
+   "text": "cinco.",
+   "start": 51.862,
+   "end": 52.373,
+   "scene": 7
+  },
+  {
+   "text": "¿Tú",
+   "start": 52.593,
+   "end": 52.825,
+   "scene": 8
+  },
+  {
+   "text": "sabías",
+   "start": 52.871,
+   "end": 53.185,
+   "scene": 8
+  },
+  {
+   "text": "que",
+   "start": 53.231,
+   "end": 53.301,
+   "scene": 8
+  },
+  {
+   "text": "podías",
+   "start": 53.347,
+   "end": 53.719,
+   "scene": 8
+  },
+  {
+   "text": "mezclar",
+   "start": 53.777,
+   "end": 54.079,
+   "scene": 8
+  },
+  {
+   "text": "partidos",
+   "start": 54.137,
+   "end": 54.531,
+   "scene": 8
+  },
+  {
+   "text": "en",
+   "start": 54.578,
+   "end": 54.624,
+   "scene": 8
+  },
+  {
+   "text": "el",
+   "start": 54.671,
+   "end": 54.717,
+   "scene": 8
+  },
+  {
+   "text": "Senado?",
+   "start": 54.775,
+   "end": 55.275,
+   "scene": 8
+  },
+  {
+   "text": "Comenta.",
+   "start": 55.495,
+   "end": 56.122,
+   "scene": 8
+  },
+  {
+   "text": "Y",
+   "start": 56.342,
+   "end": 56.435,
+   "scene": 8
+  },
+  {
+   "text": "sígueme.",
+   "start": 56.54,
+   "end": 57.236,
+   "scene": 8
+  }
+ ],
+ "scenes": [
+  "El veintinueve ene votas dos veces: al Congreso y al Senado. ¿Sabes en qué se diferencian?",
+  "Papeleta blanca: Congreso. Ahí votas a un partido, con una lista cerrada. No puedes tocar ni el orden ni los nombres.",
+  "Se eligen trescientos cincuenta diputados.",
+  "Papeleta sepia: Senado. Aquí votas a personas, no a partidos. En la mayoría de provincias puedes marcar hasta tres candidatos… incluso de partidos distintos.",
+  "Pero ojo: si marcas más de tres, tu voto al Senado es nulo.",
+  "En las urnas se eligen doscientos nueve senadores. El resto los designan los parlamentos autonómicos.",
+  "¿Y quién manda más? El Congreso. Solo él elige al presidente del Gobierno. Y si el Senado veta una ley, el Congreso puede levantar ese veto.",
+  "Pero el Senado tiene su as: sin su mayoría absoluta, no se puede aplicar el artículo ciento cincuenta y cinco.",
+  "¿Tú sabías que podías mezclar partidos en el Senado? Comenta. Y sígueme."
+ ]
+}

@@ -1,0 +1,994 @@
+{
+ "duration": 58.424,
+ "words": [
+  {
+   "text": "Hoy",
+   "start": 0.0,
+   "end": 0.197,
+   "scene": 0
+  },
+  {
+   "text": "ha",
+   "start": 0.232,
+   "end": 0.279,
+   "scene": 0
+  },
+  {
+   "text": "sido",
+   "start": 0.337,
+   "end": 0.546,
+   "scene": 0
+  },
+  {
+   "text": "el",
+   "start": 0.58,
+   "end": 0.627,
+   "scene": 0
+  },
+  {
+   "text": "sorteo",
+   "start": 0.697,
+   "end": 1.184,
+   "scene": 0
+  },
+  {
+   "text": "de",
+   "start": 1.231,
+   "end": 1.277,
+   "scene": 0
+  },
+  {
+   "text": "la",
+   "start": 1.324,
+   "end": 1.382,
+   "scene": 0
+  },
+  {
+   "text": "Copa",
+   "start": 1.44,
+   "end": 1.672,
+   "scene": 0
+  },
+  {
+   "text": "del",
+   "start": 1.707,
+   "end": 1.811,
+   "scene": 0
+  },
+  {
+   "text": "Rey.",
+   "start": 1.892,
+   "end": 2.252,
+   "scene": 0
+  },
+  {
+   "text": "Pero,",
+   "start": 2.472,
+   "end": 2.971,
+   "scene": 0
+  },
+  {
+   "text": "¿sabías",
+   "start": 3.134,
+   "end": 3.645,
+   "scene": 0
+  },
+  {
+   "text": "por",
+   "start": 3.714,
+   "end": 3.83,
+   "scene": 0
+  },
+  {
+   "text": "qué",
+   "start": 3.877,
+   "end": 3.958,
+   "scene": 0
+  },
+  {
+   "text": "siempre",
+   "start": 4.016,
+   "end": 4.341,
+   "scene": 0
+  },
+  {
+   "text": "juega",
+   "start": 4.376,
+   "end": 4.608,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 4.631,
+   "end": 4.678,
+   "scene": 0
+  },
+  {
+   "text": "casa",
+   "start": 4.748,
+   "end": 5.015,
+   "scene": 0
+  },
+  {
+   "text": "el",
+   "start": 5.049,
+   "end": 5.107,
+   "scene": 0
+  },
+  {
+   "text": "equipo",
+   "start": 5.154,
+   "end": 5.444,
+   "scene": 0
+  },
+  {
+   "text": "modesto?",
+   "start": 5.491,
+   "end": 6.152,
+   "scene": 0
+  },
+  {
+   "text": "Desde",
+   "start": 6.372,
+   "end": 6.662,
+   "scene": 1
+  },
+  {
+   "text": "dos",
+   "start": 6.709,
+   "end": 6.836,
+   "scene": 1
+  },
+  {
+   "text": "mil",
+   "start": 6.918,
+   "end": 7.069,
+   "scene": 1
+  },
+  {
+   "text": "diecinueve,",
+   "start": 7.127,
+   "end": 7.858,
+   "scene": 1
+  },
+  {
+   "text": "la",
+   "start": 8.09,
+   "end": 8.183,
+   "scene": 1
+  },
+  {
+   "text": "Copa",
+   "start": 8.241,
+   "end": 8.473,
+   "scene": 1
+  },
+  {
+   "text": "se",
+   "start": 8.52,
+   "end": 8.601,
+   "scene": 1
+  },
+  {
+   "text": "juega",
+   "start": 8.648,
+   "end": 8.926,
+   "scene": 1
+  },
+  {
+   "text": "a",
+   "start": 8.973,
+   "end": 9.019,
+   "scene": 1
+  },
+  {
+   "text": "partido",
+   "start": 9.077,
+   "end": 9.495,
+   "scene": 1
+  },
+  {
+   "text": "único",
+   "start": 9.588,
+   "end": 9.948,
+   "scene": 1
+  },
+  {
+   "text": "hasta",
+   "start": 9.994,
+   "end": 10.215,
+   "scene": 1
+  },
+  {
+   "text": "semifinales.",
+   "start": 10.261,
+   "end": 11.271,
+   "scene": 1
+  },
+  {
+   "text": "Y",
+   "start": 11.491,
+   "end": 11.561,
+   "scene": 2
+  },
+  {
+   "text": "la",
+   "start": 11.654,
+   "end": 11.712,
+   "scene": 2
+  },
+  {
+   "text": "norma",
+   "start": 11.758,
+   "end": 12.014,
+   "scene": 2
+  },
+  {
+   "text": "es",
+   "start": 12.037,
+   "end": 12.083,
+   "scene": 2
+  },
+  {
+   "text": "clara:",
+   "start": 12.142,
+   "end": 12.641,
+   "scene": 2
+  },
+  {
+   "text": "si",
+   "start": 12.908,
+   "end": 13.035,
+   "scene": 2
+  },
+  {
+   "text": "los",
+   "start": 13.094,
+   "end": 13.21,
+   "scene": 2
+  },
+  {
+   "text": "dos",
+   "start": 13.256,
+   "end": 13.384,
+   "scene": 2
+  },
+  {
+   "text": "equipos",
+   "start": 13.442,
+   "end": 13.918,
+   "scene": 2
+  },
+  {
+   "text": "son",
+   "start": 14.115,
+   "end": 14.313,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 14.359,
+   "end": 14.417,
+   "scene": 2
+  },
+  {
+   "text": "distinta",
+   "start": 14.464,
+   "end": 14.882,
+   "scene": 2
+  },
+  {
+   "text": "categoría,",
+   "start": 14.917,
+   "end": 15.648,
+   "scene": 2
+  },
+  {
+   "text": "juega",
+   "start": 15.811,
+   "end": 16.147,
+   "scene": 2
+  },
+  {
+   "text": "en",
+   "start": 16.17,
+   "end": 16.217,
+   "scene": 2
+  },
+  {
+   "text": "casa",
+   "start": 16.287,
+   "end": 16.53,
+   "scene": 2
+  },
+  {
+   "text": "el",
+   "start": 16.554,
+   "end": 16.612,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 16.658,
+   "end": 16.716,
+   "scene": 2
+  },
+  {
+   "text": "categoría",
+   "start": 16.763,
+   "end": 17.285,
+   "scene": 2
+  },
+  {
+   "text": "inferior.",
+   "start": 17.308,
+   "end": 17.877,
+   "scene": 2
+  },
+  {
+   "text": "¿Por",
+   "start": 18.097,
+   "end": 18.341,
+   "scene": 3
+  },
+  {
+   "text": "qué?",
+   "start": 18.411,
+   "end": 18.678,
+   "scene": 3
+  },
+  {
+   "text": "Para",
+   "start": 18.898,
+   "end": 19.131,
+   "scene": 3
+  },
+  {
+   "text": "darle",
+   "start": 19.177,
+   "end": 19.421,
+   "scene": 3
+  },
+  {
+   "text": "una",
+   "start": 19.456,
+   "end": 19.595,
+   "scene": 3
+  },
+  {
+   "text": "ventaja",
+   "start": 19.641,
+   "end": 20.059,
+   "scene": 3
+  },
+  {
+   "text": "real",
+   "start": 20.164,
+   "end": 20.431,
+   "scene": 3
+  },
+  {
+   "text": "al",
+   "start": 20.477,
+   "end": 20.535,
+   "scene": 3
+  },
+  {
+   "text": "pequeño.",
+   "start": 20.582,
+   "end": 21.139,
+   "scene": 3
+  },
+  {
+   "text": "Su",
+   "start": 21.359,
+   "end": 21.533,
+   "scene": 3
+  },
+  {
+   "text": "campo,",
+   "start": 21.591,
+   "end": 22.056,
+   "scene": 3
+  },
+  {
+   "text": "su",
+   "start": 22.125,
+   "end": 22.276,
+   "scene": 3
+  },
+  {
+   "text": "gente,",
+   "start": 22.334,
+   "end": 22.857,
+   "scene": 3
+  },
+  {
+   "text": "su",
+   "start": 23.019,
+   "end": 23.17,
+   "scene": 3
+  },
+  {
+   "text": "césped.",
+   "start": 23.228,
+   "end": 23.82,
+   "scene": 3
+  },
+  {
+   "text": "Y",
+   "start": 24.04,
+   "end": 24.133,
+   "scene": 4
+  },
+  {
+   "text": "funciona:",
+   "start": 24.214,
+   "end": 24.911,
+   "scene": 4
+  },
+  {
+   "text": "en",
+   "start": 25.108,
+   "end": 25.236,
+   "scene": 4
+  },
+  {
+   "text": "dos",
+   "start": 25.306,
+   "end": 25.457,
+   "scene": 4
+  },
+  {
+   "text": "mil",
+   "start": 25.538,
+   "end": 25.7,
+   "scene": 4
+  },
+  {
+   "text": "veintiuno,",
+   "start": 25.758,
+   "end": 26.513,
+   "scene": 4
+  },
+  {
+   "text": "el",
+   "start": 26.653,
+   "end": 26.792,
+   "scene": 4
+  },
+  {
+   "text": "Alcoyano,",
+   "start": 26.85,
+   "end": 27.524,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 27.721,
+   "end": 27.826,
+   "scene": 4
+  },
+  {
+   "text": "Segunda",
+   "start": 27.895,
+   "end": 28.348,
+   "scene": 4
+  },
+  {
+   "text": "B,",
+   "start": 28.395,
+   "end": 28.731,
+   "scene": 4
+  },
+  {
+   "text": "eliminó",
+   "start": 28.963,
+   "end": 29.463,
+   "scene": 4
+  },
+  {
+   "text": "al",
+   "start": 29.509,
+   "end": 29.567,
+   "scene": 4
+  },
+  {
+   "text": "Real",
+   "start": 29.637,
+   "end": 29.881,
+   "scene": 4
+  },
+  {
+   "text": "Madrid",
+   "start": 29.939,
+   "end": 30.264,
+   "scene": 4
+  },
+  {
+   "text": "en",
+   "start": 30.322,
+   "end": 30.403,
+   "scene": 4
+  },
+  {
+   "text": "su",
+   "start": 30.473,
+   "end": 30.577,
+   "scene": 4
+  },
+  {
+   "text": "propio",
+   "start": 30.647,
+   "end": 30.995,
+   "scene": 4
+  },
+  {
+   "text": "estadio.",
+   "start": 31.019,
+   "end": 31.588,
+   "scene": 4
+  },
+  {
+   "text": "Además,",
+   "start": 31.808,
+   "end": 32.319,
+   "scene": 5
+  },
+  {
+   "text": "para",
+   "start": 32.354,
+   "end": 32.528,
+   "scene": 5
+  },
+  {
+   "text": "un",
+   "start": 32.574,
+   "end": 32.621,
+   "scene": 5
+  },
+  {
+   "text": "club",
+   "start": 32.667,
+   "end": 32.853,
+   "scene": 5
+  },
+  {
+   "text": "humilde",
+   "start": 32.899,
+   "end": 33.341,
+   "scene": 5
+  },
+  {
+   "text": "es",
+   "start": 33.41,
+   "end": 33.515,
+   "scene": 5
+  },
+  {
+   "text": "un",
+   "start": 33.608,
+   "end": 33.677,
+   "scene": 5
+  },
+  {
+   "text": "premio",
+   "start": 33.747,
+   "end": 34.107,
+   "scene": 5
+  },
+  {
+   "text": "enorme:",
+   "start": 34.153,
+   "end": 34.745,
+   "scene": 5
+  },
+  {
+   "text": "estadio",
+   "start": 34.965,
+   "end": 35.383,
+   "scene": 5
+  },
+  {
+   "text": "lleno,",
+   "start": 35.406,
+   "end": 35.952,
+   "scene": 5
+  },
+  {
+   "text": "televisión",
+   "start": 36.149,
+   "end": 36.916,
+   "scene": 5
+  },
+  {
+   "text": "y",
+   "start": 37.056,
+   "end": 37.137,
+   "scene": 5
+  },
+  {
+   "text": "una",
+   "start": 37.207,
+   "end": 37.323,
+   "scene": 5
+  },
+  {
+   "text": "inyección",
+   "start": 37.346,
+   "end": 37.787,
+   "scene": 5
+  },
+  {
+   "text": "de",
+   "start": 37.822,
+   "end": 37.868,
+   "scene": 5
+  },
+  {
+   "text": "dinero",
+   "start": 37.915,
+   "end": 38.205,
+   "scene": 5
+  },
+  {
+   "text": "que",
+   "start": 38.263,
+   "end": 38.344,
+   "scene": 5
+  },
+  {
+   "text": "muchos",
+   "start": 38.437,
+   "end": 38.797,
+   "scene": 5
+  },
+  {
+   "text": "necesitan.",
+   "start": 38.844,
+   "end": 39.529,
+   "scene": 5
+  },
+  {
+   "text": "¿Y",
+   "start": 39.749,
+   "end": 40.04,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 40.133,
+   "end": 40.214,
+   "scene": 6
+  },
+  {
+   "text": "su",
+   "start": 40.26,
+   "end": 40.353,
+   "scene": 6
+  },
+  {
+   "text": "campo",
+   "start": 40.411,
+   "end": 40.678,
+   "scene": 6
+  },
+  {
+   "text": "no",
+   "start": 40.759,
+   "end": 40.852,
+   "scene": 6
+  },
+  {
+   "text": "cumple",
+   "start": 40.91,
+   "end": 41.189,
+   "scene": 6
+  },
+  {
+   "text": "los",
+   "start": 41.224,
+   "end": 41.328,
+   "scene": 6
+  },
+  {
+   "text": "requisitos,",
+   "start": 41.398,
+   "end": 42.129,
+   "scene": 6
+  },
+  {
+   "text": "como",
+   "start": 42.222,
+   "end": 42.431,
+   "scene": 6
+  },
+  {
+   "text": "la",
+   "start": 42.489,
+   "end": 42.547,
+   "scene": 6
+  },
+  {
+   "text": "iluminación",
+   "start": 42.594,
+   "end": 43.314,
+   "scene": 6
+  },
+  {
+   "text": "o",
+   "start": 43.476,
+   "end": 43.569,
+   "scene": 6
+  },
+  {
+   "text": "la",
+   "start": 43.627,
+   "end": 43.697,
+   "scene": 6
+  },
+  {
+   "text": "seguridad?",
+   "start": 43.755,
+   "end": 44.463,
+   "scene": 6
+  },
+  {
+   "text": "Entonces",
+   "start": 44.683,
+   "end": 45.321,
+   "scene": 6
+  },
+  {
+   "text": "el",
+   "start": 45.519,
+   "end": 45.646,
+   "scene": 6
+  },
+  {
+   "text": "partido",
+   "start": 45.704,
+   "end": 46.03,
+   "scene": 6
+  },
+  {
+   "text": "se",
+   "start": 46.088,
+   "end": 46.169,
+   "scene": 6
+  },
+  {
+   "text": "juega",
+   "start": 46.215,
+   "end": 46.459,
+   "scene": 6
+  },
+  {
+   "text": "en",
+   "start": 46.494,
+   "end": 46.598,
+   "scene": 6
+  },
+  {
+   "text": "otro",
+   "start": 46.68,
+   "end": 46.865,
+   "scene": 6
+  },
+  {
+   "text": "estadio",
+   "start": 46.889,
+   "end": 47.26,
+   "scene": 6
+  },
+  {
+   "text": "que",
+   "start": 47.307,
+   "end": 47.411,
+   "scene": 6
+  },
+  {
+   "text": "sí",
+   "start": 47.492,
+   "end": 47.597,
+   "scene": 6
+  },
+  {
+   "text": "los",
+   "start": 47.655,
+   "end": 47.783,
+   "scene": 6
+  },
+  {
+   "text": "cumpla.",
+   "start": 47.829,
+   "end": 48.305,
+   "scene": 6
+  },
+  {
+   "text": "Y",
+   "start": 48.525,
+   "end": 48.595,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 48.664,
+   "end": 48.734,
+   "scene": 7
+  },
+  {
+   "text": "los",
+   "start": 48.78,
+   "end": 48.897,
+   "scene": 7
+  },
+  {
+   "text": "dos",
+   "start": 48.943,
+   "end": 49.106,
+   "scene": 7
+  },
+  {
+   "text": "son",
+   "start": 49.187,
+   "end": 49.349,
+   "scene": 7
+  },
+  {
+   "text": "de",
+   "start": 49.384,
+   "end": 49.431,
+   "scene": 7
+  },
+  {
+   "text": "la",
+   "start": 49.465,
+   "end": 49.512,
+   "scene": 7
+  },
+  {
+   "text": "misma",
+   "start": 49.558,
+   "end": 49.814,
+   "scene": 7
+  },
+  {
+   "text": "categoría,",
+   "start": 49.86,
+   "end": 50.638,
+   "scene": 7
+  },
+  {
+   "text": "decide",
+   "start": 50.801,
+   "end": 51.207,
+   "scene": 7
+  },
+  {
+   "text": "el",
+   "start": 51.23,
+   "end": 51.3,
+   "scene": 7
+  },
+  {
+   "text": "sorteo:",
+   "start": 51.358,
+   "end": 51.915,
+   "scene": 7
+  },
+  {
+   "text": "el",
+   "start": 52.113,
+   "end": 52.217,
+   "scene": 7
+  },
+  {
+   "text": "primero",
+   "start": 52.275,
+   "end": 52.542,
+   "scene": 7
+  },
+  {
+   "text": "que",
+   "start": 52.589,
+   "end": 52.658,
+   "scene": 7
+  },
+  {
+   "text": "sale,",
+   "start": 52.705,
+   "end": 53.157,
+   "scene": 7
+  },
+  {
+   "text": "juega",
+   "start": 53.32,
+   "end": 53.691,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 53.738,
+   "end": 53.808,
+   "scene": 7
+  },
+  {
+   "text": "casa.",
+   "start": 53.854,
+   "end": 54.295,
+   "scene": 7
+  },
+  {
+   "text": "¿Qué",
+   "start": 54.515,
+   "end": 54.782,
+   "scene": 8
+  },
+  {
+   "text": "cruce",
+   "start": 54.829,
+   "end": 55.107,
+   "scene": 8
+  },
+  {
+   "text": "tienes",
+   "start": 55.154,
+   "end": 55.409,
+   "scene": 8
+  },
+  {
+   "text": "más",
+   "start": 55.49,
+   "end": 55.665,
+   "scene": 8
+  },
+  {
+   "text": "ganas",
+   "start": 55.711,
+   "end": 55.932,
+   "scene": 8
+  },
+  {
+   "text": "de",
+   "start": 55.966,
+   "end": 56.013,
+   "scene": 8
+  },
+  {
+   "text": "ver?",
+   "start": 56.071,
+   "end": 56.408,
+   "scene": 8
+  },
+  {
+   "text": "Comenta.",
+   "start": 56.64,
+   "end": 57.267,
+   "scene": 8
+  },
+  {
+   "text": "Y",
+   "start": 57.429,
+   "end": 57.511,
+   "scene": 8
+  },
+  {
+   "text": "sígueme.",
+   "start": 57.615,
+   "end": 58.393,
+   "scene": 8
+  }
+ ],
+ "scenes": [
+  "Hoy ha sido el sorteo de la Copa del Rey. Pero, ¿sabías por qué siempre juega en casa el equipo modesto?",
+  "Desde dos mil diecinueve, la Copa se juega a partido único hasta semifinales.",
+  "Y la norma es clara: si los dos equipos son de distinta categoría, juega en casa el de categoría inferior.",
+  "¿Por qué? Para darle una ventaja real al pequeño. Su campo, su gente, su césped.",
+  "Y funciona: en dos mil veintiuno, el Alcoyano, de Segunda B, eliminó al Real Madrid en su propio estadio.",
+  "Además, para un club humilde es un premio enorme: estadio lleno, televisión y una inyección de dinero que muchos necesitan.",
+  "¿Y si su campo no cumple los requisitos, como la iluminación o la seguridad? Entonces el partido se juega en otro estadio que sí los cumpla.",
+  "Y si los dos son de la misma categoría, decide el sorteo: el primero que sale, juega en casa.",
+  "¿Qué cruce tienes más ganas de ver? Comenta. Y sígueme."
+ ]
+}

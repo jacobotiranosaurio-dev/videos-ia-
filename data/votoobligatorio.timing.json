@@ -1,0 +1,789 @@
+{
+ "duration": 49.266939,
+ "words": [
+  {
+   "text": "¿Sabías",
+   "start": 0.0,
+   "end": 0.569,
+   "scene": 0
+  },
+  {
+   "text": "que",
+   "start": 0.639,
+   "end": 0.731,
+   "scene": 0
+  },
+  {
+   "text": "hay",
+   "start": 0.778,
+   "end": 0.882,
+   "scene": 0
+  },
+  {
+   "text": "países",
+   "start": 0.952,
+   "end": 1.393,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 1.451,
+   "end": 1.498,
+   "scene": 0
+  },
+  {
+   "text": "los",
+   "start": 1.544,
+   "end": 1.672,
+   "scene": 0
+  },
+  {
+   "text": "que",
+   "start": 1.718,
+   "end": 1.8,
+   "scene": 0
+  },
+  {
+   "text": "votar",
+   "start": 1.846,
+   "end": 2.159,
+   "scene": 0
+  },
+  {
+   "text": "es",
+   "start": 2.264,
+   "end": 2.403,
+   "scene": 0
+  },
+  {
+   "text": "obligatorio?",
+   "start": 2.473,
+   "end": 3.332,
+   "scene": 0
+  },
+  {
+   "text": "Y",
+   "start": 3.82,
+   "end": 3.913,
+   "scene": 0
+  },
+  {
+   "text": "si",
+   "start": 4.005,
+   "end": 4.098,
+   "scene": 0
+  },
+  {
+   "text": "no",
+   "start": 4.168,
+   "end": 4.261,
+   "scene": 0
+  },
+  {
+   "text": "vas,",
+   "start": 4.319,
+   "end": 4.551,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 4.574,
+   "end": 4.656,
+   "scene": 0
+  },
+  {
+   "text": "castigan.",
+   "start": 4.69,
+   "end": 5.329,
+   "scene": 0
+  },
+  {
+   "text": "Pasa",
+   "start": 5.898,
+   "end": 6.223,
+   "scene": 1
+  },
+  {
+   "text": "en",
+   "start": 6.281,
+   "end": 6.339,
+   "scene": 1
+  },
+  {
+   "text": "unos",
+   "start": 6.397,
+   "end": 6.606,
+   "scene": 1
+  },
+  {
+   "text": "veinte",
+   "start": 6.687,
+   "end": 6.989,
+   "scene": 1
+  },
+  {
+   "text": "países",
+   "start": 7.036,
+   "end": 7.454,
+   "scene": 1
+  },
+  {
+   "text": "de",
+   "start": 7.5,
+   "end": 7.57,
+   "scene": 1
+  },
+  {
+   "text": "todo",
+   "start": 7.628,
+   "end": 7.883,
+   "scene": 1
+  },
+  {
+   "text": "el",
+   "start": 7.918,
+   "end": 7.964,
+   "scene": 1
+  },
+  {
+   "text": "mundo.",
+   "start": 8.011,
+   "end": 8.44,
+   "scene": 1
+  },
+  {
+   "text": "Bélgica",
+   "start": 9.102,
+   "end": 9.555,
+   "scene": 2
+  },
+  {
+   "text": "fue",
+   "start": 9.625,
+   "end": 9.764,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 9.799,
+   "end": 9.857,
+   "scene": 2
+  },
+  {
+   "text": "los",
+   "start": 9.903,
+   "end": 10.008,
+   "scene": 2
+  },
+  {
+   "text": "primeros:",
+   "start": 10.054,
+   "end": 10.67,
+   "scene": 2
+  },
+  {
+   "text": "allí",
+   "start": 11.157,
+   "end": 11.389,
+   "scene": 2
+  },
+  {
+   "text": "es",
+   "start": 11.494,
+   "end": 11.587,
+   "scene": 2
+  },
+  {
+   "text": "obligatorio",
+   "start": 11.656,
+   "end": 12.26,
+   "scene": 2
+  },
+  {
+   "text": "desde",
+   "start": 12.307,
+   "end": 12.539,
+   "scene": 2
+  },
+  {
+   "text": "mil",
+   "start": 12.62,
+   "end": 12.794,
+   "scene": 2
+  },
+  {
+   "text": "ochocientos",
+   "start": 12.852,
+   "end": 13.479,
+   "scene": 2
+  },
+  {
+   "text": "noventa",
+   "start": 13.584,
+   "end": 14.083,
+   "scene": 2
+  },
+  {
+   "text": "y",
+   "start": 14.118,
+   "end": 14.141,
+   "scene": 2
+  },
+  {
+   "text": "tres.",
+   "start": 14.199,
+   "end": 14.698,
+   "scene": 2
+  },
+  {
+   "text": "En",
+   "start": 15.267,
+   "end": 15.418,
+   "scene": 3
+  },
+  {
+   "text": "Australia,",
+   "start": 15.464,
+   "end": 16.01,
+   "scene": 3
+  },
+  {
+   "text": "si",
+   "start": 16.045,
+   "end": 16.149,
+   "scene": 3
+  },
+  {
+   "text": "no",
+   "start": 16.219,
+   "end": 16.3,
+   "scene": 3
+  },
+  {
+   "text": "votas",
+   "start": 16.358,
+   "end": 16.695,
+   "scene": 3
+  },
+  {
+   "text": "sin",
+   "start": 16.764,
+   "end": 16.915,
+   "scene": 3
+  },
+  {
+   "text": "una",
+   "start": 16.962,
+   "end": 17.09,
+   "scene": 3
+  },
+  {
+   "text": "buena",
+   "start": 17.136,
+   "end": 17.333,
+   "scene": 3
+  },
+  {
+   "text": "excusa,",
+   "start": 17.357,
+   "end": 17.949,
+   "scene": 3
+  },
+  {
+   "text": "te",
+   "start": 18.146,
+   "end": 18.251,
+   "scene": 3
+  },
+  {
+   "text": "llega",
+   "start": 18.274,
+   "end": 18.518,
+   "scene": 3
+  },
+  {
+   "text": "una",
+   "start": 18.587,
+   "end": 18.761,
+   "scene": 3
+  },
+  {
+   "text": "multa",
+   "start": 18.819,
+   "end": 19.156,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 19.203,
+   "end": 19.295,
+   "scene": 3
+  },
+  {
+   "text": "veinte",
+   "start": 19.365,
+   "end": 19.69,
+   "scene": 3
+  },
+  {
+   "text": "dólares.",
+   "start": 19.737,
+   "end": 20.306,
+   "scene": 3
+  },
+  {
+   "text": "Por",
+   "start": 20.723,
+   "end": 20.921,
+   "scene": 3
+  },
+  {
+   "text": "eso",
+   "start": 20.967,
+   "end": 21.095,
+   "scene": 3
+  },
+  {
+   "text": "allí",
+   "start": 21.13,
+   "end": 21.292,
+   "scene": 3
+  },
+  {
+   "text": "vota",
+   "start": 21.35,
+   "end": 21.629,
+   "scene": 3
+  },
+  {
+   "text": "más",
+   "start": 21.699,
+   "end": 21.873,
+   "scene": 3
+  },
+  {
+   "text": "del",
+   "start": 21.896,
+   "end": 22.001,
+   "scene": 3
+  },
+  {
+   "text": "noventa",
+   "start": 22.047,
+   "end": 22.407,
+   "scene": 3
+  },
+  {
+   "text": "por",
+   "start": 22.453,
+   "end": 22.581,
+   "scene": 3
+  },
+  {
+   "text": "ciento.",
+   "start": 22.639,
+   "end": 23.173,
+   "scene": 3
+  },
+  {
+   "text": "En",
+   "start": 23.591,
+   "end": 23.719,
+   "scene": 4
+  },
+  {
+   "text": "Brasil",
+   "start": 23.765,
+   "end": 24.195,
+   "scene": 4
+  },
+  {
+   "text": "la",
+   "start": 24.392,
+   "end": 24.52,
+   "scene": 4
+  },
+  {
+   "text": "multa",
+   "start": 24.566,
+   "end": 24.857,
+   "scene": 4
+  },
+  {
+   "text": "es",
+   "start": 24.915,
+   "end": 25.008,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 25.042,
+   "end": 25.112,
+   "scene": 4
+  },
+  {
+   "text": "menos",
+   "start": 25.205,
+   "end": 25.484,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 25.542,
+   "end": 25.611,
+   "scene": 4
+  },
+  {
+   "text": "un",
+   "start": 25.693,
+   "end": 25.82,
+   "scene": 4
+  },
+  {
+   "text": "euro…",
+   "start": 25.878,
+   "end": 26.319,
+   "scene": 4
+  },
+  {
+   "text": "pero",
+   "start": 26.679,
+   "end": 26.935,
+   "scene": 4
+  },
+  {
+   "text": "si",
+   "start": 26.993,
+   "end": 27.086,
+   "scene": 4
+  },
+  {
+   "text": "faltas",
+   "start": 27.144,
+   "end": 27.434,
+   "scene": 4
+  },
+  {
+   "text": "tres",
+   "start": 27.48,
+   "end": 27.666,
+   "scene": 4
+  },
+  {
+   "text": "veces",
+   "start": 27.724,
+   "end": 28.119,
+   "scene": 4
+  },
+  {
+   "text": "sin",
+   "start": 28.258,
+   "end": 28.572,
+   "scene": 4
+  },
+  {
+   "text": "justificarlo,",
+   "start": 28.595,
+   "end": 29.489,
+   "scene": 4
+  },
+  {
+   "text": "pueden",
+   "start": 29.628,
+   "end": 29.919,
+   "scene": 4
+  },
+  {
+   "text": "bloquearte",
+   "start": 29.942,
+   "end": 30.406,
+   "scene": 4
+  },
+  {
+   "text": "hasta",
+   "start": 30.429,
+   "end": 30.603,
+   "scene": 4
+  },
+  {
+   "text": "el",
+   "start": 30.626,
+   "end": 30.673,
+   "scene": 4
+  },
+  {
+   "text": "pasaporte.",
+   "start": 30.731,
+   "end": 31.451,
+   "scene": 4
+  },
+  {
+   "text": "Y",
+   "start": 31.811,
+   "end": 31.892,
+   "scene": 5
+  },
+  {
+   "text": "en",
+   "start": 31.962,
+   "end": 32.02,
+   "scene": 5
+  },
+  {
+   "text": "Singapur,",
+   "start": 32.078,
+   "end": 32.821,
+   "scene": 5
+  },
+  {
+   "text": "si",
+   "start": 33.053,
+   "end": 33.204,
+   "scene": 5
+  },
+  {
+   "text": "no",
+   "start": 33.285,
+   "end": 33.378,
+   "scene": 5
+  },
+  {
+   "text": "votas,",
+   "start": 33.424,
+   "end": 34.005,
+   "scene": 5
+  },
+  {
+   "text": "te",
+   "start": 34.167,
+   "end": 34.284,
+   "scene": 5
+  },
+  {
+   "text": "borran",
+   "start": 34.342,
+   "end": 34.632,
+   "scene": 5
+  },
+  {
+   "text": "del",
+   "start": 34.667,
+   "end": 34.783,
+   "scene": 5
+  },
+  {
+   "text": "censo",
+   "start": 34.829,
+   "end": 35.108,
+   "scene": 5
+  },
+  {
+   "text": "electoral.",
+   "start": 35.131,
+   "end": 35.735,
+   "scene": 5
+  },
+  {
+   "text": "¿Y",
+   "start": 36.397,
+   "end": 36.629,
+   "scene": 6
+  },
+  {
+   "text": "en",
+   "start": 36.698,
+   "end": 36.745,
+   "scene": 6
+  },
+  {
+   "text": "España?",
+   "start": 36.803,
+   "end": 37.325,
+   "scene": 6
+  },
+  {
+   "text": "Votar",
+   "start": 38.092,
+   "end": 38.475,
+   "scene": 6
+  },
+  {
+   "text": "no",
+   "start": 38.533,
+   "end": 38.602,
+   "scene": 6
+  },
+  {
+   "text": "es",
+   "start": 38.649,
+   "end": 38.719,
+   "scene": 6
+  },
+  {
+   "text": "obligatorio.",
+   "start": 38.777,
+   "end": 39.508,
+   "scene": 6
+  },
+  {
+   "text": "Pero",
+   "start": 40.274,
+   "end": 40.483,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 40.53,
+   "end": 40.599,
+   "scene": 6
+  },
+  {
+   "text": "te",
+   "start": 40.646,
+   "end": 40.715,
+   "scene": 6
+  },
+  {
+   "text": "toca",
+   "start": 40.762,
+   "end": 40.983,
+   "scene": 6
+  },
+  {
+   "text": "estar",
+   "start": 41.006,
+   "end": 41.203,
+   "scene": 6
+  },
+  {
+   "text": "en",
+   "start": 41.25,
+   "end": 41.296,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 41.366,
+   "end": 41.493,
+   "scene": 6
+  },
+  {
+   "text": "mesa",
+   "start": 41.551,
+   "end": 41.784,
+   "scene": 6
+  },
+  {
+   "text": "electoral",
+   "start": 41.818,
+   "end": 42.306,
+   "scene": 6
+  },
+  {
+   "text": "y",
+   "start": 42.352,
+   "end": 42.376,
+   "scene": 6
+  },
+  {
+   "text": "no",
+   "start": 42.422,
+   "end": 42.503,
+   "scene": 6
+  },
+  {
+   "text": "vas,",
+   "start": 42.55,
+   "end": 42.933,
+   "scene": 6
+  },
+  {
+   "text": "puede",
+   "start": 43.165,
+   "end": 43.409,
+   "scene": 6
+  },
+  {
+   "text": "ser",
+   "start": 43.467,
+   "end": 43.606,
+   "scene": 6
+  },
+  {
+   "text": "delito.",
+   "start": 43.664,
+   "end": 44.21,
+   "scene": 6
+  },
+  {
+   "text": "¿Crees",
+   "start": 44.628,
+   "end": 45.0,
+   "scene": 7
+  },
+  {
+   "text": "que",
+   "start": 45.046,
+   "end": 45.116,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 45.139,
+   "end": 45.197,
+   "scene": 7
+  },
+  {
+   "text": "España",
+   "start": 45.243,
+   "end": 45.557,
+   "scene": 7
+  },
+  {
+   "text": "debería",
+   "start": 45.592,
+   "end": 45.894,
+   "scene": 7
+  },
+  {
+   "text": "ser",
+   "start": 45.94,
+   "end": 46.056,
+   "scene": 7
+  },
+  {
+   "text": "obligatorio?",
+   "start": 46.103,
+   "end": 46.822,
+   "scene": 7
+  },
+  {
+   "text": "Comenta.",
+   "start": 46.985,
+   "end": 47.577,
+   "scene": 7
+  },
+  {
+   "text": "Y",
+   "start": 48.343,
+   "end": 48.436,
+   "scene": 7
+  },
+  {
+   "text": "sígueme.",
+   "start": 48.517,
+   "end": 49.226,
+   "scene": 7
+  }
+ ],
+ "scenes": [
+  "¿Sabías que hay países en los que votar es obligatorio? Y si no vas, te castigan.",
+  "Pasa en unos veinte países de todo el mundo.",
+  "Bélgica fue de los primeros: allí es obligatorio desde mil ochocientos noventa y tres.",
+  "En Australia, si no votas sin una buena excusa, te llega una multa de veinte dólares. Por eso allí vota más del noventa por ciento.",
+  "En Brasil la multa es de menos de un euro… pero si faltas tres veces sin justificarlo, pueden bloquearte hasta el pasaporte.",
+  "Y en Singapur, si no votas, te borran del censo electoral.",
+  "¿Y en España? Votar no es obligatorio. Pero si te toca estar en una mesa electoral y no vas, puede ser delito.",
+  "¿Crees que en España debería ser obligatorio? Comenta. Y sígueme."
+ ]
+}

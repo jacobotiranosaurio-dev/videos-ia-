@@ -1,0 +1,873 @@
+{
+ "duration": 54.517551,
+ "words": [
+  {
+   "text": "Si",
+   "start": 0.0,
+   "end": 0.163,
+   "scene": 0
+  },
+  {
+   "text": "arrancas",
+   "start": 0.209,
+   "end": 0.615,
+   "scene": 0
+  },
+  {
+   "text": "uno",
+   "start": 0.72,
+   "end": 0.906,
+   "scene": 0
+  },
+  {
+   "text": "de",
+   "start": 0.952,
+   "end": 0.998,
+   "scene": 0
+  },
+  {
+   "text": "estos",
+   "start": 1.068,
+   "end": 1.324,
+   "scene": 0
+  },
+  {
+   "text": "carteles",
+   "start": 1.37,
+   "end": 1.776,
+   "scene": 0
+  },
+  {
+   "text": "electorales,",
+   "start": 1.834,
+   "end": 2.635,
+   "scene": 0
+  },
+  {
+   "text": "la",
+   "start": 2.798,
+   "end": 2.902,
+   "scene": 0
+  },
+  {
+   "text": "broma",
+   "start": 2.949,
+   "end": 3.17,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 3.216,
+   "end": 3.286,
+   "scene": 0
+  },
+  {
+   "text": "puede",
+   "start": 3.332,
+   "end": 3.518,
+   "scene": 0
+  },
+  {
+   "text": "costar",
+   "start": 3.564,
+   "end": 3.866,
+   "scene": 0
+  },
+  {
+   "text": "hasta",
+   "start": 3.889,
+   "end": 4.11,
+   "scene": 0
+  },
+  {
+   "text": "mil",
+   "start": 4.203,
+   "end": 4.447,
+   "scene": 0
+  },
+  {
+   "text": "euros.",
+   "start": 4.54,
+   "end": 5.12,
+   "scene": 0
+  },
+  {
+   "text": "No",
+   "start": 5.689,
+   "end": 5.863,
+   "scene": 1
+  },
+  {
+   "text": "es",
+   "start": 5.909,
+   "end": 5.968,
+   "scene": 1
+  },
+  {
+   "text": "un",
+   "start": 6.072,
+   "end": 6.13,
+   "scene": 1
+  },
+  {
+   "text": "papel",
+   "start": 6.177,
+   "end": 6.455,
+   "scene": 1
+  },
+  {
+   "text": "cualquiera.",
+   "start": 6.513,
+   "end": 7.233,
+   "scene": 1
+  },
+  {
+   "text": "El",
+   "start": 7.895,
+   "end": 8.034,
+   "scene": 1
+  },
+  {
+   "text": "ayuntamiento",
+   "start": 8.069,
+   "end": 8.649,
+   "scene": 1
+  },
+  {
+   "text": "está",
+   "start": 8.684,
+   "end": 8.824,
+   "scene": 1
+  },
+  {
+   "text": "obligado",
+   "start": 8.882,
+   "end": 9.311,
+   "scene": 1
+  },
+  {
+   "text": "por",
+   "start": 9.369,
+   "end": 9.52,
+   "scene": 1
+  },
+  {
+   "text": "ley",
+   "start": 9.59,
+   "end": 9.764,
+   "scene": 1
+  },
+  {
+   "text": "a",
+   "start": 9.834,
+   "end": 9.88,
+   "scene": 1
+  },
+  {
+   "text": "ceder",
+   "start": 9.927,
+   "end": 10.17,
+   "scene": 1
+  },
+  {
+   "text": "espacios",
+   "start": 10.217,
+   "end": 10.635,
+   "scene": 1
+  },
+  {
+   "text": "gratis",
+   "start": 10.681,
+   "end": 11.029,
+   "scene": 1
+  },
+  {
+   "text": "para",
+   "start": 11.099,
+   "end": 11.262,
+   "scene": 1
+  },
+  {
+   "text": "colocarlos.",
+   "start": 11.308,
+   "end": 12.04,
+   "scene": 1
+  },
+  {
+   "text": "Y",
+   "start": 12.457,
+   "end": 12.55,
+   "scene": 2
+  },
+  {
+   "text": "se",
+   "start": 12.643,
+   "end": 12.713,
+   "scene": 2
+  },
+  {
+   "text": "reparten",
+   "start": 12.783,
+   "end": 13.224,
+   "scene": 2
+  },
+  {
+   "text": "en",
+   "start": 13.282,
+   "end": 13.351,
+   "scene": 2
+  },
+  {
+   "text": "igualdad",
+   "start": 13.41,
+   "end": 13.955,
+   "scene": 2
+  },
+  {
+   "text": "entre",
+   "start": 14.187,
+   "end": 14.501,
+   "scene": 2
+  },
+  {
+   "text": "todos",
+   "start": 14.582,
+   "end": 14.872,
+   "scene": 2
+  },
+  {
+   "text": "los",
+   "start": 14.919,
+   "end": 15.023,
+   "scene": 2
+  },
+  {
+   "text": "partidos",
+   "start": 15.081,
+   "end": 15.499,
+   "scene": 2
+  },
+  {
+   "text": "que",
+   "start": 15.546,
+   "end": 15.615,
+   "scene": 2
+  },
+  {
+   "text": "se",
+   "start": 15.662,
+   "end": 15.731,
+   "scene": 2
+  },
+  {
+   "text": "presentan.",
+   "start": 15.778,
+   "end": 16.451,
+   "scene": 2
+  },
+  {
+   "text": "Si",
+   "start": 17.02,
+   "end": 17.171,
+   "scene": 3
+  },
+  {
+   "text": "lo",
+   "start": 17.229,
+   "end": 17.31,
+   "scene": 3
+  },
+  {
+   "text": "arrancas,",
+   "start": 17.345,
+   "end": 17.972,
+   "scene": 3
+  },
+  {
+   "text": "la",
+   "start": 18.17,
+   "end": 18.274,
+   "scene": 3
+  },
+  {
+   "text": "Junta",
+   "start": 18.321,
+   "end": 18.611,
+   "scene": 3
+  },
+  {
+   "text": "Electoral",
+   "start": 18.657,
+   "end": 19.052,
+   "scene": 3
+  },
+  {
+   "text": "puede",
+   "start": 19.098,
+   "end": 19.296,
+   "scene": 3
+  },
+  {
+   "text": "multarte",
+   "start": 19.342,
+   "end": 19.818,
+   "scene": 3
+  },
+  {
+   "text": "con",
+   "start": 19.865,
+   "end": 19.992,
+   "scene": 3
+  },
+  {
+   "text": "entre",
+   "start": 20.039,
+   "end": 20.259,
+   "scene": 3
+  },
+  {
+   "text": "cien",
+   "start": 20.294,
+   "end": 20.561,
+   "scene": 3
+  },
+  {
+   "text": "y",
+   "start": 20.643,
+   "end": 20.724,
+   "scene": 3
+  },
+  {
+   "text": "mil",
+   "start": 20.817,
+   "end": 21.014,
+   "scene": 3
+  },
+  {
+   "text": "euros.",
+   "start": 21.095,
+   "end": 21.664,
+   "scene": 3
+  },
+  {
+   "text": "Y",
+   "start": 22.326,
+   "end": 22.419,
+   "scene": 4
+  },
+  {
+   "text": "si",
+   "start": 22.5,
+   "end": 22.581,
+   "scene": 4
+  },
+  {
+   "text": "lo",
+   "start": 22.639,
+   "end": 22.709,
+   "scene": 4
+  },
+  {
+   "text": "rompes,",
+   "start": 22.779,
+   "end": 23.348,
+   "scene": 4
+  },
+  {
+   "text": "puede",
+   "start": 23.441,
+   "end": 23.661,
+   "scene": 4
+  },
+  {
+   "text": "ser",
+   "start": 23.708,
+   "end": 23.835,
+   "scene": 4
+  },
+  {
+   "text": "un",
+   "start": 23.893,
+   "end": 23.951,
+   "scene": 4
+  },
+  {
+   "text": "delito",
+   "start": 23.998,
+   "end": 24.369,
+   "scene": 4
+  },
+  {
+   "text": "leve",
+   "start": 24.462,
+   "end": 24.718,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 24.752,
+   "end": 24.81,
+   "scene": 4
+  },
+  {
+   "text": "daños,",
+   "start": 24.857,
+   "end": 25.414,
+   "scene": 4
+  },
+  {
+   "text": "con",
+   "start": 25.577,
+   "end": 25.704,
+   "scene": 4
+  },
+  {
+   "text": "una",
+   "start": 25.774,
+   "end": 25.89,
+   "scene": 4
+  },
+  {
+   "text": "multa",
+   "start": 25.937,
+   "end": 26.262,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 26.32,
+   "end": 26.401,
+   "scene": 4
+  },
+  {
+   "text": "uno",
+   "start": 26.506,
+   "end": 26.738,
+   "scene": 4
+  },
+  {
+   "text": "a",
+   "start": 26.807,
+   "end": 26.842,
+   "scene": 4
+  },
+  {
+   "text": "tres",
+   "start": 26.889,
+   "end": 27.098,
+   "scene": 4
+  },
+  {
+   "text": "meses",
+   "start": 27.167,
+   "end": 27.411,
+   "scene": 4
+  },
+  {
+   "text": "calculada",
+   "start": 27.458,
+   "end": 27.968,
+   "scene": 4
+  },
+  {
+   "text": "según",
+   "start": 28.015,
+   "end": 28.247,
+   "scene": 4
+  },
+  {
+   "text": "tus",
+   "start": 28.293,
+   "end": 28.41,
+   "scene": 4
+  },
+  {
+   "text": "ingresos.",
+   "start": 28.48,
+   "end": 29.118,
+   "scene": 4
+  },
+  {
+   "text": "¿Por",
+   "start": 29.536,
+   "end": 29.826,
+   "scene": 5
+  },
+  {
+   "text": "qué",
+   "start": 29.896,
+   "end": 29.989,
+   "scene": 5
+  },
+  {
+   "text": "tan",
+   "start": 30.035,
+   "end": 30.186,
+   "scene": 5
+  },
+  {
+   "text": "serio?",
+   "start": 30.256,
+   "end": 30.848,
+   "scene": 5
+  },
+  {
+   "text": "Porque",
+   "start": 31.115,
+   "end": 31.428,
+   "scene": 5
+  },
+  {
+   "text": "en",
+   "start": 31.475,
+   "end": 31.533,
+   "scene": 5
+  },
+  {
+   "text": "campaña",
+   "start": 31.591,
+   "end": 32.079,
+   "scene": 5
+  },
+  {
+   "text": "todos",
+   "start": 32.148,
+   "end": 32.427,
+   "scene": 5
+  },
+  {
+   "text": "tienen",
+   "start": 32.473,
+   "end": 32.717,
+   "scene": 5
+  },
+  {
+   "text": "derecho",
+   "start": 32.764,
+   "end": 33.205,
+   "scene": 5
+  },
+  {
+   "text": "a",
+   "start": 33.274,
+   "end": 33.321,
+   "scene": 5
+  },
+  {
+   "text": "darse",
+   "start": 33.402,
+   "end": 33.727,
+   "scene": 5
+  },
+  {
+   "text": "a",
+   "start": 33.762,
+   "end": 33.785,
+   "scene": 5
+  },
+  {
+   "text": "conocer.",
+   "start": 33.82,
+   "end": 34.47,
+   "scene": 5
+  },
+  {
+   "text": "Arrancar",
+   "start": 35.237,
+   "end": 35.666,
+   "scene": 5
+  },
+  {
+   "text": "un",
+   "start": 35.713,
+   "end": 35.759,
+   "scene": 5
+  },
+  {
+   "text": "cartel",
+   "start": 35.805,
+   "end": 36.119,
+   "scene": 5
+  },
+  {
+   "text": "es",
+   "start": 36.165,
+   "end": 36.223,
+   "scene": 5
+  },
+  {
+   "text": "quitarle",
+   "start": 36.27,
+   "end": 36.699,
+   "scene": 5
+  },
+  {
+   "text": "la",
+   "start": 36.746,
+   "end": 36.804,
+   "scene": 5
+  },
+  {
+   "text": "voz",
+   "start": 36.85,
+   "end": 37.036,
+   "scene": 5
+  },
+  {
+   "text": "a",
+   "start": 37.117,
+   "end": 37.152,
+   "scene": 5
+  },
+  {
+   "text": "alguien.",
+   "start": 37.199,
+   "end": 37.675,
+   "scene": 5
+  },
+  {
+   "text": "Consejo:",
+   "start": 38.569,
+   "end": 39.358,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 39.718,
+   "end": 39.846,
+   "scene": 6
+  },
+  {
+   "text": "ves",
+   "start": 39.892,
+   "end": 40.02,
+   "scene": 6
+  },
+  {
+   "text": "un",
+   "start": 40.113,
+   "end": 40.171,
+   "scene": 6
+  },
+  {
+   "text": "cartel",
+   "start": 40.229,
+   "end": 40.542,
+   "scene": 6
+  },
+  {
+   "text": "mal",
+   "start": 40.624,
+   "end": 40.798,
+   "scene": 6
+  },
+  {
+   "text": "colocado,",
+   "start": 40.856,
+   "end": 41.564,
+   "scene": 6
+  },
+  {
+   "text": "no",
+   "start": 41.727,
+   "end": 41.854,
+   "scene": 6
+  },
+  {
+   "text": "lo",
+   "start": 41.901,
+   "end": 41.97,
+   "scene": 6
+  },
+  {
+   "text": "toques.",
+   "start": 42.028,
+   "end": 42.62,
+   "scene": 6
+  },
+  {
+   "text": "Hazle",
+   "start": 43.387,
+   "end": 43.7,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 43.735,
+   "end": 43.863,
+   "scene": 6
+  },
+  {
+   "text": "foto",
+   "start": 43.921,
+   "end": 44.199,
+   "scene": 6
+  },
+  {
+   "text": "y",
+   "start": 44.257,
+   "end": 44.281,
+   "scene": 6
+  },
+  {
+   "text": "avisa",
+   "start": 44.327,
+   "end": 44.734,
+   "scene": 6
+  },
+  {
+   "text": "al",
+   "start": 44.792,
+   "end": 44.884,
+   "scene": 6
+  },
+  {
+   "text": "ayuntamiento",
+   "start": 44.931,
+   "end": 45.651,
+   "scene": 6
+  },
+  {
+   "text": "o",
+   "start": 45.755,
+   "end": 45.825,
+   "scene": 6
+  },
+  {
+   "text": "a",
+   "start": 45.871,
+   "end": 45.895,
+   "scene": 6
+  },
+  {
+   "text": "la",
+   "start": 45.929,
+   "end": 45.999,
+   "scene": 6
+  },
+  {
+   "text": "Junta",
+   "start": 46.057,
+   "end": 46.429,
+   "scene": 6
+  },
+  {
+   "text": "Electoral.",
+   "start": 46.498,
+   "end": 47.102,
+   "scene": 6
+  },
+  {
+   "text": "¿Has",
+   "start": 47.671,
+   "end": 47.949,
+   "scene": 7
+  },
+  {
+   "text": "visto",
+   "start": 47.996,
+   "end": 48.193,
+   "scene": 7
+  },
+  {
+   "text": "alguno",
+   "start": 48.217,
+   "end": 48.484,
+   "scene": 7
+  },
+  {
+   "text": "arrancado",
+   "start": 48.507,
+   "end": 48.936,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 48.96,
+   "end": 49.006,
+   "scene": 7
+  },
+  {
+   "text": "tu",
+   "start": 49.041,
+   "end": 49.122,
+   "scene": 7
+  },
+  {
+   "text": "calle?",
+   "start": 49.169,
+   "end": 49.586,
+   "scene": 7
+  },
+  {
+   "text": "Comenta.",
+   "start": 49.726,
+   "end": 50.283,
+   "scene": 7
+  },
+  {
+   "text": "Y",
+   "start": 50.945,
+   "end": 51.049,
+   "scene": 7
+  },
+  {
+   "text": "sígueme,",
+   "start": 51.154,
+   "end": 51.746,
+   "scene": 7
+  },
+  {
+   "text": "porque",
+   "start": 51.943,
+   "end": 52.245,
+   "scene": 7
+  },
+  {
+   "text": "si",
+   "start": 52.315,
+   "end": 52.419,
+   "scene": 7
+  },
+  {
+   "text": "arrancas",
+   "start": 52.489,
+   "end": 52.965,
+   "scene": 7
+  },
+  {
+   "text": "uno",
+   "start": 53.058,
+   "end": 53.186,
+   "scene": 7
+  },
+  {
+   "text": "de",
+   "start": 53.232,
+   "end": 53.29,
+   "scene": 7
+  },
+  {
+   "text": "estos",
+   "start": 53.348,
+   "end": 53.569,
+   "scene": 7
+  },
+  {
+   "text": "carteles…",
+   "start": 53.615,
+   "end": 54.474,
+   "scene": 7
+  }
+ ],
+ "scenes": [
+  "Si arrancas uno de estos carteles electorales, la broma te puede costar hasta mil euros.",
+  "No es un papel cualquiera. El ayuntamiento está obligado por ley a ceder espacios gratis para colocarlos.",
+  "Y se reparten en igualdad entre todos los partidos que se presentan.",
+  "Si lo arrancas, la Junta Electoral puede multarte con entre cien y mil euros.",
+  "Y si lo rompes, puede ser un delito leve de daños, con una multa de uno a tres meses calculada según tus ingresos.",
+  "¿Por qué tan serio? Porque en campaña todos tienen derecho a darse a conocer. Arrancar un cartel es quitarle la voz a alguien.",
+  "Consejo: si ves un cartel mal colocado, no lo toques. Hazle una foto y avisa al ayuntamiento o a la Junta Electoral.",
+  "¿Has visto alguno arrancado en tu calle? Comenta. Y sígueme, porque si arrancas uno de estos carteles…"
+ ]
+}

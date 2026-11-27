@@ -1,0 +1,994 @@
+{
+ "duration": 57.767,
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.0,
+   "end": 0.186,
+   "scene": 0
+  },
+  {
+   "text": "diputado",
+   "start": 0.209,
+   "end": 0.639,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 0.662,
+   "end": 0.708,
+   "scene": 0
+  },
+  {
+   "text": "España",
+   "start": 0.755,
+   "end": 1.149,
+   "scene": 0
+  },
+  {
+   "text": "puede",
+   "start": 1.184,
+   "end": 1.382,
+   "scene": 0
+  },
+  {
+   "text": "cobrar",
+   "start": 1.428,
+   "end": 1.718,
+   "scene": 0
+  },
+  {
+   "text": "más",
+   "start": 1.765,
+   "end": 1.904,
+   "scene": 0
+  },
+  {
+   "text": "de",
+   "start": 1.95,
+   "end": 2.02,
+   "scene": 0
+  },
+  {
+   "text": "cinco",
+   "start": 2.067,
+   "end": 2.461,
+   "scene": 0
+  },
+  {
+   "text": "mil",
+   "start": 2.543,
+   "end": 2.74,
+   "scene": 0
+  },
+  {
+   "text": "euros",
+   "start": 2.821,
+   "end": 3.123,
+   "scene": 0
+  },
+  {
+   "text": "al",
+   "start": 3.181,
+   "end": 3.251,
+   "scene": 0
+  },
+  {
+   "text": "mes.",
+   "start": 3.297,
+   "end": 3.68,
+   "scene": 0
+  },
+  {
+   "text": "Y",
+   "start": 3.9,
+   "end": 3.982,
+   "scene": 0
+  },
+  {
+   "text": "una",
+   "start": 4.086,
+   "end": 4.214,
+   "scene": 0
+  },
+  {
+   "text": "parte",
+   "start": 4.26,
+   "end": 4.527,
+   "scene": 0
+  },
+  {
+   "text": "no",
+   "start": 4.632,
+   "end": 4.771,
+   "scene": 0
+  },
+  {
+   "text": "paga",
+   "start": 4.841,
+   "end": 5.084,
+   "scene": 0
+  },
+  {
+   "text": "impuestos.",
+   "start": 5.119,
+   "end": 5.804,
+   "scene": 0
+  },
+  {
+   "text": "Primero,",
+   "start": 6.024,
+   "end": 6.639,
+   "scene": 1
+  },
+  {
+   "text": "el",
+   "start": 6.837,
+   "end": 6.976,
+   "scene": 1
+  },
+  {
+   "text": "sueldo",
+   "start": 7.057,
+   "end": 7.394,
+   "scene": 1
+  },
+  {
+   "text": "base:",
+   "start": 7.44,
+   "end": 7.951,
+   "scene": 1
+  },
+  {
+   "text": "tres",
+   "start": 8.218,
+   "end": 8.451,
+   "scene": 1
+  },
+  {
+   "text": "mil",
+   "start": 8.52,
+   "end": 8.648,
+   "scene": 1
+  },
+  {
+   "text": "trescientos",
+   "start": 8.706,
+   "end": 9.228,
+   "scene": 1
+  },
+  {
+   "text": "sesenta",
+   "start": 9.252,
+   "end": 9.577,
+   "scene": 1
+  },
+  {
+   "text": "y",
+   "start": 9.612,
+   "end": 9.646,
+   "scene": 1
+  },
+  {
+   "text": "siete",
+   "start": 9.693,
+   "end": 10.029,
+   "scene": 1
+  },
+  {
+   "text": "euros",
+   "start": 10.111,
+   "end": 10.401,
+   "scene": 1
+  },
+  {
+   "text": "brutos",
+   "start": 10.459,
+   "end": 10.784,
+   "scene": 1
+  },
+  {
+   "text": "al",
+   "start": 10.842,
+   "end": 10.912,
+   "scene": 1
+  },
+  {
+   "text": "mes.",
+   "start": 10.97,
+   "end": 11.353,
+   "scene": 1
+  },
+  {
+   "text": "Igual",
+   "start": 11.573,
+   "end": 11.956,
+   "scene": 1
+  },
+  {
+   "text": "para",
+   "start": 12.014,
+   "end": 12.153,
+   "scene": 1
+  },
+  {
+   "text": "los",
+   "start": 12.188,
+   "end": 12.304,
+   "scene": 1
+  },
+  {
+   "text": "trescientos",
+   "start": 12.339,
+   "end": 12.803,
+   "scene": 1
+  },
+  {
+   "text": "cincuenta.",
+   "start": 12.827,
+   "end": 13.477,
+   "scene": 1
+  },
+  {
+   "text": "Pero",
+   "start": 13.697,
+   "end": 13.953,
+   "scene": 2
+  },
+  {
+   "text": "hay",
+   "start": 14.022,
+   "end": 14.138,
+   "scene": 2
+  },
+  {
+   "text": "más.",
+   "start": 14.196,
+   "end": 14.591,
+   "scene": 2
+  },
+  {
+   "text": "Para",
+   "start": 14.811,
+   "end": 15.055,
+   "scene": 2
+  },
+  {
+   "text": "gastos,",
+   "start": 15.113,
+   "end": 15.775,
+   "scene": 2
+  },
+  {
+   "text": "los",
+   "start": 15.937,
+   "end": 16.088,
+   "scene": 2
+  },
+  {
+   "text": "que",
+   "start": 16.146,
+   "end": 16.216,
+   "scene": 2
+  },
+  {
+   "text": "vienen",
+   "start": 16.262,
+   "end": 16.529,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 16.576,
+   "end": 16.634,
+   "scene": 2
+  },
+  {
+   "text": "fuera",
+   "start": 16.68,
+   "end": 16.936,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 16.97,
+   "end": 17.028,
+   "scene": 2
+  },
+  {
+   "text": "Madrid",
+   "start": 17.075,
+   "end": 17.446,
+   "scene": 2
+  },
+  {
+   "text": "reciben",
+   "start": 17.679,
+   "end": 18.05,
+   "scene": 2
+  },
+  {
+   "text": "unos",
+   "start": 18.155,
+   "end": 18.387,
+   "scene": 2
+  },
+  {
+   "text": "dos",
+   "start": 18.456,
+   "end": 18.642,
+   "scene": 2
+  },
+  {
+   "text": "mil",
+   "start": 18.735,
+   "end": 18.921,
+   "scene": 2
+  },
+  {
+   "text": "ciento",
+   "start": 18.967,
+   "end": 19.316,
+   "scene": 2
+  },
+  {
+   "text": "sesenta",
+   "start": 19.374,
+   "end": 19.85,
+   "scene": 2
+  },
+  {
+   "text": "euros",
+   "start": 19.908,
+   "end": 20.151,
+   "scene": 2
+  },
+  {
+   "text": "al",
+   "start": 20.21,
+   "end": 20.279,
+   "scene": 2
+  },
+  {
+   "text": "mes.",
+   "start": 20.326,
+   "end": 20.755,
+   "scene": 2
+  },
+  {
+   "text": "Los",
+   "start": 20.975,
+   "end": 21.149,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 21.196,
+   "end": 21.242,
+   "scene": 2
+  },
+  {
+   "text": "Madrid,",
+   "start": 21.288,
+   "end": 21.753,
+   "scene": 2
+  },
+  {
+   "text": "unos",
+   "start": 21.892,
+   "end": 22.136,
+   "scene": 2
+  },
+  {
+   "text": "mil",
+   "start": 22.206,
+   "end": 22.357,
+   "scene": 2
+  },
+  {
+   "text": "treinta.",
+   "start": 22.415,
+   "end": 22.983,
+   "scene": 2
+  },
+  {
+   "text": "Y",
+   "start": 23.203,
+   "end": 23.308,
+   "scene": 3
+  },
+  {
+   "text": "esa",
+   "start": 23.401,
+   "end": 23.575,
+   "scene": 3
+  },
+  {
+   "text": "parte",
+   "start": 23.621,
+   "end": 23.9,
+   "scene": 3
+  },
+  {
+   "text": "está",
+   "start": 23.923,
+   "end": 24.086,
+   "scene": 3
+  },
+  {
+   "text": "exenta",
+   "start": 24.12,
+   "end": 24.515,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 24.562,
+   "end": 24.654,
+   "scene": 3
+  },
+  {
+   "text": "IRPF.",
+   "start": 24.759,
+   "end": 25.897,
+   "scene": 3
+  },
+  {
+   "text": "No",
+   "start": 26.059,
+   "end": 26.233,
+   "scene": 3
+  },
+  {
+   "text": "paga",
+   "start": 26.291,
+   "end": 26.512,
+   "scene": 3
+  },
+  {
+   "text": "impuestos.",
+   "start": 26.547,
+   "end": 27.255,
+   "scene": 3
+  },
+  {
+   "text": "En",
+   "start": 27.475,
+   "end": 27.603,
+   "scene": 4
+  },
+  {
+   "text": "total,",
+   "start": 27.649,
+   "end": 28.218,
+   "scene": 4
+  },
+  {
+   "text": "un",
+   "start": 28.358,
+   "end": 28.474,
+   "scene": 4
+  },
+  {
+   "text": "diputado",
+   "start": 28.52,
+   "end": 28.962,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 29.02,
+   "end": 29.078,
+   "scene": 4
+  },
+  {
+   "text": "fuera",
+   "start": 29.136,
+   "end": 29.356,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 29.403,
+   "end": 29.461,
+   "scene": 4
+  },
+  {
+   "text": "Madrid",
+   "start": 29.507,
+   "end": 29.821,
+   "scene": 4
+  },
+  {
+   "text": "ronda",
+   "start": 29.96,
+   "end": 30.251,
+   "scene": 4
+  },
+  {
+   "text": "los",
+   "start": 30.297,
+   "end": 30.436,
+   "scene": 4
+  },
+  {
+   "text": "cinco",
+   "start": 30.46,
+   "end": 30.796,
+   "scene": 4
+  },
+  {
+   "text": "mil",
+   "start": 30.866,
+   "end": 31.017,
+   "scene": 4
+  },
+  {
+   "text": "quinientos",
+   "start": 31.075,
+   "end": 31.621,
+   "scene": 4
+  },
+  {
+   "text": "euros",
+   "start": 31.725,
+   "end": 32.05,
+   "scene": 4
+  },
+  {
+   "text": "al",
+   "start": 32.143,
+   "end": 32.271,
+   "scene": 4
+  },
+  {
+   "text": "mes.",
+   "start": 32.34,
+   "end": 32.758,
+   "scene": 4
+  },
+  {
+   "text": "Además,",
+   "start": 32.978,
+   "end": 33.628,
+   "scene": 5
+  },
+  {
+   "text": "el",
+   "start": 33.86,
+   "end": 34.0,
+   "scene": 5
+  },
+  {
+   "text": "Congreso",
+   "start": 34.058,
+   "end": 34.406,
+   "scene": 5
+  },
+  {
+   "text": "les",
+   "start": 34.452,
+   "end": 34.557,
+   "scene": 5
+  },
+  {
+   "text": "paga",
+   "start": 34.615,
+   "end": 34.789,
+   "scene": 5
+  },
+  {
+   "text": "los",
+   "start": 34.824,
+   "end": 34.952,
+   "scene": 5
+  },
+  {
+   "text": "viajes",
+   "start": 34.998,
+   "end": 35.323,
+   "scene": 5
+  },
+  {
+   "text": "en",
+   "start": 35.381,
+   "end": 35.439,
+   "scene": 5
+  },
+  {
+   "text": "tren",
+   "start": 35.497,
+   "end": 35.741,
+   "scene": 5
+  },
+  {
+   "text": "o",
+   "start": 35.834,
+   "end": 35.927,
+   "scene": 5
+  },
+  {
+   "text": "avión,",
+   "start": 35.973,
+   "end": 36.38,
+   "scene": 5
+  },
+  {
+   "text": "y",
+   "start": 36.52,
+   "end": 36.59,
+   "scene": 5
+  },
+  {
+   "text": "les",
+   "start": 36.671,
+   "end": 36.799,
+   "scene": 5
+  },
+  {
+   "text": "da",
+   "start": 36.857,
+   "end": 36.927,
+   "scene": 5
+  },
+  {
+   "text": "una",
+   "start": 36.996,
+   "end": 37.136,
+   "scene": 5
+  },
+  {
+   "text": "tarjeta",
+   "start": 37.182,
+   "end": 37.589,
+   "scene": 5
+  },
+  {
+   "text": "de",
+   "start": 37.635,
+   "end": 37.705,
+   "scene": 5
+  },
+  {
+   "text": "taxi",
+   "start": 37.763,
+   "end": 38.088,
+   "scene": 5
+  },
+  {
+   "text": "de",
+   "start": 38.146,
+   "end": 38.204,
+   "scene": 5
+  },
+  {
+   "text": "hasta",
+   "start": 38.25,
+   "end": 38.436,
+   "scene": 5
+  },
+  {
+   "text": "tres",
+   "start": 38.483,
+   "end": 38.668,
+   "scene": 5
+  },
+  {
+   "text": "mil",
+   "start": 38.738,
+   "end": 38.901,
+   "scene": 5
+  },
+  {
+   "text": "euros",
+   "start": 39.005,
+   "end": 39.33,
+   "scene": 5
+  },
+  {
+   "text": "al",
+   "start": 39.423,
+   "end": 39.539,
+   "scene": 5
+  },
+  {
+   "text": "año…",
+   "start": 39.574,
+   "end": 40.015,
+   "scene": 5
+  },
+  {
+   "text": "aunque",
+   "start": 40.235,
+   "end": 40.56,
+   "scene": 5
+  },
+  {
+   "text": "solo",
+   "start": 40.653,
+   "end": 40.908,
+   "scene": 5
+  },
+  {
+   "text": "se",
+   "start": 40.955,
+   "end": 41.036,
+   "scene": 5
+  },
+  {
+   "text": "pagan",
+   "start": 41.082,
+   "end": 41.326,
+   "scene": 5
+  },
+  {
+   "text": "los",
+   "start": 41.349,
+   "end": 41.465,
+   "scene": 5
+  },
+  {
+   "text": "viajes",
+   "start": 41.524,
+   "end": 41.849,
+   "scene": 5
+  },
+  {
+   "text": "que",
+   "start": 41.907,
+   "end": 41.988,
+   "scene": 5
+  },
+  {
+   "text": "hacen.",
+   "start": 42.046,
+   "end": 42.487,
+   "scene": 5
+  },
+  {
+   "text": "Y",
+   "start": 42.707,
+   "end": 42.812,
+   "scene": 6
+  },
+  {
+   "text": "si",
+   "start": 42.893,
+   "end": 42.974,
+   "scene": 6
+  },
+  {
+   "text": "tienen",
+   "start": 43.021,
+   "end": 43.241,
+   "scene": 6
+  },
+  {
+   "text": "un",
+   "start": 43.311,
+   "end": 43.369,
+   "scene": 6
+  },
+  {
+   "text": "cargo,",
+   "start": 43.415,
+   "end": 43.949,
+   "scene": 6
+  },
+  {
+   "text": "como",
+   "start": 44.065,
+   "end": 44.274,
+   "scene": 6
+  },
+  {
+   "text": "portavoz",
+   "start": 44.321,
+   "end": 44.89,
+   "scene": 6
+  },
+  {
+   "text": "o",
+   "start": 44.948,
+   "end": 44.971,
+   "scene": 6
+  },
+  {
+   "text": "presidente",
+   "start": 45.017,
+   "end": 45.552,
+   "scene": 6
+  },
+  {
+   "text": "de",
+   "start": 45.621,
+   "end": 45.691,
+   "scene": 6
+  },
+  {
+   "text": "una",
+   "start": 45.772,
+   "end": 45.935,
+   "scene": 6
+  },
+  {
+   "text": "comisión,",
+   "start": 45.981,
+   "end": 46.596,
+   "scene": 6
+  },
+  {
+   "text": "cobran",
+   "start": 46.736,
+   "end": 47.05,
+   "scene": 6
+  },
+  {
+   "text": "un",
+   "start": 47.12,
+   "end": 47.178,
+   "scene": 6
+  },
+  {
+   "text": "complemento",
+   "start": 47.224,
+   "end": 47.816,
+   "scene": 6
+  },
+  {
+   "text": "extra.",
+   "start": 47.874,
+   "end": 48.315,
+   "scene": 6
+  },
+  {
+   "text": "Ojo",
+   "start": 48.535,
+   "end": 48.767,
+   "scene": 7
+  },
+  {
+   "text": "al",
+   "start": 48.802,
+   "end": 48.849,
+   "scene": 7
+  },
+  {
+   "text": "dato:",
+   "start": 48.907,
+   "end": 49.325,
+   "scene": 7
+  },
+  {
+   "text": "todas",
+   "start": 49.545,
+   "end": 49.87,
+   "scene": 7
+  },
+  {
+   "text": "estas",
+   "start": 49.951,
+   "end": 50.206,
+   "scene": 7
+  },
+  {
+   "text": "cifras",
+   "start": 50.23,
+   "end": 50.613,
+   "scene": 7
+  },
+  {
+   "text": "son",
+   "start": 50.694,
+   "end": 50.891,
+   "scene": 7
+  },
+  {
+   "text": "públicas.",
+   "start": 50.961,
+   "end": 51.646,
+   "scene": 7
+  },
+  {
+   "text": "Puedes",
+   "start": 51.878,
+   "end": 52.18,
+   "scene": 7
+  },
+  {
+   "text": "consultarlas",
+   "start": 52.226,
+   "end": 52.842,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 52.911,
+   "end": 52.958,
+   "scene": 7
+  },
+  {
+   "text": "la",
+   "start": 53.016,
+   "end": 53.086,
+   "scene": 7
+  },
+  {
+   "text": "web",
+   "start": 53.167,
+   "end": 53.341,
+   "scene": 7
+  },
+  {
+   "text": "del",
+   "start": 53.387,
+   "end": 53.48,
+   "scene": 7
+  },
+  {
+   "text": "Congreso.",
+   "start": 53.527,
+   "end": 54.107,
+   "scene": 7
+  },
+  {
+   "text": "¿Te",
+   "start": 54.177,
+   "end": 54.374,
+   "scene": 8
+  },
+  {
+   "text": "parece",
+   "start": 54.421,
+   "end": 54.688,
+   "scene": 8
+  },
+  {
+   "text": "mucho",
+   "start": 54.723,
+   "end": 55.106,
+   "scene": 8
+  },
+  {
+   "text": "o",
+   "start": 55.21,
+   "end": 55.268,
+   "scene": 8
+  },
+  {
+   "text": "poco?",
+   "start": 55.338,
+   "end": 55.791,
+   "scene": 8
+  },
+  {
+   "text": "Comenta.",
+   "start": 55.988,
+   "end": 56.615,
+   "scene": 8
+  },
+  {
+   "text": "Y",
+   "start": 56.835,
+   "end": 56.928,
+   "scene": 8
+  },
+  {
+   "text": "sígueme.",
+   "start": 57.021,
+   "end": 57.717,
+   "scene": 8
+  }
+ ],
+ "scenes": [
+  "Un diputado en España puede cobrar más de cinco mil euros al mes. Y una parte no paga impuestos.",
+  "Primero, el sueldo base: tres mil trescientos sesenta y siete euros brutos al mes. Igual para los trescientos cincuenta.",
+  "Pero hay más. Para gastos, los que vienen de fuera de Madrid reciben unos dos mil ciento sesenta euros al mes. Los de Madrid, unos mil treinta.",
+  "Y esa parte está exenta de IRPF. No paga impuestos.",
+  "En total, un diputado de fuera de Madrid ronda los cinco mil quinientos euros al mes.",
+  "Además, el Congreso les paga los viajes en tren o avión, y les da una tarjeta de taxi de hasta tres mil euros al año… aunque solo se pagan los viajes que hacen.",
+  "Y si tienen un cargo, como portavoz o presidente de una comisión, cobran un complemento extra.",
+  "Ojo al dato: todas estas cifras son públicas. Puedes consultarlas en la web del Congreso.",
+  "¿Te parece mucho o poco? Comenta. Y sígueme."
+ ]
+}

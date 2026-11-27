@@ -1,0 +1,807 @@
+{
+ "duration": 51.017143,
+ "words": [
+  {
+   "text": "En",
+   "start": 0.0,
+   "end": 0.139,
+   "scene": 0
+  },
+  {
+   "text": "la",
+   "start": 0.186,
+   "end": 0.244,
+   "scene": 0
+  },
+  {
+   "text": "antigua",
+   "start": 0.267,
+   "end": 0.615,
+   "scene": 0
+  },
+  {
+   "text": "Roma",
+   "start": 0.673,
+   "end": 0.882,
+   "scene": 0
+  },
+  {
+   "text": "había",
+   "start": 0.906,
+   "end": 1.091,
+   "scene": 0
+  },
+  {
+   "text": "un",
+   "start": 1.115,
+   "end": 1.161,
+   "scene": 0
+  },
+  {
+   "text": "castigo",
+   "start": 1.207,
+   "end": 1.579,
+   "scene": 0
+  },
+  {
+   "text": "tan",
+   "start": 1.66,
+   "end": 1.881,
+   "scene": 0
+  },
+  {
+   "text": "cruel",
+   "start": 1.939,
+   "end": 2.194,
+   "scene": 0
+  },
+  {
+   "text": "que",
+   "start": 2.252,
+   "end": 2.322,
+   "scene": 0
+  },
+  {
+   "text": "te",
+   "start": 2.368,
+   "end": 2.438,
+   "scene": 0
+  },
+  {
+   "text": "metían",
+   "start": 2.485,
+   "end": 2.844,
+   "scene": 0
+  },
+  {
+   "text": "en",
+   "start": 2.891,
+   "end": 2.937,
+   "scene": 0
+  },
+  {
+   "text": "un",
+   "start": 3.042,
+   "end": 3.111,
+   "scene": 0
+  },
+  {
+   "text": "saco…",
+   "start": 3.181,
+   "end": 3.692,
+   "scene": 0
+  },
+  {
+   "text": "con",
+   "start": 4.11,
+   "end": 4.261,
+   "scene": 0
+  },
+  {
+   "text": "cuatro",
+   "start": 4.331,
+   "end": 4.609,
+   "scene": 0
+  },
+  {
+   "text": "animales",
+   "start": 4.632,
+   "end": 5.016,
+   "scene": 0
+  },
+  {
+   "text": "vivos.",
+   "start": 5.062,
+   "end": 5.526,
+   "scene": 0
+  },
+  {
+   "text": "Se",
+   "start": 5.793,
+   "end": 5.921,
+   "scene": 1
+  },
+  {
+   "text": "llamaba",
+   "start": 5.944,
+   "end": 6.339,
+   "scene": 1
+  },
+  {
+   "text": "poena",
+   "start": 6.444,
+   "end": 6.896,
+   "scene": 1
+  },
+  {
+   "text": "cullei.",
+   "start": 6.954,
+   "end": 7.546,
+   "scene": 1
+  },
+  {
+   "text": "Para",
+   "start": 7.964,
+   "end": 8.162,
+   "scene": 1
+  },
+  {
+   "text": "quien",
+   "start": 8.208,
+   "end": 8.359,
+   "scene": 1
+  },
+  {
+   "text": "mataba",
+   "start": 8.406,
+   "end": 8.789,
+   "scene": 1
+  },
+  {
+   "text": "a",
+   "start": 8.835,
+   "end": 8.858,
+   "scene": 1
+  },
+  {
+   "text": "su",
+   "start": 8.905,
+   "end": 9.009,
+   "scene": 1
+  },
+  {
+   "text": "padre.",
+   "start": 9.056,
+   "end": 9.509,
+   "scene": 1
+  },
+  {
+   "text": "Te",
+   "start": 10.077,
+   "end": 10.194,
+   "scene": 2
+  },
+  {
+   "text": "azotaban,",
+   "start": 10.252,
+   "end": 10.983,
+   "scene": 2
+  },
+  {
+   "text": "te",
+   "start": 11.122,
+   "end": 11.215,
+   "scene": 2
+  },
+  {
+   "text": "cosían",
+   "start": 11.273,
+   "end": 11.656,
+   "scene": 2
+  },
+  {
+   "text": "en",
+   "start": 11.703,
+   "end": 11.749,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 11.819,
+   "end": 11.877,
+   "scene": 2
+  },
+  {
+   "text": "saco",
+   "start": 11.923,
+   "end": 12.144,
+   "scene": 2
+  },
+  {
+   "text": "de",
+   "start": 12.19,
+   "end": 12.249,
+   "scene": 2
+  },
+  {
+   "text": "cuero",
+   "start": 12.295,
+   "end": 12.539,
+   "scene": 2
+  },
+  {
+   "text": "con",
+   "start": 12.585,
+   "end": 12.69,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 12.759,
+   "end": 12.806,
+   "scene": 2
+  },
+  {
+   "text": "perro,",
+   "start": 12.864,
+   "end": 13.34,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 13.502,
+   "end": 13.618,
+   "scene": 2
+  },
+  {
+   "text": "gallo,",
+   "start": 13.688,
+   "end": 14.153,
+   "scene": 2
+  },
+  {
+   "text": "una",
+   "start": 14.315,
+   "end": 14.489,
+   "scene": 2
+  },
+  {
+   "text": "serpiente",
+   "start": 14.535,
+   "end": 15.139,
+   "scene": 2
+  },
+  {
+   "text": "y",
+   "start": 15.244,
+   "end": 15.313,
+   "scene": 2
+  },
+  {
+   "text": "un",
+   "start": 15.418,
+   "end": 15.476,
+   "scene": 2
+  },
+  {
+   "text": "mono.",
+   "start": 15.534,
+   "end": 15.963,
+   "scene": 2
+  },
+  {
+   "text": "Y",
+   "start": 16.323,
+   "end": 16.416,
+   "scene": 2
+  },
+  {
+   "text": "al",
+   "start": 16.498,
+   "end": 16.567,
+   "scene": 2
+  },
+  {
+   "text": "río.",
+   "start": 16.637,
+   "end": 17.02,
+   "scene": 2
+  },
+  {
+   "text": "Segundo.",
+   "start": 17.786,
+   "end": 18.402,
+   "scene": 3
+  },
+  {
+   "text": "La",
+   "start": 18.947,
+   "end": 19.063,
+   "scene": 3
+  },
+  {
+   "text": "decimación.",
+   "start": 19.11,
+   "end": 19.981,
+   "scene": 3
+  },
+  {
+   "text": "Si",
+   "start": 20.538,
+   "end": 20.689,
+   "scene": 3
+  },
+  {
+   "text": "una",
+   "start": 20.758,
+   "end": 20.874,
+   "scene": 3
+  },
+  {
+   "text": "legión",
+   "start": 20.909,
+   "end": 21.165,
+   "scene": 3
+  },
+  {
+   "text": "huía,",
+   "start": 21.211,
+   "end": 21.525,
+   "scene": 3
+  },
+  {
+   "text": "la",
+   "start": 21.571,
+   "end": 21.652,
+   "scene": 3
+  },
+  {
+   "text": "dividían",
+   "start": 21.699,
+   "end": 22.14,
+   "scene": 3
+  },
+  {
+   "text": "en",
+   "start": 22.198,
+   "end": 22.256,
+   "scene": 3
+  },
+  {
+   "text": "grupos",
+   "start": 22.314,
+   "end": 22.662,
+   "scene": 3
+  },
+  {
+   "text": "de",
+   "start": 22.72,
+   "end": 22.79,
+   "scene": 3
+  },
+  {
+   "text": "diez.",
+   "start": 22.825,
+   "end": 23.266,
+   "scene": 3
+  },
+  {
+   "text": "Uno",
+   "start": 23.823,
+   "end": 24.021,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 24.067,
+   "end": 24.137,
+   "scene": 4
+  },
+  {
+   "text": "cada",
+   "start": 24.183,
+   "end": 24.404,
+   "scene": 4
+  },
+  {
+   "text": "diez,",
+   "start": 24.439,
+   "end": 24.787,
+   "scene": 4
+  },
+  {
+   "text": "elegido",
+   "start": 24.845,
+   "end": 25.321,
+   "scene": 4
+  },
+  {
+   "text": "al",
+   "start": 25.368,
+   "end": 25.437,
+   "scene": 4
+  },
+  {
+   "text": "azar,",
+   "start": 25.495,
+   "end": 25.994,
+   "scene": 4
+  },
+  {
+   "text": "moría",
+   "start": 26.227,
+   "end": 26.621,
+   "scene": 4
+  },
+  {
+   "text": "a",
+   "start": 26.679,
+   "end": 26.714,
+   "scene": 4
+  },
+  {
+   "text": "palos",
+   "start": 26.784,
+   "end": 27.097,
+   "scene": 4
+  },
+  {
+   "text": "a",
+   "start": 27.179,
+   "end": 27.202,
+   "scene": 4
+  },
+  {
+   "text": "manos",
+   "start": 27.26,
+   "end": 27.515,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 27.55,
+   "end": 27.597,
+   "scene": 4
+  },
+  {
+   "text": "sus",
+   "start": 27.643,
+   "end": 27.782,
+   "scene": 4
+  },
+  {
+   "text": "propios",
+   "start": 27.852,
+   "end": 28.177,
+   "scene": 4
+  },
+  {
+   "text": "compañeros.",
+   "start": 28.224,
+   "end": 28.955,
+   "scene": 4
+  },
+  {
+   "text": "Craso",
+   "start": 29.594,
+   "end": 30.07,
+   "scene": 4
+  },
+  {
+   "text": "lo",
+   "start": 30.255,
+   "end": 30.371,
+   "scene": 4
+  },
+  {
+   "text": "hizo",
+   "start": 30.406,
+   "end": 30.58,
+   "scene": 4
+  },
+  {
+   "text": "durante",
+   "start": 30.615,
+   "end": 30.917,
+   "scene": 4
+  },
+  {
+   "text": "la",
+   "start": 30.94,
+   "end": 30.998,
+   "scene": 4
+  },
+  {
+   "text": "rebelión",
+   "start": 31.068,
+   "end": 31.405,
+   "scene": 4
+  },
+  {
+   "text": "de",
+   "start": 31.44,
+   "end": 31.498,
+   "scene": 4
+  },
+  {
+   "text": "Espartaco.",
+   "start": 31.521,
+   "end": 32.148,
+   "scene": 4
+  },
+  {
+   "text": "Tercero.",
+   "start": 32.787,
+   "end": 33.402,
+   "scene": 5
+  },
+  {
+   "text": "Las",
+   "start": 33.959,
+   "end": 34.133,
+   "scene": 5
+  },
+  {
+   "text": "vírgenes",
+   "start": 34.191,
+   "end": 34.609,
+   "scene": 5
+  },
+  {
+   "text": "vestales.",
+   "start": 34.656,
+   "end": 35.306,
+   "scene": 5
+  },
+  {
+   "text": "Si",
+   "start": 35.875,
+   "end": 36.014,
+   "scene": 5
+  },
+  {
+   "text": "rompían",
+   "start": 36.072,
+   "end": 36.444,
+   "scene": 5
+  },
+  {
+   "text": "su",
+   "start": 36.49,
+   "end": 36.595,
+   "scene": 5
+  },
+  {
+   "text": "voto,",
+   "start": 36.664,
+   "end": 36.955,
+   "scene": 5
+  },
+  {
+   "text": "las",
+   "start": 36.989,
+   "end": 37.117,
+   "scene": 5
+  },
+  {
+   "text": "enterraban",
+   "start": 37.187,
+   "end": 37.698,
+   "scene": 5
+  },
+  {
+   "text": "vivas,",
+   "start": 37.744,
+   "end": 38.301,
+   "scene": 5
+  },
+  {
+   "text": "con",
+   "start": 38.441,
+   "end": 38.592,
+   "scene": 5
+  },
+  {
+   "text": "algo",
+   "start": 38.638,
+   "end": 38.812,
+   "scene": 5
+  },
+  {
+   "text": "de",
+   "start": 38.859,
+   "end": 38.917,
+   "scene": 5
+  },
+  {
+   "text": "pan,",
+   "start": 38.975,
+   "end": 39.346,
+   "scene": 5
+  },
+  {
+   "text": "agua",
+   "start": 39.485,
+   "end": 39.834,
+   "scene": 5
+  },
+  {
+   "text": "y",
+   "start": 39.938,
+   "end": 39.996,
+   "scene": 5
+  },
+  {
+   "text": "una",
+   "start": 40.066,
+   "end": 40.194,
+   "scene": 5
+  },
+  {
+   "text": "lámpara.",
+   "start": 40.24,
+   "end": 40.739,
+   "scene": 5
+  },
+  {
+   "text": "Así",
+   "start": 41.308,
+   "end": 41.564,
+   "scene": 6
+  },
+  {
+   "text": "nadie",
+   "start": 41.633,
+   "end": 41.854,
+   "scene": 6
+  },
+  {
+   "text": "manchaba",
+   "start": 41.9,
+   "end": 42.295,
+   "scene": 6
+  },
+  {
+   "text": "sus",
+   "start": 42.342,
+   "end": 42.504,
+   "scene": 6
+  },
+  {
+   "text": "manos",
+   "start": 42.585,
+   "end": 42.876,
+   "scene": 6
+  },
+  {
+   "text": "con",
+   "start": 42.922,
+   "end": 43.038,
+   "scene": 6
+  },
+  {
+   "text": "su",
+   "start": 43.073,
+   "end": 43.166,
+   "scene": 6
+  },
+  {
+   "text": "sangre.",
+   "start": 43.236,
+   "end": 43.7,
+   "scene": 6
+  },
+  {
+   "text": "¿Cuál",
+   "start": 44.466,
+   "end": 44.756,
+   "scene": 7
+  },
+  {
+   "text": "te",
+   "start": 44.803,
+   "end": 44.861,
+   "scene": 7
+  },
+  {
+   "text": "parece",
+   "start": 44.907,
+   "end": 45.198,
+   "scene": 7
+  },
+  {
+   "text": "peor?",
+   "start": 45.256,
+   "end": 45.685,
+   "scene": 7
+  },
+  {
+   "text": "Comenta.",
+   "start": 45.801,
+   "end": 46.405,
+   "scene": 7
+  },
+  {
+   "text": "Y",
+   "start": 46.765,
+   "end": 46.858,
+   "scene": 7
+  },
+  {
+   "text": "sígueme,",
+   "start": 46.951,
+   "end": 47.52,
+   "scene": 7
+  },
+  {
+   "text": "porque",
+   "start": 47.659,
+   "end": 47.949,
+   "scene": 7
+  },
+  {
+   "text": "en",
+   "start": 47.984,
+   "end": 48.03,
+   "scene": 7
+  },
+  {
+   "text": "la",
+   "start": 48.1,
+   "end": 48.158,
+   "scene": 7
+  },
+  {
+   "text": "antigua",
+   "start": 48.181,
+   "end": 48.611,
+   "scene": 7
+  },
+  {
+   "text": "Roma",
+   "start": 48.669,
+   "end": 49.006,
+   "scene": 7
+  },
+  {
+   "text": "había",
+   "start": 49.203,
+   "end": 49.47,
+   "scene": 7
+  },
+  {
+   "text": "un",
+   "start": 49.493,
+   "end": 49.54,
+   "scene": 7
+  },
+  {
+   "text": "castigo",
+   "start": 49.598,
+   "end": 50.016,
+   "scene": 7
+  },
+  {
+   "text": "tan",
+   "start": 50.085,
+   "end": 50.294,
+   "scene": 7
+  },
+  {
+   "text": "cruel…",
+   "start": 50.364,
+   "end": 50.991,
+   "scene": 7
+  }
+ ],
+ "scenes": [
+  "En la antigua Roma había un castigo tan cruel que te metían en un saco… con cuatro animales vivos.",
+  "Se llamaba poena cullei. Para quien mataba a su padre.",
+  "Te azotaban, te cosían en un saco de cuero con un perro, un gallo, una serpiente y un mono. Y al río.",
+  "Segundo. La decimación. Si una legión huía, la dividían en grupos de diez.",
+  "Uno de cada diez, elegido al azar, moría a palos a manos de sus propios compañeros. Craso lo hizo durante la rebelión de Espartaco.",
+  "Tercero. Las vírgenes vestales. Si rompían su voto, las enterraban vivas, con algo de pan, agua y una lámpara.",
+  "Así nadie manchaba sus manos con su sangre.",
+  "¿Cuál te parece peor? Comenta. Y sígueme, porque en la antigua Roma había un castigo tan cruel…"
+ ]
+}
