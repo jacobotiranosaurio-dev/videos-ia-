@@ -4,12 +4,18 @@ import { Backdrop, Big, C, Camera, FONT, SceneIn, Tag, clamp, lin, makeMapper, u
 import { EyeMascot } from "../lib/chars";
 import { Captions, Word } from "../lib/Captions";
 import { Stamp } from "../lib/politics";
-import { CarTop, DataChip, MP, MapBase, MapPhone, Mask, NeuralNet, Pin, PhoneCart, Speedo, TrafficRoad, Walker, YouPuck } from "../lib/maps";
+import { CarTop, DataChip, MP, MapBase, MapPhone, Mask, Pin, PhoneCart, Speedo, TrafficRoad, Walker, YouPuck } from "../lib/maps";
 import wordsJson from "./words.json";
 import timemap from "./timemap.json";
 
 const words = wordsJson as Word[];
-const m = makeMapper(timemap as [number, number][]);
+// v2: se eliminaron de la voz original los bloques 38,9–56,4 s (historial + DeepMind).
+// Los tiempos siguen escritos en segundos de la voz original v1; sh() salta el hueco.
+const base = makeMapper(timemap as [number, number][]);
+const CUT_A = 38.9, CUT_B = 56.4;
+const sh = (t: number) => (t < CUT_A ? t : t >= CUT_B ? t - (CUT_B - CUT_A) : CUT_A);
+const m = (t: number) => base(sh(t));
+const removed = (t: number) => t >= CUT_A && t < CUT_B;
 const ORIG_END = 86.5;
 export const V05_DURATION = Math.round(m(ORIG_END) * 30) / 30;
 
@@ -26,10 +32,8 @@ const S0 = {
   datos: [12.8, 20.4],
   tramos: [20.4, 24.1],
   colores: [24.1, 32.8],
-  frenan: [32.8, 39.0],
-  predice: [39.0, 48.3],
-  ia: [48.3, 56.6],
-  berlin: [56.6, 67.6],
+  frenan: [32.8, 38.9],
+  berlin: [56.4, 67.6],
   tip: [67.6, 76.3],
   cta: [76.3, ORIG_END],
 } as const;
@@ -292,68 +296,6 @@ const Frenan: React.FC = () => {
   );
 };
 
-// ================= 7. HISTORIAL + PREDICCIÓN =================
-const Predice: React.FC = () => {
-  const a = useA("predice");
-  const t = useSec();
-  const hours = [6, 8, 10, 12, 14, 16, 18, 20, 22];
-  const typical = [10, 85, 40, 35, 45, 60, 95, 50, 15];
-  const hl = 6;
-  const ff = t > a(45.4);
-  const clock = ff ? interpolate(t, [a(45.4), a(47.2)], [18 * 60, 18 * 60 + 25], clamp) : 18 * 60;
-  return (
-    <AbsoluteFill>
-      <Backdrop from="#7B2FF7" to="#1B0A3A" seed={41} />
-      <Camera dur={9} zoom={[1, 1.08]} punchAt={[a(41.1), a(43.8), a(45.6)]}>
-        <div style={{ position: "absolute", left: 540, top: 650, transform: `translate(-50%,-50%) scale(${pop(t, a(39.3))}) rotate(-2deg)` }}>
-          <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 56, color: C.ink, background: C.yellow, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 36px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>
-            {t > a(43.8) ? "📅 VIERNES · " + `${Math.floor(clock / 60)}:${String(Math.floor(clock % 60)).padStart(2, "0")}` : "📚 HISTORIAL DE LA CARRETERA"}
-          </div>
-        </div>
-        <div style={{ position: "absolute", left: 90, top: 760, width: 900, height: 560, background: "#fff", border: `9px solid ${C.ink}`, borderRadius: 34, boxShadow: `0 16px 0 ${C.ink}`, padding: "26px 26px 14px", display: "flex", alignItems: "flex-end", justifyContent: "space-between", transform: `scale(${pop(t, a(41.1))})` }}>
-          {hours.map((h, i) => {
-            const k = lin(t, a(41.4) + i * 0.08, a(41.8) + i * 0.08);
-            const v = typical[i];
-            const col = v > 70 ? MP.red : v > 40 ? MP.orange : MP.green;
-            const isHl = i === hl && t > a(43.8);
-            return (
-              <div key={h} style={{ display: "flex", flexDirection: "column", alignItems: "center", width: 84 }}>
-                <div style={{ width: 62, height: v * 4.2 * k, background: col, border: `6px solid ${isHl ? C.ink : "transparent"}`, borderRadius: "14px 14px 0 0", boxShadow: isHl ? `0 0 0 6px ${C.yellow}` : "none" }} />
-                <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 30, color: isHl ? C.violet : C.ink, marginTop: 8 }}>{h}h</div>
-              </div>
-            );
-          })}
-        </div>
-        {ff && <Tag at={a(46.6)} x={540} y={1440} bg={C.mint} size={46} rotate={2}>🔮 PREDICE CUANDO LLEGUES</Tag>}
-      </Camera>
-    </AbsoluteFill>
-  );
-};
-
-// ================= 8. DEEPMIND =================
-const IA: React.FC = () => {
-  const a = useA("ia");
-  const t = useSec();
-  const pct = Math.round(interpolate(t, [a(54.3), a(55.0)], [0, 50], clamp));
-  return (
-    <AbsoluteFill>
-      <Backdrop from="#1E5BFF" to="#06102E" seed={51} />
-      <Camera dur={8} zoom={[1, 1.1]} punchAt={[a(50.7), a(54.3)]}>
-        <div style={{ position: "absolute", left: 540, top: 1000, transform: `translate(-50%,-50%) scale(${pop(t, a(48.6)) * 1.05})` }}>
-          <NeuralNet size={860} />
-        </div>
-        {t > a(50.7) && <Tag at={a(50.7)} x={540} y={660} bg="#fff" size={60} rotate={-3}>🧠 IA DE DEEPMIND</Tag>}
-        {t > a(54.3) && (
-          <div style={{ position: "absolute", left: 540, top: 1330, transform: `translate(-50%,-50%) scale(${pop(t, a(54.3))}) rotate(-4deg)`, textAlign: "center" }}>
-            <Big size={170} color={C.yellow} stroke={16}>+{pct}%</Big>
-            <div style={{ marginTop: -6 }}><Big size={46} color="#fff" stroke={7}>DE PRECISIÓN (ALGUNAS CIUDADES)</Big></div>
-          </div>
-        )}
-      </Camera>
-    </AbsoluteFill>
-  );
-};
-
 // ================= 9. BERLÍN: 99 MÓVILES =================
 const Berlin: React.FC = () => {
   const a = useA("berlin");
@@ -520,8 +462,6 @@ export const Video05: React.FC = () => {
       <Scene k="tramos"><SceneIn type="left"><Tramos /></SceneIn></Scene>
       <Scene k="colores"><SceneIn type="spin"><Colores /></SceneIn></Scene>
       <Scene k="frenan"><SceneIn type="zoom"><Frenan /></SceneIn></Scene>
-      <Scene k="predice"><SceneIn type="up"><Predice /></SceneIn></Scene>
-      <Scene k="ia"><SceneIn type="left"><IA /></SceneIn></Scene>
       <Scene k="berlin"><SceneIn type="zoom"><Berlin /></SceneIn></Scene>
       <Scene k="tip"><SceneIn type="up"><Tip /></SceneIn></Scene>
       <Scene k="cta"><SceneIn type="spin"><CTA /></SceneIn></Scene>
@@ -530,7 +470,7 @@ export const Video05: React.FC = () => {
 
       <Audio src={staticFile("v05/voz.mp3")} />
       <Audio src={staticFile("v05/musica.mp3")} volume={(f) => interpolate(f / fps, [0, 0.8, m(84.5), m(85.2), V05_DURATION], [0, 0.12, 0.12, 0.28, 0], clamp)} />
-      {SFX.map(([t0, name, vol], i) => (
+      {SFX.filter(([t0]) => !removed(t0)).map(([t0, name, vol], i) => (
         <Sequence key={i} from={Math.round(m(t0) * fps)} durationInFrames={Math.round(1.3 * fps)} name={`sfx-${name}`}>
           <Audio src={staticFile(`v05/${name}.wav`)} volume={vol} />
         </Sequence>

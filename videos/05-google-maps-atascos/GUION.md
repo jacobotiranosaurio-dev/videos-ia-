@@ -1,6 +1,6 @@
 # 05 · ¿Cómo sabe Google Maps que hay un atasco delante de ti… y justo dónde empieza? — "Ojo al Dato"
 
-**Duración:** 72,5 s · **Voz:** Liam 1,05, recorte suave de silencios (pausas dramáticas en "delante de ti…", "bajan a 10…", "la marcó… como atasco") · **Música:** lo-fi original · **Arte:** mapa de diseño propio (sin logo ni interfaz de Google)
+**Duración:** 57 s (v2: se quitaron los bloques de historial/predicción y DeepMind recortando la voz existente, sin gastar créditos; el v1 de 72,5 s está en `v1/`) · **Voz:** Liam 1,05, recorte suave de silencios (pausas dramáticas en "delante de ti…", "bajan a 10…", "la marcó… como atasco") · **Música:** lo-fi original · **Arte:** mapa de diseño propio (sin logo ni interfaz de Google)
 
 ## HOOK (0–7 s)
 - **Frase:** "¿Cómo sabe Google Maps que hay un atasco delante de ti… y justo dónde empieza? La respuesta la llevas en el bolsillo."
@@ -14,8 +14,6 @@
 | Tramo a tramo | Junta los datos de miles de coches | La carretera se divide en TRAMO 1…5; contador de coches | +4.000 COCHES |
 | Verde / rojo | Todos a 100 → verde; de golpe a 10 → rojo | Dos tarjetas con velocímetro: 100 (verde) y una aguja que cae a 10 (rojo) | LÍNEA VERDE · LÍNEA ROJA |
 | Dónde empieza | El punto donde los móviles frenan | Zoom al cambio de color: coches apelotonados con luces de freno; cae una chincheta | 📍 AQUÍ EMPIEZA · DONDE LOS MÓVILES FRENAN |
-| Predicción | Compara con el historial (día y hora) y predice cuando llegues | Gráfica de tráfico típico por horas; se resalta viernes 18 h; el reloj avanza | HISTORIAL · VIERNES 18:20 · 🔮 PREDICE CUANDO LLEGUES |
-| IA | DeepMind: hasta un 50 % más precisas en algunas ciudades | Red neuronal con conexiones que se iluminan | 🧠 IA DE DEEPMIND · +50 % (algunas ciudades) |
 | Dato loco | 2020, Berlín: 99 móviles en un carrito por una calle vacía → atasco | Calle vacía, persona tirando de un carrito lleno de móviles, contador 0→99 → mapa en rojo oscuro | BERLÍN 2020 · 99 MÓVILES · CALLE VACÍA · sello ATASCO FALSO |
 
 ## SOLUCIÓN / consejo accionable
@@ -25,8 +23,7 @@
 "¿Te lo habías preguntado alguna vez? Cuéntamelo en comentarios. Y sígueme, que aquí te contamos lo que esconden las apps que usas cada día." → chincheta con "?" + 💬 CUÉNTAMELO → mascota-ojo + suscribirse. El CTA presenta una **serie temática** ("lo que esconden las apps"), lo que motiva a seguir el canal.
 
 ## Datos y fuentes
-- Google: el tráfico en directo sale de datos de ubicación **anónimos y agregados**, y se combina con los patrones históricos de cada carretera (blog "Google Maps 101", 2020).
-- DeepMind + Google Maps (2020): hasta un **50 %** más de precisión en la hora de llegada en ciudades como Berlín, Sídney o Tokio, según la empresa.
+- Google: el tráfico en directo sale de datos de ubicación **anónimos y agregados** (blog "Google Maps 101", 2020).
 - Simon Weckert, "Google Maps Hacks" (Berlín, febrero de 2020): 99 smartphones en un carrito generaron un atasco virtual (Hyperallergic, The Register, CNN…).
 - Las velocidades del ejemplo (100 → 10) y la gráfica horaria son ilustrativas.
 

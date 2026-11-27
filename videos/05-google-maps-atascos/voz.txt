@@ -4,8 +4,6 @@ Con la ubicación activada, cada teléfono envía datos anónimos: dónde está 
 Google junta los de miles de coches, tramo a tramo.
 Si en un tramo todos van a cien, línea verde. Si en el siguiente, de golpe, todos bajan a diez... línea roja.
 Por eso sabe exactamente dónde empieza el atasco: es el punto donde los móviles frenan.
-Y no solo mira el presente. Compara con cómo suele estar esa carretera ese día y a esa hora, y predice cómo estará cuando llegues tú.
-Gracias a la inteligencia artificial de DeepMind, en algunas ciudades sus horas de llegada son hasta un cincuenta por ciento más precisas.
 Y el dato más loco: en dos mil veinte, un artista paseó noventa y nueve móviles en un carrito por una calle vacía de Berlín. Google Maps la marcó... como atasco.
 ¿Un consejo? Si ves rojo en tu ruta, mira la alternativa antes de llegar al tramo: Maps te dice cuántos minutos te ahorras.
 ¿Te lo habías preguntado alguna vez? Cuéntamelo en comentarios. Y sígueme, que aquí te contamos lo que esconden las apps que usas cada día.
