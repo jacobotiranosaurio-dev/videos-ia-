@@ -8,7 +8,7 @@ import { CarTop, DataChip, MP, MapBase, MapPhone, Mask, Pin, PhoneCart, Speedo, 
 import wordsJson from "./words.json";
 import timemap from "./timemap.json";
 
-const words = wordsJson as Word[];
+const words = (wordsJson as Word[]).filter((w) => w.s < 52.0); // nada después de "sígueme"
 // v2: se eliminaron de la voz original los bloques 38,9–56,4 s (historial + DeepMind).
 // Los tiempos siguen escritos en segundos de la voz original v1; sh() salta el hueco.
 const base = makeMapper(timemap as [number, number][]);
@@ -16,7 +16,9 @@ const CUT_A = 38.9, CUT_B = 56.4;
 const sh = (t: number) => (t < CUT_A ? t : t >= CUT_B ? t - (CUT_B - CUT_A) : CUT_A);
 const m = (t: number) => base(sh(t));
 const removed = (t: number) => t >= CUT_A && t < CUT_B;
-const ORIG_END = 86.5;
+// v3: el vídeo termina justo después de "sígueme" (81,65 s en la voz original v1)
+const VOICE_END = 81.7;
+const ORIG_END = VOICE_END + 0.9;
 export const V05_DURATION = Math.round(m(ORIG_END) * 30) / 30;
 
 const KEYWORDS = [
@@ -401,7 +403,7 @@ const CTA: React.FC = () => {
   const a = useA("cta");
   const t = useSec();
   const follow = t >= a(80.9);
-  const pressed = t > a(82.3);
+  const pressed = t > a(81.45);
   return (
     <AbsoluteFill>
       <Backdrop from="#2F6BFF" to="#0B1A4A" seed={61} />
@@ -449,7 +451,7 @@ const SFX: [number, string, number][] = [
   [48.3, "whoosh", 0.4], [50.7, "pop", 0.4], [54.3, "ding", 0.5],
   [56.6, "whoosh", 0.4], [56.8, "boom", 0.4], [58.4, "pop", 0.4], [60.4, "rise", 0.3], [62.8, "pop", 0.4], [64.3, "whoosh", 0.4], [66.4, "boom", 0.6],
   [67.6, "whoosh", 0.4], [67.9, "pop", 0.4], [69.8, "brake", 0.35], [71.6, "ding", 0.4], [74.3, "ding", 0.45],
-  [76.3, "whoosh", 0.4], [79.0, "pop", 0.4], [80.9, "whoosh", 0.4], [82.3, "ding", 0.5],
+  [76.3, "whoosh", 0.4], [79.0, "pop", 0.4], [80.9, "whoosh", 0.4], [81.45, "ding", 0.5],
 ];
 
 export const Video05: React.FC = () => {
@@ -468,8 +470,10 @@ export const Video05: React.FC = () => {
 
       <Captions words={words} keywords={KEYWORDS} top={300} />
 
-      <Audio src={staticFile("v05/voz.mp3")} />
-      <Audio src={staticFile("v05/musica.mp3")} volume={(f) => interpolate(f / fps, [0, 0.8, m(84.5), m(85.2), V05_DURATION], [0, 0.12, 0.12, 0.28, 0], clamp)} />
+      <Sequence durationInFrames={Math.round((m(VOICE_END) + 0.05) * fps)} name="voz">
+        <Audio src={staticFile("v05/voz.mp3")} />
+      </Sequence>
+      <Audio src={staticFile("v05/musica.mp3")} volume={(f) => interpolate(f / fps, [0, 0.8, m(VOICE_END) - 0.1, m(VOICE_END) + 0.3, V05_DURATION], [0, 0.12, 0.12, 0.22, 0], clamp)} />
       {SFX.filter(([t0]) => !removed(t0)).map(([t0, name, vol], i) => (
         <Sequence key={i} from={Math.round(m(t0) * fps)} durationInFrames={Math.round(1.3 * fps)} name={`sfx-${name}`}>
           <Audio src={staticFile(`v05/${name}.wav`)} volume={vol} />

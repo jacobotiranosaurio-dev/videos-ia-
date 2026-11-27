@@ -1,6 +1,6 @@
 # 05 · ¿Cómo sabe Google Maps que hay un atasco delante de ti… y justo dónde empieza? — "Ojo al Dato"
 
-**Duración:** 57 s (v2: se quitaron los bloques de historial/predicción y DeepMind recortando la voz existente, sin gastar créditos; el v1 de 72,5 s está en `v1/`) · **Voz:** Liam 1,05, recorte suave de silencios (pausas dramáticas en "delante de ti…", "bajan a 10…", "la marcó… como atasco") · **Música:** lo-fi original · **Arte:** mapa de diseño propio (sin logo ni interfaz de Google)
+**Duración:** 53 s (v3: termina justo después de "sígueme". v2: se quitaron los bloques de historial/predicción y DeepMind recortando la voz existente, sin gastar créditos; el v1 de 72,5 s está en `v1/`) · **Voz:** Liam 1,05, recorte suave de silencios (pausas dramáticas en "delante de ti…", "bajan a 10…", "la marcó… como atasco") · **Música:** lo-fi original · **Arte:** mapa de diseño propio (sin logo ni interfaz de Google)
 
 ## HOOK (0–7 s)
 - **Frase:** "¿Cómo sabe Google Maps que hay un atasco delante de ti… y justo dónde empieza? La respuesta la llevas en el bolsillo."
