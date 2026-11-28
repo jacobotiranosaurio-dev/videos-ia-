@@ -7,29 +7,29 @@ import { Stamp } from "../lib/politics";
 import { Ball, Dog, EyeCones } from "../lib/life";
 import wordsJson from "./words.json";
 
-// SIN VOZ por ahora: words.json son tiempos ESTIMADOS. Al llegar la voz se sustituye words.json y todo se resincroniza.
-export const HAS_VOICE = false;
+// Voz: Dan (ElevenLabs, generada por el usuario). words.json = tiempos reales por palabra (transcripción ElevenLabs Scribe).
+export const HAS_VOICE = true;
 const words = wordsJson as Word[];
 const W = makeWordClock(words);
 const B = (tok: string, n = 1, pre = 0.2) => W(tok, n) - pre;
-const END = W("sígueme", 1, true) + 0.9;
+const END = W("nada", 1, true) + 0.6; // el audio del usuario termina en "…que no te cuesta nada"
 export const V07_DURATION = Math.round(END * 30) / 30;
 
 const KEYWORDS = [
-  "perro", "pelota", "roja", "torpe", "blanco", "negro", "mentira", "colores", "mismos", "3", "conos",
-  "color", "2", "azul", "amarillo", "rojo", "verde", "mezclan", "daltónica", "marrón", "amarillenta", "hocico", "noche", "gana",
-  "bastones", "luz", "brillan", "consejo", "azules", "amarillos", "primera", "comentarios", "sígueme",
+  "perro", "pelota", "roja", "torpe", "invisible", "final", "2", "colores", "primera", "blanco", "negro", "mentira", "tuyos", "3",
+  "conos", "color", "azul", "amarillo", "rojo", "verde", "mismo", "daltónica", "marrón", "amarillenta", "hocico", "ojos", "bueno",
+  "noche", "gana", "bastones", "espejo", "brillan", "cámbiale", "diferencia", "dato", "comentarios", "sígueme", "nada",
 ];
 
 const SCENES = (() => {
   const b = {
     hook: 0,
-    conos: B("colores", 1, 0.35),
-    espectro: B("azul", 1, 0.55),
+    conos: B("colores", 2, 0.4),
+    espectro: B("resultado", 1, 0.3),
     pelota: B("así", 1),
-    noche: B("noche", 1, 0.9),
-    tip: B("consejo", 1, 0.45),
-    cta: B("color", 2, 0.75),
+    noche: B("ahora", 1, 0.35),
+    tip: B("colores", 3, 0.55),
+    cta: B("sabías", 1, 0.3),
   };
   const keys = Object.keys(b) as (keyof typeof b)[];
   return Object.fromEntries(keys.map((k, i) => [k, [b[k], i + 1 < keys.length ? b[keys[i + 1]] : END]])) as Record<keyof typeof b, [number, number]>;
@@ -94,25 +94,40 @@ const Park: React.FC<{ pal?: keyof typeof PAL; h?: number }> = ({ pal = "human",
 const Hook: React.FC = () => {
   const r = useR("hook");
   const t = useSec();
-  const gray = t >= r("blanco") && t < r("mentira");
+  const gray = t >= r("blanco") - 0.1 && t < r("mentira");
   const back = t >= r("mentira");
+  const invis = t >= r("invisible") && t < r("final");
+  const teaser = t >= r("final") && t < r("toda");
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", inset: 0, filter: gray ? "grayscale(1) contrast(1.1)" : "none" }}>
-        <Camera dur={9} zoom={[1.08, 1.16]} punchAt={[0, r("torpe"), r("blanco"), r("mentira")]}>
+        <Camera dur={16} zoom={[1.08, 1.18]} punchAt={[0, r("torpe"), r("invisible"), r("final"), r("blanco"), r("mentira")]}>
           <Park />
           <div style={{ position: "absolute", left: 430, top: 1260, transform: "translate(-50%,-50%)" }}>
             <Dog size={600} sniff />
           </div>
-          <div style={{ position: "absolute", left: 870, top: 1430, transform: `translate(-50%,-50%) scale(${1 + Math.sin(t * 4) * 0.04})` }}>
+          <div style={{ position: "absolute", left: 870, top: 1430, transform: `translate(-50%,-50%) scale(${1 + Math.sin(t * 4) * 0.04})`, opacity: invis ? 0.15 + 0.15 * Math.sin(t * 10) : 1 }}>
             <Ball size={110} />
           </div>
-          {t < r("blanco") && (
+          {t < r("invisible") && (
             <div style={{ position: "absolute", left: 600, top: 930, transform: `translate(-50%,-50%) rotate(${Math.sin(t * 6) * 10}deg)` }}>
               <Big size={170} color={C.yellow} stroke={15}>?</Big>
             </div>
           )}
-          {t > r("torpe") && t < r("blanco") && <Tag at={r("torpe")} x={540} y={700} bg="#fff" size={56} rotate={-3}>NO ES TORPE 🐾</Tag>}
+          {t > r("torpe") && t < r("invisible") && <Tag at={r("torpe")} x={540} y={700} bg="#fff" size={56} rotate={-3}>NO ES TORPE 🐾</Tag>}
+          {invis && <Tag at={r("invisible")} x={540} y={700} bg="#fff" size={56} rotate={3}>👻 CASI INVISIBLE</Tag>}
+          {teaser && (
+            <div style={{ position: "absolute", left: 540, top: 820, transform: `translate(-50%,-50%) scale(${pop(t, r("final"))})`, textAlign: "center" }}>
+              <div style={{ display: "flex", gap: 30, justifyContent: "center" }}>
+                {[0, 1].map((i) => (
+                  <div key={i} style={{ width: 160, height: 160, borderRadius: 80, background: "#3A3A55", border: `8px solid ${C.ink}`, display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${Math.sin(t * 5 + i) * 10}deg)` }}>
+                    <Big size={110} color={C.yellow} stroke={10}>?</Big>
+                  </div>
+                ))}
+              </div>
+              <div style={{ marginTop: 14, display: "inline-block", fontFamily: FONT, fontWeight: 900, fontSize: 44, color: C.ink, background: C.yellow, border: `7px solid ${C.ink}`, borderRadius: 999, padding: "6px 30px", whiteSpace: "nowrap" }}>🔒 LOS 2 COLORES… AL FINAL</div>
+            </div>
+          )}
           {gray && <Tag at={r("blanco")} x={540} y={700} bg="#fff" size={56} rotate={3}>¿EN BLANCO Y NEGRO?</Tag>}
         </Camera>
       </div>
@@ -132,23 +147,42 @@ const Conos: React.FC = () => {
   return (
     <AbsoluteFill>
       <Backdrop from="#7B2FF7" to="#1B0A3A" seed={6} />
-      <Camera dur={9} zoom={[1, 1.08]} punchAt={[r("3"), r("2")]}>
+      <Camera dur={9} zoom={[1, 1.08]} punchAt={[r("tuyos"), r("3"), r("2", 2)]}>
         {t > r("colores") && (
           <div style={{ position: "absolute", left: 540, top: 650, transform: `translate(-50%,-50%) scale(${pop(t, r("colores"))}) rotate(-3deg)` }}>
-            <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 58, color: C.ink, background: C.mint, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 40px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>🎨 {t > r("mismos") ? "…PERO NO LOS TUYOS" : "SÍ VE COLORES"}</div>
+            <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 58, color: C.ink, background: C.mint, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 40px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>🎨 {t > r("tuyos") ? "…PERO NO LOS TUYOS" : "SÍ VE COLORES"}</div>
           </div>
         )}
+        {t < r("tienes") && (
+          <div style={{ position: "absolute", left: 90, top: 820, width: 900 }}>
+            {[
+              { l: "TUS COLORES", c: ["#E8303A", "#FF8A3D", "#FFD23F", "#3FBF4C", "#22C3E6", "#3A6BFF", "#7B2FF7"], at: r("colores", 2) },
+              { l: "LOS SUYOS", c: ["#8C7E45", "#C8B24A", "#D9C866", "#BDBDB0", "#8FA6D6", "#3A6BFF", "#3A3A9E"], at: r("tuyos") },
+            ].map((row, j) => (
+              <div key={row.l} style={{ marginBottom: 70, transform: `scale(${pop(t, row.at)})` }}>
+                <Big size={52} color="#fff" stroke={8} style={{ textAlign: "left" }}>{row.l}</Big>
+                <div style={{ display: "flex", gap: 14, marginTop: 12 }}>
+                  {row.c.map((c, i) => (
+                    <div key={i} style={{ width: 112, height: 112, borderRadius: 26, background: c, border: `7px solid ${C.ink}`, transform: `translateY(${Math.sin(t * 5 + i + j) * 8}px) scale(${pop(t, row.at + i * 0.05)})` }} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+        {t >= r("tienes") && (
         <div style={{ position: "absolute", left: 0, width: 1080, top: 780, display: "flex", justifyContent: "center", gap: 30 }}>
-          <div style={{ transform: `scale(${pop(t, r("tus"))})`, textAlign: "center" }}>
+          <div style={{ transform: `scale(${pop(t, r("tienes"))})`, textAlign: "center" }}>
             <EyeCones size={470} cones={["#E8303A", "#3FBF4C", "#3A6BFF"]} label="TÚ" />
             {t > r("3") && <Big size={150} color={C.yellow} stroke={14}>3</Big>}
           </div>
-          <div style={{ transform: `scale(${pop(t, r("2") - 0.5)})`, textAlign: "center" }}>
+          <div style={{ transform: `scale(${pop(t, r("2", 2) - 0.5)})`, textAlign: "center" }}>
             <EyeCones size={470} cones={["#3A6BFF", "#FFD23F"]} label="TU PERRO" />
-            {t > r("2") && <Big size={150} color={C.coral} stroke={14}>2</Big>}
+            {t > r("2", 2) && <Big size={150} color={C.coral} stroke={14}>2</Big>}
           </div>
         </div>
-        {t > r("conos") && t < r("2") && <Tag at={r("conos")} x={540} y={1560} bg="#fff" size={44} rotate={2}>CONOS = CÉLULAS DEL COLOR</Tag>}
+        )}
+        {t > r("conos") && t < r("2", 2) && <Tag at={r("conos")} x={540} y={1560} bg="#fff" size={44} rotate={2}>CONOS = CÉLULAS DEL COLOR</Tag>}
       </Camera>
     </AbsoluteFill>
   );
@@ -160,14 +194,14 @@ const Espectro: React.FC = () => {
   const t = useSec();
   const human = "linear-gradient(90deg,#7B2FF7,#3A6BFF,#22C3E6,#3FBF4C,#FFD23F,#FF8A3D,#E8303A)";
   const dog = "linear-gradient(90deg,#3A3A9E,#3A6BFF,#8FA6D6,#BDBDB0,#D9C866,#C8B24A,#8C7E45)";
-  const mix = t > r("mezclan");
+  const mix = t > r("mismo");
   return (
     <AbsoluteFill>
       <Backdrop from="#16C3B0" to="#053B4A" seed={8} />
-      <Camera dur={8} zoom={[1, 1.08]} punchAt={[r("azul"), r("amarillo"), r("mezclan"), r("daltónica")]}>
+      <Camera dur={8} zoom={[1, 1.08]} punchAt={[r("azul"), r("amarillo"), r("mismo"), r("daltónica")]}>
         {[
           { l: "TÚ VES", g: human, at: 0.1 },
-          { l: "TU PERRO VE", g: dog, at: r("azul") - 0.3 },
+          { l: "TU PERRO VE", g: dog, at: r("resultado") },
         ].map((b, i) => (
           <div key={b.l} style={{ position: "absolute", left: 90, top: 760 + i * 300, width: 900, transform: `scale(${pop(t, b.at)})` }}>
             <Big size={50} color="#fff" stroke={8} style={{ textAlign: "left" }}>{b.l}</Big>
@@ -221,7 +255,7 @@ const Pelota: React.FC = () => {
         {split < 1 && (
           <div style={{ position: "absolute", inset: 0, opacity: 1 - split }}>
             <Park />
-            <div style={{ position: "absolute", left: 620, top: 1300, transform: `translate(-50%,-50%) scale(${pop(t, r("pelota", 2))})` }}>
+            <div style={{ position: "absolute", left: 620, top: 1300, transform: `translate(-50%,-50%) scale(${pop(t, r("pelota", 3))})` }}>
               <Ball size={150} />
             </div>
             {t > r("césped") && <Tag at={r("césped")} x={540} y={1500} bg="#fff" size={50} rotate={-2}>ROJA SOBRE VERDE</Tag>}
@@ -233,7 +267,7 @@ const Pelota: React.FC = () => {
             <Panel pal="dog" label="ÉL VE" top={half} />
           </div>
         )}
-        {t > r("hocico") && <Tag at={r("hocico")} x={760} y={1700} bg={C.mint} size={48} rotate={3}>👃 LA BUSCA CON EL HOCICO</Tag>}
+        {t > r("hocico") && <Tag at={r("hocico")} x={540} y={1700} bg={C.mint} size={40} rotate={3}>👃 CON EL HOCICO, NO CON LOS OJOS</Tag>}
       </Camera>
     </AbsoluteFill>
   );
@@ -249,10 +283,12 @@ const Noche: React.FC = () => {
       <Camera dur={8} zoom={[1, 1.1]} punchAt={[r("gana"), r("brillan")]}>
         <Park pal="night" />
         <div style={{ position: "absolute", left: 540, top: 1260, transform: `translate(-50%,-50%) scale(${pop(t, 0.05)})` }}>
-          <Dog size={620} glow={t > r("brillan") - 0.2} tail />
+          <Dog size={620} glow={t > r("espejo") - 0.2} tail />
         </div>
+        {t > r("bueno") && t < r("gana") && <Tag at={r("bueno")} x={540} y={700} bg={C.mint} size={62} rotate={3}>😎 LO BUENO…</Tag>}
         {t > r("gana") && t < r("bastones") && <Tag at={r("gana")} x={540} y={700} bg={C.yellow} size={62} rotate={-3}>🌙 DE NOCHE TE GANA</Tag>}
-        {t > r("bastones") && t < r("brillan") && <Tag at={r("bastones")} x={540} y={700} bg="#fff" size={50} rotate={2}>+ BASTONES · + CAPA REFLECTANTE</Tag>}
+        {t > r("bastones") && t < r("espejo") && <Tag at={r("bastones")} x={540} y={700} bg="#fff" size={52} rotate={2}>+ BASTONES EN LA RETINA</Tag>}
+        {t > r("espejo") && t < r("brillan") && <Tag at={r("espejo")} x={540} y={700} bg="#fff" size={44} rotate={-2}>🪞 CAPA QUE REFLEJA LA LUZ</Tag>}
         {t > r("brillan") && <Tag at={r("brillan")} x={540} y={700} bg="#B8FF5C" size={56} rotate={-2}>✨ POR ESO LE BRILLAN LOS OJOS</Tag>}
       </Camera>
       {flash && <AbsoluteFill style={{ background: "#fff", opacity: 0.9 }} />}
@@ -260,22 +296,22 @@ const Noche: React.FC = () => {
   );
 };
 
-// ================= 7. CONSEJO =================
+// ================= 7. LOS 2 COLORES (revelación) =================
 const Tip: React.FC = () => {
   const r = useR("tip");
   const t = useSec();
   return (
     <AbsoluteFill>
       <Backdrop from="#FFB347" to="#9A3412" seed={12} />
-      <Camera dur={6} zoom={[1, 1.08]} punchAt={[r("consejo"), r("azules"), r("amarillos")]}>
-        <div style={{ position: "absolute", left: 540, top: 650, transform: `translate(-50%,-50%) scale(${pop(t, r("consejo"))}) rotate(-3deg)` }}>
-          <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 66, color: C.ink, background: C.yellow, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 44px", boxShadow: `0 10px 0 ${C.ink}` }}>💡 CONSEJO</div>
+      <Camera dur={6} zoom={[1, 1.08]} punchAt={[r("colores", 3), r("azul", 2), r("amarillo", 2), r("cámbiale")]}>
+        <div style={{ position: "absolute", left: 540, top: 650, transform: `translate(-50%,-50%) scale(${pop(t, 0.05)}) rotate(-3deg)` }}>
+          <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 62, color: C.ink, background: C.yellow, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 44px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>🔓 LOS 2 COLORES</div>
         </div>
         <div style={{ position: "absolute", left: 0, width: 1080, top: 900, display: "flex", justifyContent: "center", gap: 50, alignItems: "center" }}>
           {[
-            { c: "#E8303A", ok: false, at: r("compra") },
-            { c: "#3A6BFF", ok: true, at: r("azules") },
-            { c: "#FFD23F", ok: true, at: r("amarillos") },
+            { c: "#E8303A", ok: false, at: 0.15 },
+            { c: "#3A6BFF", ok: true, at: r("azul", 2) },
+            { c: "#FFD23F", ok: true, at: r("amarillo", 2) },
           ].map((b, i) => (
             <div key={i} style={{ textAlign: "center", transform: `scale(${pop(t, b.at) * (b.ok ? 1 + 0.08 * Math.sin(t * 6 + i) : 0.85)})`, opacity: b.ok ? 1 : 0.7 }}>
               <Ball size={230} color={b.c} />
@@ -283,7 +319,7 @@ const Tip: React.FC = () => {
             </div>
           ))}
         </div>
-        {t > r("verá") && <Tag at={r("verá")} x={540} y={1480} bg={C.mint} size={56} rotate={2}>¡LA VERÁ A LA PRIMERA!</Tag>}
+        {t > r("cámbiale") && <Tag at={r("cámbiale")} x={540} y={1480} bg={C.mint} size={54} rotate={2}>¡CÁMBIALE LA PELOTA!</Tag>}
       </Camera>
     </AbsoluteFill>
   );
@@ -298,17 +334,20 @@ const CTA: React.FC = () => {
   return (
     <AbsoluteFill>
       <Backdrop from="#4CBF56" to="#14532D" seed={14} />
-      <Camera dur={5} zoom={[1, 1.08]} punchAt={[r("comentarios"), r("sígueme")]}>
+      <Camera dur={5} zoom={[1, 1.08]} punchAt={[r("dato"), r("comentarios"), r("sígueme")]}>
         {!follow && (
           <>
-            <div style={{ position: "absolute", left: 0, width: 1080, top: 900, display: "flex", justifyContent: "center", gap: 30 }}>
+            <div style={{ position: "absolute", left: 540, top: 880, transform: `translate(-50%,-50%) scale(${pop(t, 0.05)}) rotate(-3deg)` }}>
+              <Big size={74} color="#fff" stroke={10} style={{ whiteSpace: "nowrap" }}>¿SABÍAS ESTE DATO?</Big>
+            </div>
+            <div style={{ position: "absolute", left: 0, width: 1080, top: 1000, display: "flex", justifyContent: "center", gap: 30 }}>
               {["#E8303A", "#3A6BFF", "#FFD23F", "#3FBF4C"].map((c, i) => (
-                <div key={c} style={{ transform: `scale(${pop(t, 0.1 + i * 0.12)}) translateY(${Math.sin(t * 5 + i) * 12}px)` }}><Ball size={170} color={c} /></div>
+                <div key={c} style={{ transform: `scale(${pop(t, 0.2 + i * 0.12)}) translateY(${Math.sin(t * 5 + i) * 12}px)` }}><Ball size={150} color={c} /></div>
               ))}
             </div>
-            {t > r("comentarios") - 0.5 && (
-              <div style={{ position: "absolute", left: 540, top: 1260, transform: `translate(-50%,-50%) scale(${pop(t, r("comentarios") - 0.5)}) rotate(${Math.sin(t * 6) * 3}deg)` }}>
-                <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 44, color: C.ink, background: C.yellow, border: `8px solid ${C.ink}`, borderRadius: 30, padding: "12px 30px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>💬 ¿DE QUÉ COLOR ES LA SUYA?</div>
+            {t > r("cuéntamelo") && (
+              <div style={{ position: "absolute", left: 540, top: 1330, transform: `translate(-50%,-50%) scale(${pop(t, r("cuéntamelo"))}) rotate(${Math.sin(t * 6) * 3}deg)` }}>
+                <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 52, color: C.ink, background: C.yellow, border: `8px solid ${C.ink}`, borderRadius: 30, padding: "12px 34px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>💬 CUÉNTAMELO</div>
               </div>
             )}
           </>
@@ -326,6 +365,7 @@ const CTA: React.FC = () => {
                 {pressed ? "✓ SUSCRITO" : "SUSCRIBIRME"}
               </div>
             </div>
+            {t > r("nada") && <Tag at={r("nada")} x={540} y={1580} bg={C.mint} size={46} rotate={-3}>¡ES GRATIS! 😉</Tag>}
           </>
         )}
       </Camera>
@@ -334,13 +374,13 @@ const CTA: React.FC = () => {
 };
 
 const SFX = (): [number, string, number][] => [
-  [0, "sniff", 0.45], [W("torpe"), "pop", 0.4], [W("blanco"), "whoosh", 0.4], [W("mentira"), "boom", 0.55], [W("mentira") + 0.05, "bark", 0.35],
-  [SCENES.conos[0], "whoosh", 0.4], [W("mismos"), "pop", 0.4], [W("3"), "ding", 0.4], [W("2"), "ding", 0.45],
-  [SCENES.espectro[0], "whoosh", 0.4], [W("azul"), "pop", 0.4], [W("amarillo"), "pop", 0.4], [W("mezclan"), "boom", 0.4], [W("daltónica"), "pop", 0.4],
+  [0, "sniff", 0.45], [W("torpe"), "pop", 0.4], [W("invisible"), "whoosh", 0.35], [W("final"), "tick", 0.5], [W("blanco"), "whoosh", 0.4], [W("mentira"), "boom", 0.55], [W("mentira") + 0.05, "bark", 0.35],
+  [SCENES.conos[0], "whoosh", 0.4], [W("tuyos"), "pop", 0.4], [W("3"), "ding", 0.4], [W("2", 2), "ding", 0.45],
+  [SCENES.espectro[0], "whoosh", 0.4], [W("azul"), "pop", 0.4], [W("amarillo"), "pop", 0.4], [W("mismo"), "boom", 0.4], [W("daltónica"), "pop", 0.4],
   [SCENES.pelota[0], "whoosh", 0.4], [W("mancha"), "rise", 0.3], [W("hocico"), "sniff", 0.5],
-  [SCENES.noche[0], "whoosh", 0.4], [W("gana"), "pop", 0.4], [W("brillan"), "ding", 0.4], [W("fotos"), "tick", 0.5],
-  [SCENES.tip[0], "whoosh", 0.4], [W("azules"), "ding", 0.4], [W("amarillos"), "ding", 0.4], [W("verá"), "bark", 0.3],
-  [SCENES.cta[0], "whoosh", 0.4], [W("comentarios"), "pop", 0.4], [W("sígueme"), "whoosh", 0.4], [W("sígueme") + 0.3, "ding", 0.5],
+  [SCENES.noche[0], "whoosh", 0.4], [W("bueno"), "rise", 0.3], [W("gana"), "pop", 0.4], [W("espejo"), "ding", 0.4], [W("fotos"), "tick", 0.5],
+  [SCENES.tip[0], "whoosh", 0.4], [W("azul", 2), "ding", 0.45], [W("amarillo", 2), "ding", 0.45], [W("cámbiale"), "bark", 0.3],
+  [SCENES.cta[0], "whoosh", 0.4], [W("cuéntamelo"), "pop", 0.4], [W("sígueme"), "whoosh", 0.4], [W("sígueme") + 0.3, "ding", 0.5],
 ];
 
 export const Video07: React.FC = () => {
