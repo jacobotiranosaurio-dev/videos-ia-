@@ -258,3 +258,21 @@ export const makeMapper = (tm: [number, number][]) => (t: number) => {
   const [x0, y0] = tm[i], [x1, y1] = tm[i + 1];
   return x1 === x0 ? y0 : y0 + ((t - x0) * (y1 - y0)) / (x1 - x0);
 };
+
+// ---------- Reloj de palabras: los tiempos de escena se anclan a palabras del guion ----------
+// W("casualidad") = segundo en que empieza la 1ª palabra que empieza por "casualidad"; W("seis", 2) = 2ª aparición.
+// Al cambiar la voz solo hay que sustituir words.json: todo el vídeo se resincroniza solo.
+export const makeWordClock = (words: { t: string; s: number; e: number }[]) => {
+  const norm = (x: string) => x.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9:%.]/g, "").replace(/\.$/, "");
+  return (token: string, n = 1, end = false) => {
+    const k = norm(token);
+    let c = 0;
+    for (const w of words) {
+      if (norm(w.t).startsWith(k)) {
+        c++;
+        if (c === n) return end ? w.e : w.s;
+      }
+    }
+    throw new Error(`Palabra no encontrada: ${token} (#${n})`);
+  };
+};
