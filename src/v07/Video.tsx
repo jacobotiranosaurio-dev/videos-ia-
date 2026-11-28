@@ -4,7 +4,7 @@ import { Backdrop, Big, C, Camera, FONT, SceneIn, Tag, clamp, lin, makeWordClock
 import { EyeMascot } from "../lib/chars";
 import { Captions, Word } from "../lib/Captions";
 import { Stamp } from "../lib/politics";
-import { Ball, Dog, EyeCones, OldBook } from "../lib/life";
+import { Ball, Dog, EyeCones } from "../lib/life";
 import wordsJson from "./words.json";
 
 // SIN VOZ por ahora: words.json son tiempos ESTIMADOS. Al llegar la voz se sustituye words.json y todo se resincroniza.
@@ -16,7 +16,7 @@ const END = W("sígueme", 1, true) + 0.9;
 export const V07_DURATION = Math.round(END * 30) / 30;
 
 const KEYWORDS = [
-  "perro", "pelota", "roja", "torpe", "blanco", "negro", "mentira", "mito", "1937", "grises", "creyeron", "ciencia", "3", "conos",
+  "perro", "pelota", "roja", "torpe", "blanco", "negro", "mentira", "colores", "mismos", "3", "conos",
   "color", "2", "azul", "amarillo", "rojo", "verde", "mezclan", "daltónica", "marrón", "amarillenta", "hocico", "noche", "gana",
   "bastones", "luz", "brillan", "consejo", "azules", "amarillos", "primera", "comentarios", "sígueme",
 ];
@@ -24,8 +24,7 @@ const KEYWORDS = [
 const SCENES = (() => {
   const b = {
     hook: 0,
-    mito: B("mito", 1, 0.45),
-    conos: B("pero", 1),
+    conos: B("colores", 1, 0.35),
     espectro: B("azul", 1, 0.55),
     pelota: B("así", 1),
     noche: B("noche", 1, 0.9),
@@ -126,26 +125,6 @@ const Hook: React.FC = () => {
   );
 };
 
-// ================= 2. EL MITO DE 1937 =================
-const Mito: React.FC = () => {
-  const r = useR("mito");
-  const t = useSec();
-  const gray = t > r("grises");
-  return (
-    <AbsoluteFill>
-      <Backdrop from="#B88A5A" to="#3A2410" seed={4} dots="rgba(255,240,210,0.25)" />
-      <Camera dur={10} zoom={[1, 1.1]} punchAt={[r("1937"), r("grises"), r("creyeron")]}>
-        <div style={{ position: "absolute", left: 540, top: 1060, transform: `translate(-50%,-50%) scale(${pop(t, r("libro")) * 0.95}) rotate(${-4 + Math.sin(t * 2) * 2}deg)`, filter: gray ? "grayscale(1)" : "none" }}>
-          <OldBook size={380} title="ADIESTRAMIENTO DEL PERRO" year={t > r("1937") ? "1937" : "19··"} />
-        </div>
-        {t > r("1937") && <Tag at={r("1937")} x={820} y={720} bg={C.yellow} size={60} rotate={6}>1937</Tag>}
-        {gray && t < r("creyeron") && <Tag at={r("grises")} x={540} y={1480} bg="#9A9A9A" color="#fff" size={56} rotate={-2}>"VEN EN GRISES"</Tag>}
-        {t > r("creyeron") && <Tag at={r("creyeron")} x={540} y={1480} bg="#fff" size={52} rotate={2}>👍👍👍 TODOS SE LO CREYERON</Tag>}
-      </Camera>
-    </AbsoluteFill>
-  );
-};
-
 // ================= 3. CONOS: 3 vs 2 =================
 const Conos: React.FC = () => {
   const r = useR("conos");
@@ -154,9 +133,9 @@ const Conos: React.FC = () => {
     <AbsoluteFill>
       <Backdrop from="#7B2FF7" to="#1B0A3A" seed={6} />
       <Camera dur={9} zoom={[1, 1.08]} punchAt={[r("3"), r("2")]}>
-        {t > r("ciencia") && (
-          <div style={{ position: "absolute", left: 540, top: 650, transform: `translate(-50%,-50%) scale(${pop(t, r("ciencia"))}) rotate(-3deg)` }}>
-            <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 58, color: C.ink, background: C.mint, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 40px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>🔬 LA CIENCIA DICE…</div>
+        {t > r("colores") && (
+          <div style={{ position: "absolute", left: 540, top: 650, transform: `translate(-50%,-50%) scale(${pop(t, r("colores"))}) rotate(-3deg)` }}>
+            <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 58, color: C.ink, background: C.mint, border: `8px solid ${C.ink}`, borderRadius: 999, padding: "8px 40px", boxShadow: `0 10px 0 ${C.ink}`, whiteSpace: "nowrap" }}>🎨 {t > r("mismos") ? "…PERO NO LOS TUYOS" : "SÍ VE COLORES"}</div>
           </div>
         )}
         <div style={{ position: "absolute", left: 0, width: 1080, top: 780, display: "flex", justifyContent: "center", gap: 30 }}>
@@ -356,8 +335,7 @@ const CTA: React.FC = () => {
 
 const SFX = (): [number, string, number][] => [
   [0, "sniff", 0.45], [W("torpe"), "pop", 0.4], [W("blanco"), "whoosh", 0.4], [W("mentira"), "boom", 0.55], [W("mentira") + 0.05, "bark", 0.35],
-  [SCENES.mito[0], "whoosh", 0.4], [W("1937"), "pop", 0.45], [W("grises"), "tick", 0.45], [W("creyeron"), "pop", 0.4],
-  [SCENES.conos[0], "whoosh", 0.4], [W("3"), "ding", 0.4], [W("2"), "ding", 0.45],
+  [SCENES.conos[0], "whoosh", 0.4], [W("mismos"), "pop", 0.4], [W("3"), "ding", 0.4], [W("2"), "ding", 0.45],
   [SCENES.espectro[0], "whoosh", 0.4], [W("azul"), "pop", 0.4], [W("amarillo"), "pop", 0.4], [W("mezclan"), "boom", 0.4], [W("daltónica"), "pop", 0.4],
   [SCENES.pelota[0], "whoosh", 0.4], [W("mancha"), "rise", 0.3], [W("hocico"), "sniff", 0.5],
   [SCENES.noche[0], "whoosh", 0.4], [W("gana"), "pop", 0.4], [W("brillan"), "ding", 0.4], [W("fotos"), "tick", 0.5],
@@ -370,7 +348,6 @@ export const Video07: React.FC = () => {
   return (
     <AbsoluteFill style={{ background: C.ink }}>
       <Scene k="hook"><Hook /></Scene>
-      <Scene k="mito"><SceneIn type="zoom"><Mito /></SceneIn></Scene>
       <Scene k="conos"><SceneIn type="up"><Conos /></SceneIn></Scene>
       <Scene k="espectro"><SceneIn type="left"><Espectro /></SceneIn></Scene>
       <Scene k="pelota"><SceneIn type="zoom"><Pelota /></SceneIn></Scene>
